@@ -2,8 +2,9 @@ name: monitor
 
 on:
   schedule:
-    # Every 5 minutes. GitHub may delay or skip scheduled runs under load.
-    - cron: "*/5 * * * *"
+    # Every 5 minutes, offset from the :00/:05 marks that GitHub's scheduler
+    # is most congested on. GitHub may still delay or skip runs under load.
+    - cron: "2-57/5 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
