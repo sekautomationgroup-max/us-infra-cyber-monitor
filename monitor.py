@@ -40,7 +40,7 @@ import traceback
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timedelta, timezone
 from typing import Callable, Iterable
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 import feedparser
 import requests
@@ -272,6 +272,35 @@ def http_feed(url: str, **kw) -> feedparser.FeedParserDict:
     return parsed
 
 
+def http_feed_any(urls: list[str]) -> tuple[feedparser.FeedParserDict, str]:
+    """Try each feed URL in order; return the first that parses, plus its URL."""
+    errors = []
+    for i, u in enumerate(urls):
+        try:
+            return http_feed(u, retries=2 if len(urls) > 1 else C.HTTP_RETRIES), u
+        except SourceError as exc:
+            errors.append(str(exc))
+            if i + 1 < len(urls):
+                log.warning("Feed refused, trying fallback %d/%d: %s", i + 2, len(urls), truncate(str(exc), 120))
+    raise SourceError(" | ".join(errors))
+
+
+def unwrap_aggregator_link(link: str) -> str:
+    """Bing News wraps the article URL in ?url=... ; return the real article."""
+    if "bing.com/news/apiclick" in link:
+        q = parse_qs(urlparse(link).query)
+        if q.get("url"):
+            return q["url"][0]
+    return link
+
+
+def aggregator_title(title: str, feed_url: str) -> str:
+    """Google News appends ' - Outlet' to titles; strip it."""
+    if "news.google.com" in feed_url and " - " in title:
+        return title.rsplit(" - ", 1)[0].strip()
+    return title
+
+
 # ---------------------------------------------------------------------------
 # Collectors. Each returns list[Item]. Each is wrapped by safe_collect.
 # ---------------------------------------------------------------------------
@@ -460,19 +489,14 @@ def collect_ofac() -> list[Item]:
 
 
 def collect_state_dept() -> list[Item]:
-    via = ""
-    try:
-        feed = http_feed(C.STATE_DEPT_RSS, retries=2)
-    except SourceError as exc:
-        log.warning("State Dept direct feed refused (%s); using Google News index of state.gov", exc)
-        feed = http_feed(C.STATE_DEPT_FALLBACK_RSS)
-        via = " (via Google News index)"
+    feed, used = http_feed_any([C.STATE_DEPT_RSS] + C.STATE_DEPT_FALLBACK_RSS)
+    via = "" if used == C.STATE_DEPT_RSS else f" (via {domain_of(used)} index of state.gov)"
     out = []
     for e in feed.entries:
-        title = clean_text(e.get("title", ""))
-        if via and " - " in title:
-            title = title.rsplit(" - ", 1)[0].strip()
-        link = e.get("link", "")
+        title = aggregator_title(clean_text(e.get("title", "")), used)
+        link = unwrap_aggregator_link(e.get("link", ""))
+        if not title or not link:
+            continue
         out.append(Item(
             id=f"state:{stable_id(link or title)}", source="State Department", domain="state.gov",
             title=f"State Dept: {title}", url=link,
@@ -506,16 +530,15 @@ def collect_gdelt() -> list[Item]:
     return out
 
 
-def _news_collector(name: str, url: str, outlet_domain: str) -> Callable[[], list[Item]]:
+def _news_collector(name: str, urls: list[str], outlet_domain: str) -> Callable[[], list[Item]]:
     def collect() -> list[Item]:
-        feed = http_feed(url)
+        feed, used = http_feed_any(urls)
         out = []
         for e in feed.entries:
-            link = e.get("link", "")
-            title = clean_text(e.get("title", ""))
-            # Google News titles end with " - Outlet"
-            if "news.google.com" in url and " - " in title:
-                title = title.rsplit(" - ", 1)[0].strip()
+            link = unwrap_aggregator_link(e.get("link", ""))
+            title = aggregator_title(clean_text(e.get("title", "")), used)
+            if not title or not link:
+                continue
             src = e.get("source", {})
             dom = domain_of(src.get("href", "")) if isinstance(src, dict) and src.get("href") else ""
             dom = dom or (domain_of(link) if "news.google.com" not in link else outlet_domain)

@@ -56,9 +56,10 @@ OFAC_RECENT_ACTIONS_URL = "https://ofac.treasury.gov/recent-actions"
 STATE_DEPT_RSS = "https://www.state.gov/rss-feed/press-releases/feed/"
 # state.gov refuses datacenter IPs (HTTP 405 from GitHub runners). Fallback:
 # Google News index of state.gov, which links through to the original releases.
-STATE_DEPT_FALLBACK_RSS = (
-    "https://news.google.com/rss/search?q=site:state.gov+when:1d&hl=en-US&gl=US&ceid=US:en"
-)
+STATE_DEPT_FALLBACK_RSS = [
+    "https://news.google.com/rss/search?q=site:state.gov+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "https://www.bing.com/news/search?q=site%3Astate.gov&format=RSS",
+]
 
 # GDELT DOC 2.0 API. Rate limited to one request per 5 seconds per IP and it
 # returns HTTP 429 freely; the fetcher treats that as a soft failure.
@@ -77,13 +78,19 @@ _NEWS_TERMS = (
     "+OR+Iran+OR+CISA+OR+FEMA+OR+%22state+of+emergency%22)+when:1d"
 )
 
+# Bing News RSS is the fallback when Google News returns 503 to datacenter IPs.
+_BING = "https://www.bing.com/news/search?q={q}&format=RSS"
+_BING_TERMS = "(cyberattack+OR+ransomware+OR+outage+OR+blackout+OR+pipeline+OR+grid+OR+Iran+OR+CISA+OR+FEMA)"
+
 NEWS_FEEDS = [
-    # (name, url, outlet domain used for credibility)
-    ("AP News", _GN.format(q="site:apnews.com+" + _NEWS_TERMS), "apnews.com"),
-    ("Reuters", _GN.format(q="site:reuters.com+" + _NEWS_TERMS), "reuters.com"),
-    ("BleepingComputer", "https://www.bleepingcomputer.com/feed/", "bleepingcomputer.com"),
-    ("The Record", "https://therecord.media/feed", "therecord.media"),
-    ("SecurityWeek", "https://www.securityweek.com/feed/", "securityweek.com"),
+    # (name, [primary url, fallback url, ...], outlet domain used for credibility)
+    ("AP News", [_GN.format(q="site:apnews.com+" + _NEWS_TERMS),
+                 _BING.format(q="site%3Aapnews.com+" + _BING_TERMS)], "apnews.com"),
+    ("Reuters", [_GN.format(q="site:reuters.com+" + _NEWS_TERMS),
+                 _BING.format(q="site%3Areuters.com+" + _BING_TERMS)], "reuters.com"),
+    ("BleepingComputer", ["https://www.bleepingcomputer.com/feed/"], "bleepingcomputer.com"),
+    ("The Record", ["https://therecord.media/feed"], "therecord.media"),
+    ("SecurityWeek", ["https://www.securityweek.com/feed/"], "securityweek.com"),
 ]
 
 # ---------------------------------------------------------------------------
