@@ -92,7 +92,13 @@ Everything is in `config.py`:
 ## Known limits of v1
 
 * AP and Reuters no longer publish public RSS, so those feeds come from Google
-  News site-restricted searches. Links go through Google News redirects.
+  News site-restricted searches, with Bing News as a fallback when Google
+  returns 503 to GitHub's IPs. Google links go through a redirect; Bing links
+  are unwrapped to the original article. Entries not actually from the outlet
+  are dropped.
+* state.gov refuses GitHub runner IPs (HTTP 405), so on Actions the State
+  Department feed usually arrives through the Google News or Bing index of
+  state.gov. Items are still tagged Confirmed because they are state.gov pages.
 * GDELT's free API rate-limits shared IPs aggressively and often returns HTTP
   429. The script treats it as a soft failure and keeps going.
 * NWS issues a new alert ID for each update of an ongoing warning, so a

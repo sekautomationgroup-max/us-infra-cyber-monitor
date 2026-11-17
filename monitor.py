@@ -294,6 +294,21 @@ def unwrap_aggregator_link(link: str) -> str:
     return link
 
 
+def is_aggregator(feed_url: str) -> bool:
+    return "news.google.com" in feed_url or "bing.com/news" in feed_url
+
+
+def entry_domain(e, link: str, feed_url: str, default: str) -> str:
+    """Real originating domain of a feed entry. Google News exposes it in
+    <source href>; Bing links are unwrapped to the article URL."""
+    src = e.get("source", {})
+    if isinstance(src, dict) and src.get("href"):
+        return domain_of(src["href"])
+    if "news.google.com" in link:
+        return default
+    return domain_of(link) or default
+
+
 def aggregator_title(title: str, feed_url: str) -> str:
     """Google News appends ' - Outlet' to titles; strip it."""
     if "news.google.com" in feed_url and " - " in title:
@@ -497,6 +512,8 @@ def collect_state_dept() -> list[Item]:
         link = unwrap_aggregator_link(e.get("link", ""))
         if not title or not link:
             continue
+        if is_aggregator(used) and base_domain(entry_domain(e, link, used, "")) != "state.gov":
+            continue  # aggregator returned something that is not a state.gov release
         out.append(Item(
             id=f"state:{stable_id(link or title)}", source="State Department", domain="state.gov",
             title=f"State Dept: {title}", url=link,
@@ -539,9 +556,9 @@ def _news_collector(name: str, urls: list[str], outlet_domain: str) -> Callable[
             title = aggregator_title(clean_text(e.get("title", "")), used)
             if not title or not link:
                 continue
-            src = e.get("source", {})
-            dom = domain_of(src.get("href", "")) if isinstance(src, dict) and src.get("href") else ""
-            dom = dom or (domain_of(link) if "news.google.com" not in link else outlet_domain)
+            dom = entry_domain(e, link, used, outlet_domain)
+            if is_aggregator(used) and base_domain(dom) != base_domain(outlet_domain):
+                continue  # only accept the outlet this feed is supposed to represent
             out.append(Item(
                 id=f"news:{stable_id(link or title)}", source=name, domain=dom, title=title, url=link,
                 summary=truncate(clean_text(e.get("summary", "") or e.get("description", "")), 500),
