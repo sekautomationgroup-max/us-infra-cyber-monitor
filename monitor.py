@@ -460,15 +460,23 @@ def collect_ofac() -> list[Item]:
 
 
 def collect_state_dept() -> list[Item]:
-    feed = http_feed(C.STATE_DEPT_RSS)
+    via = ""
+    try:
+        feed = http_feed(C.STATE_DEPT_RSS, retries=2)
+    except SourceError as exc:
+        log.warning("State Dept direct feed refused (%s); using Google News index of state.gov", exc)
+        feed = http_feed(C.STATE_DEPT_FALLBACK_RSS)
+        via = " (via Google News index)"
     out = []
     for e in feed.entries:
         title = clean_text(e.get("title", ""))
+        if via and " - " in title:
+            title = title.rsplit(" - ", 1)[0].strip()
         link = e.get("link", "")
         out.append(Item(
             id=f"state:{stable_id(link or title)}", source="State Department", domain="state.gov",
             title=f"State Dept: {title}", url=link,
-            summary=truncate(clean_text(e.get("summary", "")), 500),
+            summary=truncate(clean_text(e.get("summary", "")), 500) + via,
             published=to_dt(e.get("published_parsed") or e.get("updated_parsed")),
             official=True, organizations=["State Department"],
             locations=["United States (federal statement)"],

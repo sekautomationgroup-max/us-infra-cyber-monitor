@@ -54,6 +54,11 @@ FEMA_DECLARATIONS_URL = (
 )
 OFAC_RECENT_ACTIONS_URL = "https://ofac.treasury.gov/recent-actions"
 STATE_DEPT_RSS = "https://www.state.gov/rss-feed/press-releases/feed/"
+# state.gov refuses datacenter IPs (HTTP 405 from GitHub runners). Fallback:
+# Google News index of state.gov, which links through to the original releases.
+STATE_DEPT_FALLBACK_RSS = (
+    "https://news.google.com/rss/search?q=site:state.gov+when:1d&hl=en-US&gl=US&ceid=US:en"
+)
 
 # GDELT DOC 2.0 API. Rate limited to one request per 5 seconds per IP and it
 # returns HTTP 429 freely; the fetcher treats that as a soft failure.
