@@ -71,14 +71,10 @@ def _send_gmail(to_addrs: Iterable[str], subject: str, body: str, html: str | No
         print(body)
         print("=" * 70)
         return True
-    if not to_list:
-        log.error("No recipient configured for email '%s'", subject)
-        return False
-
     sender = _env("GMAIL_ADDRESS")
     password = _env("GMAIL_APP_PASSWORD")
-    if not sender or not password:
-        log.error("Gmail credentials missing; cannot send email '%s'", subject)
+    if not to_list or not sender or not password:
+        log.info("Email not configured; skipping '%s'", subject)
         return False
 
     msg = EmailMessage()

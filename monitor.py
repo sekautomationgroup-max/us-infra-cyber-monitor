@@ -12,9 +12,12 @@ One run (designed for GitHub Actions on a 5-minute cron):
      Source / Unverified - Unknown Source. Unverified items are kept.
   4. Assign severity (Critical / High / Moderate / Low) by source + keywords.
   5. Skip anything already in seen.json.
-  6. Critical + High -> immediate email and text. Moderate -> 6-hour digest
-     email. Low -> logged only.
-  7. If the script itself crashes, email the traceback.
+  6. Write every alert to alerts/recent.json (last 48 hours), which is
+     committed to the repo. A scheduled Claude routine reads that file and
+     notifies you. If Gmail secrets are configured, Critical + High also go
+     out immediately by email and text and Moderate goes in a 6-hour digest.
+  7. If the script itself crashes, the failure is emailed when email is
+     configured; the routine also notices when recent.json goes stale.
 
 Usage:
   python monitor.py                 normal run (sends if secrets are set)
@@ -63,6 +66,8 @@ V_UNV_CREDIBLE = "Unverified - Credible Source"
 V_UNV_UNKNOWN = "Unverified - Unknown Source"
 
 STATE_FILE_DEFAULT = "seen.json"
+ALERTS_FILE_DEFAULT = os.path.join("alerts", "recent.json")
+ALERTS_RETENTION_HOURS = 48
 
 
 # ---------------------------------------------------------------------------
@@ -811,6 +816,61 @@ def recent_news_seen(st: dict, hours: int = 48) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# alerts/recent.json: the hand-off to the scheduled Claude routine
+# ---------------------------------------------------------------------------
+
+def alert_record(item: Item, disposition: str) -> dict:
+    return {
+        "id": item.id,
+        "severity": item.severity,
+        "verification": item.verification,
+        "unverified": item.unverified,
+        "title": display_title(item),
+        "detected": NOW.isoformat(),
+        "published": item.published.isoformat() if item.published else None,
+        "start_time": item.start_time.isoformat() if item.start_time else None,
+        "locations": item.locations,
+        "organizations": item.organizations,
+        "impact_as_reported": item.summary or "Not stated in source",
+        "cause": item.cause,
+        "source": item.source,
+        "source_domain": item.domain,
+        "corroborated_by": item.corroborators,
+        "links": [item.url] + item.extra_links[:6],
+        "notes": item.notes,
+        "disposition": disposition,   # immediate | digest | logged
+    }
+
+
+def load_alerts(path: str) -> dict:
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as fh:
+                return json.load(fh)
+        except Exception as exc:  # noqa: BLE001
+            log.warning("alerts file unreadable, starting fresh: %s", exc)
+    return {"alerts": []}
+
+
+def save_alerts(path: str, doc: dict, new_records: list[dict], failures: dict[str, str], note: str = "") -> None:
+    cutoff = NOW - timedelta(hours=ALERTS_RETENTION_HOURS)
+    kept = [a for a in doc.get("alerts", []) if (to_dt(a.get("detected")) or NOW) >= cutoff]
+    kept.extend(new_records)
+    kept.sort(key=lambda a: (a.get("detected") or ""), reverse=True)
+    out = {
+        "generated": NOW.isoformat(),
+        "retention_hours": ALERTS_RETENTION_HOURS,
+        "note": note or "Alerts from the last 48 hours, newest first. 'detected' is when the monitor first saw the item.",
+        "source_failures": failures,
+        "counts": {sev: sum(1 for a in kept if a["severity"] == sev) for sev in (SEV_CRITICAL, SEV_HIGH, SEV_MODERATE, SEV_LOW)},
+        "alerts": kept,
+    }
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(out, fh, indent=1, ensure_ascii=False)
+
+
+# ---------------------------------------------------------------------------
 # Rendering
 # ---------------------------------------------------------------------------
 
@@ -906,8 +966,10 @@ def render_digest(entries: list[dict], failures: dict[str, str]) -> tuple[str, s
 # Main pipeline
 # ---------------------------------------------------------------------------
 
-def run(state_path: str, force_digest: bool = False) -> int:
+def run(state_path: str, alerts_path: str = ALERTS_FILE_DEFAULT, force_digest: bool = False) -> int:
     st, first_run = load_state(state_path)
+    alerts_doc = load_alerts(alerts_path)
+    email_on = notify.email_configured() or notify.dry_run()
     failures: dict[str, str] = {}
     lookback = NOW - timedelta(hours=C.LOOKBACK_HOURS)
 
@@ -953,12 +1015,15 @@ def run(state_path: str, force_digest: bool = False) -> int:
         for it in candidates:
             mark_seen(st, it, "bootstrap")
         save_state(state_path, st)
+        save_alerts(alerts_path, alerts_doc, [], failures,
+                    note=f"Bootstrap run at {fmt_dt(NOW)}: {len(candidates)} current items recorded as seen, none alerted.")
         msg = (f"Monitor initialized at {fmt_dt(NOW)}.\n"
                f"{len(candidates)} current item(s) were recorded as already seen so the first run "
                f"does not flood you. Alerts begin with the next run.\n\n"
                f"Sources OK: {len(SOURCES) - len(failures)}/{len(SOURCES)}\n"
                + ("Failures:\n" + "\n".join(f"  {k}: {v}" for k, v in failures.items()) if failures else ""))
-        notify.send_email("[INIT] U.S. Infra & Cyber Monitor is running", msg)
+        if email_on:
+            notify.send_email("[INIT] U.S. Infra & Cyber Monitor is running", msg)
         log.info("Bootstrap complete; %d items recorded, nothing sent.", len(candidates))
         print(msg)
         return 0
@@ -968,48 +1033,57 @@ def run(state_path: str, force_digest: bool = False) -> int:
     moderate = [it for it in candidates if it.severity == SEV_MODERATE]
     low = [it for it in candidates if it.severity == SEV_LOW]
 
+    new_records: list[dict] = []
     sent_immediate = 0
     for it in immediate:
-        text = render_alert(it)
-        if sent_immediate < C.MAX_IMMEDIATE_PER_RUN:
+        new_records.append(alert_record(it, "immediate"))
+        if email_on and sent_immediate < C.MAX_IMMEDIATE_PER_RUN:
             subject = f"{sev_tag(it.severity)} {truncate(display_title(it), 140)}"
-            notify.send_email(subject, text)
+            notify.send_email(subject, render_alert(it))
             notify.send_sms(render_sms(it))
             mark_seen(st, it, "immediate")
             sent_immediate += 1
-        else:
+        elif email_on:
             it.notes.append("Deferred to digest: per-run immediate alert cap reached.")
             st["pending_digest"].append({"severity": it.severity, "text": render_compact(it), "t": NOW.isoformat()})
             mark_seen(st, it, "digest-overflow")
+        else:
+            mark_seen(st, it, "immediate")
 
     for it in moderate:
-        st["pending_digest"].append({"severity": it.severity, "text": render_compact(it), "t": NOW.isoformat()})
+        new_records.append(alert_record(it, "digest"))
+        if email_on:
+            st["pending_digest"].append({"severity": it.severity, "text": render_compact(it), "t": NOW.isoformat()})
         mark_seen(st, it, "digest")
 
     for it in low:
+        new_records.append(alert_record(it, "logged"))
         log.info("LOW (logged only): %s", display_title(it))
         mark_seen(st, it, "logged")
 
-    # 6. digest timer
-    last_digest = to_dt(st.get("last_digest_at"))
-    due = force_digest or last_digest is None or (NOW - last_digest) >= timedelta(hours=C.DIGEST_INTERVAL_HOURS)
-    if due and st["pending_digest"]:
-        subject, body = render_digest(st["pending_digest"], failures)
-        if notify.send_email(subject, body) or notify.dry_run():
-            st["pending_digest"] = []
+    # 6. digest timer (email path only)
+    if email_on:
+        last_digest = to_dt(st.get("last_digest_at"))
+        due = force_digest or last_digest is None or (NOW - last_digest) >= timedelta(hours=C.DIGEST_INTERVAL_HOURS)
+        if due and st["pending_digest"]:
+            subject, body = render_digest(st["pending_digest"], failures)
+            if notify.send_email(subject, body) or notify.dry_run():
+                st["pending_digest"] = []
+                st["last_digest_at"] = NOW.isoformat()
+        elif due and last_digest is None:
             st["last_digest_at"] = NOW.isoformat()
-    elif due and last_digest is None:
-        st["last_digest_at"] = NOW.isoformat()
 
     save_state(state_path, st)
+    save_alerts(alerts_path, alerts_doc, new_records, failures)
 
     # 7. summary
     print("\n" + "=" * 70)
     print(f"RUN SUMMARY {fmt_dt(NOW)}")
     print(f"  collected={stats['collected']} too_old={stats['old']} already_seen={stats['seen']} "
           f"irrelevant={stats['irrelevant']} new={len(fresh)} folded_dupes={len(folded)}")
-    print(f"  immediate_sent={sent_immediate} moderate_queued={len(moderate)} low_logged={len(low)} "
-          f"digest_pending={len(st['pending_digest'])}")
+    print(f"  delivery={'email+sms' if email_on else 'repo file only'} immediate={len(immediate)} (emailed {sent_immediate}) "
+          f"moderate={len(moderate)} low_logged={len(low)} digest_pending={len(st['pending_digest'])}")
+    print(f"  alerts file: {alerts_path}")
     if failures:
         print("  SOURCE FAILURES:")
         for k, v in failures.items():
@@ -1032,6 +1106,7 @@ def report_failure(detail: str) -> None:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--state", default=os.environ.get("STATE_FILE", STATE_FILE_DEFAULT))
+    ap.add_argument("--alerts", default=os.environ.get("ALERTS_FILE", ALERTS_FILE_DEFAULT))
     ap.add_argument("--dry-run", action="store_true", help="print instead of sending")
     ap.add_argument("--force-digest", action="store_true")
     ap.add_argument("--report-failure", action="store_true", help="email a failure notice and exit")
@@ -1055,7 +1130,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0 if ok_mail else 1
 
     try:
-        return run(args.state, force_digest=args.force_digest)
+        return run(args.state, alerts_path=args.alerts, force_digest=args.force_digest)
     except Exception:  # noqa: BLE001
         tb = traceback.format_exc()
         log.error("Monitor crashed:\n%s", tb)

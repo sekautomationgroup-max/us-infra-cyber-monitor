@@ -14,8 +14,8 @@ alerts you by email and text. Your computer can be off. No server needed.
 | Verify | `Confirmed` (official source), `Corroborated` (2+ independent credible outlets), `Unverified - Credible Source`, `Unverified - Unknown Source`. Unverified items are kept, never dropped, and their titles start with `UNVERIFIED:` |
 | Severity | Critical / High / Moderate / Low from source rules plus keywords (see `config.py`) |
 | Dedupe | `seen.json` is committed back to the repo after every run |
-| Deliver | Critical + High: immediate email **and** text. Moderate: digest email every 6 hours. Low: logged in the run output only |
-| Self-check | If the script crashes, or the Actions job fails, you get a failure email |
+| Deliver | Every alert is written to `alerts/recent.json` (last 48 hours) and committed. An hourly Claude routine reads that file and notifies you: Critical + High from the past hour every run, Moderate as a digest every 6 hours, Low as a count. If Gmail secrets are set, Critical + High also go out immediately by email and text |
+| Self-check | The routine warns you if `alerts/recent.json` stops updating. With email configured, a crash also emails the traceback |
 
 Every alert includes: title, severity, verification tag, detection time, start
 time if known, locations, organizations, impact as reported, cause
@@ -44,7 +44,18 @@ requirements.txt
 .env.example                 variable names for local testing
 ```
 
-## Secrets (Settings → Secrets and variables → Actions → New repository secret)
+## Delivery: the Claude routine (default)
+
+No secrets are required. The Action commits `alerts/recent.json`; a scheduled
+Claude routine (claude.ai → Code → Routines) clones this repo every hour,
+reads that file, and sends you a notification with anything new. The routine's
+prompt lives in [`ROUTINE_PROMPT.md`](ROUTINE_PROMPT.md) so it can be edited
+or recreated.
+
+## Optional: email and text delivery
+
+Add these secrets only if you also want immediate email/text alerts
+(Settings → Secrets and variables → Actions → New repository secret):
 
 | Secret | Value |
 |---|---|
@@ -60,9 +71,9 @@ Nothing else changes.
 ## First run
 
 The first run with no `seen.json` is a **bootstrap**: it records everything
-currently in the feeds as already seen, sends one `[INIT]` email, and alerts
-nothing. Real alerts begin on the second run. This prevents a flood of old
-items when you turn it on.
+currently in the feeds as already seen and alerts nothing (it also sends one
+`[INIT]` email if email is configured). Real alerts begin on the second run.
+This prevents a flood of old items when you turn it on.
 
 To trigger a run by hand: Actions → monitor → Run workflow. Tick *Dry run* to
 print instead of send, or *Send the Moderate digest now* to flush the digest.
