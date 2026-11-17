@@ -1,0 +1,909 @@
+{
+ "last_digest_at": null,
+ "last_run_at": "2026-11-17T21:57:49.188778+00:00",
+ "pending_digest": [],
+ "seen": {
+  "cisa:21dc163c1f757f4d": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:2662cf713828e239": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:51d812581aa517bc": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:72572082204e71dc": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:877e907402b91d81": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:91c22df4b393758c": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:9c3818e954e8d173": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:a0f483dd422adb0a": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:d08071d08cf172f7": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:d4620a114430c7d2": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:dc2d43865fd43cf0": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "cisa:f49e9f798bfe645f": {
+   "s": "CISA Advisories",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "kev:CVE-2026-115731": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "news:18c9e8d39342ae56": {
+   "d": "apnews.com",
+   "k": [
+    "agency",
+    "classified",
+    "communications",
+    "defense",
+    "down",
+    "goes",
+    "national",
+    "network",
+    "official",
+    "security"
+   ],
+   "s": "AP News",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "title": "Classified communications network at the National Security Agency goes down, defense official says",
+   "u": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
+   "v": "Unverified - Credible Source",
+   "x": "bootstrap"
+  },
+  "news:1e05409f353fa51b": {
+   "d": "therecord.media",
+   "k": [
+    "extradited",
+    "hacking",
+    "italy",
+    "kazakh",
+    "ransomware",
+    "suspect"
+   ],
+   "s": "The Record",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "title": "Kazakh ransomware hacking suspect extradited from Italy",
+   "u": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+   "v": "Unverified - Credible Source",
+   "x": "bootstrap"
+  },
+  "news:3721987a63a08561": {
+   "d": "apnews.com",
+   "k": [
+    "airport",
+    "destroyed",
+    "irish",
+    "military",
+    "million",
+    "plane",
+    "prosecutors"
+   ],
+   "s": "AP News",
+   "sev": "High",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "title": "A man destroyed a $60 million US military plane at an Irish airport, prosecutors say",
+   "u": "https://apnews.com/article/us-military-ireland-plane-destroyed-c130-2604e884805eabccacf30104fcf74e40",
+   "v": "Unverified - Credible Source",
+   "x": "bootstrap"
+  },
+  "news:7ef04408e2a83f7a": {
+   "d": "reuters.com",
+   "k": [
+    "aviation",
+    "cause",
+    "determined",
+    "duffy",
+    "root",
+    "shutdown"
+   ],
+   "s": "Reuters",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "title": "Root cause of US aviation shutdown not yet determined, Duffy says",
+   "u": "https://www.reuters.com/world/us/duffy-says-no-root-cause-yet-found-router-failure-that-caused-ground-stop-2026-11-17/",
+   "v": "Unverified - Credible Source",
+   "x": "bootstrap"
+  },
+  "news:92214f1d61528bf0": {
+   "d": "reuters.com",
+   "k": [
+    "blasted",
+    "chief",
+    "hearing",
+    "iran",
+    "navy",
+    "sailors",
+    "toll"
+   ],
+   "s": "Reuters",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "title": "At hearing, US Navy chief blasted over Iran war and its toll on sailors",
+   "u": "https://www.reuters.com/world/us/hearing-us-navy-chief-blasted-over-iran-war-its-toll-sailors-2026-11-17/",
+   "v": "Unverified - Credible Source",
+   "x": "bootstrap"
+  },
+  "nws:036003f4c39017a7": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:05abdb9d1a765fd2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:0c7fe96d5fac9652": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:125477eb4ed258b3": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:1569672431d898ca": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:15847be01424ff34": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:178af77dffd34143": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:1d3663b47e561b32": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:1fbebb932aa6054d": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:207b0e815f11ef9c": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:21003e73ad47a05b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:21d2ce0cef3b5e82": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:221d55db86123d39": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:223e43e0d3936d54": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:23f2e090b0d850f5": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:244b652c32eaba24": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:26128628cf132f28": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:2873a676090b8fce": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:2dad85c7ee865231": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:3512d6b8d7fcbcb2": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:36eb163b53e485d4": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:3a3c2b89ee5ebd70": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:3ae60f686c7c17b9": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:3dec534cbe3768d4": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:3e03233d6df7b049": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:3ff08488805b20b8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:43d61ed8c6ad6649": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:441063987f0e37ee": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:459763509dcbf749": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:484ef547ffb059ee": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:496efcd0d289d39a": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4c62ed9617a1aa4f": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4d1dc1837f8d69ac": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4d1e18c5450bfcdb": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4d79dc8a08e63795": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4e743b95ced32f43": {
+   "s": "NWS Alerts",
+   "sev": "Critical",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4efaf835d4ae60ff": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:4fab4bc015cbf415": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:55037192b222c5b8": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:556bd611d54a76be": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:585ce441114ba3dd": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:60bbf5cb50b2b283": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:66256c770e44b9b7": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:6668c93c701d5a4b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:67ea57b5e746a127": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:6ce2156e117068a7": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:6cf9fbc6c124287e": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:6def85a9e3d75cf5": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:7069763208e51298": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:751386f3b9828f6d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:751e32fa667c7f2f": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:76df681d7d029697": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:7781e8d64e346281": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:798c8150b6e5f12c": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:799fbe00d4d3e207": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:7a32aaf3de718ffb": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:7a391bacb09c096d": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:7d94bf2efd3cc82c": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:7f80b400b78ac8fc": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:8014fa9c404a5003": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:827836f79361511c": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:8661238b25bb54db": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:86e20beaebf8cf1e": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:87ace63a75951c4a": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:931c23caf5b86eb8": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:94632c22d4dd1dd7": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:a3e915a481fff6e7": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:a6672c38a109352b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:a71dcddc1771d782": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:a88048d180acc6dd": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:a966810b7a4785e2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ad2ec2a6d5036e75": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ad3e94cef3c31725": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ae85d3410cd749aa": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ae871614a12cf0e6": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:b7d3ec26119afb3f": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:b9a066fa7b394de2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:bc9dd6edb9bfbae9": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:be7479d48e0d2049": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:c03a3a99155eb39c": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:c08278fcf32f08da": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:c8b1102ce641209e": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:c9a1e7686be728fc": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ca65c8a36ac2700e": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:d1d4248c2324a930": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:d59b468057f82bb5": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:dac8810bb21d9576": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:dc473f2825f59264": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:de756836e1fab5f8": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:e002555daf075dee": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:e24680ad7625297f": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:e599dcea98fa227b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:e5dd07c0c700625a": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:e7ec58e099916610": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:eda0e2ecdec20aad": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ef07d3e4289d459b": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:f1bc4ebb9d40c334": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:f548a89d990a8e1a": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:f679bc24326a444d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:fc3a8864b3f8141a": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:fe8f5e3e38f5dc15": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  },
+  "nws:ffcd04d9bc79aaf2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-17T21:57:49.188778+00:00",
+   "v": "Confirmed",
+   "x": "bootstrap"
+  }
+ },
+ "version": 1
+}

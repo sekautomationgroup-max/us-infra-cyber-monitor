@@ -1,0 +1,15 @@
+{
+ "generated": "2026-11-17T21:57:49.188778+00:00",
+ "retention_hours": 48,
+ "note": "Bootstrap run at 2026-11-17 21:57 UTC: 121 current items recorded as seen, none alerted.",
+ "source_failures": {
+  "GDELT (Iran–U.S.)": "https://api.gdeltproject.org/api/v2/doc/doc?query=(Iran%20OR%20Iranian%20OR%20IRGC)%20%22U failed after 3 attempts: HTTP 429 rate limited: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic u…"
+ },
+ "counts": {
+  "Critical": 0,
+  "High": 0,
+  "Moderate": 0,
+  "Low": 0
+ },
+ "alerts": []
+}
