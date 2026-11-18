@@ -121,6 +121,34 @@ Everything is in `config.py`:
   trigger, but if alerts ever stop, check the Actions tab for a disabled
   workflow and click Enable.
 
+## External trigger (backup for GitHub's scheduler)
+
+GitHub's built-in `schedule` trigger is best-effort and, on this repo, did not
+fire at all for the first several hours. As a backup, a free external cron
+service calls GitHub's "run workflow" API every 5 minutes. Both triggers can
+coexist; the `concurrency` block stops them from overlapping.
+
+The call the external service makes:
+
+```
+POST https://api.github.com/repos/sekautomationgroup-max/us-infra-cyber-monitor/actions/workflows/monitor.yml/dispatches
+Authorization: Bearer <fine-grained personal access token>
+Accept: application/vnd.github+json
+X-GitHub-Api-Version: 2022-11-28
+Content-Type: application/json
+
+{"ref":"main"}
+```
+
+GitHub answers `204 No Content` when accepted. The token needs access to this
+one repository only, with the **Actions: Read and write** permission. Set an
+expiry reminder: fine-grained tokens expire after at most one year.
+
+Setup on cron-job.org: create a job, paste the URL above, set the schedule to
+every 5 minutes, choose request method POST, add the three headers, set the
+request body to `{"ref":"main"}`, and save. Runs then appear in the Actions
+tab labelled `workflow_dispatch`.
+
 ## Why a public repo
 
 Public repositories get unlimited GitHub Actions minutes. A private repo on the
