@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-18T02:38:58.389179+00:00",
+ "last_run_at": "2026-11-18T04:04:32.890777+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -235,6 +235,25 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "title": "Iran threatens U.S. military leaders on social media",
    "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUdCYmlfVHZ4LS1hdGxUNFJHQjdGSTJNSDZJRzlxWEFQSVcwdzZPODM3al9uTXhXUS11N2pLMjl3VDN2N0dsb29ucmNyVWdvUnlRUUFxRkJCYlBBYllzLTk5YUdUUkVWZVpucEFrYXF4b3VXU1A0OGdWRTVSSXh3VUZlaHI5aGdlVUVLcDZzaw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:25939329423753e5": {
+   "d": "bigislandnow.com",
+   "k": [
+    "case",
+    "during",
+    "extension",
+    "iran",
+    "jones",
+    "supports",
+    "waiver"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "U.S. Rep. Ed Case supports extension of the Jones Act waiver during Iran war",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYXVkamlCY0prNXpSbjdnSFRPc3d1dk8xa3hndThSd2FIUTkzTHpsa1BpbzFXM0h6THo0dF9ja1VUWnY5dG1Pa05QMHg2TVhvdDJzOU51aDlwNFBIU28zcnRFMUs4R3hiaTZHQzRKUTJZak5BSUhCdnk5RVNTR2RwTWRLdG9UeHF4V1B0andtWjc2Sko2eDdGOVpUMzdieWRfNWN6TjNpNzVkbE9ma2NtYQ?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -589,6 +608,26 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:54bdfbf80946183b": {
+   "d": "iranintl.com",
+   "k": [
+    "exchange",
+    "iran",
+    "many",
+    "near-daily",
+    "news",
+    "pentagon",
+    "strikes",
+    "undisclosed"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "US and Iran exchange near-daily strikes, many undisclosed by Pentagon - NBC News",
+   "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11S1Vhb3JRUDFIcWd0bU1qdXQ3b2F4SXFxeFlQM2lIcjJVaE1mOG96T2J4V05UZHJfcW5Sd19SU1ZySGQtQW12Wkk5YXljNUJ4RVE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:5b69ed860ef7f02f": {
    "d": "nbcnews.com",
    "k": [
@@ -704,6 +743,28 @@
    "title": "Pakistani man gets 27 years in US jail for Iran-backed plot to kill Trump",
    "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT1FndWVDa1VDZDBZejlnbzBkbmhsaVZOWjhoejE2cHhMMlFoQkdjUGhkcHY0UlpiYzJTVXNJTF90SEJmS1FQVW84WVRSVER4ZElUYVk2Q1BzdDcwUTVFUmxKX3ZGa1hZZ09PeE9fT2FnTlV0bkdzUHFJX19uY2Q0Rnp2QUpxX3ZvajJ2SXptNHRYSWtwR2pHM25GVGRNU3lUdWlpUDlRUktVVXRsY2FTUUh0enJ0aGxvZmxnclV2VS1jRk40enlhQlJCdjJBZXM1LWViU0hzMDAwbUk4?oc=5",
    "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:73da7baad929ca92": {
+   "d": "timesofisrael.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "imminent",
+    "iran",
+    "plot",
+    "potential",
+    "report",
+    "rubio",
+    "threat",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "Rubio says no imminent threat to Washington after report on potential Iran ‘dirty bomb’ plot",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3cwNW9ab0FmUEpaenBheFN2ZVFJMG8wVDNqWEFGZ0dYYkRvTTh4eUNORnkxS0p0NFE0TTJQUG1jRktJU0VpM29ramtuY3owbmxOQTFfNDRUUTVEM3piMDNyRUdiQUhPUE1CT203Rmx2b28yQ3dsd0hqZlA1R01RZW5TSUs1cGgwOFhuc1JLd0s3Uk1TVm1aTGFZa3FobTh6QmpmN0NvS1NBMHVOWTlFeHdRcWxXeFcwWUtLUzVHM3J6TzJneHNJT1QyMkJlRlp4UkE?oc=5",
+   "v": "Unverified - Credible Source",
    "x": "digest"
   },
   "news:795affff0a90b8ef": {
@@ -1108,6 +1169,22 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:b6f89cd2a6d24d6c": {
+   "d": "thefp.com",
+   "k": [
+    "america",
+    "attack",
+    "infrastructure",
+    "under"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "Is America’s Infrastructure Under Attack?",
+   "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaFppQVlCSnM4bG5IcUlmLWtnV2xwSDZ1YW1FSTJvUHNIOEtVcmVtM2xveElvakxwOXJrMHJUc0VFTEFUVUFPMkhSaWxHSlZ1cnE1NUcxV1A3UHVScDc5SExZcGpoWVVrdXZKNW0yOEg0emxFbndwanJVTTlKYkhVV2dn?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:c3758a10a7b8dc22": {
    "d": "washingtonpost.com",
    "k": [
@@ -1288,6 +1365,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:eff77ca7446bf685": {
+   "d": "washingtonexaminer.com",
+   "k": [
+    "bomb",
+    "deploy",
+    "dirty",
+    "imminent",
+    "insists",
+    "iran",
+    "reports",
+    "rubio",
+    "threat"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "Rubio insists no ‘imminent threat’ amid reports Iran could deploy ‘dirty bomb’",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDY1djd0NElRd0E4N1dkdnNZa1JGVHB5TUZUVDMyQnBXX2diQ2pmU3l2VlhpNTA2NUtQSlk1aU5LSkQ3ZWkxUkNuclUzd25SbjN3c28yZnFQeXNpQ0FxMnVseWo1b040UFZrcEZWMkVpYkJWZk1oOVdLbHRfTmhWdUtiQ0RVaTl6YlQ0Z2M1WjJJTEM5bk16ZU11dEpBenRDZ1Zr?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:f05f737bcd05b07a": {
    "d": "thehill.com",
    "k": [
@@ -1305,6 +1403,26 @@
    "title": "Hung Cao grilled by Senate over suicide attempts, Iran war: 5 takeaways",
    "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTHpqSm9TaDk0aEc1ZXFrdUJsbUN5YjlUVDdkTEdiNy1qSzFjNTFseFRTbHdqbDFsSTZfalJXZDZtaUUyUGJZWEhxbmJ5b05DVFNKNzBiRC1TNjhOTjdWMHdRZE1aNDdnNU5LOTRoVnJhNXNHYVJpTjVIQkhQMkhBWExqa9IBiAFBVV95cUxOMlF0U1RDdnNvcl82aDZVQXBsZktLSjJ4MGFQcUFib1NuOXUySGZLY3B3SDZEZ1RLcVFWWE5KRVpKT0ZlaGFaSGhGM2RKWmNkUzR5bURZOU9oR1FMREZIQlRDMDdOTDRsWjR1M2s4Wm1QdDJxRlNON1dYeXZyVFZWSEFUNUlOQ28z?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:f1d0f680b7149db2": {
+   "d": "wcyb.com",
+   "k": [
+    "becoming",
+    "check",
+    "fact",
+    "iran",
+    "liability",
+    "political",
+    "team",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "Fact Check Team: Is the Iran war becoming a political liability for Trump?",
+   "u": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQLWpMUVVLb0llSGFWUFljeUg2ck05aHFQeTdDdTNJOUFrZUFhRWhTb0pZU2N2cjVEcm1NNmp0cWx3VnZ0RVRRR043dExVZ3pOUzBIUnNQVWxvVGd4Z0RKM1lKTVg2V2FyMENDWGI3cU9sRE02dklQUnlJTHVRWVlGR29XS2tCNlFrbW5rOE9RQU9DX20zTm5xTGNWVVZaRnVaVkIzRk9fX1otMGZFeFpZZ0NnMEtWTnVJNVk2U3NWdmluZi1lU0tRSkctbDFvZGZDTk1kbFE0ZVhocnVxMEVpcUU3TnZMd09TcE9IU2gzR3lOQQ?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:f1ee04a9e044f536": {
@@ -1366,6 +1484,28 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:fd5eeb227e810851": {
+   "d": "ynetnews.com",
+   "k": [
+    "ahead",
+    "china",
+    "downplays",
+    "iran",
+    "outages",
+    "rubio",
+    "summit",
+    "tech",
+    "threat",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "title": "Rubio downplays Iran threat and US tech outages ahead of Trump’s China summit",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSTkc5blE5c0VYRER0NXdfWk5vR2x6UlhwLXI2TVAtVnAzR2llX3NLQk5leFVBYVNOVXI4ME9FT0F6UklkYjhkVUE3TXVoUi1uS1dVZFR3?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
   "nws:036003f4c39017a7": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -1393,6 +1533,13 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:0f6cd577b359f0c0": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:125477eb4ed258b3": {
    "s": "NWS Alerts",
@@ -1491,6 +1638,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:25ac04528f42feac": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:26128628cf132f28": {
    "s": "NWS Alerts",
@@ -1639,6 +1793,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:4cb347ab5b86c590": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
   "nws:4d1dc1837f8d69ac": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -1688,6 +1849,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:542cf5829c3a7c84": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:55037192b222c5b8": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -1709,10 +1877,24 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:5873850a7a3b7bd0": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:5b806c5e86c49df8": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:5ebad6fc44dd5e35": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -1750,6 +1932,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:689b55225bd616ea": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:6ce2156e117068a7": {
    "s": "NWS Alerts",
@@ -1939,6 +2128,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:8be7a49bbb6a276f": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:931c23caf5b86eb8": {
    "s": "NWS Alerts",

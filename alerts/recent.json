@@ -1,15 +1,407 @@
 {
- "generated": "2026-11-18T02:38:58.389179+00:00",
+ "generated": "2026-11-18T04:04:32.890777+00:00",
  "retention_hours": 48,
  "note": "Alerts from the last 48 hours, newest first. 'detected' is when the monitor first saw the item.",
  "source_failures": {},
  "counts": {
   "Critical": 4,
-  "High": 8,
-  "Moderate": 56,
+  "High": 13,
+  "Moderate": 66,
   "Low": 14
  },
  "alerts": [
+  {
+   "id": "nws:0f6cd577b359f0c0",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flash Flood Warning (Severe): Broward, FL",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T02:49:00+00:00",
+   "start_time": "2026-11-18T02:49:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Miami FL"
+   ],
+   "impact_as_reported": "Flash Flood Warning issued November 17 at 9:49PM EST until November 17 at 11:15PM EST by NWS Miami FL FFWMFL The National Weather Service in Miami has issued a * Flash Flood Warning for... Southern Broward County in southeastern Florida... * Until 1115 PM EST. * At 949 PM EST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 3 inches of rain have fallen. Additional rainfall amounts of 2 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Ra…",
+   "cause": "Confirmed (NWS): Flash Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5574d4811b29f2f60371ca9ebaac2711999bfe6e.001.1"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "nws:25ac04528f42feac",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flash Flood Warning (Severe): Yavapai, AZ",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:14:00+00:00",
+   "start_time": "2026-11-18T03:14:00+00:00",
+   "locations": [
+    "Arizona"
+   ],
+   "organizations": [
+    "NWS Flagstaff AZ"
+   ],
+   "impact_as_reported": "Flash Flood Warning issued November 17 at 8:14PM MST until November 17 at 9:15PM MST by NWS Flagstaff AZ At 814 PM MST, the river guage along Oak Creek at Cornville has risen over 5 feet and now exceeds flood stage. Water levels are expected to rise around another foot, before falling later tonight. Flash flooding is already occurring. HAZARD...Life threatening flash flooding. Heavy rain producing flash flooding. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of Oak Creek. Some locations that will experience flash flooding include... Cornville, Jordan, Page Springs an…",
+   "cause": "Confirmed (NWS): Flash Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25b11b5c2c6a7881a3d3a2e85fff05f0aa60e5ad.001.1"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "news:fd5eeb227e810851",
+   "severity": "High",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Rubio downplays Iran threat and US tech outages ahead of Trump’s China summit",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:29:18+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Rubio downplays Iran threat and US tech outages ahead of Trump’s China summit Ynetnews",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "ynetnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSTkc5blE5c0VYRER0NXdfWk5vR2x6UlhwLXI2TVAtVnAzR2llX3NLQk5leFVBYVNOVXI4ME9FT0F6UklkYjhkVUE3TXVoUi1uS1dVZFR3?oc=5"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "nws:4cb347ab5b86c590",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flash Flood Warning (Severe): Broward, FL",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:40:00+00:00",
+   "start_time": "2026-11-18T03:40:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Miami FL"
+   ],
+   "impact_as_reported": "Flash Flood Warning issued November 17 at 10:40PM EST until November 18 at 12:45AM EST by NWS Miami FL FFWMFL The National Weather Service in Miami has issued a * Flash Flood Warning for... Southern Broward County in southeastern Florida... * Until 1245 AM EST. * At 1040 PM EST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 4 inches of rain have fallen. Additional rainfall amounts of 1 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...…",
+   "cause": "Confirmed (NWS): Flash Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.820bc2ac8bde9ecbb9341cf086ecf8519e7bbd65.001.1"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "nws:8be7a49bbb6a276f",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flash Flood Warning (Severe): Broward, FL",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:56:00+00:00",
+   "start_time": "2026-11-18T03:56:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Miami FL"
+   ],
+   "impact_as_reported": "Flash Flood Warning issued November 17 at 10:56PM EST until November 18 at 1:00AM EST by NWS Miami FL FFWMFL The National Weather Service in Miami has issued a * Flash Flood Warning for... North Central Broward County in southeastern Florida... * Until 100 AM EST. * At 1056 PM EST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 4 inches of rain have fallen. Additional rainfall amounts of 1 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE…",
+   "cause": "Confirmed (NWS): Flash Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24b0ea93ecbbb3875d56284d5c3b20a8d59548bd.001.1"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "news:b6f89cd2a6d24d6c",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Is America’s Infrastructure Under Attack?",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T02:28:03+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Is America’s Infrastructure Under Attack? The Free Press",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "thefp.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaFppQVlCSnM4bG5IcUlmLWtnV2xwSDZ1YW1FSTJvUHNIOEtVcmVtM2xveElvakxwOXJrMHJUc0VFTEFUVUFPMkhSaWxHSlZ1cnE1NUcxV1A3UHVScDc5SExZcGpoWVVrdXZKNW0yOEg0emxFbndwanJVTTlKYkhVV2dn?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:25939329423753e5",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: U.S. Rep. Ed Case supports extension of the Jones Act waiver during Iran war",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T02:38:24+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "U.S. Rep. Ed Case supports extension of the Jones Act waiver during Iran war Big Island Now",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "bigislandnow.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYXVkamlCY0prNXpSbjdnSFRPc3d1dk8xa3hndThSd2FIUTkzTHpsa1BpbzFXM0h6THo0dF9ja1VUWnY5dG1Pa05QMHg2TVhvdDJzOU51aDlwNFBIU28zcnRFMUs4R3hiaTZHQzRKUTJZak5BSUhCdnk5RVNTR2RwTWRLdG9UeHF4V1B0andtWjc2Sko2eDdGOVpUMzdieWRfNWN6TjNpNzVkbE9ma2NtYQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:eff77ca7446bf685",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Rubio insists no ‘imminent threat’ amid reports Iran could deploy ‘dirty bomb’",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T02:39:26+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Rubio insists no ‘imminent threat’ amid reports Iran could deploy ‘dirty bomb’ Washington Examiner",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonexaminer.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDY1djd0NElRd0E4N1dkdnNZa1JGVHB5TUZUVDMyQnBXX2diQ2pmU3l2VlhpNTA2NUtQSlk1aU5LSkQ3ZWkxUkNuclUzd25SbjN3c28yZnFQeXNpQ0FxMnVseWo1b040UFZrcEZWMkVpYkJWZk1oOVdLbHRfTmhWdUtiQ0RVaTl6YlQ0Z2M1WjJJTEM5bk16ZU11dEpBenRDZ1Zr?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:73da7baad929ca92",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Rubio says no imminent threat to Washington after report on potential Iran ‘dirty bomb’ plot",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:08:02+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Rubio says no imminent threat to Washington after report on potential Iran ‘dirty bomb’ plot The Times of Israel",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "timesofisrael.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3cwNW9ab0FmUEpaenBheFN2ZVFJMG8wVDNqWEFGZ0dYYkRvTTh4eUNORnkxS0p0NFE0TTJQUG1jRktJU0VpM29ramtuY3owbmxOQTFfNDRUUTVEM3piMDNyRUdiQUhPUE1CT203Rmx2b28yQ3dsd0hqZlA1R01RZW5TSUs1cGgwOFhuc1JLd0s3Uk1TVm1aTGFZa3FobTh6QmpmN0NvS1NBMHVOWTlFeHdRcWxXeFcwWUtLUzVHM3J6TzJneHNJT1QyMkJlRlp4UkE?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:5ebad6fc44dd5e35",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Red Flag Warning (Severe): Gregory; Brule; Aurora; Davison; Charles Mix; Douglas; Hutchinson; Bon Homme",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:16:00+00:00",
+   "start_time": "2026-11-18T18:00:00+00:00",
+   "locations": [
+    "South Dakota"
+   ],
+   "organizations": [
+    "NWS Sioux Falls SD",
+    "Southwest"
+   ],
+   "impact_as_reported": "Red Flag Warning issued November 17 at 9:16PM CST until November 18 at 6:00PM CST by NWS Sioux Falls SD ...RED FLAG WARNING IN EFFECT FROM NOON TO 6 PM CST WEDNESDAY DUE TO WIND AND LOW RELATIVE HUMIDITY FOR PORTIONS OF SOUTH CENTRAL AND SOUTHEAST SOUTH DAKOTA... The National Weather Service in Sioux Falls SD has issued a Red Flag Warning in effect from noon to 6 PM CST Wednesday. * AFFECTED AREA...Portions of south central and southeast South Dakota. * TIMING...From noon to 6 PM CST Wednesday. * WINDS...Southwest winds 15 to 25 mph with gusts up to 40 mph. * RELATIVE HUMIDITY...Relative Humi…",
+   "cause": "Confirmed (NWS): Red Flag Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d94008f6b2ce00ba80f89714ebb43c8c9132c8b.001.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:54bdfbf80946183b",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: US and Iran exchange near-daily strikes, many undisclosed by Pentagon - NBC News",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:40:32+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "US and Iran exchange near-daily strikes, many undisclosed by Pentagon - NBC News Iran International",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "iranintl.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11S1Vhb3JRUDFIcWd0bU1qdXQ3b2F4SXFxeFlQM2lIcjJVaE1mOG96T2J4V05UZHJfcW5Sd19SU1ZySGQtQW12Wkk5YXljNUJ4RVE?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:542cf5829c3a7c84",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Red Flag Warning (Severe): Knox",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:44:00+00:00",
+   "start_time": "2026-11-18T18:00:00+00:00",
+   "locations": [
+    "Nebraska"
+   ],
+   "organizations": [
+    "NWS Omaha/Valley NE",
+    "Southwest"
+   ],
+   "impact_as_reported": "Red Flag Warning issued November 17 at 9:44PM CST until November 18 at 6:00PM CST by NWS Omaha/Valley NE ...RED FLAG WARNING IN EFFECT FROM NOON TO 6 PM CST WEDNESDAY DUE TO WIND AND LOW RELATIVE HUMIDITY FOR KNOX COUNTY... The National Weather Service in Omaha/Valley NE has issued a Red Flag Warning. * WHAT...Southwest winds 22 to 28 mph with peak gusts up to 40 mph, Relative Humidity as low as 20 percent. * WHERE...Knox county. * WHEN...From noon to 6 PM CST Wednesday. * IMPACTS...Any fires that develop will spread rapidly. Outdoor burning is not recommended. A Red Flag Warning is issued wh…",
+   "cause": "Confirmed (NWS): Red Flag Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5059ac9be8cc03cce108e8edee191b0c42b78d2.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:689b55225bd616ea",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Severe Thunderstorm Warning (Severe): Broward, FL",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:51:00+00:00",
+   "start_time": "2026-11-18T03:51:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Miami FL"
+   ],
+   "impact_as_reported": "Severe Thunderstorm Warning issued November 17 at 10:51PM EST until November 17 at 11:15PM EST by NWS Miami FL SVRMFL The National Weather Service in Miami has issued a * Severe Thunderstorm Warning for... Southern Broward County in southeastern Florida... * Until 1115 PM EST. * At 1051 PM EST, a severe thunderstorm was located over Nova Southeastern University, or over Plantation, moving north at 15 mph. HAZARD...60 mph wind gusts. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. * Locations impacted include... Fort Lauderdale, Pembroke Pines, Hollywood, Miramar,…",
+   "cause": "Confirmed (NWS): Severe Thunderstorm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5da196ad922d727d905ecec0a09d1ef010aca54.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:5873850a7a3b7bd0",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Red Flag Warning (Severe): Valley; Greeley; Sherman; Dawson; Buffalo; Gosper",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T03:56:00+00:00",
+   "start_time": "2026-11-18T18:00:00+00:00",
+   "locations": [
+    "Nebraska"
+   ],
+   "organizations": [
+    "NWS Hastings NE"
+   ],
+   "impact_as_reported": "Red Flag Warning issued November 17 at 9:56PM CST until November 18 at 6:00PM CST by NWS Hastings NE ...RED FLAG WARNING IN EFFECT FROM NOON TO 6 PM CST WEDNESDAY DUE TO WIND AND LOW RELATIVE HUMIDITY FOR PORTIONS OF CENTRAL AND SOUTH CENTRAL NEBRASKA... The National Weather Service in Hastings NE has issued a Red Flag Warning. * AFFECTED AREA...Portions of central and south central Nebraska. * TIMING...From noon to 6 PM CST Wednesday. * WINDS...from the west, sustained around 20 MPH with gusts to at least 25-30 MPH. * RELATIVE HUMIDITY...as low as 20-25 percent. * IMPACTS...Any fires that de…",
+   "cause": "Confirmed (NWS): Red Flag Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11a755ed9794788da9c1ac64bdd4489c38e39680.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:f1d0f680b7149db2",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Fact Check Team: Is the Iran war becoming a political liability for Trump?",
+   "detected": "2026-11-18T04:04:32.890777+00:00",
+   "published": "2026-11-18T04:01:49+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Fact Check Team: Is the Iran war becoming a political liability for Trump? WCYB",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "wcyb.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQLWpMUVVLb0llSGFWUFljeUg2ck05aHFQeTdDdTNJOUFrZUFhRWhTb0pZU2N2cjVEcm1NNmp0cWx3VnZ0RVRRR043dExVZ3pOUzBIUnNQVWxvVGd4Z0RKM1lKTVg2V2FyMENDWGI3cU9sRE02dklQUnlJTHVRWVlGR29XS2tCNlFrbW5rOE9RQU9DX20zTm5xTGNWVVZaRnVaVkIzRk9fX1otMGZFeFpZZ0NnMEtWTnVJNVk2U3NWdmluZi1lU0tRSkctbDFvZGZDTk1kbFE0ZVhocnVxMEVpcUU3TnZMd09TcE9IU2gzR3lOQQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
   {
    "id": "news:834ef81f643a7aba",
    "severity": "Critical",
