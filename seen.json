@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-18T02:36:27.235099+00:00",
+ "last_run_at": "2026-11-18T02:38:58.389179+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -568,6 +568,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:504808414e27fa26": {
+   "d": "ms.now",
+   "k": [
+    "attack",
+    "complaint",
+    "drone",
+    "files",
+    "iranian",
+    "pentagon",
+    "soldier",
+    "survived",
+    "whistleblower"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:38:58.389179+00:00",
+   "title": "U.S. soldier who survived Iranian drone attack files whistleblower complaint against Pentagon",
+   "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UUjFva19iQ2FBRHQyVG1KQUhjQmNJN2d5c3lydFB5b2VhNUpvT0lnTFdncnpjU184ZVJUVjdtLXJFSlVwWXFIX28zOXdWMWJsUzNPelF2R1dTVFdza2ZwakN6eXF4c0ZRTW0zQ0s3aHY5dw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:5b69ed860ef7f02f": {
    "d": "nbcnews.com",
    "k": [
@@ -822,6 +843,26 @@
    "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnY4Z3N4VFhWUEhLZ2hkb0VVZ2xRd0dzdWtoSlcybkJlMHhHRUd3NG02ejJWbHBTcDRHc1Z3WGxfbVZfRGNMd3V1QklwNGRKaDRreXNkVW16MWhraVZhS29KalFKVUhybnBqZDk5OG1nWVNkd3RMQ0t0aFlFdHBHVmZLMlJGUXFqcUtEaHZCWWgzNUNiQkJzNldRZ0ZDVjZfeHN3VTBzLXdqNV9yTWF4Vm5B0gG3AUFVX3lxTE1ZSGFfQy05TGRnU1RHU0FkWVFJUHdxZENMYzh4RloyaC1rZE1VVmlRa0otYXBKbWZZWkczeTVBU1NLS1ZwUGJFTEpiSy1sTjVSVzIwZWw4U3B6NjVacFBHVmFkckEtQUxSMUVGQXNQY3RQZlVEdXhHNWZ1SG9ZR2xwQmxlOE5td3B3QmpnMzF4QzczUVdZWFd6RzNiNmFlYnJaMXh5eXJKc2daSElzYW5fOHFNeGdUOA?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
+  },
+  "news:834ef81f643a7aba": {
+   "d": "nbcnews.com",
+   "k": [
+    "2-month",
+    "bahrain",
+    "ends",
+    "iran",
+    "lull",
+    "strike",
+    "targets",
+    "third"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-18T02:38:58.389179+00:00",
+   "title": "A 2-month lull ends with Iran’s third strike on U.S. targets in Bahrain",
+   "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOG1QMmRxQXdlZ2VBcTViV3VwM0NfT0stMUdpVUZnNFlteUFka2l2dXZSN1MzRkhCWmtHVjhUNUpiX3dfTGl6bVlBTmJiT281ZnlKendCaDlUejRxNHd3NkRxYndMQk1Vdmx4TzN6RXFMNHRYT1BLS3ZUTVRDUFBEdnBHTQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
   },
   "news:92214f1d61528bf0": {
    "d": "reuters.com",

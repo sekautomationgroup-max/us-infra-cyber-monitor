@@ -1,15 +1,67 @@
 {
- "generated": "2026-11-18T02:36:27.235099+00:00",
+ "generated": "2026-11-18T02:38:58.389179+00:00",
  "retention_hours": 48,
  "note": "Alerts from the last 48 hours, newest first. 'detected' is when the monitor first saw the item.",
  "source_failures": {},
  "counts": {
-  "Critical": 3,
+  "Critical": 4,
   "High": 8,
-  "Moderate": 55,
+  "Moderate": 56,
   "Low": 14
  },
  "alerts": [
+  {
+   "id": "news:834ef81f643a7aba",
+   "severity": "Critical",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: A 2-month lull ends with Iran’s third strike on U.S. targets in Bahrain",
+   "detected": "2026-11-18T02:38:58.389179+00:00",
+   "published": "2026-11-17T11:33:52+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "A 2-month lull ends with Iran’s third strike on U.S. targets in Bahrain NBC News",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "nbcnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOG1QMmRxQXdlZ2VBcTViV3VwM0NfT0stMUdpVUZnNFlteUFka2l2dXZSN1MzRkhCWmtHVjhUNUpiX3dfTGl6bVlBTmJiT281ZnlKendCaDlUejRxNHd3NkRxYndMQk1Vdmx4TzN6RXFMNHRYT1BLS3ZUTVRDUFBEdnBHTQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "news:504808414e27fa26",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: U.S. soldier who survived Iranian drone attack files whistleblower complaint against Pentagon",
+   "detected": "2026-11-18T02:38:58.389179+00:00",
+   "published": "2026-11-17T22:37:55+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "U.S. soldier who survived Iranian drone attack files whistleblower complaint against Pentagon MS NOW",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "ms.now",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMickFVX3lxTE5UUjFva19iQ2FBRHQyVG1KQUhjQmNJN2d5c3lydFB5b2VhNUpvT0lnTFdncnpjU184ZVJUVjdtLXJFSlVwWXFIX28zOXdWMWJsUzNPelF2R1dTVFdza2ZwakN6eXF4c0ZRTW0zQ0s3aHY5dw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
   {
    "id": "news:34480711103cf2d1",
    "severity": "Critical",
