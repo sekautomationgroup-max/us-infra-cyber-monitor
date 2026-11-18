@@ -1,8 +1,15 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-17T21:57:49.188778+00:00",
+ "last_run_at": "2026-11-18T02:36:27.235099+00:00",
  "pending_digest": [],
  "seen": {
+  "cisa:04fced3604e31ac8": {
+   "s": "CISA Advisories",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "cisa:21dc163c1f757f4d": {
    "s": "CISA Advisories",
    "sev": "Moderate",
@@ -94,6 +101,85 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "news:0a207ffb09280e73": {
+   "d": "kgw.com",
+   "k": [
+    "bomb",
+    "consequences",
+    "dirty",
+    "iran",
+    "plot",
+    "reported",
+    "severe",
+    "targeting",
+    "trump",
+    "warns",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump warns Iran of severe consequences over reported dirty bomb plot targeting Washington, D.C.",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOckZndC11eFprRTBKUWdyMXF2ZFRrWUI0allTazBpRTFvdkc5VUE5UkxJU3ZrS0VZVnpRTDB5UDBQeUx5QXZ4S0xIcnBnSHhyUUl4alNBZTJ0aTFXUlZPdll4X1dWZG5RR0xoZnlNQmZ2czhGdXp5ZkxWc0pGTHJRQldfdWdvVFhCUngzZkE2UWM2akZwaF92VUpETkRxeDlIRXV0NTdOdW93ZHNSX0Z4RUtGZ1VMUnByYUlKMVNkcWE1TkxQQjk1SWNvS1J5Sld6YS1oSEc4dnlzcm9TQnRwTWxVSQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:0e925de9bbed4368": {
+   "d": "alhurra.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iranian",
+    "seriously",
+    "takes",
+    "threat",
+    "very",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Washington Takes Threat of Iranian Dirty Bomb ‘Very Seriously’",
+   "u": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5qSlpEa1JLWDQ1SkVXemQzUFNObW85aXFvX1pYeE9QOUg4ODd3MXlJaFlnRzNueXQyOGpCSWlRZzY4Zw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:10b392a338027c91": {
+   "d": "fox10phoenix.com",
+   "k": [
+    "iran",
+    "reported",
+    "threat",
+    "trump",
+    "warns"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump warns Iran over reported U.S. threat",
+   "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92Uk5kRFAwd3gtYWg2Z1dDR0tBLWVMSXhSMHRSSkVnX21PWWZpczVZTlhXRktmVFBNcXR4YnotRmY3Y1hiZ195Z05QZ3RBaHhDekFFWEtHRUdMTFdrUjFZUktzQ0xKZ9IBa0FVX3lxTE10NjVZTm5jNjc2c0dyQmRDQlN4SFF1OE9OUXZ3bHRiWVBHeEo5cWdRSUlFeWpFU1lWR1ZDMlRhTjhhN29VYkh5M05zOWMwNFFhUE5GUUhBYnNhMUFKUm9hTHRSN3UyNFZ2Q2tr?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:1225d012bd96187c": {
+   "d": "forbes.com",
+   "k": [
+    "bomb",
+    "deny",
+    "dirty",
+    "doesn",
+    "iran",
+    "threat",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump Doesn’t Deny Dirty Bomb Threat From Iran",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcFVEWkV3ZldndU9UQW02WjJodmJWbl9CcktJYjhMbHRBTjRqMkZoZl84cXNYZ0VYV3Q2X0tTVnRtTjRZQ2R6N1dxRndqNGZ5Y0hXdFhhZVdnbkw1UllFQ2dOQ2ZkVXdSWk5mR2p2QmdXQVplMzBDRi1SbXVfRTBodndaRHloWDhPMk8yc0J4RUZSUENmeFVEcVV0N2YtUlU1MnQwUGxPa1o2Yi1tV0tJZ3pNYzl5Q1dqZTRn?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:18c9e8d39342ae56": {
    "d": "apnews.com",
    "k": [
@@ -134,6 +220,148 @@
    "v": "Unverified - Credible Source",
    "x": "bootstrap"
   },
+  "news:218e9fca14cce535": {
+   "d": "deseret.com",
+   "k": [
+    "iran",
+    "leaders",
+    "media",
+    "military",
+    "social",
+    "threatens"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran threatens U.S. military leaders on social media",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUdCYmlfVHZ4LS1hdGxUNFJHQjdGSTJNSDZJRzlxWEFQSVcwdzZPODM3al9uTXhXUS11N2pLMjl3VDN2N0dsb29ucmNyVWdvUnlRUUFxRkJCYlBBYllzLTk5YUdUUkVWZVpucEFrYXF4b3VXU1A0OGdWRTVSSXh3VUZlaHI5aGdlVUVLcDZzaw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:292f2634b385625f": {
+   "d": "themedialine.org",
+   "k": [
+    "ahead",
+    "convictions",
+    "europe's",
+    "expose",
+    "iranian",
+    "putin",
+    "security",
+    "summit",
+    "trump",
+    "vulnerabilities"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iranian Spy Convictions Expose Europe's Security Vulnerabilities Ahead of Trump–Xi–Putin Summit",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd3FXX0RjekF0ZnNncnRPRDh2WWF4blBKVWhCRE51WTZKOGpLZkZJRE54bXUyZmtFdkJ1WUFia2kyelZ2TlNCVG5CTnRlNE1UMTFJd2lKdmh0eElna2Z3c1ZiajZWUnQ5c01GUmlYSjdIZEtIVGEzRUo4LWVPbmd0ODZRbE1nZUpWT2JyTkZEdExMNGczMHozUkR0UDdyVnpXTUhWRU51SEdWOV9kZm53UmJKY1Q5U2xRRFRjcWt5YnZwV1puTjhRTC0tX2xrbXROdHNGUTNuaw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:2ad1edd862e38b87": {
+   "d": "apnews.com",
+   "k": [
+    "acknowledges",
+    "iran",
+    "military",
+    "navy",
+    "pick",
+    "resources",
+    "secretary",
+    "straining",
+    "trump"
+   ],
+   "s": "AP News",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump’s pick for Navy secretary acknowledges the Iran war is straining military resources",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbllfOXUwUTRNV0hzUWFSeFRyLWZUSHQzaldSWWlxMVRyOXh1c3BCNm1Pa0Y2X0FJTWYzWXRUZ2xHX0ljTndqYmlTWFBFZ2ZpMmdXMWFPWDNXSDB0WFdrRGczUnJyT3BOVUwyeU9hSzhtUVVTNDdhLUlOaWVmcUJLWVpUc1IyUmg5VFNFTWk3TDRyZnVmbVVFbUN6LWc4cXQzUmZjVQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:2d0ecc85f8ad7603": {
+   "d": "nbcnews.com",
+   "k": [
+    "acknowledge",
+    "almost",
+    "always",
+    "attacks",
+    "daily",
+    "doesn",
+    "iran",
+    "pentagon",
+    "trade"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "U.S. and Iran trade attacks almost daily that the Pentagon doesn’t always acknowledge",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaC1nOUNoZl9sbW00TV91Zy0xUHdUTXpxb2t0bU5RZ01JUVEyRllzWm1ZQVdxOUhKTmg4OFdxR24tc2tWWkFwSG5adVZucEZZS1RhZUhoUlZXT1NtSjhTaUxZNm1RNGZJQ1FFQXpDMGxyVXVZUy1FQmFDVkZRYjM3SXQ1Tk42bmRmRFNiWG4xRGE0ZXcyczM4LWxvYWNvei1sT2RrZEdVekR0UHBldDM4UXdVQmFiNm54UGZhMXBXdjg1d1kyNkFwcXcxRQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:31b6593bfad2aec1": {
+   "d": "aljazeera.com",
+   "k": [
+    "chief",
+    "forces",
+    "iran",
+    "maritime",
+    "navy",
+    "strain"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "US Navy chief says Iran war has put ‘strain’ on maritime forces",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWFVReGpMcE9DRTdfVHZLZVZtVURDemJTNnV2dUdPREljQ2VRamMxei1rVlRFZl9ybm9oc1lXeUVPOU5pT0F5bl95azk4V0tmdWdyODdvTE1ZUmY1NFdwbV94SWx2ZjdRR0xKTFN0UlNGVlE5Um9LUE8wdTE2RGRBeDF4YmQ1NHpHLWN6UnFSQ2RaZmRkUFBIanI5emZ2dlB0YmpHVjRB0gGrAUFVX3lxTE5UbkZLWHJXMU1RT0E2ZElxUEhpeWVlYzBIU3hWdGpUcG81Ry1BalBPa3pqSnBVNUZPVzRIeEdjbXBQeG1ESjFLM25sdG9fOFlnUEVjaDV3a3o3UW1NN3J3T2c4WXZVUURIaS1weHZzeEtJUG9zbTB0SGQyR2dGRkRtbzVzZ2ZXQXFReHVvYy00TEpiUTRVTDBmQnpvbHNQWXRDejRRTXBlZFhKUQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:322993790a64a868": {
+   "d": "meforum.org",
+   "k": [
+    "alone",
+    "deal",
+    "east",
+    "iran",
+    "israel",
+    "leave",
+    "middle",
+    "moment",
+    "russia-china",
+    "yalta"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "The Middle East’s Yalta Moment: Why a U.S.-Russia-China Deal Could Leave Israel Alone with Iran",
+   "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZlM5LUtkQngxWkdkSm9pVkdob25RcXpKZ2xQUTlwTmJWdUZxMUl6a3NKV3R5TFg2NERwanYtLWhRam5DN0dnczBUbmY1Qmh6Y2pLLU12bm5TV3NkM3lRbGxGZ05XZ2V1NEV2M1lRZGs4bEhEampnTk9NMXhCeE5OSzlsV2xKdkctTjdFVTBibzRESV8yRkpJNUlhZTJKd3hyWF9rVTFubVlFSXVZY2lLU0p2SlJfMUZBSEsydkpnbG82R0l5UEE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:34480711103cf2d1": {
+   "d": "nytimes.com",
+   "k": [
+    "airstrikes",
+    "dams",
+    "iran",
+    "justification",
+    "light",
+    "missile",
+    "shed",
+    "sites"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3RSb255WmtXVzRseHpHdk5tT1ZLTlYzRzJudFZKZHVaR2taQzdOcmQzWGF1b3hwTmZodTV6TWRvM1pyX2JtVVNlMVI3NUtyQlRVQXhQS3FJR2lhN1ZZcFZ4WU5fRHlsLXZEXzN2aDItSUppYmt0YzdVMXg4dHRHYUZrVzhRejZYcGZxRVlSMVJxN1paNGV6MzhfaS1sNTg?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
   "news:3721987a63a08561": {
    "d": "apnews.com",
    "k": [
@@ -153,6 +381,409 @@
    "v": "Unverified - Credible Source",
    "x": "bootstrap"
   },
+  "news:3a94720c1a2931d8": {
+   "d": "cnbc.com",
+   "k": [
+    "arrives",
+    "carrier",
+    "east",
+    "escalates",
+    "hormuz",
+    "iran",
+    "middle",
+    "struck",
+    "tanker",
+    "third",
+    "threats"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
+   "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QemdsV2FWUHQ2dVJCOXJBN21EUUIyazhEMjFaLVNickZFalVGS0JXNkpnWGZTeUdmd09CSjdUWnR2M0l3Y1FMTEI3ZlgydTRpY1NhUVdTSFNlYW9URWQwb1ZncTNIRm1BZVJRRk5qQVHSAXZBVV95cUxNeExueUJISjdkcldnanBSTUFFUU9MMXY2MzNjZkc1TzFjWGw3dmJnYnRKWUpCT19DRm56UUFLOVRueFoxVXFOWXgzVVJQUm0wUzJGZnFzWWtwZURDbFdPZEFURUlrSENDV1FmWXF2MUhBXzNUQnh3?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:3e266798cbc15984": {
+   "d": "france24.com",
+   "k": [
+    "bomb",
+    "iran",
+    "possible",
+    "seriously'",
+    "takes",
+    "threat",
+    "trump",
+    "very",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0FDZ1BwNTZhZmI1a3hxZkxMamFNZzZ1MXhnS0FiMDNsMHBRZUU2UUpualp6aFBZUGMydEtRWVlXajdLSjRFQ1ppMkF1R3NhNWlsVGNPX2Q5M3o5S05oand5ejU4b3Y4dHUzMG4xMGNnclFiVTlZOFRxdzZocHl5M2tJSU9fTW8yMkZvX3pCVGhmZ2hPbWRHTFFxUUQtQk9KMVBzZHJVOFBLNWF3SGF2ZFFoTVI0OGdIaUw5RQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:3e8580b790df67ff": {
+   "d": "cbsnews.com",
+   "k": [
+    "convicted",
+    "gets",
+    "iran-backed",
+    "murder",
+    "plot",
+    "prison",
+    "trump",
+    "years"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Man convicted in Iran-backed plot to murder Trump gets 27.5 years in prison",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQjJ1M0lSbVJxODBxcUE1emJmYnpNcllxSnhjYU5LZ3hRLXcxR082V3FURGI3eTBjZTlMZUgyZjkxRzZBWGZWRUdQN08yaWRkczhfLU9TNmdoNnJEa1R0cjdVWmRxT0U3SUMtdk0yWG1sQmpHMmhPNGJHLWVURGo4eU5FekI5dW9ObTlZRnVpRTlNZmtHc1JlVGVR?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:43f18d6d8a1acb66": {
+   "d": "theguardian.com",
+   "k": [
+    "bomb",
+    "claims",
+    "credible",
+    "despite",
+    "iranian",
+    "looking",
+    "plot",
+    "threats",
+    "trump",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
+   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSG12Wlc5NkNZNU5KOUI2V1BzSFE5VWhfNmt1Z2hhemRjekxGMkM2QUJWT0hGSk04NmwtOVRRaHBGSlVpY1VZRW5OM1oxTkVZUks4RmhFRG9OYXJQdzJyNGJISU9ROTZXZms2TFM1Zy1OcU9zWVBKYmt1MVpFX1dkcnp3LXM2M09VWlUweVYzTnQ1cmtDMnY3QlFaTQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:45260bba23ae84b2": {
+   "d": "cnn.com",
+   "k": [
+    "carries",
+    "dirty-bomb",
+    "iran",
+    "major",
+    "plan",
+    "price",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says Iran could pay major price if it carries out dirty-bomb plan",
+   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ORHVZSjFGdGFnWE1WcW1mbVF3S0Q1cElVQTJmMWNzX2ViSXZpUVZRbjVrek83NnZ3RlFWMEdIWXVXRTFuLUtWZGFyVnBldk94UXg0RkpoTEd4TTVKODZvaFZHc214VDVETkduQ045YlFMZTdkYmdYRFFjbV93dw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:4714d756b8fdff2c": {
+   "d": "truthout.org",
+   "k": [
+    "aircraft",
+    "carrier",
+    "congress",
+    "debates",
+    "ending",
+    "iran",
+    "sends",
+    "third",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "As Congress Debates Ending Iran War, Trump Sends a Third Aircraft Carrier",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOekNWa01sbE41N2kxU1B3dU1mVkpSN0JxWEZ3T2NTUUt2dEFFV182d1dnaGVpV1A5SUFyNTRXNEE5Rk9qYWRRNXExeW04VGxoYUJJc05IT2hmZXY0M2g5c3FkdFlDN05SNUZZYXBwSDVsREs2RU1nSThFaHJlYnNjQzB6akJIQ2V3RHl3bXltN3NRTS1CclVMOXlqb1F3djQwWTNUVlp3?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:49451023931e5cea": {
+   "d": "newsnationnow.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iran",
+    "seriously",
+    "taken",
+    "threat",
+    "trump",
+    "very"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran dirty bomb threat taken ‘very seriously’: Trump",
+   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90OHJKYVZqaXdaWlpjOGo5N0h5cHhuWnUwV2ZzLVVJQW5RLXpqbVg0M2tsdmR2UVZSbWVmenRTUG03Q1E4LWxvVFNvZkZMdWpnb011UXlDN3N0bzlLVHd2bWE2Nlk1ZXI2UHE2cmVGcnB0cllrckQwSjNQdXZKQdIBgwFBVV95cUxQVlViQW5BbkJpdFk2Sy1xSTFJMHJuMlVzYkhQUW0wV3ZjSzM3WUhYd2ZRMkhsYkhSRnpQU0p0U0d1bmUyNUVlb2p2WUxka2x5XzBUakJjaW5wem1PRWlUNmhpSG41OHNjMk1lTVlLVVhuVlRUOUZyM2pXT3k3bnlBU0R5QQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:4d6e2485367f2d28": {
+   "d": "nbcboston.com",
+   "k": [
+    "agents",
+    "bomb'",
+    "dirty",
+    "explain",
+    "former",
+    "iranian",
+    "plot",
+    "talk"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "What is a ‘dirty bomb'? Former FBI agents explain amid talk of an Iranian plot",
+   "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWmNyN3JrZ1hXYVk0c0tWZlRxU1IwSjBUTEQ5TmtlX1hoMTJteW43eHJZLXF2MnNqMy1tdjJYRmNyMmdTM25kTE5wZWdaYmM3U21PaTJHS2k2TlNfMmh2RW1sSENNUlp1dzI2WkhqX2Q4dVVPODdPLUxpNkZWZk9GRXItMk9jM1k20gGQAUFVX3lxTFBPczZhUlZHb01kT1hDRGN2YTJJRVowRHJrNWM3N1dqQ1ZQdTR3V2w4anJoODFKcFc0d1NoMkE4cVFkeWFzMHVEQ2k3cHFGRWxjLURwQS1LbFdOejB2T1REU3QzWmhUWEZ1OVU0R2RIcjdFbXpibnhHZUhqdE9SRjQ1M1AtdHppVF9TcWpQZW0xTQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:4f4db3035d62c850": {
+   "d": "spectrumlocalnews.com",
+   "k": [
+    "asia",
+    "homeland",
+    "iran",
+    "reports",
+    "seriously",
+    "takes",
+    "threat",
+    "trump",
+    "very"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump takes reports of Iran threat to U.S. homeland ‘very seriously’ in Asia",
+   "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmlyb3djdDFGZjVBOXBaUHNlN0xaMVIxVnNiOVlBNzlPQ3l6UXNCUjlkcjBkUVFtWThkZzZRdm5YaGczRTE5bUZmcGlkWFFqcUJtbDFpajgzTDhZVjdUXzgxU3dveGJmay00N0haYl9oOVd6YlR1bkQ4d1ZnMS1BREZ3cnE3Q185WTYxR1dBUGxhMVB2V0RUME55dm0?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:5b69ed860ef7f02f": {
+   "d": "nbcnews.com",
+   "k": [
+    "assassination",
+    "gets",
+    "iran",
+    "pakistani",
+    "plot",
+    "prison",
+    "steered",
+    "years"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Pakistani man gets more than 27 years in U.S. prison for assassination plot that he said was steered from Iran",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZldMTExXVXJWR1Z1aEQzZjlWVWNCN0VWLWZqb1Z1Qld2TzBVNVd3M0ZteUg2MjdxT1ZNUmFUMzRvTEJtRlNRSmc5Vy0ySTZadDF0M1RNMUlEQTBYMjgwM2F3bVE1Wl9hUF8yMXB2S2VZZmxtMk1keVRIWFRKbUdQSThYeVMwekJoNWdxaE12VVhmRFhQTGVzTjF2Z0piUXpfZDJEYlZFR2FnTHhkRmp2aVFHc3NnZGJTUTE1YUxYdkYzSnJsN3RBZV9rcw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:64398e3a6a1cfdc4": {
+   "d": "reuters.com",
+   "k": [
+    "american",
+    "anglo",
+    "customers",
+    "deal",
+    "disruption",
+    "ferronickel",
+    "possible",
+    "rejected",
+    "supply",
+    "warns"
+   ],
+   "s": "Reuters",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Anglo American warns customers of possible ferronickel supply disruption if deal rejected",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY21WRV9QOW1BeVF1NnhXNm8xRDhrSGRoSlJkWDdXT2pLalVjd0RDamlpUUlFQmxDN2RIaUhna0U4ZE15dHd4WlcwVFk2Q215cjNJRnpfSnJBbGtoZ3hCS1J5eG9JakpRaC14bEFvdVV1Mi05X29FZTVyU0lQbE1vX3k1NGliZEVEeDNQaVQ1SGZlU05mRmhCaGVTWWJDdnEteXkxdFkyV0ozQzBHSXF5RVJFMkZjaXNhWi1raHMzd2JGTHM?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
+  "news:6762574bbedfabda": {
+   "d": "reuters.com",
+   "k": [
+    "fine'",
+    "government",
+    "outage",
+    "reaches",
+    "tech",
+    "trump",
+    "wave"
+   ],
+   "s": "Reuters",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Tech outage wave reaches US government, Trump says all is 'fine'",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUTFrNFhKT3ZkYUp6V1R4ZTlwSnlGT2RHTnZUanZxZ1dSNEZwLUtBd2YzZGNZZk1XQ3RHT3hPU2FFaEVwSEkzbzFoNmt1d2ZkenRyTjV4MWlQcnZwWUJ6c3B3Mk5BejhqNkJUaFI3WTZZSlczN0dpYUIzQ2VnNGJ4LVNZeWJuenBuT29LQ1JheGtxbk85aC15cnJlYk85YklfYTN4UHY1aG1qTVE4YVdNSWpjTTNmUFktTnZKQ3dha0ZVSlU?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
+  "news:71606ad52af540e6": {
+   "d": "longwarjournal.org",
+   "k": [
+    "america",
+    "game",
+    "iran",
+    "long",
+    "short"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran’s long game and America’s short war",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRWN2Zjl1d0VIcUx4MFFiTlNfblNIeWhvb1E2d3psSS05U3ZxRWVpQTBSUmljZndmQlh3UENpTFBjR2c2R0NVX2lxZkgtUGx5UVpESXBuamo4Ri1NOWx2TXpMaXk5SllVbGhlOTFoMHIyZ29VbWluS0p1czBtQVlNcDdqQ25sTGFpNFpGOFVPcExjVGlL?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:71e725a364a11daa": {
+   "d": "arabnews.com",
+   "k": [
+    "blasted",
+    "chief",
+    "hearing",
+    "iran",
+    "navy",
+    "sailors",
+    "toll"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "At hearing, US Navy chief blasted over Iran war and its toll on sailors",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWGdLUVloeTJKSm9xRm9rS3M4ZVpiNTBmYTZsamwyTzVvZzk0WjY1ZE9mQnRYZEVkZkNya2lhTV90X1FpSTBhMGZEWE9UQ3pSUEpNVmNHMzh6NUNWOFVNUllQSmtDM2ZMR1o3N3NOMTkxQTRRaFJIUC10TjdzUDhhY3pSUklkS3ZuOTZuVHd1dGpNdlM3Mms0N2FvaTJpOWJBanh5UnhDT25IUERwTUE?oc=5",
+   "v": "Corroborated",
+   "x": "digest"
+  },
+  "news:726ef447cbd582b1": {
+   "d": "timesofindia.indiatimes.com",
+   "k": [
+    "gets",
+    "iran-backed",
+    "jail",
+    "kill",
+    "pakistani",
+    "plot",
+    "trump",
+    "years"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Pakistani man gets 27 years in US jail for Iran-backed plot to kill Trump",
+   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT1FndWVDa1VDZDBZejlnbzBkbmhsaVZOWjhoejE2cHhMMlFoQkdjUGhkcHY0UlpiYzJTVXNJTF90SEJmS1FQVW84WVRSVER4ZElUYVk2Q1BzdDcwUTVFUmxKX3ZGa1hZZ09PeE9fT2FnTlV0bkdzUHFJX19uY2Q0Rnp2QUpxX3ZvajJ2SXptNHRYSWtwR2pHM25GVGRNU3lUdWlpUDlRUktVVXRsY2FTUUh0enJ0aGxvZmxnclV2VS1jRk40enlhQlJCdjJBZXM1LWViU0hzMDAwbUk4?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:795affff0a90b8ef": {
+   "d": "nytimes.com",
+   "k": [
+    "election",
+    "emboldened",
+    "iran",
+    "losses",
+    "officials",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran Is Emboldened After Trump and GOP’s Election Losses, Officials Say",
+   "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xOVZhTDZRTzl2UzB6aVNWUTZNcTV1a1dKWXFNRThfYjlRSlJOVGh1NGdhVDh3dzRZaENxczUtUlhxeTYyYTVLRl9xcjVSV0thUGNTU1lpOWt5R05OX0NZbi12VTllNkFWQk0teVhEWW5sUEhzNGlDaWNLaw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:7ac79de37794f913": {
+   "d": "localnewslive.com",
+   "k": [
+    "attack",
+    "developing",
+    "iran",
+    "plan",
+    "report",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Report: Iran developing plan to attack Washington D.C.",
+   "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVJQSmZFckJITHVLNHJwTUxqb3lhUWhlLVVfcDI3TWVhZ3hSZ2djLVVRcTBRbnFEaHhKQ1Q4RGlYTnFLUUpaZlZqTjBNeS1pOWoxQU1nV1FTR09VTWRDYTRBSDUyRGlfRTJXNGpmMUxUT0dGR21SbmVIb3MtSGZUbU1GSHNZbEtDUVpsWmFzZTlaNWk4WGN5R2dvemI?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:7b01d8304027a549": {
+   "d": "independent.co.uk",
+   "k": [
+    "again",
+    "despite",
+    "humiliation",
+    "iran",
+    "midterms",
+    "promise",
+    "strikes",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "US strikes Iran again despite Trump’s promise to end war after midterms humiliation",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMm1OaFVpbWpHNEZQUnNJa3NWM2JfZVVCMld5OGZUT1lsRWlHWFFOVFZhZEI2NFFCQVEwQ0Vmczc3cWFhTmdKRUNzU2FFRTRsQWs2S05oVTVvbnVOZU1SVGRBMjYtZ2RHWmJoN2Q1UzhMbWV3ZmFzaFdacS0yY1dkdm1ybnZkMXZWVlFpRWlmanV1RHFET3ROU0RjaWV2MGJfdWc?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:7c88ed655e7a708f": {
+   "d": "jpost.com",
+   "k": [
+    "attack",
+    "bahrain",
+    "between",
+    "come",
+    "heightened",
+    "iran",
+    "kuwait",
+    "states",
+    "tensions",
+    "under",
+    "united"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Kuwait, Bahrain come under attack amid heightened tensions between United States, Iran",
+   "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QeTRlNmtkbFdLalhzVlY2NTZkb3hQOS1qQkFOUzJUZEVJMUxINmsyalNEM1JnMnRwYmJpRXE3S2RNTTNsdHIwbVZKRmY1a3BEdXhlNXZ4Qmllek1Z?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:7e5bc77e9b630005": {
+   "d": "latimes.com",
+   "k": [
+    "bomb",
+    "iran",
+    "plot",
+    "report",
+    "seriously",
+    "taken",
+    "trump",
+    "very"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says report of Iran bomb plot against D.C. is being taken ‘very seriously’",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDhQLXlSMWVRdGEwZExDcmVFcTRLM0M2U3NFRXVfSzdUaVM1aEh6T0hkanhycW1WeUs5aXdkcGZnMTdIWVlMV3JXYzZOUlE4LWNnSm1MTDBzcVprMXZTTUhRWXV1R2dzZS14cWhDREpVX1hSUllTX2d6Mkpsd1ZMbHRxYXNJUjJUYkFhWENqcGYzZlMzTEN5c3VLZThnRHJweEpXdmJwME9ocGRid1ZFNnBlSUtsSTcwaS02U2trSmNMMkk?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:7ef04408e2a83f7a": {
    "d": "reuters.com",
    "k": [
@@ -170,6 +801,27 @@
    "u": "https://www.reuters.com/world/us/duffy-says-no-root-cause-yet-found-router-failure-that-caused-ground-stop-2026-11-17/",
    "v": "Unverified - Credible Source",
    "x": "bootstrap"
+  },
+  "news:82bc72eb3e63c5b6": {
+   "d": "timesofisrael.com",
+   "k": [
+    "attack",
+    "bomb",
+    "dirty",
+    "indicate",
+    "intel",
+    "iran",
+    "planning",
+    "potential",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "US intel said to indicate Iran planning potential ‘dirty bomb’ attack in Washington",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnY4Z3N4VFhWUEhLZ2hkb0VVZ2xRd0dzdWtoSlcybkJlMHhHRUd3NG02ejJWbHBTcDRHc1Z3WGxfbVZfRGNMd3V1QklwNGRKaDRreXNkVW16MWhraVZhS29KalFKVUhybnBqZDk5OG1nWVNkd3RMQ0t0aFlFdHBHVmZLMlJGUXFqcUtEaHZCWWgzNUNiQkJzNldRZ0ZDVjZfeHN3VTBzLXdqNV9yTWF4Vm5B0gG3AUFVX3lxTE1ZSGFfQy05TGRnU1RHU0FkWVFJUHdxZENMYzh4RloyaC1rZE1VVmlRa0otYXBKbWZZWkczeTVBU1NLS1ZwUGJFTEpiSy1sTjVSVzIwZWw4U3B6NjVacFBHVmFkckEtQUxSMUVGQXNQY3RQZlVEdXhHNWZ1SG9ZR2xwQmxlOE5td3B3QmpnMzF4QzczUVdZWFd6RzNiNmFlYnJaMXh5eXJKc2daSElzYW5fOHFNeGdUOA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
   },
   "news:92214f1d61528bf0": {
    "d": "reuters.com",
@@ -189,6 +841,489 @@
    "u": "https://www.reuters.com/world/us/hearing-us-navy-chief-blasted-over-iran-war-its-toll-sailors-2026-11-17/",
    "v": "Unverified - Credible Source",
    "x": "bootstrap"
+  },
+  "news:974a4c942c3e4bd3": {
+   "d": "pbs.org",
+   "k": [
+    "arab",
+    "bahrain",
+    "facility",
+    "fires",
+    "iran",
+    "neighbors",
+    "resumes",
+    "strikes",
+    "tehran"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran fires at U.S. facility in Bahrain as Tehran resumes strikes on Arab neighbors",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTlVZWjRCSVZZOTdxbEJHVlVJTjVyV2xWVXdaQ2tqUmVRNFJkaElDa2xhYWFqbEcwRDlaWnpNWF9OMy05OE5mM2N4VkhRQVZHdTFUTTlyd2JUSkwxR0Q3ZEh1UDZZNDB5cmVHa1lfMkM0ZldWT1pJRmVTTWVPMWEzQnloMWY2Zjh1TDdaeHRONmIwbERZLWtfMy12Z19JcDV2eUJxZElIWDdBWW5CU1NEYU5TVjJRRjjSAbwBQVVfeXFMTm93R19jS3VPR050YTJCYXBSQ25mYlo1RXNhZ1JSSXVZdEdiYUJJeloyZHlkUnJYTTc5dGVzbmlqZHY3Tlhscjc5cWxqT1JRTHMtVHlORE5TUVpKQVZ1d3FGUjhwcDlHbk5JSFVoeXZya1lTU1ZIUW9SRkUwZ2t0akZGa2t4VEpfdEZJRS0xcFFEZGVaVGtNcWFvOWdLTFFRUmFhTXBsQ1FydjA5X3dZUHdDVmE4WnduNXVUMTc?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
+  "news:9875dd9cd561c8e1": {
+   "d": "cnbc.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iran's",
+    "plan",
+    "reported",
+    "seriously'",
+    "take",
+    "trump",
+    "very"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+   "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5YmhqZWRkZFBQT190c2Z2eGZLY1Btc3ZOQWFBemtmYm0tWWhldG81REJrWFlhQ09qU2x4bmZYVExrVURIVzJ4eldVdkJ5M0hsTHBGSU9WOGd5LVFkUmNaNW1PRVJvODhnUDh4am9UZ2hRaXUwTDAxaNIBfkFVX3lxTE80ZWd6TWJmQlZaZlZKZ21seWJtZ01Ea2F2cTlINFRTM3k2UTRIQXBBbkdCTHpsV2JKV0NCZlRLVVBHWGY0N296dDNFd1lZYTFyY1doelVONHRMVEJBZGI1czM4S1NnT2h5RlF2d3E3WUNodmRwOVJxUVJiYUNaUQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:99d3ca7f3868a927": {
+   "d": "usatoday.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iran",
+    "seriously'",
+    "taking",
+    "threat",
+    "trump",
+    "using"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says US taking 'seriously' threat of Iran using dirty bomb in DC",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcDBQOGx1dHlkdnEzQWNkTllHbjBXUFd3UVpVR1Jmd3htMU5ZREwtTGdoUUQ2TUEtZFU5V0lsZVo0N2RpYTNWTWxwVTdFeWZqN3RvRmJnOUNVRms0a0QwYXFkUG82M2c3UzhDVmEyUXhHOWFjelVjZ21uaV82WUVHaGJlRi1MeWw1bUUxOFRwMGpHZG5jUElvN3VwalZFREE2T0Zr?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:9f6cd22f97ae6e73": {
+   "d": "staradvertiser.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iran",
+    "plot",
+    "reported",
+    "targeting",
+    "trump",
+    "warns",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump warns Iran over reported dirty bomb plot targeting Washington",
+   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDhCeUlUQ3ROYW9ZdVdhNU5tanRoR3dLUm50OW1ocEgwRHpZRGRPTDRxT1JaVFhtZ0lNbEZpaG5zUU9hZTVDdUd3SHk4cU1pQ2JVZEZua21yNzg5RWliYVNqbEQyWmJUREhiWTZBZHZDTGNiWm1QUzRyWl9YVjZiT1V2LVpENEJnR0RsblMwSU5mT2dqNkZndlZpOE5KY1BuQUY1c3R3S0ZXYnNVQWh3X2xDYzdDREhZZ1dYcWt5WlpyZw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:a0f1ecec93f15dd6": {
+   "d": "usatoday.com",
+   "k": [
+    "iran",
+    "island",
+    "launch",
+    "missile",
+    "qeshm",
+    "site",
+    "strikes"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "US strikes missile launch site on Iran’s Qeshm Island",
+   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZDFPTDd0clZZQTZ1RUdlMzRkbGpqd21lLVgyeUN4VFUwcnpxYlBjU0NLOU5ZaUlhME1fd0UtaWdNbnNxQ2tBNFNuX1NCbkd0VGxJS0tYU000U3RFSjByc2VqUWZwLWhScTRfM0RsVk9wWWdlWE1yTkc3QklucmZmOV9XOVhlZWd1UTVhWWFRRjRYRHdud3dyXw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
+  "news:a21d039a61243969": {
+   "d": "france24.com",
+   "k": [
+    "expert",
+    "games",
+    "iran",
+    "mind",
+    "playing",
+    "states'",
+    "united"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran 'playing mind games with the United States', expert says",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVc0T0l2MTh0R0p3R3BrZG0tcVR0R1p1dXp3MDRYUnpDWjl0UVBiVzdkT3FVWnBOTEUweFBNa1dzd0xnWUJEWWhEZmVhUWxwOFRGQVF2Y1RCY2c5S3d6aXVzRm1VRjNvN0dfV3V6SjZZSDZaVkJVQXE4eldldFp1XzN0V0xDY2JsbGdleTBLOA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:a534ebfbb865814a": {
+   "d": "cbsnews.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iran's",
+    "maryland",
+    "mean",
+    "reported",
+    "threat",
+    "washington",
+    "what's"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "What's a dirty bomb? What Iran's reported threat on Washington, D.C. could mean for Maryland",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUlVFREhYZXUyM1Z1ZU84TTVESG1WSDVHWW04MWxXTTVQc2oyT1NhNEJaUTVxVlBLdkptMG56a214NlkyTEhhQXp4TzVlVS1nWXhBWk1iQlZKR09JdUVScXJwUVpIUUo4bzRuaVMzM2g4Y0xIN3VVbWFhaDZaaFl0YXpHUjBNQndkMWFFSFBScTdqM1R6WDVHbnVR?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:a9ac71c559583d1e": {
+   "d": "foxnews.com",
+   "k": [
+    "assassination",
+    "bomb'",
+    "denies",
+    "dirty",
+    "emerges",
+    "europe",
+    "iran",
+    "plot",
+    "scheme",
+    "trump",
+    "warning"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Europe assassination scheme emerges as Iran denies DC 'dirty bomb' plot amid Trump warning",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVDhyM0dyVUw3ZjhVRjNBZms3Sy1DN296a0hPMlkxQlEwb2NnbXZLRXRRbzdIeDQzTno1cm5jWHUzeW1obm9xdXpjbkRVbko3bHVBSGgxZU1ROVVUOThvYlV6TFpBQ1Q1UVBjdGZtOHRYMGVXOHNqaGRTMmpTWk53aFU5NGxhaVpMYkRVdnNtdWtFTWRyM2Y0ZE5EeHI0NzVDLWZqckN4RzdpR1duVmF5RllR0gG3AUFVX3lxTE9hYXQyNjlXNHNNU0Q2T2ZSMmU3LVdqeEM5MndYMV9PemxodjV6NTZISk9NbTM2Ynlyd205cjZ0OXQ3ZkZVaEpLY0hiXzNReDl6aXV3OE4yMFBzeFJQZ3VvTmdhV216dl9tcnhMeUJzYVNRdFFxQjBmbk5qR0QzeUxQbjVDbS01QmxFZkdFMnpvQl9FcThHS1hjdkZ4bVdCWC0wb1pRTHFQckE5S2xoNkctWU5lWTlONA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:aa2eff2d626890cf": {
+   "d": "dw.com",
+   "k": [
+    "attack",
+    "bomb'",
+    "dirty",
+    "dismisses",
+    "iran",
+    "plot",
+    "report",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran dismisses CNN report of a plot to attack Washington with a 'dirty bomb'",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNEI2SUhucFZweWtGLThHYUVqWWYtRFA1Y01GaWxfLVFWWVo4NFBWQS1WTXRqblh1S3NxeDZXMkFXb1dHbkFwbDBTRjJ6Mk5ZR2VRdzlNenRmM3lCRWUtSDI4c2NrUjZDTWZZQnNfblk2MU55VllabkhROHlZSkh1Mm9ROWZodXpDYVNwYUs1eWV2WDJBSEpsejdyR2ExUdIBngFBVV95cUxNbHBZVWVab1R6TDZZdGh4TjAxVm1ZdFZQajc1TGRIRjhVTzdGek9udmFEWnhISW1hOHVNcUZac3J2TVBCZ2tJVE1pSmkwRzg2VzRaTkg4WlNzbWFuTUt3WWM0a3VZMEZGS0VpVUNOaTNJODBHNWRYemFvQ2NTRy1wTEFfWE1XYWJXLUNDYmlGT19fbzdjTE9oeUpwVVdVdw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:ad55aec463b29962": {
+   "d": "upi.com",
+   "k": [
+    "alleged",
+    "bomb",
+    "dirty",
+    "into'",
+    "iran",
+    "looking",
+    "plans",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump: U.S. 'looking into' alleged Iran dirty bomb plans",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUllbHRJS3pIZDIydHdoMTBZdlJWREtvdENVS2V3U2lCSUFET0FXdE9iQUlPU1U5UXBuVXJsWklGZEMxNnZaX01TSGY5WHl4ZWtLYTgwR1RrUTRxR2x2QkFhSEdjMWVUN29wNTlwZGRKVFBoekRxcDlGZnZhUlE2eDJrOTdRSFhjV1UyUFp3Y1dWWUkwR0lZU0FBZnBabVVITVZn0gGoAUFVX3lxTFBUaS1hVGxxSGRmV0Z6YlgxNGRiLU9ERTRVS0pxV0NBb0Fma2RvRkZIUmMxYUNlTUlScjZqUi1rUm04Zmxzc3A3VURWMGk2MEg3UGNEXzdvcFVjamNQaUZWZnZ2NXBRSUhrLVA4TmRRSUZuSTI2eGtXbzdJX25SZktSa1VBbUp6a21Qa2NJb1NSM2xDRTZ4Zk96dlFLMUhseGQ3dVJUczVwTA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:b612810bbdb514ce": {
+   "d": "apnews.com",
+   "k": [
+    "defends",
+    "game",
+    "government",
+    "ground",
+    "lsu-texas",
+    "mullin",
+    "plane",
+    "stop"
+   ],
+   "s": "AP News",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Mullin defends use of government plane to go to LSU-Texas game after ground stop",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcEFYNHFodGhOU01HV0gtZWpReXlWcGpvblZIYTUyNkc1OUFHc1pVUVRNc29TYURUSlFfbzYzMmdiRmI2X1dNTVRpOWUzQWdqc2RnaUhoNGtlTGhXV2I3QmFOenJwX1FHLTNCSmRpTWt4U1R4R2tmdjlTQWphcTYtOHdaMm5OTmhONHZKVk1hclluTkNJM0dxbmJYdVB6X2FHeUh5NHd3?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:c3758a10a7b8dc22": {
+   "d": "washingtonpost.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "government",
+    "iranian",
+    "plans",
+    "report",
+    "seriously",
+    "takes",
+    "trump",
+    "very"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says government takes report of Iranian plans for dirty bomb ‘very seriously’",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcFlvTGVHYURPQUs2bmJTc2VFZkg1VC1WdTRKQnJrV09uTDhwbVRaOXktUFZsbVNrTWwyMlpUNnBUb2hYSjJ0QXhHRGx2T2x5YVZOS0s0R3FpTDRyeXFKX1pUUmJJVnJ0M25PQmlka3JoVWhWa01OZm5CdW55elJSbnRpb2JPQllqckRzM1lwWFhKT253dTZ5SXV5OExpcF9yRjJRa1kyQUN5Y2taWmdWQlNvaEdMQV91emhKb3BTT3o0RElzLUN0Tk9WYW4xZlhs?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:c48325c1db037dd3": {
+   "d": "arabnews.jp",
+   "k": [
+    "iran",
+    "possible",
+    "seriously'",
+    "takes",
+    "threat",
+    "trump",
+    "very",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says takes 'very seriously' possible Iran threat to Washington",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSjBXaGgwZ0NwZHNXV2J4TXNEYjV4dTA4T1l3cnpYNTR4MTUtSjJ0Sjd3eTd2bmMzX0hpb2swUkFraDhDMGVmUklNN0JZLWRMSHRSOWc3RTdwWElqclhnMm8yUlVYM2dyZUp0M0FDV19YMUp2THFrWDRuMHEtekdKdTNxenRfZlRMRlByTWNJRGNBcFpfOFJxSlAtMDAzQ0t2UEIyLVZlUmJINEtVSzAxS280Zw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:c7689582ccb75aab": {
+   "d": "aljazeera.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iran",
+    "plans",
+    "reported",
+    "threat",
+    "trump",
+    "warns",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMDlnOVlnZ3ZLTHB4REV3MHBxcS1TZWZxTjhfd3c0bHZmMXg5SWVLd2cyS2hxaXZUaklpaGdVYVYtMGZFWjZwUFM5UlNTUVZQNnZLNTU0UjBzLVhTUnQ2Q3ZpSmRzcEdNOHAta1l5NGJmOFY4SkRGOGIyT0RiZmVYb0FlQ1hjeUpzMjZmSGJzcDl5bmM1bHVRVFBnNmt3d1dVRWlCSjJtbkdCZEhiakQ4V3o4ZTBmbjU2TUl1OVdwUW4zWHPSAcgBQVVfeXFMTUZGT0pyTnFWVTd1RVZVRTlUNDl5SXc0NFdBdDU2ZWVMcE5INEVpa2pqdW44TWJWMUtxaXlnV1JwWkVMVGZKRmFEUXZUenR6M0laQTRwc2pGVFZ4dV9HNjBuUFRKZmhKdC0xcWMxVldvVE1rZmpRQ0hEVnBPSFFfQ29pNVhvTDdSRThGcTlRUDZJV2phaWFwRS1ablNDdXZhV2M1b1dOQ2xiZURhdTgwS2pzMTZrS2dubV9yOWE2RGJNNlYzOTFhTkQ?oc=5",
+   "v": "Corroborated",
+   "x": "digest"
+  },
+  "news:c7d000edf52da2b8": {
+   "d": "reuters.com",
+   "k": [
+    "deepens",
+    "gamble",
+    "iran",
+    "stalemate",
+    "tehran",
+    "time",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump and Tehran gamble on time as Iran war stalemate deepens",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:cb9234f587e67b82": {
+   "d": "reuters.com",
+   "k": [
+    "classified",
+    "communications",
+    "national",
+    "network",
+    "outage",
+    "security"
+   ],
+   "s": "Reuters",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Classified US national security communications network hit by outage, NSA says",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2ZFQXV3ZUxOU0hNN0lPMXA2Z0l6aTNFekJ5cXpuNEVOZk92a0RVOUhZNmVOdXJURUV6Q0VDNzk1Q0ZRYkMyeW1KS0pxcGlESzJ6dER0QWlDdXNTY3pyV1l6NzcyWnhhUkhpYlJwRXMxU3YwdmE4RTZvRFZNbnZwX2ktaDdtTEllZmdlN0ktancwenNjSDhKZ2RpT3lxbXhmdXNkVGZybkFxeDNOeldCbFpQcWhjMi03LXVOeA?oc=5",
+   "v": "Corroborated",
+   "x": "immediate"
+  },
+  "news:d2aa8c044ac7ac4c": {
+   "d": "cnn.com",
+   "k": [
+    "attacks",
+    "iran",
+    "price",
+    "trump",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump: Iran would ‘pay a price’ if it attacks Washington",
+   "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsMGlGc29Zc19Mbm1SMkNpZ3ZhVVl4SEhZVmlKd0RCNzczYTNpd1k4dWkxcXNPbnNIdlNKVDhJNTJPYVZEV2N6TWlIRGdHSEY2THJWM215cjZHeEN5akRRRW9pQ2VUSU5uaXpId3dLOGthMHc?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:d2fd7d7cb6243dee": {
+   "d": "kcra.com",
+   "k": [
+    "bomb'",
+    "developing",
+    "dirty",
+    "indicates",
+    "intel",
+    "iran",
+    "plans",
+    "potentially",
+    "sources",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Sources: US intel indicates Iran developing plans to potentially use 'dirty bomb' in Washington",
+   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdEdPYXd5eUdOY0FHbWhXRkI0czFMcEJsUXZ2VDVHVWNkREd2NkZIMVRWaXRPZ24xcWljWXFzQWVsa2NaTzN4MzZQdVh3c05nYktTQXVwODJCc2RiZkJsT3VPVlU5MG5EUzdnWWZZUXNRdC1vVGF2elJ5c0VaSkUyUmJIX0pTTWliN0o5Zll3LTdpSTRQVW5XQXNWQlVIWFhH?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:d58cbd43ebdce3a4": {
+   "d": "washingtonpost.com",
+   "k": [
+    "attack",
+    "iran",
+    "netanyahu",
+    "power",
+    "pushing",
+    "rivals",
+    "stay",
+    "warn"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Netanyahu is pushing for new Iran attack in bid to stay in power, his rivals warn",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWlFISnJ0cmFwTW5TaU9PLWtob1NsQ1lYaGFjbGlKNkF0djFBNHEtSldHVVBZbGg2RVd4YmUteldTVE9JWWtFTkhzaHdQcWppRWo0LVNkaWplQWp6ejJMRkdxSjRobFBpRjRpRld1WGFLZXo3Q2JrX0drMHdHNUFfaXl1dkNNSE12TnB1T1l6V19EcU8zeF83SV94eTNTLUtQbERkem5JZ29vNlF2UGVlY3ZaOGlJUG8?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:e2c070896a58c25c": {
+   "d": "cbc.ca",
+   "k": [
+    "attack",
+    "bomb",
+    "denies",
+    "dirty",
+    "fire",
+    "iran",
+    "planned",
+    "reports",
+    "trade"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Iran and U.S. trade fire as Iran denies reports of planned dirty bomb attack in D.C.",
+   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc2ZYTGtvM0g3WWZBNzJJcEd5bElCMm4zUXR5NUczWnNQZWdEMGZWNklWaFQ1cWdjYlNVM0otemo1bjBXVmdENUNaUWVQeThvXzN2Zi1hekFzVG5ic2tvY256UjRZU1o3VFBGV2p3eFJqZTlvRHBReHo3MUFEZ1NqYmpGWnR2Xzg0bGJIQQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:f05f737bcd05b07a": {
+   "d": "thehill.com",
+   "k": [
+    "attempts",
+    "grilled",
+    "hung",
+    "iran",
+    "senate",
+    "suicide",
+    "takeaways"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Hung Cao grilled by Senate over suicide attempts, Iran war: 5 takeaways",
+   "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTHpqSm9TaDk0aEc1ZXFrdUJsbUN5YjlUVDdkTEdiNy1qSzFjNTFseFRTbHdqbDFsSTZfalJXZDZtaUUyUGJZWEhxbmJ5b05DVFNKNzBiRC1TNjhOTjdWMHdRZE1aNDdnNU5LOTRoVnJhNXNHYVJpTjVIQkhQMkhBWExqa9IBiAFBVV95cUxOMlF0U1RDdnNvcl82aDZVQXBsZktLSjJ4MGFQcUFib1NuOXUySGZLY3B3SDZEZ1RLcVFWWE5KRVpKT0ZlaGFaSGhGM2RKWmNkUzR5bURZOU9oR1FMREZIQlRDMDdOTDRsWjR1M2s4Wm1QdDJxRlNON1dYeXZyVFZWSEFUNUlOQ28z?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:f1ee04a9e044f536": {
+   "d": "wsj.com",
+   "k": [
+    "expired",
+    "iran",
+    "navy",
+    "tomahawks",
+    "used"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "U.S. Navy Used Expired Tomahawks in Iran",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzNJRUdUQ2t0OHdzRkdUV18ya1phVW1KMFZ1VWMtTUlGbks1T2FFcVpZY1dSeFduWEMxWUZDN09VUFFKVEVKbHdiMDdEbFBhRTRhYjZFR09EQ1JUcElXaWN5anJ2TlYzcTU0STA1emFPSmtZRnlCMTJOOXlCRUE2d0E0b2VPUXRJYVhZT0JtTnBHdkJ3cEpwR1VMMHk5Y1FGNmYw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:f2341d8fe2f5ddd4": {
+   "d": "reuters.com",
+   "k": [
+    "bomb",
+    "dirty",
+    "iranian",
+    "plot",
+    "possible",
+    "report",
+    "seriously",
+    "taking",
+    "trump",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "Trump says US taking seriously report of possible Iranian dirty bomb plot in Washington",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVVnUzJMMDJJUTh1NTl4Vy1VU2U0bjEzVkRGWFBtamliVkRZQkZud2VuZ25YSDc0VzM5aXhQWWN2YTBFSTRaV1BSNUE3aWp5bmpsV0ZSMDMyT2YxcW5LekhIVEt6Tm9Od1ItNUs1U0ZOd2tfeTJSdkJhVVEtbUFzV2d0Z1NGa0doNGljVlhVOUJNS1UwYXFjVVRxMEY2OTRGY1lHQzcxRTlXR2VnVkh3QjRENEd0VTFPMjRJdmk3bVpXUEVWS3RV?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:f6f339c33a0b712b": {
+   "d": "ft.com",
+   "k": [
+    "american",
+    "bahrain",
+    "base",
+    "iran",
+    "island",
+    "qeshm",
+    "strikes",
+    "targets"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "title": "US strikes Qeshm Island after Iran targets American base in Bahrain",
+   "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVFEUFh1RlBvOUpoYzRFWGhybGo2WkJKcGd0SXk0RjVTeUNlN0Y2YWNXRWJwb1JPb0lRVG5ZTzlzaW9XRGJSV3g4VU1SSG42U2N3bml3ZzM1YVQ2bmlNSl9aMEswcTJHUTg0TDlDcXFqLXp2Q1g2ZWdmcnpUY3AwODBOWFA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
   },
   "nws:036003f4c39017a7": {
    "s": "NWS Alerts",
@@ -211,12 +1346,26 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:0e8137bd958083f5": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:125477eb4ed258b3": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:14d8dc89c5cd0d54": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:1569672431d898ca": {
    "s": "NWS Alerts",
@@ -323,6 +1472,20 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:329ead399e2d1ab9": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "nws:32db346859d63a88": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:3512d6b8d7fcbcb2": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -337,6 +1500,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:39c38e691d44ae04": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:3a3c2b89ee5ebd70": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -350,6 +1520,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:3b23cf52794de4ed": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:3dec534cbe3768d4": {
    "s": "NWS Alerts",
@@ -371,6 +1548,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:41b8014734c9b8d2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:43d61ed8c6ad6649": {
    "s": "NWS Alerts",
@@ -456,6 +1640,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:5015bc7ec71ad2c8": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:55037192b222c5b8": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -477,12 +1668,26 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:5b806c5e86c49df8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:60bbf5cb50b2b283": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:65d7f8d1efb8e30f": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:66256c770e44b9b7": {
    "s": "NWS Alerts",
@@ -526,6 +1731,20 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:6f0b3beac56dd368": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:6fe821e6b35382aa": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:7069763208e51298": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -554,12 +1773,33 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:777dd1dea1413b7d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:7781e8d64e346281": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:77c7b6c8795f3fff": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:795bed98bb4c8cb0": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:798c8150b6e5f12c": {
    "s": "NWS Alerts",
@@ -589,6 +1829,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:7ba244fea0637dbf": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:7d94bf2efd3cc82c": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -617,12 +1864,26 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:83acccda03f58c38": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
   "nws:8661238b25bb54db": {
    "s": "NWS Alerts",
    "sev": "Low",
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:866a3d27b9b54f5c": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:86e20beaebf8cf1e": {
    "s": "NWS Alerts",
@@ -652,12 +1913,26 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:96afad09d44e5ef3": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:a3e915a481fff6e7": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:a421f5e289767c13": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:a6672c38a109352b": {
    "s": "NWS Alerts",
@@ -714,6 +1989,41 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:afddb91b9f292588": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:b159dce7e2427bc7": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:b2ec354520c38c44": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:b4edb2f1f073fc69": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:b6c78debe89844c2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:b7d3ec26119afb3f": {
    "s": "NWS Alerts",
@@ -778,6 +2088,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:d002bf81a0c91b4f": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:d1d4248c2324a930": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -812,6 +2129,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:df385732f87deb86": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:e002555daf075dee": {
    "s": "NWS Alerts",
@@ -848,6 +2172,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:ec4903ffd4806fd4": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:eda0e2ecdec20aad": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -868,6 +2199,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:f3e490d7cf829ff2": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:f548a89d990a8e1a": {
    "s": "NWS Alerts",
@@ -903,6 +2241,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:fff2b195c5b7f8f6": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   }
  },
  "version": 1
