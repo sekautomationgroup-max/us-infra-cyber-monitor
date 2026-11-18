@@ -61,13 +61,6 @@ STATE_DEPT_FALLBACK_RSS = [
     "https://www.bing.com/news/search?q=site%3Astate.gov&format=RSS",
 ]
 
-# GDELT DOC 2.0 API. Rate limited to one request per 5 seconds per IP and it
-# returns HTTP 429 freely; the fetcher treats that as a soft failure.
-GDELT_URL = (
-    "https://api.gdeltproject.org/api/v2/doc/doc"
-    "?query=(Iran%20OR%20Iranian%20OR%20IRGC)%20%22United%20States%22%20sourcelang:english"
-    "&mode=ArtList&format=json&timespan=2h&maxrecords=75&sort=DateDesc"
-)
 
 # AP and Reuters no longer publish public RSS feeds, so we use Google News'
 # site-restricted RSS search, which links through to the original articles.
@@ -81,6 +74,12 @@ _NEWS_TERMS = (
 # Bing News RSS is the fallback when Google News returns 503 to datacenter IPs.
 _BING = "https://www.bing.com/news/search?q={q}&format=RSS"
 _BING_TERMS = "(cyberattack+OR+ransomware+OR+outage+OR+blackout+OR+pipeline+OR+grid+OR+Iran+OR+CISA+OR+FEMA)"
+
+_IRAN_Q = "Iran+(%22United+States%22+OR+U.S.+OR+Pentagon+OR+Washington+OR+CENTCOM+OR+sanctions)"
+IRAN_US_FEED = (
+    "Iran–U.S. news",
+    [_GN.format(q=_IRAN_Q + "+when:1d"), _BING.format(q=_IRAN_Q)],
+)
 
 NEWS_FEEDS = [
     # (name, [primary url, fallback url, ...], outlet domain used for credibility)
@@ -124,6 +123,27 @@ CREDIBLE_DOMAINS = {
     "utilitydive.com", "eenews.net", "spglobal.com", "upi.com", "afp.com",
     "france24.com", "dw.com", "aljazeera.com", "timesofisrael.com",
     "military.com", "stripes.com", "govexec.com", "federalnewsnetwork.com",
+    "pbs.org", "time.com", "economist.com", "newsweek.com", "voanews.com",
+    "c-span.org", "nypost.com", "nydailynews.com", "newsday.com",
+    # major regional papers, for state-level coverage
+    "startribune.com", "dallasnews.com", "houstonchronicle.com", "sfchronicle.com",
+    "seattletimes.com", "denverpost.com", "ajc.com", "miamiherald.com",
+    "tampabay.com", "orlandosentinel.com", "baltimoresun.com", "inquirer.com",
+    "post-gazette.com", "cleveland.com", "detroitnews.com", "freep.com",
+    "jsonline.com", "kansascity.com", "stltoday.com", "oregonlive.com",
+    "azcentral.com", "reviewjournal.com", "sltrib.com", "adn.com",
+    "staradvertiser.com", "charlotteobserver.com", "newsobserver.com",
+    "richmond.com", "pilotonline.com", "courier-journal.com", "tennessean.com",
+    "nola.com", "al.com", "clarionledger.com", "arkansasonline.com",
+    "oklahoman.com", "omaha.com", "desmoinesregister.com", "kansas.com",
+    "indystar.com", "dispatch.com", "cincinnati.com", "buffalonews.com",
+    "timesunion.com", "bostonherald.com", "providencejournal.com",
+    "courant.com", "burlingtonfreepress.com", "pressherald.com", "unionleader.com",
+    "delawareonline.com", "nj.com", "wvgazettemail.com", "idahostatesman.com",
+    "missoulian.com", "billingsgazette.com", "trib.com", "argusleader.com",
+    "inforum.com", "abqjournal.com", "santafenewmexican.com", "elpasotimes.com",
+    "spokesman.com", "sacbee.com", "latimes.com", "sandiegouniontribune.com",
+    "mercurynews.com", "fresnobee.com", "elnuevodia.com", "guampdn.com",
 }
 
 # ---------------------------------------------------------------------------

@@ -9,7 +9,7 @@ alerts you by email and text. Your computer can be off. No server needed.
 
 | Step | Detail |
 |---|---|
-| Pull | CISA KEV (JSON), CISA advisories (RSS), NWS active alerts (Severe + Extreme), USGS significant earthquakes, OpenFEMA declarations, Treasury OFAC recent actions, State Dept press releases, GDELT Iran–U.S. coverage, and news from AP, Reuters, BleepingComputer, The Record, SecurityWeek |
+| Pull | CISA KEV (JSON), CISA advisories (RSS), NWS active alerts (Severe + Extreme), USGS significant earthquakes, OpenFEMA declarations, Treasury OFAC recent actions, State Dept press releases, a Google News topic feed on Iran and the United States, and news from AP, Reuters, BleepingComputer, The Record, SecurityWeek |
 | Filter | Items must be about U.S. infrastructure, cyber incidents, outages, or Iran news that involves the United States. All 50 states, DC and territories are recognized |
 | Verify | `Confirmed` (official source), `Corroborated` (2+ independent credible outlets), `Unverified - Credible Source`, `Unverified - Unknown Source`. Unverified items are kept, never dropped, and their titles start with `UNVERIFIED:` |
 | Severity | Critical / High / Moderate / Low from source rules plus keywords (see `config.py`) |
@@ -110,8 +110,8 @@ Everything is in `config.py`:
 * state.gov refuses GitHub runner IPs (HTTP 405), so on Actions the State
   Department feed usually arrives through the Google News or Bing index of
   state.gov. Items are still tagged Confirmed because they are state.gov pages.
-* GDELT's free API rate-limits shared IPs aggressively and often returns HTTP
-  429. The script treats it as a soft failure and keeps going.
+* GDELT was dropped in favour of a Google News topic feed: its free API
+  rate-limits GitHub's shared IPs on nearly every call.
 * NWS issues a new alert ID for each update of an ongoing warning, so a
   long-running warning may be reported more than once.
 * GitHub Actions cron is best-effort. Runs may be delayed several minutes or

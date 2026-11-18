@@ -18,8 +18,7 @@ Steps:
    more than 30 minutes old, start your report with "MONITOR STALLED" and the
    age, and point to https://github.com/sekautomationgroup-max/us-infra-cyber-monitor/actions.
    If `source_failures` is non-empty, mention each failing source in one line
-   at the end (GDELT failing with HTTP 429 is routine and can be summarized as
-   "GDELT rate-limited").
+   at the end.
 3. New urgent items: list every alert whose `severity` is "Critical" or "High"
    and whose `detected` timestamp is within the last 65 minutes. For each,
    give: the title exactly as written (keep the "UNVERIFIED:" prefix when it is

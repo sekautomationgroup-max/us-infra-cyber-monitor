@@ -531,28 +531,8 @@ def collect_state_dept() -> list[Item]:
     return out
 
 
-def collect_gdelt() -> list[Item]:
-    resp = http_get(C.GDELT_URL)
-    try:
-        data = resp.json()
-    except ValueError:
-        raise SourceError(f"GDELT returned non-JSON: {truncate(resp.text, 120)}")
-    out = []
-    for a in data.get("articles", []):
-        url = a.get("url", "")
-        title = clean_text(a.get("title", ""))
-        if not url or not title:
-            continue
-        dom = (a.get("domain") or domain_of(url)).lower()
-        out.append(Item(
-            id=f"gdelt:{stable_id(url)}", source="GDELT (Iran–U.S.)", domain=dom,
-            title=title, url=url, summary=f"Indexed by GDELT from {dom} ({a.get('sourcecountry') or 'unknown country'}).",
-            published=to_dt(a.get("seendate")), is_news=True,
-        ))
-    return out
-
-
-def _news_collector(name: str, urls: list[str], outlet_domain: str) -> Callable[[], list[Item]]:
+def _news_collector(name: str, urls: list[str], outlet_domain: str | None) -> Callable[[], list[Item]]:
+    """outlet_domain=None means a topic feed: accept every domain, tag by real source."""
     def collect() -> list[Item]:
         feed, used = http_feed_any(urls)
         out = []
@@ -561,9 +541,11 @@ def _news_collector(name: str, urls: list[str], outlet_domain: str) -> Callable[
             title = aggregator_title(clean_text(e.get("title", "")), used)
             if not title or not link:
                 continue
-            dom = entry_domain(e, link, used, outlet_domain)
-            if is_aggregator(used) and base_domain(dom) != base_domain(outlet_domain):
+            dom = entry_domain(e, link, used, outlet_domain or "")
+            if outlet_domain and is_aggregator(used) and base_domain(dom) != base_domain(outlet_domain):
                 continue  # only accept the outlet this feed is supposed to represent
+            if not dom or dom.endswith("news.google.com"):
+                continue  # topic feed entry with no identifiable origin
             out.append(Item(
                 id=f"news:{stable_id(link or title)}", source=name, domain=dom, title=title, url=link,
                 summary=truncate(clean_text(e.get("summary", "") or e.get("description", "")), 500),
@@ -581,7 +563,7 @@ SOURCES: list[tuple[str, Callable[[], list[Item]]]] = [
     ("FEMA Declarations", collect_fema),
     ("Treasury OFAC", collect_ofac),
     ("State Department", collect_state_dept),
-    ("GDELT (Iran–U.S.)", collect_gdelt),
+    (C.IRAN_US_FEED[0], _news_collector(C.IRAN_US_FEED[0], C.IRAN_US_FEED[1], None)),
 ] + [(n, _news_collector(n, u, d)) for n, u, d in C.NEWS_FEEDS]
 
 
@@ -627,8 +609,6 @@ def is_relevant(item: Item) -> bool:
     if item.source in ("Treasury OFAC", "State Department"):
         # U.S. government speaking: Iran, cyber, or infrastructure mentions qualify
         return bool(RX_IRAN.search(t) or RX_CYBER.search(t) or RX_INFRA.search(t))
-    if item.source.startswith("GDELT"):
-        return bool(RX_IRAN.search(t))  # query already constrains to U.S. coverage
     topical = RX_INFRA.search(t) or RX_CYBER.search(t) or RX_OUTAGE.search(t)
     if topical and us_indicator(t):
         return True
