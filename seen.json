@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-19T02:43:21.902076+00:00",
+ "last_run_at": "2026-11-19T10:48:09.779255+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -237,6 +237,27 @@
    "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOckZndC11eFprRTBKUWdyMXF2ZFRrWUI0allTazBpRTFvdkc5VUE5UkxJU3ZrS0VZVnpRTDB5UDBQeUx5QXZ4S0xIcnBnSHhyUUl4alNBZTJ0aTFXUlZPdll4X1dWZG5RR0xoZnlNQmZ2czhGdXp5ZkxWc0pGTHJRQldfdWdvVFhCUngzZkE2UWM2akZwaF92VUpETkRxeDlIRXV0NTdOdW93ZHNSX0Z4RUtGZ1VMUnByYUlKMVNkcWE1TkxQQjk1SWNvS1J5Sld6YS1oSEc4dnlzcm9TQnRwTWxVSQ?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "folded"
+  },
+  "news:0a3ca4fdbfc0784b": {
+   "d": "i24news.tv",
+   "k": [
+    "campaign",
+    "four-",
+    "iran",
+    "join",
+    "netanyahu",
+    "report",
+    "seven-day",
+    "trump",
+    "urges"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Netanyahu urges Trump to join four- to seven-day air campaign against Iran, report says - report",
+   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUXlrOEY2R1NQMVNlSTJjenJzY2hEYzA1NDAyRERYbEprU19MbGlGUnRFUXNyZkRIWXdJS0wwdmZFME9BZV9lOG16Y0o0bEdRdHJReWhHeC1yTFM4M1g3U3BxQnUtSE9kSjN0U3M0NktWQkxibmVOZXFleVhKd01ZRUNMU1ZnQ24xN0tuVW9tRW9sNWh2UlFxR1VMUTgzWFJ5cHE2dElYOVducnlNRDc2Y1BXR2thSjFwVzI0cTBhNmR2OXpLWGZ4UGdFdmFtTzlXWHIwVy0wdHFvcFE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
   },
   "news:0ad69605a84900f7": {
    "d": "bleepingcomputer.com",
@@ -527,6 +548,27 @@
    "v": "Unverified - Credible Source",
    "x": "immediate"
   },
+  "news:23b685bb14eb1117": {
+   "d": "thehill.com",
+   "k": [
+    "agenda",
+    "arms",
+    "ending",
+    "iran",
+    "meeting",
+    "nuclear",
+    "trump-xi-putin",
+    "ukraine",
+    "wars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
+   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeHFkYjNzMG5ZOTdCcWxiTmVWZXhueXJpRmcyOTl2MDN1c2o1Q1dRdV9icVVqQ1lqc0FnSlpwWU1YM1loblZfUnkwSno5N3dqbGR3a2ZCZklvMGtRQ0VaQTVCWXRrMHpmRmhXT1ZydS0wLUhISnl4TXVtV3dZaW1xMFp5QkVsWmNtR2E3ZndYVnc3a1EtNVJZU3VjV0pFWllEcVBadGYzNjZxYWdsWUtVeExBTGQ2OE5ENEdHMFBGMUplTmtUbzF5b0VYdUVDX2ZvaUREcVA1Zm42UHBjZ0sydNIB5gFBVV95cUxQazczVmJaMG10RE91clVEei02NkxIMnlBT0pFU2g0LWJhbEIzSF9YczRWUjljSlNOdlFKeDY2b240eHZTQ3MtUGlya1dXeXBDbUtDQTYtVU9vZkVpM3hzMlB6UzVjMUlsWFBmZWNGc1M5TXZZaXZfc2VIX2M0cFNSU3FVSHIxcFhUU2JJVjEzWXprXzN0NnVxUXdnZjJuZjNCRTNHQ2dlWDdUYzNxWlM2aGdHX1JOY2U1SGlaSkpjRmdYRDFwNDFXYzE3N094dGpHQUgwR2Z2Z3JpcWNhNmtyVFE4SkNuQQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
   "news:2502a227fa54dc2c": {
    "d": "energynow.com",
    "k": [
@@ -586,6 +628,26 @@
    "t": "2026-11-18T21:21:37.136207+00:00",
    "title": "CENTCOM chief visits Israel as IDF prepares for renewed war with Iran, awaits Trump's decision",
    "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80SlU1QlRTVWwyRlRjMHhEcXVXdUhRODYybUYwaWkwQTJfYlFqRm8xd3JLV1VKNUpFN1VkbDNEWHgtQUMyMXdaZHFrTVU1OXdSc29Kc2VR?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:26d8090721efa923": {
+   "d": "middle-east-online.com",
+   "k": [
+    "assault",
+    "iran",
+    "netanyahu",
+    "pressure",
+    "trump",
+    "under",
+    "week-long",
+    "weighs"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump weighs week-long assault on Iran under Netanyahu pressure",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMFJxTlBJZ042OGtvekFHdFR6QzBrT3VxeFYtdS1MYXpBRHc3MDRTV3pIUVdhaThianFLM01DOFNDUVRjWGtDVnNSVmNiRkFGSkRuTHRSWEZuTy1kalNWaFpqMEVPN21XRkpoQUY0N3ZIMFI3SDV6NWYwd3dXQXA2RUZiOF9uY19GTHFUSjl2UWFXLUNQR0FRTjZ3?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -946,6 +1008,27 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:3e61c13f043ffc24": {
+   "d": "news4jax.com",
+   "k": [
+    "agenda",
+    "arms",
+    "ending",
+    "iran",
+    "meeting",
+    "nuclear",
+    "trump-xi-putin",
+    "ukraine",
+    "wars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVjVWblFwaVZjT3BhdUVwU2dwekI1Vm4zeXBobFJpZ0RmMzN6MDFfUmFwNnQ0Vk5IMUFRcHVRd1l0LWwtc0FzU1RzalVBTHBMajBuQVJ3RFI4X1BZTzNJOUF0OEwxYUJ0VnBzN1ZnazRCdmtFRWx3ZnhlblhydjdXQnE4TDJDd1YtekMzMGxOQ0lTMWh4OERTcEk3a3pOb2JUeTh1VE0xdWNCQ28wUmVLMWc2Sk5QdVBVLU9OZ1RxNlRVLW8?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:3e72d5f6275f83c6": {
    "d": "bloomberg.com",
    "k": [
@@ -982,6 +1065,27 @@
    "title": "Man convicted in Iran-backed plot to murder Trump gets 27.5 years in prison",
    "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQjJ1M0lSbVJxODBxcUE1emJmYnpNcllxSnhjYU5LZ3hRLXcxR082V3FURGI3eTBjZTlMZUgyZjkxRzZBWGZWRUdQN08yaWRkczhfLU9TNmdoNnJEa1R0cjdVWmRxT0U3SUMtdk0yWG1sQmpHMmhPNGJHLWVURGo4eU5FekI5dW9ObTlZRnVpRTlNZmtHc1JlVGVR?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:3f7fe412117ef240": {
+   "d": "tradewindsnews.com",
+   "k": [
+    "blockade",
+    "cargoes",
+    "iran",
+    "navy",
+    "receiving",
+    "ship-to-ship",
+    "transfers",
+    "violate",
+    "warns"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "US Navy warns receiving ship-to-ship transfers of Iran cargoes could violate blockade",
+   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM3NyV1BFMmNYTkd5TW1NU2V5MWRpbzBULU1rTHJIbHNqbm82UDlyMldrU1ViNDVZUzJYZFN5OWhudldNNnRadXEzQ3Q0TEJFbnQyUnZZYWVRT0tId3ZjS0FjdU92UWY1WG5PZlFXWXBLbGQzNUlod0E5NzEzcVdHSDRzZWt5WlJSQnUyS1RRRlA1OHpWSENSMGxFcmJwakp2eWZtbnVVbDJCeGpSZEZZS0llZXBCOHd5Z2V0TVdPbzFtVVBTaTZ0czd6S3lzZFdxUVN4QUIxX00?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:417fe60a7c0e4942": {
@@ -1168,6 +1272,27 @@
    "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWmNyN3JrZ1hXYVk0c0tWZlRxU1IwSjBUTEQ5TmtlX1hoMTJteW43eHJZLXF2MnNqMy1tdjJYRmNyMmdTM25kTE5wZWdaYmM3U21PaTJHS2k2TlNfMmh2RW1sSENNUlp1dzI2WkhqX2Q4dVVPODdPLUxpNkZWZk9GRXItMk9jM1k20gGQAUFVX3lxTFBPczZhUlZHb01kT1hDRGN2YTJJRVowRHJrNWM3N1dqQ1ZQdTR3V2w4anJoODFKcFc0d1NoMkE4cVFkeWFzMHVEQ2k3cHFGRWxjLURwQS1LbFdOejB2T1REU3QzWmhUWEZ1OVU0R2RIcjdFbXpibnhHZUhqdE9SRjQ1M1AtdHppVF9TcWpQZW0xTQ?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
+  },
+  "news:4f0e3273833b4ed6": {
+   "d": "usnews.com",
+   "k": [
+    "agenda",
+    "arms",
+    "ending",
+    "iran",
+    "meeting",
+    "nuclear",
+    "trump-xi-putin",
+    "ukraine",
+    "wars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Nuclear Arms and Ending Wars in Iran and Ukraine Will Top the Agenda at Trump-Xi-Putin Meeting",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaFVVcHZIN0hSd0VXWklUdmJTSGpvTGtXeXBMQ2lKd051Sk1wR2tuVFFOTFF0N2FnTGdRaGgxSzN3X254M2hZTlJJNFFZbDJoZGtGbVg3UG44aEh4UVpNLWxOeXZpZ3ZaYjdLYjkwbGZSalJPd2FkUWEzRHNyeHNaVmpMSFFwTmNNSGJ5enBHa3FtcmFCYm95cGYzRjdfeVdZT19TRC1POC1ENTZrb3NoaXZkNHdwYmppTUtCMFd6bkkycmpvS1YtbDZlVQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
   },
   "news:4f4db3035d62c850": {
    "d": "spectrumlocalnews.com",
@@ -1843,6 +1968,25 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:7ec4777ce8ba79d3": {
+   "d": "energyconnects.com",
+   "k": [
+    "fresh",
+    "iran",
+    "reports",
+    "steadies",
+    "strikes",
+    "trump",
+    "weighing"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Oil Steadies as NYT Reports Trump Is Weighing Fresh Iran Strikes",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWXZhSXhQdWxvTWdxeUdvRG4zcEk2bG5RWkZCWHZEQncxMHItcjJwYkEyQndhNXNmSU56X08zMTRQc19ha3ZKZFprVnVFeUlVMVZjX28wbXNuMDJLTl9sd0dUWDJNQmgxaFJkZ0kwWUJFei1uRmY0ZkNxTWw5a1RaU05fLVdLUC1zZXJFSGRrd0pSSDMycXJYWi1HSnJNa3pFR3NodTJnNmFRMVVWM0Q2NENMM2N5SG9VUlk4?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:7ef04408e2a83f7a": {
    "d": "reuters.com",
    "k": [
@@ -1860,6 +2004,26 @@
    "u": "https://www.reuters.com/world/us/duffy-says-no-root-cause-yet-found-router-failure-that-caused-ground-stop-2026-11-17/",
    "v": "Unverified - Credible Source",
    "x": "bootstrap"
+  },
+  "news:80fda4d5a8ad455f": {
+   "d": "openthemagazine.com",
+   "k": [
+    "fresh",
+    "iran",
+    "joint",
+    "report",
+    "strikes",
+    "trump",
+    "us-israeli",
+    "weighs"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump Weighs Fresh Joint US-Israeli Strikes On Iran, Report Says",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNclBaV1RsbHJKdGJJeDNPY2s0SEJPakItemxsaXVrZ2ZlYnJlb2phM085UmIxbk0zd3JtQnVfeW44al9BMGxFYlpOcHpRYkdQQkVYcUp0VExJcG5tMDBtQzh4bV9rZmt1RWtUemN0MEVPM0szeWpZaVBqZGpGZC1WN09KYjBOYkt3U2lqZTZ0M3BsWVMyZlJhUy1vMjVkdw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
   },
   "news:81255f197fc5863e": {
    "d": "timesofisrael.com",
@@ -2010,6 +2174,24 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:86b92de35c6c9c93": {
+   "d": "dw.com",
+   "k": [
+    "china",
+    "face",
+    "iran",
+    "pressure",
+    "russia",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Iran, China and Russia face new pressure from Trump",
+   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb1hVUG1ocGxIY1dNZldqMjR3RmJYZmU2UjNwNFBxenVYMXo5QlpHMjc4QjdpQk9RYmYydzJ6V0ZCb1NNZ3h5OGE4U2lIa21UU2dVMFZwdHo2YTB6ODQ3blVSbzJEck5HNWd0YWd3bDJyckxqT09lZ1VSQ19lZGZOelpfYTRUSlJWXzZfdEZ2cnlOdm13WTVyclNXcDVJTjhWeENKXy1wa1ptM1J1cm4tQVVpU1VOelhwdm1QQkpiQ1pDNWdEM1VjVWhHMFPSAcwBQVVfeXFMTnBhTFRYLTRXUE01UFBnZUVvWE04c1B6Ukhtb3Q1V2JSSmc5bWJzM1Y5M3ktbG8tOTZCZmpveDdrcFRoa19BTTNsZDhRQzN6YXUyd05CczRiZnRpTDVXbWJMT2VBa1lhbzlfMUN1OFNsMmdPVGJ0WlhDdXJmbE0tQWhwU2ZyaEFGZS1XRlRpN3JXbmhGM3Y5M21ySkJ6a3BuZ2cwV1R4dXRLZ01Pcjc0Qk1kS0VJd0NGUGdHdkdPT0pnQWhzTWcyUmVQUFNW?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:8909cfa825c110ea": {
    "d": "jpost.com",
    "k": [
@@ -2046,6 +2228,39 @@
    "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE1ReU9uZ3dGbXlkREpmMlczVmVkb1B1bm9FcEZUdFlYVG00NXFRclhMMmdjRjFmb0R2YTRGSmxzRVJQckJkNGF5Tmg1UTdxRTh4Mkd5RXpjakNkQlpoZFRrZWNQRGdJOUZwaVRiQTNPblhnMG1wQlN2QjhIcGVRemxGamdkbmxBY084MkN6NDJIMGhDS1BucVJXNWhZelA3V1VF?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
+  },
+  "news:8a03133975271036": {
+   "d": "smallwarsjournal.com",
+   "k": [
+    "iran",
+    "military",
+    "readiness",
+    "terrorism",
+    "turns"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Iran Turns Terrorism Against U.S. Military Readiness",
+   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa0RDUGxSTnp6X0pyaUFDV1FZOUhrODhzOENqVFhJdmdPbWMtdFZnZTNkcHQ0MTVuUlJTcDZ5NF9FTUNWY18xWTFobDVndHFwMkNheklTVXRqSDhxQmlqRk05aldIZ282RHFCbTRCZnJsSTBOQ0o5Sk8tX21ROG9ia3pzU2VNXzhjY21pWUhIQ09qTFM0TjNz?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:8a71dfb20b06ca1d": {
+   "d": "wsws.org",
+   "k": [
+    "iran",
+    "launches",
+    "pentagon",
+    "strikes"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Pentagon launches new strikes on Iran",
+   "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PaG9URVpxb1Z3Y1gzaEdIYXp0YmFKb0NmOVJwcnA4azgwckxpSXZVVGgzVUY1Um1KX1dMOWU0Sy0xd1VZX2c1d3RtSGNvQnNMaDkycFpRX25KTzZlQTg0VzFvR3BkY0J4?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
   },
   "news:8df2706679b5ee8f": {
    "d": "jpost.com",
@@ -2258,6 +2473,27 @@
    "v": "Unverified - Unknown Source",
    "x": "immediate"
   },
+  "news:9f0ab950980dd740": {
+   "d": "wsls.com",
+   "k": [
+    "agenda",
+    "arms",
+    "ending",
+    "iran",
+    "meeting",
+    "nuclear",
+    "trump-xi-putin",
+    "ukraine",
+    "wars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGRlc0o2WTJFRnZQVW5maWZUWVZQTE4zcDNleE5wQkJEQ3pINjdTSklqQXJvdllIWUxZQ3JpcGdrYm1MNzdGVjUyVEZTaDJQOWhkbkxSQlBIUGhQN3ItRnZJU3BadHQ3blIzaGljYWNiUnVxc2xUMS1PZXJHRDJyYVRmQU1sUF9xZzJQS2pmRnJIbmkyYXZzdGhIVTRFSVhnb2pJN0llb1B1T05CYzlLLUVsNU5rY3F4U1lXTVln?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:9f6cd22f97ae6e73": {
    "d": "staradvertiser.com",
    "k": [
@@ -2375,6 +2611,26 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "title": "Iran 'playing mind games with the United States', expert says",
    "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVc0T0l2MTh0R0p3R3BrZG0tcVR0R1p1dXp3MDRYUnpDWjl0UVBiVzdkT3FVWnBOTEUweFBNa1dzd0xnWUJEWWhEZmVhUWxwOFRGQVF2Y1RCY2c5S3d6aXVzRm1VRjNvN0dfV3V6SjZZSDZaVkJVQXE4eldldFp1XzN0V0xDY2JsbGdleTBLOA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:a3110706a60d97d5": {
+   "d": "reuters.com",
+   "k": [
+    "ahead",
+    "blessing",
+    "direct",
+    "expects",
+    "flights",
+    "kazakhstan",
+    "meeting",
+    "trump-hosted"
+   ],
+   "s": "Reuters",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Kazakhstan expects FAA blessing for direct US flights ahead of Trump-hosted G20 meeting",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNalVnVHZ3UDJBcTVkUHlwRC1weTVyd0Etb3g4ZWJIZW8wWXI5elFlNDI4V1FqR1VZLUxwWGJiWEdXT2lIdmlnMndVZXRHc3ozMy1tdUs2c29EcGgwTks1bjlBaWhUUzg0bXFRX2s2ZXAzLXU1cmpKMVh0R2tmUFU4b190VU5XMzZYYktHVnNmT2dUUk5McU1PNEl3WDNRdlhwWjdXOUZkSU5MTS1xWUs3THBOZnhBbWJwR1pPRUpCc2hLR0JtSlhjQWJuaHhfSHFh?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
@@ -2536,6 +2792,50 @@
    "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUllbHRJS3pIZDIydHdoMTBZdlJWREtvdENVS2V3U2lCSUFET0FXdE9iQUlPU1U5UXBuVXJsWklGZEMxNnZaX01TSGY5WHl4ZWtLYTgwR1RrUTRxR2x2QkFhSEdjMWVUN29wNTlwZGRKVFBoekRxcDlGZnZhUlE2eDJrOTdRSFhjV1UyUFp3Y1dWWUkwR0lZU0FBZnBabVVITVZn0gGoAUFVX3lxTFBUaS1hVGxxSGRmV0Z6YlgxNGRiLU9ERTRVS0pxV0NBb0Fma2RvRkZIUmMxYUNlTUlScjZqUi1rUm04Zmxzc3A3VURWMGk2MEg3UGNEXzdvcFVjamNQaUZWZnZ2NXBRSUhrLVA4TmRRSUZuSTI2eGtXbzdJX25SZktSa1VBbUp6a21Qa2NJb1NSM2xDRTZ4Zk96dlFLMUhseGQ3dVJUczVwTA?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
+  },
+  "news:adaefb516a002534": {
+   "d": "timesofisrael.com",
+   "k": [
+    "7-day",
+    "another",
+    "campaign",
+    "iran",
+    "netanyahu",
+    "offensive",
+    "pushes",
+    "trump",
+    "weighing"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump said weighing another Iran offensive, as Netanyahu pushes a 4- to 7-day campaign",
+   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWFJd1dJdWhQd01FYWQwT0hsREFkSXJfZXcyNnV1OVdUVlhILVc1R0xwQ2w1MG9uZFI2M0ZGTTkzMmRmZ01JOU45NWNHeHFwVmQzdGoxUWJoQTN1NmhRbUxJMFF3UlRTTDFudXhldGRHYzVSRGNuY05HVDczQmMxaTh2bTUzREhrcHRJakNJS3U0V092cDh4bUViV05CT0hseEpkcFRSRjNPZ3ByaEhISFFlaEltQ0t0U3F5bkFGUFpMbHJ6a0Jjek9n?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:afed76aa3cd6a353": {
+   "d": "themedialine.org",
+   "k": [
+    "agree",
+    "cannot",
+    "china",
+    "global",
+    "iran",
+    "nuclear",
+    "president",
+    "regulation",
+    "rejects",
+    "trump",
+    "weapons"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "President Trump Says US, China Agree Iran Cannot Have Nuclear Weapons; Rejects Global AI Regulation",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbFc2Vzg4SmtIbm02MGtXUU9UQTFsREltTmtzNEJJSWp2dllkT2sxSzhYc19yQVlSWWJkZ1FzUUtpM3VrYW1rZTlWUnNwM2N2OXhnS0t6Wk5sVG1JelY4d1JYNVl2SmVEUktZeGd3V2ljUXRpX0VQZ3B6VElyR0tFRUZCVGx3QVJJUEQ0YXJLVFdZdmZQYnJiSUNrTGllQ0xFWU5YbVYxdkt5MlZXZW5kenVSbklEb0FJb0QtNEw1Zmt2emtmVTJPc2p4ejRWQQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
   },
   "news:b01defdea2575ced": {
    "d": "ir.usembassy.gov",
@@ -2855,6 +3155,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:cd3bacd3110c2669": {
+   "d": "kotatv.com",
+   "k": [
+    "agenda",
+    "arms",
+    "ending",
+    "iran",
+    "meeting",
+    "nuclear",
+    "trump-xi-putin",
+    "ukraine",
+    "wars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Nuclear arms and ending wars in Iran and Ukraine top the agenda at Trump-Xi-Putin meeting",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZDJxekxtdDhUeWx1WWtZS29BcXBUSFVRNTlhZWZ6ZFFIN3gwbmZ0NmhOaVA4NDhSQVotVDNiVXA3UWw4bjVzSXdxaUJkdERKc3dVcnQzTDFZelM2dTQtN2p5TmdCd0hlZkJKVzVJTHRkbkU2b2hKenJDeXhtS2N2UmRBOXU2UVFWS1c0cmg4MWxoM3dKVHh4aXF4WXc5eHd5X2NBZ0lwSk5Nd9IBvgFBVV95cUxNal9MYnhGWXc1enBUZ1hsTU1GYjNGekdfNUdNQ1hhXzhSM2dFWjJEVDFXSjVpNlRIZWpfdkhCSGlKQ0N6QV94TlRjZzFPb1pTZ0RNbGpEZVdFbmVXUktELWZXZm5DTGJCNnNPdU0zUS1HRE9HdmVPc283LWhjYlZscUJNYThFWDZ5ektDVDB6OUJwRnc5amZESWEyZ040c1FZT0tjalZKSnpuQksycVZ2WVJ1Z0paM3ptYkMtaUJB?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:d085ef0ff2bc0447": {
    "d": "defence24.com",
    "k": [
@@ -2974,6 +3295,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:d5ef31990d51a85d": {
+   "d": "wtop.com",
+   "k": [
+    "agenda",
+    "arms",
+    "ending",
+    "iran",
+    "meeting",
+    "nuclear",
+    "trump-xi-putin",
+    "ukraine",
+    "wars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZEVBMjJGS240cG02bHJBdDZ6ZmN2Q1JlYmFzaDQ0bExzZkMyTGNwcmtVSVJPSGtaNFR6b2xNeExOQ2U1SHhTcXVjdUtPTTN3bnhxWXBKMHpfRnJBQjdTMHpmYmhobjg3TEpjZHJLWUx6cDFSc2YtVUU3N0V2cUROazM0eFYzUWVsa0VwOURTc3JNWF9zbkJIenFHZ0QwVGxlMXVWcFNtQ0ppTUtaLUE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:d7744396e64ed279": {
    "d": "gcaptain.com",
    "k": [
@@ -3055,6 +3397,48 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:de7bf53669ce790f": {
+   "d": "abcnews.com",
+   "k": [
+    "blames",
+    "cyberattacks",
+    "governor",
+    "iran",
+    "minnesota",
+    "news",
+    "state's",
+    "systems",
+    "trump",
+    "water"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump blames Minnesota governor, not Iran, for cyberattacks on the state's water systems - ABC News",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZEdMZldscXowbHVadzFLRS0xajFnSHZ4M0hjVXNiMVRLVTlXZElQWDEyMm5zcV80ZkFuTm54Y2JySUJ0bV9rNDVWSXhHTlgtcFlvWm9JNDZnMnNoZTUyMV9xTGM5TXg3Q1Jwc1hCclhjSTRCNDJaSXVtRzVwTnRKc1hPMHpDMi1jcjNSR1dzOUpHMDh6UEpxR19ZbHY0X3ktbGFQcUs3U09YVGlrWjFJ0gG0AUFVX3lxTE9nN2pBOWdLMkJwMVdqZVlBM29rTUR5YkFlSFRVRm5vd0piMHp5dXRyTWRacDRiU1JyS2pGWnktdmpYdWhuZXoxSGVPa003eDNscVoxSTZGbWNGaHVOWXR4WGdNQVBtN2UxTmNCMUlwSlNLVHlublFaWHdZRndkZDI4RElmMGdtSy1VMlJVemNfVUNiX1BFbXdYQUs0QXZLYUpENnNuY3ZMNGNPLVNTVFFvX2J3ZA?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:e0360e55ac9878f2": {
+   "d": "haaretz.com",
+   "k": [
+    "campaign",
+    "iran",
+    "israeli",
+    "netanyahu",
+    "push",
+    "report",
+    "short",
+    "steps"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Report: Netanyahu Steps up Push for Short U.S.-Israeli Campaign Against Iran",
+   "u": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPOWNIbXNuWWxDb05iODB4cmRjQ05QYUVNX2NpcjgxMWhTbnhoeHRZQkJlNG52eHNnZ0VvRkFlN25CcWpjeTkzUmk3MXFjWXEyQjB3eVpVbFZhdGhyNmktNThFQVB0N0x0dHdUMmtLM0hKX3R5Snl4TERTR19XNHFnRlpmVU1IZ3FpYjhoS19lc25tTHhObHhibW5kZXlPX19OU0VfU2V6anVLT1ZIOWxVT0VibVRUdGtiX3VxVW1lVGxubE1zakp2TkN0X1hNU1NMQy1DMzhFLWE0OTFvQXJZNng2WkIxUml1UG82OVY4MHB2WXRqVlg2djVjZHNSZG9nQ0wtZ3dPRnlpc3llajdWWG16dw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:e2c070896a58c25c": {
    "d": "cbc.ca",
    "k": [
@@ -3092,6 +3476,46 @@
    "title": "Trump Grows Frustrated With Vance Over Iran War Critique",
    "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV3B0SDctTm9DMGNCbXNLM2VOd2prWE1aZTZfT242MVNtUGRVeWRUemVHRWZMSVhGM0J0S2xxMC1XRWRvMVB6XzN3VGJfTDdDSGtGMTlSMFpVTlM2ZGotaW1JZjBaWWNQZmZseEFFUFBxa3hnRDQyYnB1bzVUWXdPcDJnZU5jLTUzVUZJYWRsX1d4Zw?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:e64540873bba014c": {
+   "d": "openthemagazine.com",
+   "k": [
+    "iran'",
+    "meet",
+    "nukes",
+    "optimistic",
+    "russia-ukraine",
+    "solution",
+    "trump",
+    "xi-putin"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump Says 'No Nukes for Iran' at Meet with Xi-Putin, Optimistic on Solution to Russia-Ukraine War",
+   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRG10U3AtNUNGTE9majdVV0N0MWZxZ3RJajRHdFZQRlV3ajk4QnFWWHJlQUpkbXU3Uk5VS1dYZkFVdm1USHBPa3NNdFdjaGR5Y2daaW8tX1FQSWJpdm02MDI3azRpd256RmlJWG9VQWtqdWU5LUdzY3lWeGozU0dxa3BxSGpFZXJZOGs2TDhjNXJ1bkllSDhpZElBNmRjQlotcnFIcWZMZWFObExLcnFDSjF6clVEUXRMdGI2Mm5zRmJEamRCTXZOaw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:e7de8006b8b4e421": {
+   "d": "israelhayom.com",
+   "k": [
+    "action",
+    "fresh",
+    "iran",
+    "netanyahu",
+    "strikes",
+    "trump",
+    "urges",
+    "weighs"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump weighs fresh Iran strikes as Netanyahu urges action",
+   "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WU0U0LTNsWlVPUjFaZkRXb0dxelZ3OWRsTkVZWWVyb05TX2VBVndreFpWV1UtZFE4ZUFldm80WHByMmRGMUtBZ3J5ZnlwLU5Wek9XQUtpaEw3SUhxblc2bGwyN184U3NJY0F3VERyLXBBLXcydUxqcw?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:e80541be07960171": {
@@ -3398,6 +3822,43 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:fc2be3c196311258": {
+   "d": "jns.org",
+   "k": [
+    "agree",
+    "china",
+    "iran",
+    "nuclear",
+    "trump",
+    "weapons"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "Trump: US, China agree Iran can’t have nuclear weapons",
+   "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbThEZnBrZ3FGUkF1SGRlQlMzR0s5bjFkTjNqd3dXVXNWOEh5S1JKZS1XV1VGS2xxcmZibGpYLTlVNHUya1ZFWC1taGhPcXowc09acm9OYXpFX2FuU3lqamFTQ05GdFcxVEFmUUx2U0VuWHVVdGk2Zy15ZGQzU1RCM3hwRm9USkpqSzN3a0Nn?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
+  "news:fc393d0dc77f5704": {
+   "d": "investing.com",
+   "k": [
+    "action",
+    "european",
+    "impending",
+    "iran",
+    "military",
+    "reports",
+    "surges"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "title": "European gas surges on reports of impending U.S. military action against Iran",
+   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUU4MnpjUnctQjUwQk5XSTdJdmhQcWRUZ2JZV1hKWmNQeFBKYzUxbnRfSnBEX3UyZGV5X203XzdLMF9YTHRhWUNrYXRjOEthZVZnRlZuRW9hMjhXeTJ3Zi1HQ21DZlhxOUZLWlVxa3FOREkwNlNnaS1NOXU2Q1lhNThRZjc4RmxCN05jMEEtbWlJWjdKekdCbHNqamowMEtTcVpXcUlDTlpmSlBDVDNGQV9Kc01UOEdWZzhFQ01VNFBqUS1oenN6RHhqR0c?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
   "news:fc46aee603e807fd": {
    "d": "reuters.com",
    "k": [
@@ -3474,6 +3935,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:08f025e2e33a6643": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:0c7fe96d5fac9652": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -3499,6 +3967,13 @@
    "s": "NWS Alerts",
    "sev": "High",
    "t": "2026-11-18T04:04:32.890777+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "nws:1164b136378e7620": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
    "v": "Confirmed",
    "x": "immediate"
   },
@@ -3635,6 +4110,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:26ca25d1d06dba21": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:26d7604c1f2a6d2a": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -3669,6 +4151,13 @@
    "t": "2026-11-18T12:59:17.374820+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:2ca6301333417766": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:2dad85c7ee865231": {
    "s": "NWS Alerts",
@@ -3859,6 +4348,20 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:45f55597fdf20f02": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:484c3d9d377cb78b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:484ef547ffb059ee": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -3922,6 +4425,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:4daee71f78197b36": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:4e743b95ced32f43": {
    "s": "NWS Alerts",
    "sev": "Critical",
@@ -3954,6 +4464,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-19T02:43:21.902076+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:52f1b5bde9eeacd9": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -4003,6 +4520,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-18T21:21:37.136207+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:5832ee5d436019e9": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -4181,6 +4705,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:769f5b8f32762e1b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:76df681d7d029697": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -4335,6 +4866,13 @@
    "v": "Confirmed",
    "x": "immediate"
   },
+  "nws:854e23a58fb9fe14": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:8661238b25bb54db": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -4363,6 +4901,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:88c917c0023915d1": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
   "nws:8978c6276597b7b7": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -4390,6 +4935,13 @@
    "t": "2026-11-18T12:59:17.374820+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:9150680454044301": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:919c63d960415801": {
    "s": "NWS Alerts",
@@ -4496,6 +5048,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:adb20cb7a35e61f9": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:ae85d3410cd749aa": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -4523,6 +5082,13 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:b1c49e6dc9f231f1": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:b2ec354520c38c44": {
    "s": "NWS Alerts",
@@ -4565,6 +5131,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:b91e46eef5f49b52": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:b9a066fa7b394de2": {
    "s": "NWS Alerts",
@@ -4692,6 +5265,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:d034aada96fd8fec": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:d08010b2cabf8905": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -4759,6 +5339,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-18T12:59:17.374820+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:d9e867db3a9935ff": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-19T10:48:09.779255+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
