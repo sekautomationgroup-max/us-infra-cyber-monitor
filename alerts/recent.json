@@ -1,15 +1,1278 @@
 {
- "generated": "2026-11-19T19:13:13.509149+00:00",
+ "generated": "2026-11-20T01:20:25.406279+00:00",
  "retention_hours": 48,
  "note": "Alerts from the last 48 hours, newest first. 'detected' is when the monitor first saw the item.",
  "source_failures": {},
  "counts": {
   "Critical": 15,
   "High": 43,
-  "Moderate": 293,
+  "Moderate": 340,
   "Low": 29
  },
  "alerts": [
+  {
+   "id": "news:291f8536cf2a9424",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: How the War in Iran Will Remake the Global Energy Order",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T12:51:18+00:00",
+   "start_time": null,
+   "locations": [
+    "New York"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "How the War in Iran Will Remake the Global Energy Order The New York Times",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "nytimes.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yU0FMWnlOQ0Q5ajRGOTRXcGczQzJkSmo5VzlBOEJCOU9OVlluNXZNQmNTZzFlN0dLV1N4b1o0SmxBTVBka2EyejU1Q2xkVHRnWGRjUl84LTRtSlJpUU9sSjBYNERPbk9RNDJWOFBrZm43UHM?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:869ae8ec9d3e6b65",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Oil Futures Rebound as Trump Shrugs Off Need for Iran Deal",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T13:44:59+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Oil Futures Rebound as Trump Shrugs Off Need for Iran Deal WSJ",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "wsj.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVG5RS0lub0RlMzltTEJDNkVKUVVmdnNHcG14bGRMQ0pFeTJ1NW9ibkk4dVI5TExfNVMzclpKYTI1d3FnQXdEVldRZmJnZWxHZXlUWDZHWmJPRUxhQ2xxNVpLSDFvTFFKOFpScEZSMVI2eW1EcFlwM2YyZXBHNzctVDAxNVFpd2ZCUVZIUnAyVDdiRm5IWDBfbDNyUWdMSzg?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:1252f3cdb829b998",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "Trump says US will 'see what happens' in conflict with Iran after January 1",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T14:10:02+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump says US will 'see what happens' in conflict with Iran after January 1 Rock Hill Herald",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "heraldonline.com",
+   "corroborated_by": [
+    "reuters.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WMEd3Z245Q1RodUw3VXdaQkVsU0U0QnRBNFh2cjZYcWFISFRqcUlVRC1Ic0dBbEwzd3l3MGViRXVvTlBwTk9kUW93eWJKLUlkaFdiNWFNZ3NnQnExVVdzdXFqaUpNdUw3UHdnb2RNcVg3d2JTejRqdVgwY05rRDA?oc=5",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkkzQVk3M3pnOXRWVlFCMmVzUEN0alhCS0gzQUhYNkhCMDhCOUM0N0tmMFpZNVNKcnVNbktaYXV5MV9ERm13WHoxTEVtUGRMUkZwT3dJZmlRZ2pyRE1WMGoyZW1VcXVWdTVRTmxZV1RISHNXWE9YY1BUUC1EWlJWRWRsYzlGTXo0WmhjaUxiUnAyMDl2OU9mWmliYndLd0htWGVLYWFUUldMOUIzLV9TSnBB?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:431f4f9e920e4bc0",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Who’s in Charge in Iran?",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T18:31:20+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Who’s in Charge in Iran? The Washington Institute",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtoninstitute.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Gd2FpZU1SWG5nOEdoTGVEcFVIeVZJQ0V3cTkwS3RrYks1QlBmblFrd0UxTEhYS0JIMXJnRXE0YjJHQXlIcUZ5Z2lJVC1UeEFoZ1hZamU1WUJ4T1pDSkcxeVhtOEN4ZlQxOGVnREQwbGczTE5lUF8w?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:d0775b83abc8b266",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump, Xi, Putin Declaration Skips Iran After First-Ever Trilateral Summit",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T19:37:07+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump, Xi, Putin Declaration Skips Iran After First-Ever Trilateral Summit الحرة",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "alhurra.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9DMkd4aWpoWGE1SXpOZkZHcjhONnU4WmhOWGZRSnRUQ01HZFNmbXk5bC04dXJaeDhGNXl6eDdHUVNaUQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:5a92b5820984a42c",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iran war powers measure again falls short in Senate",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T19:46:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iran war powers measure again falls short in Senate CBS News",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "cbsnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE44WGgzc2Z1WWZYOW9XTnNTb29CbTg5RHd2RWE4cnJab19WN0tWR2NjNUxxQ1FMcURoSnU4SWpFRWdNNnZabjlQUWs1aHdZMU95WEh2MnI4cjZfdE1XSk1SeE1DNHRtY0J4MlFnaWEydS1wN0U3OVpxeg?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:004a545bb08fc3bc",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Senate Republicans reject Iran war rebuke in first unity test since election",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T19:47:15+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans reject Iran war rebuke in first unity test since election Washington Examiner",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonexaminer.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUnVzamVuM1d3cmxVM3h4bk5kWUp0bElIdmxZeE1PcEpoRlkyLW5kTlNIZl8yaVFZemRBRXVYamctSTBzTlZKVVFtN3dFSjQ5V2NSaEVRLWZIcHJOQTB1Z1BSaGIybUpINTB5cHlIY1U3S1R1TmFaS1BJUklaamZiZVlCTF9wQXNBU0F5RXhFbEF6SkFXZWpJY3hpTQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:1603fc8ab0643c88",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Senate Republicans reject war powers resolution to end Iran conflict",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T19:50:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans reject war powers resolution to end Iran conflict The Hill",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "thehill.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdl9VUjZXWHRPNHVhZTRzbkFNcWRqRHhvQ3VsZ2N1clgyalBkSWxQdERMYWw1N3BRRkJCT1JLM1k0NGNoMVc3a2ZyREVoSDNDd3NMRGFKZmM0RFJIVmNLd19RaUJ1QUlhaFV2T0hTLWtDY1V4XzlRdmlnQXZndktrRGNwS1RiM2M4MlVrMVh1OFNpaXZNWUFLd2N1Ym_SAaIBQVVfeXFMTWdOWjBsUzRjNUp4Uk5ab1czZlU4ZXAtU2p4Sm9UNkxVUFdSbWMzcVU2dG9jdWhERVg3Z0VtdzNJY1ZXWlAwNUphTmRNYnBXMi1yMTNNamd4T0wtazdPSGh4RGhaMG5tRVlERGNfQVhIMi03M0plMDBrczdqS0dfSDEycDdCbkhpTEdPQ1Uxand0N1c3dHNUS05HMWRjQjNuLTl3?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVG1QMmNpdnhwR0RJZjJmTTdhM3paVFZTbWlFRGVDdDBvZEs3QlFZdGQ3QnB2V250ZWFmaVRmdVNla09hM1NLNzNWcXlUZE1zZ2p4a3VKdWZiYzh2b1B2U3dLbllUTEFhYUdySkpQQ3lYNEs1dnZIWHZndndjbU0zZU1QZzNFX1cyc1d1c2lhVm5XY3lJ?oc=5",
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZTdINUtpZXVFOTlLTGdZQkVHZEI4Z0RIWmtjVzk1ZU1nNnNRLVVrd3pwZzVpOGlHazJ6cnB5MkRGb3kwUkx4dFZnc0JHSnUwSlU4SGxJRUFnRjZRNG1pZkxqMzBYWDgzb2VhWWYta1o3RG9ZU1cwM092WVQ1dnpnVXN5Ri15cnhMWkdMank4MjJQUW9JRFhsUFF4eVhwNk56THQ4bEd2dzJIZjZnbUJualFLaDFSLUZaT3dxb0prNXpOXzNNNXc?oc=5",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSGswTEJoSkJUWU1Hbi12TDQ2TlFHSlRxa3BEOGJaYWpaWGRqV0s4Z0lSOUFjdWlWVDFhaWE5YjdzeW5WYnI4cE84OFlZdVNZSTRXTHFQdWlEMHpXTFpwSGxyVC1JWDFqLURPdGROOFdJV1d3UlFNRmpWck1PQno1OHMtbHNzSXBCbVE?oc=5",
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0tIc1E4Q3NBMkwyRWlLNmY1Ri1adEYzVDVZclBERlV0a3hlUlVVMFdNTGlGVnJ2NjZhQVdjQ01zbjkwWjVjTHVtYUFkRmZHazJIcTFlWThldXpiT3dld1dSNXlkYTdtQjFhaUM3aXBSN2d3WnBacjZkMjBGQU51c3pUaTFGMTNLXzV4TFRYYnTSAZYBQVVfeXFMTWpUVVVXdV9PM0tXaHp4WFE2UUF4WEctYWx0X3NSYWQ0UUs1VmtmTkhsMGVGeUdxVEY1Ri05R3g0Ym5aZWI2Y0R5WlJRdEx2N25iLVVrNm9RNXV3Y3pzaGE2a1NOOVJWT2JZWFBoTFZNeFFBTjNud1Vjc0lBMkV2UzRtZldtekRIcjRLUmhwcWl5V1FERVln?oc=5",
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVFFiR3BmMldDbzVvdUVaMEwwVGQzOU5nTHFRYmF0ZWozd2dwNkE3UHozVDR1SGY3cHpNWDBoX1NhY2s5c3RZV0lHNGNTaWlaV3cwUWtzMF8zb0VDaEFoeWNiNG1pUGM4NUNCZThVZzhhZHgyZGxoM282UEVTX0VscktqTDR5QQ?oc=5"
+   ],
+   "notes": [
+    "6 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:20f54df22e66b163",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Bear River Range; Big Hole Mountains",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:06:00+00:00",
+   "start_time": "2026-11-20T00:00:00+00:00",
+   "locations": [
+    "Idaho"
+   ],
+   "organizations": [
+    "NWS Pocatello ID"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:06PM MST until November 21 at 5:00AM MST by NWS Pocatello ID * WHAT...Heavy snow expected. Total snow accumulations between 10 and 20 inches. * WHERE...Big Hole Mountains and Bear River Range. * WHEN...From 5 PM this afternoon to 5 AM MST Saturday. * IMPACTS...Travel could be very difficult. If you must travel, keep an extra flashlight, food, and water in your vehicle in case of an emergency. Call 5 1 1 or visit 511.idaho.gov for the latest road conditions.",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8311d1fc8f1f5c755799610eb6b9c6407fa738a.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:17915b7daf844030",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Inland Palm Beach County; Metro Palm Beach County; Inland Broward County; Metro Broward County; Inland Miami-Dade Count…",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:18:00+00:00",
+   "start_time": "2026-11-19T20:18:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Miami FL"
+   ],
+   "impact_as_reported": "Flood Watch issued November 19 at 3:18PM EST until November 20 at 7:00AM EST by NWS Miami FL * WHAT...Flash flooding caused by excessive rainfall continues to be possible. * WHERE...A portion of southeast Florida, including the following areas, Coastal Broward County, Coastal Miami Dade County, Coastal Palm Beach County, Far South Miami-Dade County, Inland Broward County, Inland Miami-Dade County, Inland Palm Beach County, Metro Broward County, Metro Palm Beach County and Metropolitan Miami Dade. * WHEN...Through Friday morning. * IMPACTS...Excessive runoff may result in flooding of rivers, c…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b7044468976ba620b25b82bd61a3e69832af899.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:f8fa87a86555a709",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "Senate Republicans Block Bid to Rein in Trump on Iran War",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:19:12+00:00",
+   "start_time": null,
+   "locations": [
+    "New York"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans Block Bid to Rein in Trump on Iran War The New York Times",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "nytimes.com",
+   "corroborated_by": [
+    "reuters.com",
+    "timesofisrael.com",
+    "washingtonpost.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb0lwWVdqMlEzMDB1SGhlNjZ6cWNDejdBOWtyLVZtalRBcEp4REZEQVdBN0lTVmd1RThCVnFtUzM4OER6SDhGcWNmOEpqdlQ4SDlBZFkzYUR2ZkZBNThQZDNVRkU0U0J0TG9GdUFaZWk0TGFwTGlta1JrbzY5dDNaeGwybjR4c3M?oc=5",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVldYTTZnOEVLdmIyTGxJSklqZGV2UWR4ZEpIS2JXeHNfczFMenl4aTJINWdldHdJRENJcE55bEJHNmUxb3I5Y054dG5qa1VsMFREcTF0LTllTmYyeDB0RG9MVmt0SV81QmNrc0NBenplM3BMcFV4VFU2WlN4OFlnWDdOMDhhbzhBTkE0TUdQLW5sNTlfQnRjSC1JX2NfOU5LNkROWTdpeUJUZTg?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcmstcFNFWmdlWE9OT3pCd2JxN1RvaDZMZ2dlZC01YU9hUVFDdFdETmRJLWYtRWI5bkpNVHgyQUFTRVNncW9kUUZkdGhFRkl1RUx6MGs2eVhNNXhZbzROalJGQnRSSUdqdVBhQ1NuLTRONXEyQWpYemhwenhCd2VlNlY4VUZJT3NRdjBmdzBTZGxreUlHNmgyX0p4TzVxX1FvaXZR?oc=5",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYUhPc1MzUmliSzFkVG16b3R4WmdnM2tTQlhHX19ONGU1Ui15MWZZcmJ0NDA4a0lkenNvRXdvUFRaMDdvcjZoOHd3YW5KNVNEelUxVEx0VU83WlJMTkFLYVV0WEtwNGVGQ2RjRmwxTlNhZ2xseHkxbGxjNTBsWU5XclJnZkRCVHJBVURwOHVoR1JjZEVSSzFuRjRRdVh3NHRpd3VTVnF3?oc=5",
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aWmxUdjYtLWp4ZkNGbWlXMlZTTlRPMmZIZFJMNU9WWHM5UzUxa0Z3RThyX2FWYlRxVk5FOHhjRlpEdElIVDFlZVFhMlJyTFFlNWxHSVZ1eUJ0T3p5bHV6SlQyelE?oc=5",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHd0SUhMdjJfWDFIMy1IOEdIZkFaTkpjX1lfQ3IzemJ6MHdPRFdXVV9IclJtTVRuU2RiNm5WWFc1eWgtWEhLckJ5ZUR2Sk9Mb3IxRlQ2elQzX3RHZmM0a3VlUEhIYjlhY21QdU9ERFpJRkxyemxFZ3lqSXhFT0NvUnJqTTlnSmpGdFE?oc=5"
+   ],
+   "notes": [
+    "7 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:5c598a6440aa7127",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Senate Republicans block latest Democratic effort to end the war in Iran",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:21:56+00:00",
+   "start_time": null,
+   "locations": [
+    "Chicago"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans block latest Democratic effort to end the war in Iran Chicago Tribune",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "chicagotribune.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX3BIdWRUZHRZd0t3WTFBWVd4RGE1bVJaTG1RT2JkSzA1dmFiNVBLbVFLVjJsZzdJSkpJZTgwZ19IOEhVdEFCQVM1R2k1SFQ2dEdScnVCNnlkTURPZFRyUFJzd0FOSHV6cTNjejFpYnBwQVZTUDZjTlhwb0hYSm40YlY0WExNdlk?oc=5",
+    "https://news.google.com/rss/articles/CBMihAJBVV95cUxNek9MVERSamozSkU1bUtsQng3MWRYSE55Rk1yZmNLVlUybGprcE4ySFUwcHV6Q2lNbExZeEJEV1E4elVRSzd2b01xM1NYelJ4VTBSTVRGbVY1QVJUMjFQQTd0OFdWbFAwa3FZNTFIaFpweFdua0lpRFVlOEU1N05Pc3ljSVl1U2NuS2NsN0VkTFU2cWdtTmhEU0ZvSW5aX0tJOXRGMG9QS0hHVHVNQVJ1QV9FQ1NpbFViSmlpNS10M2lBdzhoWlM4Q1VoQ1VuZFpQWDIxZHVOZHNNRXF4dFRUdkY0RXJCRGQ0b2VkOVFNZkdFVkFocUN2T0ZaQXlaTVVIWHZONw?oc=5",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE10NUlZUFpRZ1R4cXB4UTdnUW9FZGU4LWVkZ0V4MExZTjIzdGRoYkdRUTVETDB0UEx5R19zbENxNExJUXlzU2hhZnJpQ1VhT20wcEFBaGZla19vdnlBMC1hQ3ZnWmR0MThxMVJHZGFaTnhrSDBnWFE?oc=5"
+   ],
+   "notes": [
+    "3 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:d2a0e23e495a6efd",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Senate Republicans rejects war powers bill to halt fighting in Iran",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:26:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans rejects war powers bill to halt fighting in Iran The Guardian",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "theguardian.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN19EOFdQUmJBMGt4VUo3UFd6Tk5sRXpRYVBHd2YwNmVTOU9lNUItSjB2V1JRQmkySEs5VE9ialBQb3JXLWZGbjlBVW11ZFdYNFktdjZwZmcyaEhUYkpRbEdCSzZXSE9hWEZBTGZqUjBUNF9wanlmMWFlSWpXVXlaemMycWx6V1VrNzNYRF9tWW41WW9n?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:45193fdd9300a97c",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:39:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit WSJ",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "wsj.com",
+   "corroborated_by": [
+    "timesofisrael.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2poV3JYSVEtZHRZTmlXWXNpcUR6VEVZUnZEY01xeTB0WlhhMUVvTngyM1YwMHRieTY0R0lnMjhsWEJwa2lsY1RvNkluUXlKQ0dlZXlwR2VSdV9OSGE0RVZsNUJSTkRheno5NGJnbG1TRk9waG1CMFhCV3FadzgtbmlsQzAwd0dfZHRRMkZMWkpXcmVmMG9neVhtZUxkMUlka2tVdTdNbjRhcm5TZmY2dWw4SUs?oc=5",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxONGM0MUF0bi11dWlPNGhmV1ZGVUowSFZTWVc4REg0ZF9mUEtfUVhHeEFxbUlRMzBUcDJXNzA5c1c1RGZISktLazFKUUVIaldWNS1QYUR4akM4WTc5ZjVsamxfbDFWcElOSUNmRlpnMl9UYjlBa2ZrYlUtQl9ZeHB6dlE2N1Rhc0hXeFdnZ3BpRlB4MHRrendPLXI0d21nQ0tJUjBUcnF0TzA1TmVmdUxrN2VRblIwRWRJQVlOTDA2LTdsbVlDdGszRndpQQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:502a6ccc2d265078",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump says he won’t strike Iran again before 2027, as envoy says Israel may ‘go it alone’ against Tehran regime",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:47:07+00:00",
+   "start_time": null,
+   "locations": [
+    "New York"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump says he won’t strike Iran again before 2027, as envoy says Israel may ‘go it alone’ against Tehran regime New York Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "nypost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZlF2bDR1c3RGVWZVdTV2QzRMWTVYM3R2bVRnUEJab3pmSkhMSVB4azZzcXZUOFhlbmlFREF4cTR4MURrQ2VxbE45ekZSbng3aG94eUQyNmRfZnB3YTRBYkdnVkxLWFpmcTFRVjc0MVdDWlR1S3oxbHVyVGVHVGd6enJIdC1hdjR5V2FGcTZnWXo0YzNBRWJ6OWhLQjdzU1czdllyUERwQ2JWejNFZmFvMjkzOA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:c9a5c7bd2a389850",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: U.S. Expands Iranian Blockade As Ship Attacks Continue",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:54:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "U.S. Expands Iranian Blockade As Ship Attacks Continue USNI News",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "news.usni.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGF4VF9WZTMydkFNZnFVa2VwRXVHVWpWNTNHVS00ejRkdmlmamJ2cW9pVk9fSVhNaS15Tzh3WWtrWUU3WDR4N1FtTXFVS0NDUVhUQ0NnUVI2dVJDZkt0QXU3aW9mWVhjUTg2TW9CNjZoMl8wZzNSTmRrb0J1aUdXdjR5UnNYVEtmWG5VTC1kMA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:f50ad940eb344c88",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "US war against Iran has cost $48.3B, Pentagon official tells Senate",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T20:55:17+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "US war against Iran has cost $48.3B, Pentagon official tells Senate Anadolu Ajansı",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "aa.com.tr",
+   "corroborated_by": [
+    "timesofisrael.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb0Z1R2NuM1ZCN3I2MW9zdm5NSWJ1V1NTdXhJRjRqYUkwSElCY21OY3B2TE9UdVBmMksxT1FHWjU0OUN5cXl5elJfVFRsdmdPZkZnVHFXQ0RKenAwY0dFX3BYNGZVYzhCVjIwdUhlMVJ5bVcwcHdxNEY4Z0hMRExxMHYyeWI5S3NCSmtHTHVuMVBrLVBKMjhNZ1Rad1lGMUlZV1FGcw?oc=5",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdjR1Y3NydlR6czR5elgxUDZSMjNKcDN4aEN5NTZ0czc4SC1QQ3ZLcXpRdTdfT3NiWHBhOUdLUWd1a2NIczhrVVJDRU1wTXJjXzB3SHc1TXlfN1hYZjhySHVUUGxCMmFMcG5SSDNvR2tfVzJJNmNpdUdUZFdMVjFSa1ZjclN6SURxTl9xeUNYa3dmbF96UHRZNkdPdGw3dzcyVFlxYmNOR3BpWTBPTU5Fbk9BRdIBswFBVV95cUxPdjR1Y3NydlR6czR5elgxUDZSMjNKcDN4aEN5NTZ0czc4SC1QQ3ZLcXpRdTdfT3NiWHBhOUdLUWd1a2NIczhrVVJDRU1wTXJjXzB3SHc1TXlfN1hYZjhySHVUUGxCMmFMcG5SSDNvR2tfVzJJNmNpdUdUZFdMVjFSa1ZjclN6SURxTl9xeUNYa3dmbF96UHRZNkdPdGw3dzcyVFlxYmNOR3BpWTBPTU5Fbk9BRQ?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeXVlVGhLZ1N1cE5XU0xkZWZqRWsxelEyck1UT1ppWk5RaE53cFFyOGxoZUNSbmg2ekMwWk81MVZMOWRsSjZSMi1VS29Xckh5NWloMzgwVUxaQVJQdVdtcUhfMnd5Ty1OYVJCc3pnTjZhVDBuZW50YlJTUmdrSFRLYUpocm1pVFhIQmFQRFRyakgxcU1vTGx1SGVnM2k2cmNaZTluWVB3am53WmQ3UkdN?oc=5"
+   ],
+   "notes": [
+    "2 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:758aca593eaf8e66",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Exclusive: Sen. Ernst rebukes lack of \"transparency\" from Pentagon on Iran",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:02:08+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "Exclusive: Sen. Ernst rebukes lack of \"transparency\" from Pentagon on Iran Axios",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "axios.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Wa0RFQlVaUjYyRUlrcmxUb25qM3c2dnRDb3JLSlVwaFdnNTVmS1MzaldHZVlRX1ZTcHlmSFRpUDZiMDhnWUVmSHBnb3JncmVHRmphRWJQZV83Y2FDNm52STJHMldVX3g1cGlENQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:63c2ea9581b25af3",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Lassen-Eastern Plumas-Eastern Sierra Counties",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:05:00+00:00",
+   "start_time": "2026-11-19T21:05:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS Reno NV"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:05PM PST until November 20 at 4:00AM PST by NWS Reno NV * CHANGES...Snow amounts reflect remaining accumulations. * WHAT...Heavy snow. Snow accumulations up to 4 inches. Wind gusts of 20 to 30 mph, with ridgetop wind gusts as high as 70 mph. * WHERE...Lassen-Eastern Plumas-Eastern Sierra Counties. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact the Thursday evening and Friday morning commutes. Slow down and use caution while traveling. The latest road conditions for the…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24f7ba61789c82365d6b6cedb854c30388c9532b.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:612293b854bdb89f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Mono",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:05:00+00:00",
+   "start_time": "2026-11-19T21:05:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS Reno NV"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:05PM PST until November 20 at 4:00AM PST by NWS Reno NV * CHANGES...Snow amounts reflect remaining accumulations. Wind gusts along US-395 and ridgetop gusts were updated. * WHAT...Heavy snow. Snow accumulations up to 6 inches west of US-395, 1 to 3 inches along and east of US-395. Winds gusting as high as 30 mph in the lower elevations and in ridgetop gusts as high as 70 mph. * WHERE...Mono County. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact the Thursday evening and…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24f7ba61789c82365d6b6cedb854c30388c9532b.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:04ab0ebd6252ae30",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Greater Lake Tahoe Area; Greater Lake Tahoe Area",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:05:00+00:00",
+   "start_time": "2026-11-19T21:05:00+00:00",
+   "locations": [
+    "California",
+    "Nevada"
+   ],
+   "organizations": [
+    "NWS Reno NV"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:05PM PST until November 20 at 4:00AM PST by NWS Reno NV * CHANGES...Snow amounts reflect remaining accumulations. Wind gusts were updated. * WHAT...Heavy snow. Snow accumulations up to 4 inches for communities around Lake Tahoe with up to 6 inches above 7000 feet. Wind gusts of 30 mph for Truckee and Lake Tahoe communities, with ridgetop gusts as high as 70 mph. * WHERE...Greater Lake Tahoe Area. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact the Thursday evening and Fr…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24f7ba61789c82365d6b6cedb854c30388c9532b.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:44f98f84093cc7ce",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: The Pentagon revealed the colossal U.S. costs of the war with Iran and named the amount",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:15:14+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "The Pentagon revealed the colossal U.S. costs of the war with Iran and named the amount Українські Національні Новини (УНН)",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "unn.ua",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY1lkV3NuSG8xOWY0dGpMMUhzMl8xRFQwcTYtWExVMHRhaVNjQkJaQ3p0RkdTdy1QZnNqVXJKcGxtRkdTRnV0WjFRd2p0YkdMb1dPWFp4U0RvMFN2V0c2TlVQVFhmNHZaR1BJa2JkcGRub3JUUlptNTNueHllTi1DWnNCUmxOb0N2ak9iNU05YnlpVnpZWXg4SzNRQXd2a2YtQ0VXVEZsYUdRV3g10gGrAUFVX3lxTE5LYkVMaWFjNG9CN1Bab29pVmo1WVNyWlgyeG03OG1IWW5peDFBa1JsUTVYcVZFS2lzQXdWMlZQTVJ5dURHNHZ4bHFGSlFFeHU2ZUt0dkl0Mm40em54cW90cFJOMEJKUk9hdlVzWE9kLUdUX3FDWHJXdjhPWXFVbnd2SGlCbi0tckNXUjcwcHVmNWFoTThxZGREZGxGdkhPU3dxUnZab3dLS3ZaYw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:9a6ab113e9c05f9d",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Seminole, FL",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:16:00+00:00",
+   "start_time": "2026-11-20T17:00:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 19 at 4:16PM EST until November 20 at 10:16PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... Little Wekiva River near Altamonte Springs 2n affecting Seminole County. .Heavy rainfall is expected to redevelop across Seminole County late Tonight into Friday. Expected rainfall amounts of 2 to 4 inches will raise river levels on the Little Wekiva River. The river is forecast to reach minor Flood Stage Friday afternoon and continue in flood Friday evening. For the Little Wekiva...including Altamonte Springs 2n...Minor floo…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c86a672f4a28f04b77166ab093789e0a14cca37b.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:6990945c4d2b9f50",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:27:01+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran Al Jazeera",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "aljazeera.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSm1IYzd0dmZPZEpYYTY3Yk5PRnJZNGVfYkl5bGhHd0NaekY3ektkbnFWdXlEZFNKTlVCOVJnWXF6WGM1Y2U3U2xPRmw5NG5ZbWNxTS1pWV9IbUItZTdxNjVaZUJwZEYxR1o2ZlJSa1VCYXNVbEJmODMyQUFwWnVxcnFLU3U5UkYzX0pvQmx0NXpkVk5aOWptNVlFOHowbVpfQWlEUDlrVWFhZXJMUWszLWFoNWdQWTDSAbwBQVVfeXFMTzJLaF83bXZxcVN3Vy1tb0F4LTA3bjJiWjh5empUbEplU1VUMXYtR21UdmpzSDBsNHJVTHZrNUFMVWdxbE53ZHZ5S1dQLUllazJQR1RlUnpLNEZqeHl0aWFxRlVnNEVkMGpKUVZMdWh3aURvTmJaTkI1NzMxcWxyLUNISVhaZU9vbWVzVDU4OVpRQnRTZTVvRWNtSlZ4TDZQMHNsYk5GLXJkTXFxMzhYbHQ5XzdYLVNOWW9odko?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:481ae5f354682cd3",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump eyes 2027 to 'see what happens' with Iran",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:27:06+00:00",
+   "start_time": null,
+   "locations": [
+    "Sacramento"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump eyes 2027 to 'see what happens' with Iran Sacramento Bee",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "sacbee.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BOHR4ZE9qWHhDNGYzSkpELTdrVUg0WUxuOEdNSHltSDNMMEg2dWlpaHMxNVNBQm9WLWhINFBwb2lZanBOVS05SWl6bnpmbDZjX0RPcmIzVWljNS1nTXFua2s5WmVfb3NjcG52cm5DaWFMcTdpUEtN?oc=5",
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMkY5WFE5NHJRaUl3dmZzZkUtdmZ1SkwyZ2RDV1ZWeC1MV0ZhcDBLSmFFY1ZQenRobzVNRExCQjBtd0FTVmt0ZmVXa2hQb1haTGpIc1dUY19admNiYXlDbEtjd2UxS3lPSlJCbHVoZHVIam1FbXIySnZ2bkNmRHhYNEd3?oc=5",
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Pc1FvWW5remx2a3FJN21pTUJVc1Bpb2stbHZOUUc2RjBMVWhRRkxlcEdkRVJoakZ0TkM1NjMtZjN5VGtSY2xxeDJnRHctZ0plVTU5TV9pWXY?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU1czQWpjME0tdTFqVVRDeFlSVnk3V0lSbW16MHM4OXpkMEc4OFBfNVAwNlhhQ0lxRjkzZlFRaXRMXzZTNlpmT0xpdndXbVQyVmtnRFNaSUtUU0VFYnRhbnpXR3g2X2Z1a2t0elljSngzdlZrRkhSYnBKWldzbmdKOVVCRy1kT0ZmRXVWRG5B?oc=5"
+   ],
+   "notes": [
+    "4 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:e3096d057cb6a33a",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: The Iran War has Presented a Strategic Dilemma for the United States",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:27:52+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "The Iran War has Presented a Strategic Dilemma for the United States American Security Project",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "americansecurityproject.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxObTdGYnNtY25PYkk3eFMyWWd4eldXU0NCTTdsSWhjc2h1M05qSjJGZlpzOC0wbUFPTG9VakY0LWI1dDFUQXB3TmR2WmtVVklabl9OYkVLdWJ6Q192OFhIZlF5OFJCbGxjOHZIT28xVTEtVnAycjdUdXZrN2pjejdDU2VkR1hLeTMtZXNIaWVfbDFibzdrb180ZkxSOEkwazZYZHVBcno1ZmU1TDBRbGc?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:c743b8fca5ca3f51",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Houston refinery restart tests Trump's push to boost US fuel output",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:28:33+00:00",
+   "start_time": null,
+   "locations": [
+    "Houston"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Houston refinery restart tests Trump's push to boost US fuel output Reuters",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Reuters",
+   "source_domain": "reuters.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajhzaTJUb3hwTEhLTmRzNlVUSlFpU0NIMERQMEV3bXN3MEtyVlVyc0hIMjNlVmRsWXlYa0l5MDBqLTg4ZW5pS2ZFdUNoWGNsc3lSa2RsM2lIQTVOLWNUY1ZQc2xSOGNJeTdVN2Y4TU4tU0NDUnA5YTg3V2ptZlpBY3VPV280NTFGV1p5TXhRS0RsWDVWZ3pnSWhiclE0RUQxTWQxZWNXSWVSc3gzT3FrbHRtNDFodw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:4bacd94ba60ee63e",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump China trip: Iran and Ukraine not in 'peace declaration' and more takeaways - ABC News",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:29:01+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump China trip: Iran and Ukraine not in 'peace declaration' and more takeaways ABC News - Breaking News, Latest News and Videos",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "abcnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc0NBZjdGT2pGQjQ2anhpUUJBRXpid2xkUGt3c2hjb2JUUzlxNnUyN1BrNUtGZmVmXzJwb0tBTktTcjZfSEtoQnpfWks3c19KdVozX3p1VktwTTRpRHNTeUg4ZHA1VGVEWVRvc2NBaE5yNy1QUC1IRHpyMkxQQlpFRE55WTBQVXVUa0pDRTh0MzlTTmRfRGU4ZzRzMVhjMTRtcEN4Q3REM2LSAa4BQVVfeXFMUDlfZHh2ck1hVUwwdTVYckR3V2JTdVJsdXdMd3ZMODNvaEg1TWUwVm9TMHRvNTYxUnRrQUZnR2ktV3M3YjNjZXE1bm1uLTdXNDZKbWtpQUpMTWVCOVpxSFAzcHlBRGN5M2s1ajdLLUVJTG5sNVc4RHBJSHozM19pOWcxZW8tZER3cTM2dWQ1XzZoaXhxSlVVTGZvYmpxYUxoeWc4bUx0a3hoLV9mVTJn?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:cc7cba4f3f81f58f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Eastern Sierra Slopes of Inyo County",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:40:00+00:00",
+   "start_time": "2026-11-19T21:40:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS Las Vegas NV"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:40PM PST until November 20 at 4:00AM PST by NWS Las Vegas NV * WHAT...Heavy snow. Additional snow accumulations up to 5 to 10 inches, heaviest above 8000 feet. Winds gusting 45 to 55 mph. * WHERE...Eastern Sierra Slopes. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel will be difficult in higher elevations. Blowing snow could significantly reduce visibility. Strong winds could cause damage to trees and power lines. If you must travel, keep an extra flashlight, food, and water in your vehicle in case of an emergency. The latest road conditions fo…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f69fffd7dde0390b749bc837863a4a7dab34fd9.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:2a499d72bc155acd",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Spring Mountains-Red Rock Canyon",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:40:00+00:00",
+   "start_time": "2026-11-19T21:40:00+00:00",
+   "locations": [
+    "Nevada"
+   ],
+   "organizations": [
+    "NWS Las Vegas NV"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:40PM PST until November 20 at 4:00AM PST by NWS Las Vegas NV * WHAT...Heavy snow. Additional snow accumulations of 3 to 6 inches mainly above 7000 feet. Winds gusting as high as 40 to 50 mph. * WHERE...Spring Mountains-Red Rock Canyon. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel will be difficult in higher elevations. Blowing snow could significantly reduce visibility. Strong winds could cause damage to trees and power lines. If you must travel, keep an extra flashlight, food, and water in your vehicle in case of an emergency. The latest roa…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f69fffd7dde0390b749bc837863a4a7dab34fd9.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:7c6c205cc47a32d7",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Esmeralda and Central Nye County",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:40:00+00:00",
+   "start_time": "2026-11-19T21:40:00+00:00",
+   "locations": [
+    "Nevada"
+   ],
+   "organizations": [
+    "NWS Las Vegas NV"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 1:40PM PST until November 20 at 4:00AM PST by NWS Las Vegas NV * WHAT...Heavy snow. Additional snow accumulations up to 2 to 4 inches. Winds gusting as high as 40 mph. * WHERE...Elevations above 6,500 feet in Esmeralda and Central Nye County. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel will be difficult in higher elevations. Blowing snow could significantly reduce visibility. Gusty winds could bring down tree branches. Roads, and especially bridges and overpasses, will likely become slick and hazardous. If you must travel, keep an extra flashl…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f69fffd7dde0390b749bc837863a4a7dab34fd9.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:e68344e20f4e7937",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: From Caracas to Beirut: How U.S.-Venezuela Pact Could Expose Iran’s Hezbollah Gold Pipeline",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:52:57+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Hezbollah"
+   ],
+   "impact_as_reported": "From Caracas to Beirut: How U.S.-Venezuela Pact Could Expose Iran’s Hezbollah Gold Pipeline Middle East Forum",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "meforum.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVW9wWllNckNUZnVVdjFJRXR0TGdDY1JocDZYcGY4YzFaUVdmelhxMXBRNFRzWmdzTVd2Um5VVG1sbmc3Nkw1RDItbldoYWprbnF2Wlg4d0c4c2tCNUdaSjRCZDh2eU5Bblg3ZmdGb0ZOcEpJMlhJVTJ5U2RjbGRGaklWZFdpVkRtTWQ1cWFSM3BISndHZENlN2w2Ykl1VXVVOU41M2RpX3B0NFRLeXF1Y2E2UUVfLXJUT2Y5S1NVcTA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:b6f408d26c2cac0a",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Senate vote to curb Trump war on Iran fails again",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T21:53:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate vote to curb Trump war on Iran fails again Middle East Eye",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "middleeasteye.net",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQzZHanhFVGNtWWdPTmx6VHZwSmM0bnJkazVxR1VZUEZPdHQ0YTh3T0lySXZTUHA1TkpzTEZmQU5Oa1F6VDUxRDlmRzRHc3EyT2x5ckYxMmstdjVGS3JKTlJqNnU5WTQ3WVFiZUdXVnNTZ1M4MFFCb2NJMnJqSnE0aFBuUnA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:cbd9f5a18c9bc6e2",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: US Senate GOP tanks new resolution blocking Trump’s war in Iran",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T22:22:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "US Senate GOP tanks new resolution blocking Trump’s war in Iran News From The States",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "newsfromthestates.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRFdfbUoyWFhNTzBFeGhucy1ISGRUaHA1c0dUUTlxXzZNTjVpZmRJc1VJY0U3OTEtWEQ0UU9uQ2pVWFZiRFduV3dwVHhJTUk5OVlJVllXMGs3Wm9LZW1STlZJSGk0c2hxbng4SHhCMUdpM01sWWQwd0Zjekp3TnlhMUpzMVRvYzVWY3Z5UDZRQldfMUxFbU9mcXdLdHJ1S0ZtUVlB?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:df29d71aedcbd867",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Hackers steal data of 1.6 million SBC Medical Group customers",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T22:25:42+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "BleepingComputer",
+   "source_domain": "bleepingcomputer.com",
+   "corroborated_by": [],
+   "links": [
+    "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:4c20061eff7b8a64",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Ending the Iran War Is Donald Trump’s Least Worst Option. Here’s Why.",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T22:47:15+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Ending the Iran War Is Donald Trump’s Least Worst Option. Here’s Why. The National Interest",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "nationalinterest.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmpRMGNmblZnQnFWeldveEk3dDhMZFhCRGlGSHBoNjhabGU4dUJsSGNidHNER0RmdDF4cUpRc1hUSnNqR3g2U3J0eWVyN1NrdUhuUGEycjdKN1VqWTBfMzc4RENHYmRpRXhzUEpaS1gxbVJ6VnQ1elRuR1Y3TFNmTzBxbG4xbkJFM0ZBVW8wSFYxeHVwRGtkUjg4ckd4dGtfMU54N0J2bXh0aXJHVWt1c3JYRnhPR3RC?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:0445772abc012883",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Pakistani Man Sentenced to Over 27 Years for Iran-Backed Plot To Assassinate President Trump",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T22:48:09+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Pakistani Man Sentenced to Over 27 Years for Iran-Backed Plot To Assassinate President Trump The Media Line",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "themedialine.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxOanlaOWsxeXVuNzFfMmdIMmtJVERrTmNvbUs0dm8tTHA1WE52VFNSbXhoUjc0R0dnTldEdEEtRko0Y1RUMGFINlo1QjZHaFlwaUtOMm9nQlNwOFdsM3J3R3VnUUFyTVpjOG9RLUhUampGQzRtU1NZRHkwVWxIQXZuSFJua0FLRjhTMDBPazY0ZXR6YzlXcV9qdUVXRHhJZ0JBbGdVUU9valVsWHR4YmRKZXRDamhFd0tDRnk3cU90N1lJdlhpMTFB?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:54a91b1fe176ed3e",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: The U.S. and Iran Are Back to Trading Strikes",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T23:26:15+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "The U.S. and Iran Are Back to Trading Strikes Foreign Policy",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "foreignpolicy.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zbUtPd0N2aE9RSlA5Y19OMUx6SllSTmdPbDJ6MXQ3U1RIbGxYb3UtQmxXeGJGWFgybUtGeFRlVW53S3ozbjFpVGVCeDhfNXhRTDZsaEZqWEhkSjd6UlFtWnZfMkpHbTRVYVFkWmtjZm5aZURHVUtNMmgtWmthQzA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:8d998b225be3f344",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Israel’s ambassador to US says the decision to strike Iran lies with Trump",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T23:40:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Israel’s ambassador to US says the decision to strike Iran lies with Trump Middle East Eye",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "middleeasteye.net",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeUpsQjNRSmFSN3djcTdXSGh4Z0dON0tJZUNoUy1aWWVrVTZOUndQTkF5MWhaY0JZUGNfU21YeFptSjUtZXVIaENDTWNPMndfenJQWk0xazhCZndaQWVRdDd5em9SVUN0Z0N1M1RoM0c2TFBJWHdBMzIzUWxweVR0dzZuQ3NNVGZnSjRIMzRscUNrNGdzRy0yRHNOZ1dRLWlSUTBGUjJHTmJzYTBaRHc2S3ZRVUdfdw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:5704b9652fa05a9e",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump Pushes Iran Strike Decision to Next Year: 'We've Got Time'",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T23:42:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump Pushes Iran Strike Decision to Next Year: 'We've Got Time' Haaretz",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "haaretz.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaDJOakhVVnVOMmVma0kxYTNVZDAyZkF1ZjF4QXpLb1ZhVF9FVlRfNWZxTndhN1Rwa3h0aTRPMzd1VFBVRVVIUGlWaXdXTDAwcy1mRTg5UE1hT2Q3RmVVemJSZ3gwQXgxemg0ZmgyVFNXS2dQNms3ZEN0dm1GbEp0MXRzZE9JSDVJS3FNMDYxZmRTdWlCWjBEMXBiTml6R2lGQnZISEcycHFPRzV4SkI4djVJZjItendHWEJfMG96S1VFMHJCcUJkX2JvcjVTeG8xQy1fcHI0T0R3NUUyN2FQUUxSWHRkQQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:e2b3978dd2170e5e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Brevard, FL; Orange, FL",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-19T23:50:00+00:00",
+   "start_time": "2026-11-19T23:50:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 19 at 6:50PM EST until November 19 at 9:00PM EST by NWS Melbourne FL * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northwestern Brevard County in east central Florida... Southeastern Orange County in east central Florida... * WHEN...Until 900 PM EST. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 648 PM EST, Automated traffic cameras showed flooding in the warned area. Flooding is already occurring. Between 3 and 7 inches of rain have falle…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57c05f8c99b3ac9b8df1098f5c1dc170fe7e4da0.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:6e36137190aed0b1",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iran Considers Resuming Oil Exports Despite U.S. Expanded Iran Maritime Blockade: 5 outlets compared",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-20T00:08:30+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iran Considers Resuming Oil Exports Despite U.S. Expanded Iran Maritime Blockade: 5 outlets compared NewsCord",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "newscord.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQenJEcVVpaE9QbTJoRW9rQ1ZvcEJYZ3NBX2dXU1ZYd1FtVURfVjR6WlhTeDEwSlpuUlRtdEEzVkZ6MGs0a3R4NVJYOGZ5Y0JuRkNNWmVFckR1c1E0OVU3QW1xWFVBbGpFSXNxRi1QUnZUN3BKaUk2ZUFFUkctT29YdnlDbXRKUzFzSVhLUEJIUU1LekNrMXRXQ1dHbXlBQUtyY3VVOHVPN2pacHhRa1VUUjVnbGxxNDdxV21uQzJpeGROSkJWeTE1VndxVHk?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:2d7da5da6a1537d4",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iran war has worsened U.S. munitions shortage, government watchdog finds",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-20T00:15:46+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iran war has worsened U.S. munitions shortage, government watchdog finds The Washington Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonpost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWGt1RnZzaXdlLTJyN2pic1Y0QWdfRXhSYkw0aVhaX28wb1ZGeFFuQ0RqTGR6TXMxdVZmYmhkQVJJUGJ3djhYaWYxSTZDZVF4SF80aFFBQnJWVm5mbEpFNnJ1alJJUWhFcy1ZQmU4WXI3OEJCTkZOOUhNbjVBemFiSHAwZ1ZfQ3poV19Kd3FoQngybTQ4N2p5bG9Ocm1INFJ3Ylp3N0JCdDNwci0ybGtHcFFXUjlGVmJqWUhaQ2Zn?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:cd3c9d021c7b84e6",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Pentagon's Latest $48.3 Billion Iran War Cost Estimate Doesn't Include This $162 Billion Figure",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-20T00:38:50+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "Pentagon's Latest $48.3 Billion Iran War Cost Estimate Doesn't Include This $162 Billion Figure Common Dreams",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "commondreams.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03TVl0R1RoTm5vZWFDeXNjT2Q1LTFLNDM1R3pJRkVMMHRZQ2d1N2ZmazY3eHJ0OS15eFBtZlJJR2VIVDdsNFJiRFRpOUlVOFRLdHl2V1hIb1BjaEE?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:d5aa526d89aeaf06",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: U.S. Senate again rejects Iran war-ending resolution",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-20T00:40:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "U.S. Senate again rejects Iran war-ending resolution WVVA",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "wvva.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd2hJanB6RWsyay1MakRWVjBkN1J0Mzh5YjRfUXVRbXRCQmhQNmxOZW9TZThZRnQxNTJZM0dySmNGZVpqR19VUmVnYjdzb0JEWF9iNlBTa3RtMmVqTlhrV0NtZXh6MXFOcURjVXE4b3VWSnNHWDlRdGRubkkwN0o1OERyMWRUV25RRjhJ0gGfAUFVX3lxTE83Y1czeHkyYmh2OW1RQ1J2STVJNllfOTU2M2lRWWU2X01GQzIzNGhxMHJSdzI2aG5ETE9ISW5zOFVaekhFeTdMYUZaeUlzZlpWZjVMSG10UWkxaHp2Uk5kVUplLXpKU3lwRVBaQVp6c1pPZ3BOZzV0Uk9UdHlOdWFFNTlzMDdoanpMYkFkeVY3VTh3Z2t5ejdTTmdTd0pZNA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:4eb9479c6ceb122c",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Yosemite NP outside of the valley; San Joaquin River Canyon; Upper San Joaquin River; Kaiser to Rodgers Ridge; Kings Ca…",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-20T00:46:00+00:00",
+   "start_time": "2026-11-20T00:46:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS Hanford CA",
+    "Kaiser"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 19 at 4:46PM PST until November 20 at 4:00AM PST by NWS Hanford CA * WHAT...Heavy snow Above 5,000 feet. Additional snow accumulations 3 to 8 inches above 5,000 feet; 1 to 3 feet above 7,000 feet. Winds gusting as high as 50 mph along the Sierra Crest. * WHERE...Sierra Nevada above 5,000 feet. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact daily travel. Gusty winds could bring down tree branches. Roads, and especially bridges and overpasses, will likely become slick and hazardo…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95d127740bde668cfa55d1f5e08653d1339be67d.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:db2bf215d79f6296",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump Warns Tehran After 'Indications of Chemical Weapons'",
+   "detected": "2026-11-20T01:20:25.406279+00:00",
+   "published": "2026-11-20T00:55:39+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump Warns Tehran After 'Indications of Chemical Weapons' الحرة",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "alhurra.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4zWEQwUFFCRFo4c21PaTBzVlRBVzI2OWhQTDJpS1pJSW9wMklCV0pUZ2FlSkRfQXM2R0JWZnJ3a1d0Zw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
   {
    "id": "news:df8a52f01b2e3e4d",
    "severity": "Critical",
