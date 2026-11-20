@@ -1,15 +1,1745 @@
 {
- "generated": "2026-11-20T17:25:13.636318+00:00",
+ "generated": "2026-11-20T23:17:55.256318+00:00",
  "retention_hours": 48,
  "note": "Alerts from the last 48 hours, newest first. 'detected' is when the monitor first saw the item.",
  "source_failures": {},
  "counts": {
-  "Critical": 11,
+  "Critical": 10,
   "High": 36,
-  "Moderate": 305,
-  "Low": 18
+  "Moderate": 288,
+  "Low": 24
  },
  "alerts": [
+  {
+   "id": "news:87236b19edcaddfd",
+   "severity": "High",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Explosion on Iran's Qeshm Island Linked to Disposal of Unexploded Munitions, Tasnim Reports",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:11:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Explosion on Iran's Qeshm Island Linked to Disposal of Unexploded Munitions, Tasnim Reports U.S. News & World Report",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "usnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOUU5MjdRdGF6N1ZKYnBQS284emRHd1A0SElXZ2luZElOeWpKNVlPZ1d5RERtMWJVaFYyVVczVElYUzI0RTZaTFpEc1pVS2ZHMFZZV3V5SW5PdWJnSU0yS05tMzBMN3VlRXFibjBTanBTNkNsMzlaTFd2MU55WTlGSU13T3JiRmpWbHczbV9wYUxXTE43RUwyNjhmcjgtQnRsQVJVRmZtZ196YVVVdkVrTUJhN095VmhPX2dwWjNEdjhodUp3SzYwOGJ2Ul9zVkNnbmFDOEE1V0tVZ0E?oc=5"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "news:f0b8696c25c4c4a7",
+   "severity": "High",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: West Virginia Legislature hit with cyber incident affecting IT systems",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:34:36+00:00",
+   "start_time": null,
+   "locations": [
+    "West Virginia"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "The Record",
+   "source_domain": "therecord.media",
+   "corroborated_by": [],
+   "links": [
+    "https://therecord.media/west-virginia-legislature-cyberattack"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "kev:CVE-2026-129448",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "CISA KEV: CVE-2026-129448 added — Apache Roller: Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:59:59+00:00",
+   "start_time": "2026-11-20T23:59:59+00:00",
+   "locations": [
+    "United States (nationwide)"
+   ],
+   "organizations": [
+    "Apache",
+    "CISA"
+   ],
+   "impact_as_reported": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-11-23",
+   "cause": "Confirmed (CISA): exploited vulnerability CVE-2026-129448",
+   "source": "CISA KEV",
+   "source_domain": "cisa.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-129448",
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "kev:CVE-2026-123890",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "CISA KEV: CVE-2026-123890 added — Broadcom VMware vCenter: VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:59:59+00:00",
+   "start_time": "2026-11-20T23:59:59+00:00",
+   "locations": [
+    "United States (nationwide)"
+   ],
+   "organizations": [
+    "Broadcom",
+    "CISA",
+    "VMware",
+    "VMWare"
+   ],
+   "impact_as_reported": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines Due date: 2026-11-23",
+   "cause": "Confirmed (CISA): exploited vulnerability CVE-2026-123890",
+   "source": "CISA KEV",
+   "source_domain": "cisa.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123890",
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "kev:CVE-2025-42884",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "CISA KEV: CVE-2025-42884 added — SAP NetWeaver: SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:59:59+00:00",
+   "start_time": "2026-11-20T23:59:59+00:00",
+   "locations": [
+    "United States (nationwide)"
+   ],
+   "organizations": [
+    "SAP",
+    "CISA"
+   ],
+   "impact_as_reported": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-11-23",
+   "cause": "Confirmed (CISA): exploited vulnerability CVE-2025-42884",
+   "source": "CISA KEV",
+   "source_domain": "cisa.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-42884",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "kev:CVE-2026-76466",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "CISA KEV: CVE-2026-76466 added — Cisco Expressway Series: Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:59:59+00:00",
+   "start_time": "2026-11-20T23:59:59+00:00",
+   "locations": [
+    "United States (nationwide)"
+   ],
+   "organizations": [
+    "Cisco",
+    "CISA"
+   ],
+   "impact_as_reported": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-11-23",
+   "cause": "Confirmed (CISA): exploited vulnerability CVE-2026-76466",
+   "source": "CISA KEV",
+   "source_domain": "cisa.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76466",
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "news:3441bcc8fb7391cc",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "US Senate Republicans manage for now to block Iran war resolution",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T10:10:39+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "US Senate Republicans manage for now to block Iran war resolution The Arab Weekly",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "thearabweekly.com",
+   "corroborated_by": [
+    "nytimes.com",
+    "reuters.com",
+    "timesofisrael.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeDhzVkZZTnJENlB4XzdvVV9WMDVDdVlISFdBOGtuUUxNLUNkMU1jaDN2UXJGeWl0RUxNVDdFY2RLTUdFYWk4dVJib2lERnJfZEtGMzlfbmlkdVRjSm1VbTJuUEdJNVRYRE4taTlGcC1IUVR4Z01ZbkNsc0NTczdPZHA2QkVhRi1IT2M4ZA?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcmstcFNFWmdlWE9OT3pCd2JxN1RvaDZMZ2dlZC01YU9hUVFDdFdETmRJLWYtRWI5bkpNVHgyQUFTRVNncW9kUUZkdGhFRkl1RUx6MGs2eVhNNXhZbzROalJGQnRSSUdqdVBhQ1NuLTRONXEyQWpYemhwenhCd2VlNlY4VUZJT3NRdjBmdzBTZGxreUlHNmgyX0p4TzVxX1FvaXZR?oc=5",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVldYTTZnOEVLdmIyTGxJSklqZGV2UWR4ZEpIS2JXeHNfczFMenl4aTJINWdldHdJRENJcE55bEJHNmUxb3I5Y054dG5qa1VsMFREcTF0LTllTmYyeDB0RG9MVmt0SV81QmNrc0NBenplM3BMcFV4VFU2WlN4OFlnWDdOMDhhbzhBTkE0TUdQLW5sNTlfQnRjSC1JX2NfOU5LNkROWTdpeUJUZTg?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb0lwWVdqMlEzMDB1SGhlNjZ6cWNDejdBOWtyLVZtalRBcEp4REZEQVdBN0lTVmd1RThCVnFtUzM4OER6SDhGcWNmOEpqdlQ4SDlBZFkzYUR2ZkZBNThQZDNVRkU0U0J0TG9GdUFaZWk0TGFwTGlta1JrbzY5dDNaeGwybjR4c3M?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:c2cccf397e92e939",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "Congress struggles to avert US shutdown as Iran war divides lawmakers",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T11:54:06+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Congress struggles to avert US shutdown as Iran war divides lawmakers The Times of Israel",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "timesofisrael.com",
+   "corroborated_by": [
+    "reuters.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNm52UGJlZFg1QTBTam1iSTRjSEhnUmhlMkZESTE4NEtpTjFrbktITnZfbHV5M1RsZ0RHRFh2c2oybnI5LUNOZWM4d2Q4amxJT3lVU01QRmVQVjZYbWF5aF83UDk0b2w1WnZxTnlIOEhJeXJqNmJGdWhhVGZ5NGM2MmljQ3MtSGw1TnY4dDZCSnl4dm9IR3RVUDNqSDUzMzJCVkHSAacBQVVfeXFMTXR2YkJBcDRFelIzNExpRE1weHp2V0oxb2oyVDVsOUFSTTFFWHRVd0JMVjlzaUZKZXBsMWxjemtQUENqN256QWdqVTY0RFVnRWxFWnJyRFJkNWJacGxOazRzcWZQNC1ZVkYxMXVyRFVVWXM4MWVHZ2pxMGRJQjZHOG5xRDBuUkF5QTRiemtOWHh0TW1la2d4aTJPUmk5bnJwWGdOVWNrQzg?oc=5",
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:be8d6b47826a6e76",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: GOP Rep. Turner: 'Not a lot of options' for Trump in Iran - ABC News",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T14:15:44+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "GOP Rep. Turner: 'Not a lot of options' for Trump in Iran ABC News - Breaking News, Latest News and Videos",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "abcnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUGkxNDhsdlNIY1p5YURsdlUyR1B6Tk90MGhVYmtTQTRuc19Qbzh0VXZ4Q2tINGtUTXBwS19xYXRNLTBIa1dzcHAyemNXQWVOSWJDQkx3R1B2X0Vpa0VvM1FSeXhmSWRYWW9uenEwT0ljQUVBN29vZVNld3p2ZFg3UHRoTHZoQXItT210Y2VB?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:474527a1018a4b18",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iran's next supreme leader won't 'last long' without my approval, Trump says - ABC News",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T14:53:24+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iran's next supreme leader won't 'last long' without my approval, Trump says ABC News - Breaking News, Latest News and Videos",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "abcnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX3RvSkROQ1dUcVdOb0hGTHNHM092RlZncjZweFNZTFZ2Wm5vM0xSUE1CQVYwZl95ZnZrTUVWbHFaR2Utc1hTMW5WMFNNUlRYOTJQTzR2OUNGMjhjdzRZZ0FZekRDWGlyQkhuNXYxVGtmVzRSaUV2NHU2YllOMUNFQmgwakd2dUJxSGxVbVMwOWZNUdIBlwFBVV95cUxPbGdERVM5X3ktZTVvSDNXNmxvb2FEQllES1NLRVFfOWFvNllwNUdWbi1pZE96Tml2a2U0TEFuREJ4bnAwOVktS1o0TXNuZTRlTlZVV3pnSExrenpianBHZDFqSXo0YTZ3aHVYT0VjVFJpWlAta1BEbHhSZW1UeHhYUU1DQ29aS0Y0aWFiUm9lMGtRbENwbDRz?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:b129fc655f28e4b1",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Israel Awaits U.S. Response on Iran",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T16:00:10+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Israel Awaits U.S. Response on Iran IFCJ",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "ifcj.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZFoyLW92aTU4WXZfZHE4S3dKVUp6NGRzMFZFWXZpR2Z5NC1ZVXBUTkt2ZEdSTXpEbC1MVmc1eS1EYW9JdEZPTkhVQjJoa1VFajZUZzF0aHctTkZnbzM4LXgwcnM2cVA3RUV4YVBxdVp3dHFtQ05MZHVTSFgxNEVVMi1vS3VZbHFKOVE?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:0a7e995c99a2b859",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: 'Complete demolition': Trump outlines 4-hour attack plan if Iran deal isn't reached by 8 p.m. ET Tuesday - ABC News",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T16:10:41+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "'Complete demolition': Trump outlines 4-hour attack plan if Iran deal isn't reached by 8 p.m. ET Tuesday ABC News - Breaking News, Latest News and Videos",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "abcnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGltUFRuUS1BMURfRS03WmV4dkprcE5rOER0YVozRERrYWVkYlJwZThQSVRHMVlFdlB0NUtfVC1ZQVk1Zm5JZllHb2hBUzhOMFJqMkl5LXBwRmxKMnRIY0s5c184VmVLRVVzYkIxMF9PSlBKLWpBWmhDTXJwaTEzelZfeEM4MUd6ODU1WXFMbnRIT1NaMWU2Wmc0LUhTSVgtbW42ctIBqgFBVV95cUxQOUZNOFlWUHFaRVlmRVBMS3FldGU0ci14NjEzS2hNT1dsbnp6YlJNX2ZyR1Iyck1hTlRYQW5UdVlJWlppMXpRNG9Fd296dXNod3dYdkFGOEpKT0lVTElQaWVveXZKLWFnSUt1Qmt1QjZIRUhfRERqNFpLZ1lnWjhVTi1VbjhRY0k3Und3ZHN5S0xXS3FKUjlkMmxiYU1BUFRrbjdXUHVMaVdyUQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:628fa74b2eabf997",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Wasatch Mountains I-80 North; Wasatch Mountains South of I-80",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:24:00+00:00",
+   "start_time": "2026-11-20T17:24:00+00:00",
+   "locations": [
+    "Utah"
+   ],
+   "organizations": [
+    "NWS Salt Lake City UT"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 20 at 10:24AM MST until November 21 at 11:00AM MST by NWS Salt Lake City UT * WHAT...Heavy snow. Total snow accumulations between 12 and 24 inches, highest in the Upper Cottonwoods and near the Utah/Idaho border. * WHERE...The Wasatch Mountains. * WHEN...Until 11 AM MST Saturday. * IMPACTS...Winter driving conditions are expected. Roads, and especially bridges and overpasses, will likely become slick and hazardous. If you must travel, keep an extra flashlight, food, and water in your vehicle in case of an emergency. For winter road conditions from the Utah…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d0f8f1654e5e9548896d57d9c18f84c4b28730b.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ec7a3e24d181424f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Coastal Flagler",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:37:00+00:00",
+   "start_time": "2026-11-20T17:37:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 20 at 12:37PM EST until November 22 at 7:00AM EST by NWS Jacksonville FL * WHAT...For the Coastal Flood Warning, significant coastal flooding. For the High Surf Advisory, large breaking waves of 8 to 10 feet. For the High Rip Current Risk, dangerous rip currents. * WHERE...Coastal Flagler County. * WHEN...For the Coastal Flood Warning, until 7 AM EST Sunday. For the High Rip Current Risk, through Sunday morning. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Som…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56c3d9cd681b61ce5e4fcac2a6acfb56593cabbe.001.3"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:79cc5a194325076a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Inland Flagler",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:37:00+00:00",
+   "start_time": "2026-11-20T17:37:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 20 at 12:37PM EST until November 22 at 7:00AM EST by NWS Jacksonville FL * WHAT...Significant coastal flooding. * WHERE...Inland Flagler County. * WHEN...Until 7 AM EST Sunday. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Some shoreline erosion will occur. Take the necessary actions to protect flood-prone property. If travel is required, do not drive around barricades or through water of unknown depth.",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56c3d9cd681b61ce5e4fcac2a6acfb56593cabbe.002.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:0bc8fc139811234a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Eastern Putnam",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:37:00+00:00",
+   "start_time": "2026-11-20T17:37:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 20 at 12:37PM EST until November 22 at 7:00AM EST by NWS Jacksonville FL * WHAT...Significant coastal flooding. * WHERE...Eastern Putnam County. * WHEN...Until 7 AM EST Sunday. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Some shoreline erosion will occur. Take the necessary actions to protect flood-prone property. If travel is required, do not drive around barricades or through water of unknown depth.",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56c3d9cd681b61ce5e4fcac2a6acfb56593cabbe.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:3a35720adeded54e",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Energy briefs–lost oil, Iran to test U.S. blockade and a $5 billion deal in the Permian Basin",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:42:30+00:00",
+   "start_time": null,
+   "locations": [
+    "Oklahoma"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Energy briefs–lost oil, Iran to test U.S. blockade and a $5 billion deal in the Permian Basin Oklahoma Energy Today",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "okenergytoday.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rblc0UUFmR0VuZFFUa2picGt5bW9kaUQzY3hiVHRLQUhSWGVaSVJ2NzdMM0dSeXJuN3lmTThIYTJoaWpjMGFweUsyOEVCRVR4bU9LbllJWW5YQlFKRWUyeF9Pb251TEQ4RHQzclA2ak1rbTVlc3NZZEpR?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:9df9ecaaa8eff25d",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump: Iran wants a deal, but not on my terms",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:02:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump: Iran wants a deal, but not on my terms Ynetnews",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "ynetnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lQjFXZzhvOTFTYUI1ckVtNHNtdXBoNzFYMm5hR19jUzFrWG1IcUFkZml0Z3ljZTFLNVNYb1BmYlVCaTZuZEhtR3RRVmxKZHdlLWpLMWtn?oc=5",
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUk16SWhGLV9JazUySjlaejdlNEtVaF92RTRkb0JhQXFPMVhnRXJWam5MTl81NS1IeVlVWThvVjcwQnR3S0M2VkZLall3S1hTc1pzSkpQMUVOc3JQU3BETkxFbXpHQ29PejZBTkpQOEM3TEZDTThwZ290MWwzbHJRVm5JbFlCSjRoZUJmXzJrb0ltMkdnSGxsdk1kaGFjVHZwX0h4bktkSHdyR1U1b1I4NDROQ1gzWURybzFqUkRjS0FLOHA4OHNHcEpkNTZlbzUyUlJEUWF6WmZmR3FPZ0JyTGVLaTcyWlByX3JGN0V1RmlqemJEZkZ0OVFR?oc=5",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN3YwR0s3T0dkZ1ltYkRXU05XNC14c1hYYnBrWUlYc0xrdlZrOGNlWmdIaWczVmZFLWZmSVpDZkpUQ2xrNHJjN3h3bTU5U0NaOVlrNF9DYmFjZzFYTVo3VFVzeWptbjVtWFFCbnlxWnNKWTF4THpvbGZ1RWtRNWFjR3ZSb0Q5RmVBclZvTF95TVYtSUNWUnJZYl9nSThRd05aYlQzdG14SzdqckwyMWdEenJnZmJVbEVhUDNlOA?oc=5"
+   ],
+   "notes": [
+    "3 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:de8848449f0cd536",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Reports Claim Iran Is Preparing Oil Convoy to Test U.S. Blockade",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:06:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Reports Claim Iran Is Preparing Oil Convoy to Test U.S. Blockade The Maritime Executive",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "maritime-executive.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbDhUZ2o1MEhFN1QxMEdkNHYwT1FOT1NFMkdkQWZDanJsQngwSVk1dlBxS3JhX0FXRUlVeVZRZk1leWtuX2VaamVUdVVwZklHcmtSdTdtZ2xXbjJoRUV5QUpFa3F1UlkwTFVMY2NOZjd3RklTS2t1TXBJalFCRkxVdWtmLTVFcXc2cWxwaXFER25oTGd0amxrS3J5MjIyNjR3RU5seQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:855d2f1ca5ad93fc",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Treasury Secretary Bessent insists US will continue squeezing Iran’s economy",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:07:16+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Treasury"
+   ],
+   "impact_as_reported": "Treasury Secretary Bessent insists US will continue squeezing Iran’s economy Arab News",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "arabnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc0hiQWszemgwT2hGdkw0Q0JoNGJtdHJXZi1zMTVSZ1dBdC1QaGJCLW5NYk4xWlY2QmdSWlRKcVdLS2VCdXA3NTd0Zi1BR1BtSWlDdFRCbnZVVEltMlJPODBFeWh6LW5UVzNZWlFFQjVoZnNtLVdxR2hwcTBXbmdSLWtvbVNDR1JhUmdKOU85bkpyU2dOUDR6NjZhYVBoNzg3NmJ5QXh5Q0lvaWp3Mzk4bTRkNUg2WXp4UERIRA?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:18f85ab48d9b7430",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Brevard, FL; Orange, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:32:00+00:00",
+   "start_time": "2026-11-20T18:32:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 1:32PM EST until November 20 at 6:30PM EST by NWS Melbourne FL * WHAT...Flooding caused by excessive rainfall is ongoing. * WHERE...Northern Brevard County in east central Florida... Southeastern Orange County in east central Florida... * WHEN...Until 630 PM EST. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 131 PM EST, Flooding is ongoing in the warned area. Between 3 and 4 inches of rain have fallen. Additional heavy rainfall is not expected this aftenr…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a694aedc769f41b261462d4ece8bb99816117f11.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:0d89716c7b88811f",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "Senate Republicans block latest Democratic effort to end the war in Iran | Nation and World | News",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:34:32+00:00",
+   "start_time": null,
+   "locations": [
+    "Las Vegas"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Senate Republicans block latest Democratic effort to end the war in Iran | Nation and World | News Las Vegas Review-Journal",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "reviewjournal.com",
+   "corroborated_by": [
+    "chicagotribune.com",
+    "pbs.org"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiqgNBVV95cUxONDBRSFk4d1RvNFhOQVI3cGpidE4zSXNVcFZqYTB0WFVaM2RwX01yUGJ3SFVpTEUzRFprNFZuOUtmR0NZU3A1bk9iajFQeWRUdUl3Tl9Iend5QlNwR3ZwS3hhVUxINXJGUkFhQjUyblJjWXZ4T3hMTGZxcm1PdzJwNHZ4QVBOT3RacG1WNXlKMTlHYnpvLTVqWEF3NXY5dU5TNXRIeFlhQjd6MUktRE5VZWxSXzRTcUwzeDNMX0lLYkZNVFJJdlpENmRCbW9KSnRoenRESjdCLUdOQlV5bGtwTEpBNHVZZlJkaGxabmUtNG5mY0xoY0YwSE45RE40STZVdE5CS0NHZ29XaExWeWgzOE85YlhObVhRY3MyZGlJOXFacE5xV056ck50Z0hPNXRwczJqaTNELVRoejN5UEZnNVVOaUJqblhEdVZMejVTNl8xUEdQN3plblAzU01vYzduZmdjUTlsRmdjVlZwZ09VbWZvQUJ1Yk1sTkhqbERXUW80WjVFYnZFeTRETmtVNDVEYWNaYkd0Rm03ZHNKOW81cVl0TWM5WDN5dGc?oc=5",
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcUhzT1QtZUVQVTVHaGFKbVBKb0lxZVhYN2g2Q19qR2lzMVlEVnVZYVRYV1RWMUxVNGpqM1cwZGpfTGhrb1JXeW9xWFlCdzRoMmwtbVF6TUZERWVRcC1lUnI3V3ppQko3akt1VmVUai1VdEEzWG5FT3l2VDl0YUxlQ0FaWUNpUWZPbHpPNUE2bklUMjNGMUo0Y2FUZFhReWNLMkNNQlMzdzl3aUdWMzFQR0lKZ2VOTF9JU2dKSWtUMDJablkwdTFFRUJCT3HSAdIBQVVfeXFMTlhNN19IS01zdGtRU3BWaEZjVF94SDFtWU55Z0ZhdDVCQnBjWnE4dS14Uy0yVHVORUwtd2VqS0NjbDZmQ0lWUUFzeHd2Z1phZ3VSZmlseC1uVGN0Y28zNHFISEZRTHE0V2RGUzRCdmtyM1VKdmtvMHZjV3lJMk55Z254WUFPaVpCRVRPeTZ5T185MVJMRjdKNmQ4MmV4SVpCVFBpczJPMzlCVkl5NWFiYWEwU0tpSlEtYlJiUElwNDB3NTk4aXVrTDVyU29ZZmR1eWd3?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX3BIdWRUZHRZd0t3WTFBWVd4RGE1bVJaTG1RT2JkSzA1dmFiNVBLbVFLVjJsZzdJSkpJZTgwZ19IOEhVdEFCQVM1R2k1SFQ2dEdScnVCNnlkTURPZFRyUFJzd0FOSHV6cTNjejFpYnBwQVZTUDZjTlhwb0hYSm40YlY0WExNdlk?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:34452b8c1aab9a3b",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Pentagon lacks unified plan to rebuild stockpiles drained by Iran war: Watchdog",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:42:01+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "Pentagon lacks unified plan to rebuild stockpiles drained by Iran war: Watchdog Al-Monitor",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "al-monitor.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnRHb0hmUzNTWFJqSS1mMFlPOW5fQS03VmptTkhMZjNueDZ6VWlMcklBMVJfbjVvRDZvd0hqV2xTMWlUYjhYNUswVE1iVzZwYUV3M0UyRFpPVkE4UndsQkJPRVhIaWxzU3ZrWjVoYmF0OTZHNTNFVUdnbFhESFQxRjVEdl9ZUGQxWEtvYlJTc2UyU2E2VTZhOENQRnFGZm43ZmdDQUlRUFU2YlZXbWMtSU5lcmxCVHRJ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:e1036880508a3888",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump defends Putin ties and accuses Iran of bad faith",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:55:06+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump defends Putin ties and accuses Iran of bad faith Euronews.com",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "euronews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXFzU3JnZllJNUdtZU5aQkRxdWJlWTdSaVh5ZGE3NGhfVldGcUhiMUpfS1R6ZVZ0bDg5Y0Z6cTc4QldONmQtV3BIM3dVNFZqbEo4YlFnWWFYWkd4VEowUXViMzlnRW42S2RNZ1o1b1F5dnVFV1FEY3lhaGJjeWwyWHdxYjBpNlNIeWZLRHpWeDBrSkZyaHhlTi1paw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:00b41da97f0ceead",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump Plays Down Tensions With Vance Over Iran War Critique",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:56:33+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump Plays Down Tensions With Vance Over Iran War Critique Bloomberg.com",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "bloomberg.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1FmMDBhXzVLc2w1VTU1MS1qa1NrRXotUEhRSzJrS2k3UHg3LWxYSzVGLXNfSmVvY1lWV3VVUmhoSGlTby10TUtuM0ZvVnl1OUNJMFZ2VjNfOXF4emFNbm81TGhYQml2Z1h1RUk3WGhzeGY1dU9zcmRzaHpvM3B1bmZMRjRQcm1Xc181ZGlCR2lGNTd4bUtmRkhidU9OODIwNUVrTEk5aUhyaDFkTDh3?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:bd6ee7d425bcd570",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Inside the situations in Ukraine, Iran following Trump summit with Xi and Putin",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:16:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Inside the situations in Ukraine, Iran following Trump summit with Xi and Putin CBS News",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "cbsnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxORUtmLTdzYzBaX21MUWVlcnctNzNBZkpHaWIyZnI0eE0zUkRpRmRFX2lwSDZXLUFMUDZpckJkQkZicUttVWJfSXFsUjJZelIzUG1PMy1NSjlydE9wUlc1NXlsUHlETXZNSjZrZmE1Vkk4dXd4VDZtYjlDSzlTbEo0Uy1VZzRjTFExNUNsNmRObnhUaUpSV21oV1k2VGxTdnBPN1V5bjBwUUs3d1RLVGc?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:942a75104fb87525",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Clay, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:17:00+00:00",
+   "start_time": "2026-11-21T18:00:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:17PM EST until November 22 at 9:00AM EST by NWS Jacksonville FL ...The National Weather Service in Jacksonville has issued a Flood Warning for the following rivers in Florida... North Fork Black Creek At Middleburg affecting Clay County. Additional information is available at https://water.weather.gov/wfo/JAX The next statement will be issued Saturday afternoon at 230 PM EST. * WHAT...Minor flooding is forecast. * WHERE...North Fork Black Creek at Middleburg. * WHEN...From Saturday afternoon to Sunday morning. * IMPACTS...At 13.0 feet, Water begins to flo…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e7c3167db3498f60ca8cd1178bf044c6a67b3ec.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:2c9dc310cd56e928",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump warns Iran against reported 'dirty bomb' plot targeting Washington",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:22:57+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump warns Iran against reported 'dirty bomb' plot targeting Washington Anadolu Ajansı",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "aa.com.tr",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGhjdWhGdkRIbk9PX2NEdlh2eW1ncThoOEFyamtoRWNCTnJPRThIQlg3ODU5ZDgyTVphMjk5NXpydFhBWk1kMHpCT05JR09oT2VQR2pmakp5YjMtWjNfeWZtLXM2bUNLWk5SZWY1MEN6U1ZMRmZmMGdHdGdWZ1ZjYkIteUdweXlOSkdRWFR5b29QMm05UWZBZ0dlVWZXZ0lHOFpxUGlpTzVrMm9S?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:9be495667c9f4a13",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Lake, FL; Volusia, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:25:00+00:00",
+   "start_time": "2026-11-20T19:25:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:25PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Volusia and Lake Counties. .The St Johns River at Astor is forecast to continue to rise through Moderate Flood Stage, reaching Major Flood Stage this weekend due to heavy rainfall working its way through the basin in combination with strong north-northeast flow. For the St. Johns River...including Astor...Major flooding is forecast. * WHAT...Moderate flooding is occurring and major flooding is forecast. * WHERE...St Johns…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa681dca1b0af2b347eaaeacebc2443548616032.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:258e32cb774d798f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Volusia, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:26:00+00:00",
+   "start_time": "2026-11-20T19:26:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:26PM EST until November 20 at 6:30PM EST by NWS Melbourne FL * WHAT...Flooding caused by excessive rainfall is ongoing. * WHERE...Northeastern Volusia County in east central Florida... * WHEN...Until 630 PM EST. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Many area roadways remain closed due to flooding. * ADDITIONAL DETAILS... - At 226 PM EST, Doppler radar indicated heavy rain due to thunderstorms. Flooding is already occurring in the warned area. Between 3 and 5 inches of rain…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1c3dcdf48b19d219b9bff7e71ea015f823f58b3.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:83613b0b405d5618",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Brevard, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:27:00+00:00",
+   "start_time": "2026-11-20T19:27:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:27PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Cocoa 9w affecting Brevard County. .Extreme rainfall over the headwaters of the St. Johns River has caused the river near Cocoa to rise through Major Flood Stage, well above its previous record flood stage. The river level will continue a slow rise through tonight and is expected to become steady this weekend into early next week. For the St. Johns River...including Cocoa 9w...Major flooding is forecast. * WHAT...Major flooding is occurri…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.424a7e82c12ded9a21fcdabed237393c22ac00d2.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:754ae82420ae9c6b",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Seminole, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:30:00+00:00",
+   "start_time": "2026-11-20T19:30:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:30PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Above Lake Harney affecting Seminole County. .Heavy rainfall has caused river levels on the St. Johns Above Lake Harney near Geneva to rise into Major Flood Stage. Continued rises through Major Flood Stage are forecast through early next week. For the St. Johns River...including Above Lake Harney...Major flooding is occurring and Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. The forecast…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33e045d0e2e16e95bd25684a87168c62e3eddf44.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:0cfd92571d5ec9d5",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump envoys met Qatari officials in Berlin to discuss US-Iran mediation, report says",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:30:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump envoys met Qatari officials in Berlin to discuss US-Iran mediation, report says Middle East Eye",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "middleeasteye.net",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR3lud2xpUDRibFN5YWwwSTlxcXNsLUZNRG1sdE5qNUliNnJxOFpHSzNWLUJkZm1aQ2VwUnRqZGh3Vk90QV9pd3czWjdIbW50RmV4UVJ6Zzk0cU9SOHFteFc1V1hhM0ZqWUFkd0QyZXVEZkRRVV9BQmpiWVpDeV9SZ2h3anN6aGNoTFRUejJsQUVzaER0V3VsV1JWeEN0bm1vN3VlWExSelNGY0ZOTnRsZlNSTmZHSmVMVEY0X2phcHM?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:1232313bac6a224f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Seminole, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:32:00+00:00",
+   "start_time": "2026-11-20T19:32:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:32PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Sanford affecting Seminole County. .Heavy rainfall has allowed the St Johns River at Sanford to continue rising through Minor Flood Stage. River levels are forecast to reach Moderate Flood Stage this weekend, with additional rises anticipated thereafter, reaching Major Flood Stage by mid next week. For the St. Johns River...including Sanford...Major flooding is forecast. * WHAT...Minor flooding is occurring and major flooding is forecast.…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7dd45b1d3c9e93a4097a89e8d5b47502bc3e7048.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:81be6a55e5095963",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Lake, FL; Volusia, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:35:00+00:00",
+   "start_time": "2026-11-20T19:35:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 2:35PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Deland affecting Volusia and Lake Counties. .Heavy rainfall has maintained a steady climb into Moderate Flood Stage on the St Johns River at Deland, with river levels forecast to continue climbing through this weekend. The river is anticipated to reach Major Flood Stage on Saturday. For the St. Johns River...including Deland...Major flooding is forecast. * WHAT...Moderate flooding is occurring and major flooding is forecast. * WHERE...St…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6925669ce034308b98328366356ff7325c6849f4.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:a0850d11dec0b987",
+   "severity": "Moderate",
+   "verification": "Corroborated",
+   "unverified": false,
+   "title": "U.S. Treasury Presses Singapore, Malaysia to Comply With Iran Sanctions, Warns of Targeting \"Lifelines\"",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T19:55:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Treasury"
+   ],
+   "impact_as_reported": "U.S. Treasury Presses Singapore, Malaysia to Comply With Iran Sanctions, Warns of Targeting \"Lifelines\" BigGo Finance",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "finance.biggo.com",
+   "corroborated_by": [
+    "reuters.com"
+   ],
+   "links": [
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kd1Q5dWlmbS1oandCOHJBS1FwSEFxdjVONXRneHg3UjlmOGxUd2NKcjE0akd1ejlXZVlaODZiMHQwS0FYOG14OVhsRHp1dlZZZlRxNTQ3QVQxdzByTnMwbUkwTUU5WVJXZzg4M25CWDdTMVBPWlE?oc=5",
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWpsS2J4X3N5clFTNVhVa3BacUsxZUNmaXAwaHBjRlNVRXZ4XzhlTjBXLThJVlVPN2tMY1hPRmNRR3JWdVFOdi16QmdxYnVDX2lpSlNlZHRiYkh0T2I3VkNiVXNUek9uZWZRbmJHdlM2Skhsbm0xRVhua2N2Y2dDX1VMa1lJNUs4WmZtLWVJQWdfeXg3cVFBTHJ1cmxoQXViTDA0cG9TNmQ1TFhkMkRkc3Vwd2ZtSGtuTjc4?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:12ecec851116b57a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Maricopa, AZ; Yuma, AZ",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T20:00:00+00:00",
+   "start_time": "2026-11-20T20:00:00+00:00",
+   "locations": [
+    "Arizona"
+   ],
+   "organizations": [
+    "NWS Phoenix AZ"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 1:00PM MST until November 24 at 11:00AM MST by NWS Phoenix AZ * WHAT...Flooding caused by upstream dam release continues. * WHERE...Maricopa County in south central Arizona... Northeastern Yuma County in southwestern Arizona... * WHEN...Until 1100 AM MST Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 100 PM MST, water releases from Painted Rock Dam continue with flow peaking…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c28b4f99d0fe159e69b355cfe0197a43b1b0766.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:df66163b30ace155",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Ending the Iran war Is Donald Trump’s least worst option. Here’s why.",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T20:03:09+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Ending the Iran war Is Donald Trump’s least worst option. Here’s why. Defense Priorities",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "defensepriorities.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUWNKSU9EWEFkdnZTZ2M4cjBMUEFiV1dqQl9IRWZIZ2pCZmJVY3lpLU9MMWRXTzdUTy1TS3RkczFldGl6WEFPWGtCUWktVHpSajh1TnFCekhzT2tfN0VOaWlFbUNRNmhkVnFpbXY4aUhENmdfRWFsYjdIakNaZV9GQkZiZzA0bnp4V2otWFluT1o4MHFrZ3BuNm9qNzF4VVRfVWhjRjY3VXlEeHJs?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:223bf8e0b1fd36b2",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: WATCH: 'We will not allow that to happen,' Trump says of reported Iran dirty bomb threat",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T20:12:12+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "WATCH: 'We will not allow that to happen,' Trump says of reported Iran dirty bomb threat PBS",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "pbs.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU24xOEp4LVpfOEw5a1ZnUkx5QVBDR0hBb2JsRTJwS21oQWI3MHE3N1JlQ19XdWduZjR6WFNtc052RkVIMGhCNjRXSWlLVEZSYlpUSnhsa1pob1FJOGFuVG8tcDFxMWxybTNXSDVSWWpaS05ZRXBidW1aZjFnV1lBRk1UbUhDZllodUk2MXNKMGpteWFDMGtoV1pQOVdHM3MxY2ZQMDVRQ2ItWTJSYWlBVnRuOE5KT2prOVkwOUVaWdIBxAFBVV95cUxOVTVOTER1Y0ZneG8wSGE1WTNQN1lXWktnQ0dzNUotZklGYk5MQ0RyWjFxbjBIQy00cUhwaWZKQ200OURBSkxzTFNSd09jNDFxVkhvVTBtdTNjTlZWRFR6MEtYNjF5ekFYc2JDWDBfb25seDJubnByaXNucl9Sb29yTU5tNlVCWWZhUDAwTWdGQ2ZlYUZHQWtSZlN2ZVlrOHBVMTJiSU9fWnpCY1VqNEtVY2Rld1ZwR1labFNwWUVPY1VVZXJa?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:39fc6165fd0c912b",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump considering new Iran strikes as US military warns of strain on forces",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T20:19:49+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump considering new Iran strikes as US military warns of strain on forces Financial Times",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "ft.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IQ0hRcVQwczY2Q0dMRXNtM1IyTnU1VVFMM0haY1ZCTEFEb3VPTUpEN0NLejMxMm5zbE9MVmFuc2VSaGJzbl9vMEE3UGJ2bnFndlE3cmZmUUM4T25nNWo2aWNVcnJGVTdYeFl2NEpHaXQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:7d70fe0a86a3255b",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Donald Trump blasts Iran over fuel prices, says regime doesn't want 'acceptable deal'",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T20:28:16+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Donald Trump blasts Iran over fuel prices, says regime doesn't want 'acceptable deal' The Jerusalem Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "jpost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NM3FSbUphX3pheDdHYVdqSHZNXzFGRFk3d3RHZUw3eVBNSWpBeWlubXJIT3JqN2g3V1o1dzg1NU9rR09jUHJoa1RtMmdqNDZyQjU2bng2S3UxcHF6YkVv?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:87d81d66cfefaa41",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iran has been ‘bullsh–ting people for 51 years,’ wants ‘fake deal’ to end war, Trump says",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T20:54:58+00:00",
+   "start_time": null,
+   "locations": [
+    "New York"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iran has been ‘bullsh–ting people for 51 years,’ wants ‘fake deal’ to end war, Trump says New York Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "nypost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUS1oWDZQWV9BRFVaeFRzUUQzZ0hRazhSNHF0TV9uSnBKa05PQVl4REpTQWUtUGZkYnN4QjBfRWRSQzlNejM5YXY4TmxOMHpLLVd3OHdUdmxzbGhQTkF5QXpyUGt1ZlNQclpjVi1oRjJCVzIyUlkzQ3RwaFlhaFYzVER2N1FHeEFQZkIxZ2Q1VWlWS0lTVTYwUktYXzhkeG1MRFJETUJYdFJOQmoyX0VIbF9WN05ISmkw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:46fa097ff4dde3ca",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump says he wants ‘real deal’ with Iran as Tehran keeps diplomatic hopes alive",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:30:10+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump says he wants ‘real deal’ with Iran as Tehran keeps diplomatic hopes alive Arab News",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "arabnews.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLXI5TjFnSUJhdlVBMTJRcnVrS3NxeXMyLXNDREwxQmRNSkVMX08tVW85andWb0dydkc1STRRQ0JrT1pwZjJnSVFEVUI2UTdaTE1qNW84aTFONEVhS1lwbUVObV8zREZQYl9yYmhHUDE4aVIzczRDMGQwUG5vMG5RQk1CSlhnSzlnLXhDMTMzTWFjRmlncUIyanhHc25Fc21ocHBMSTZGV0pLZGVZWXZuNWZvOXk3ZkNRODhQZk0ySXM?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:52360d5a00907ae4",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump denies rift with Vance over war in Iran",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:32:49+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump denies rift with Vance over war in Iran Washington Times",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtontimes.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMTd1TzExVUEtVFF6aVZhRzBVVGJyXy1haDhndkt0azVpRW91U0toOGw4TVdrYS1Pb0FYRnAxVDg1MkM1RkNWLWlzdFBuQlFlV01XeHNMamJZVHNCLWkwRjVMSDRiN2dkT2tFQXM0bU5JS2ltcU0yY0sxYy1PNnRrX3ZwajkycXU3dkE?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "state:1ba13e13d53ba702",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "State Dept: Sanctioning Iranian Regime Insiders Who Profit from Stolen Oil Wealth",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:50:51+00:00",
+   "start_time": null,
+   "locations": [
+    "United States (federal statement)"
+   ],
+   "organizations": [
+    "State Department",
+    "google"
+   ],
+   "impact_as_reported": "Sanctioning Iranian Regime Insiders Who Profit from Stolen Oil Wealth U.S. Department of State (.gov) (via news.google.com index of state.gov)",
+   "cause": "Confirmed (State Department): official statement",
+   "source": "State Department",
+   "source_domain": "state.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTl9qRDZUSnFnV2ticDlnUlk0TjFfV3Mzbmh4VGF3V2xkLTA4RnRrSzVsSWlzeDFpZXVWMEp0X2JVeEZTalp5UkZaN3pXT2V3S21Ic2JIVzhNeVlqa2pvTmpwR3RLX3VDMEVwemRhUDVNaEprNXpySkk4Z2p1Y2JheVBRaEZKRHNfV2ZUYXk3RXNWaml5WnpYdWd0c25LM052b1BfM0JvNDhlRG9XdUpzLWFMLUVPVVM5MVladkdUU1duMnpTSkFuVHZsQ1VwZw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:52deef60d71795ca",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump weighs fresh Iran strikes as Centcom warns of force strain - report",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:51:25+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Centcom"
+   ],
+   "impact_as_reported": "Trump weighs fresh Iran strikes as Centcom warns of force strain - report Seeking Alpha",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "seekingalpha.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT3VvRzZPUnYxMU1mdUF4OFZTSTRZLWpJUzU0MmhoSmt4SmtIeFR3WVpXRll3bDB0VlZoSDE5b0dXLXJsV25XNWFzdFhnTl9OVTZJNEowbDZnTlpaUzVpckJRdVF5dklldkxiYXRabTktWWFhdkVNTHNRZk9YN0VldUZOQlJpSTNHSENjb1hsZ2FIVS15R1VfeUhGb3BzcFhzX29wMWU5Nkp5d193MlE?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:feb8d697d5f9b430",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump Says US Will Find Out About Reported Potential Iranian Dirty Bomb Plot",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:54:08+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump Says US Will Find Out About Reported Potential Iranian Dirty Bomb Plot EnergyNow.com",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "energynow.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNXBQenkwaDVyNXFJVlFpdFh5NFJzU0JLLW84ajhYZ01nNzR1ekhsTUVtUGtRdFFXR3NfMjg4V1VQSkFwNTVhUnpvejNYXzBSQ2JlclBMYzA3U0llc25jSDFFbGtxZ2YtZ1RpdFFIVFVIMmw3U2U5SExodG51Njc1YW5ieXJHcnVzQlpkeGVaRmdqcnMwLS1iTGNmRFg0aG14LTZ1V2VRZ3phVVU?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:dcd56d8b2b180e2c",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump insists Iran won't make an 'acceptable' deal as concerns grow about next steps",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:54:52+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump insists Iran won't make an 'acceptable' deal as concerns grow about next steps News4JAX",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "news4jax.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdnFrZDZsdnBhTGpFdS1UOVVCZGF1bk9iQVFqczFDT1V3WkwxT1R0MnI5ODRtaHRPZ1hfOUYxZU5lUUY2Q0k1M3YxYmJKS1d0TklwcTFKOHMteHlwVzc2RFJEWDZaVmtNblFYQy03clhIRWMxQVhyRTRhbTlqNmVfQkQ5OGxPelVGSWlRaFZRMXlFN3hCWWZaQjRRa1V0dVdJVi1GNEZNb2FacHdvNUlkaEd2RG5RN3RCWkx3dmRHUlZpaldCSnhPWEo4NXY?oc=5",
+    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOXzdXVXJTXzkza2tLejY5YWl3QU1wcmtSVnFkZU5mNFp5UkhQSHJpdURlaGo2MDNPdUUwaDJ1QjliMHNwVnd4QVdDRDhpZ1VBOWxudGVQUDAwcWF3a1phLWFMNExrSXMtUVJPT2tGSERjelhGbEFibXNGMWthNlY5aVp3OEJNaENvN3ZvSEdLVEt4ajRUQUhhWG1NeW1EYmp4QkhSOE5fcndwV0lWRnNwamlaSl85M1FNZTNBTXJXVVdzalRrTzg2eDJTMFZLbkZBbzlXdjBsSHMycjB2YnJ5NE1FcTZOTVRxZVhRMjNRRm0?oc=5"
+   ],
+   "notes": [
+    "2 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:ca298a537007a45b",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Vance says decision to attack Iran was Trump's call, adds his role is to support president",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:55:12+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Vance says decision to attack Iran was Trump's call, adds his role is to support president TRT World",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "trtworld.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Xd2dZd2Rnek9SQTcyTVh3Z1BDaG9yeVowejNSdUM3MUVfS3pzSG1NRDdhS0F4Z0VabmhNMldvazhtdndsS0QxUnYzVlRqVmJjN1VGOWV2Y0k?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:bfe3a1a415d6bafd",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Vance declines to back Trump on Iran war: ‘The president is the one who makes the decision’",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:58:04+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Vance declines to back Trump on Iran war: ‘The president is the one who makes the decision’ Washington Examiner",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonexaminer.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSHVwSGlQcy1TakpJanZ3M0QtenV2M2FzOHVCU2Z3OFZoTlFVTFN1dHRveHhnMmRnbnI3akxwa1BweVpOcExwcDJxaVJUVDJaaGRLaDRpMUlfNnhhd1pQaG1MLS1VU3pmdUpJNUc1NXFUU0JISHUxNGM5eDJHdXVhUnl5RmxmMVBvb2pMR1VGbWliTy1faERRNXdB?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:ed315afb9604840c",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: US Treasury sanctions Iranian 'trustees' collecting oil revenues",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:01:21+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Treasury"
+   ],
+   "impact_as_reported": "US Treasury sanctions Iranian 'trustees' collecting oil revenues The New Arab",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "newarab.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUFlRmtIbWhLaVp2UlVrYkJQZFJpZFVoSkQyMTNGNzl2RkY1RGl3NktvLWFDSThYVUo0TU5rcXdLTTVuOG9tR0xVdXBOOTlsNXZRQ1F4aVlzaFpsTXlBLVZ1Wl9kbnF1YUp6WlpmUEZhTmVNaE5Xa1ZfeTE3aHY3TDBZY1JXdUYzYjVUam5Hd3phZnJqUWfSAZsBQVVfeXFMUG81V1g0VVcyR25zYktJdTdtT29aMHQ1dXc1S1JvR1g3RjBxWm9lc0dyUFJWLVZWN25yb3B5MTFfS0o2bmtRcjNvWElmMXRRYWpXY3RMZnphN0lobHJPLVhLMi14VUp5ajVSMnlHSUtXWkNhRnVJUTRBZ042WnVOdjFSVEtvR0NtaGNLQ0t5NGpmR1pubk0xdVR3cDg?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:ef5ea499010195ee",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iran wants Trump to state explicitly he wants a deal, Araghchi says",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:09:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iran wants Trump to state explicitly he wants a deal, Araghchi says Middle East Eye",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "middleeasteye.net",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMldsd1V4QjctRjZaTEoteUl0SXo5RHFRNTVCN0tGSlZsMS1VUHpFQWU1cWN5X19ZYTRlODVCMkFpLXZoNjh2elFBamN1VGRKaHhZSEV0cGp6Szg1TnlJUS1oRHc4WUw4RG8wVFMyc1VwSnd4UmMwemo4SWE4QTJoTHRvTXJyWVJ2ZmJ0UWlibEZOeHhHa2hFSW9IT2dUUzJabmVyZXZrbV81YnRqT09ta19zc210X1JEMnc?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:da3c86fe9b5d3fcb",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Yuma, AZ",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:20:00+00:00",
+   "start_time": "2026-11-20T22:20:00+00:00",
+   "locations": [
+    "Arizona"
+   ],
+   "organizations": [
+    "NWS Phoenix AZ"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 3:20PM MST until November 27 at 3:15PM MST by NWS Phoenix AZ * WHAT...Flooding caused by an upstream dam release is expected. * WHERE...Central Yuma County in southwestern Arizona... * WHEN...Until 315 PM MST Friday Nov 27. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 313 PM MST, a streamflow gauge has indicated that water from an upstream dam release from Painted Rock Dam has reac…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2745f4fa458bfc73ec89e51965114c9e810b61b2.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:cabfb432a96c1667",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Vance refuses to endorse Iran strikes despite pressure from Trump",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:22:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Vance refuses to endorse Iran strikes despite pressure from Trump Middle East Eye",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "middleeasteye.net",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxONS1WOUUwcDZ1SGZCcnNUMzIzaDFTUi1tZmFjclloeU5HV3NDTlhDWkllSWlwYWZNWTVMcnlBU0JEelgwTzlwd0ZrSVZUVi1lUzMwemZGc0VWZElHOVZvbDZEN1FPYkRwSTQzNUE2Z200TWZ1azFMVVZJWTI5ZGhmeUhEX2NaeUVFcDlQb0l0ZzdqQ29FdFJuZmZvTENKRTV2VXlxczk1MnRXcVQ0Z3dpLVRmQXQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:bdfc8b650b4e50f9",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): San Francisco; North Bay Interior Valleys; San Francisco Bay Shoreline",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:52:00+00:00",
+   "start_time": "2026-11-23T14:00:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS San Francisco CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 20 at 2:52PM PST until November 26 at 4:00PM PST by NWS San Francisco CA * WHAT...For the Coastal Flood Advisory, Up to 2.1 ft of inundation above ground level is possible in low-lying areas near shorelines and tidal waterways. For the Coastal Flood Warning, significant coastal flooding with up to 3.0 feet of inundation above ground level is possible in low-lying areas near shorelines and tidal waterways. * WHERE...San Francisco and San Pablo Bay Shorelines. * WHEN...For the Coastal Flood Advisory, until 6 AM PST Monday. For the Coastal Flood Warning, fro…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c3009fb0ba23631e2ec9388cd109962b0cd83b6.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:4f85b866635a714b",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Vance declines to say Iran war was worth it, but says he supports Trump",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:59:16+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Vance declines to say Iran war was worth it, but says he supports Trump The Washington Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonpost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEJKV1RqaEVxeGhmZ1VGeE9HaGl4d0liN19ndWtxZDFYSzhxSXZuRF92X1NkOVVoeXZzZXNGcm94WU5iaWk2VGlyaUI2NFZIdHJNLWtYZVpWNTZNQlZvNUJnd0U3cGZWbXpuUktMZDl3Vm1oUUlrUHZlZks5TjFDdFBBZzcyRElGWmZwRHFaUDNkVWpxWmRybDNVbVRiRkJoekFKYTcxaGxjOXhiUmxXYkh5c09kT1E5eFZPRjVyZy1lTzQ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:da88c4a48049489a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Brevard, FL; Volusia, FL",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:10:00+00:00",
+   "start_time": "2026-11-20T23:10:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Melbourne FL"
+   ],
+   "impact_as_reported": "Flood Warning issued November 20 at 6:10PM EST until November 21 at 8:00AM EST by NWS Melbourne FL * WHAT...Urban and small stream flooding caused by excessive rainfall is occurring. * WHERE...Northern Brevard County in east central Florida... Eastern Volusia County in east central Florida... * WHEN...Until 800 AM EST Saturday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Some roads are impassable or closed. * ADDITIONAL DETAILS... - At 607 PM EST, emergency management reported flooding in the warned area. While heavy…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78fd27ea6cc01362d19f260aec4010367d0edd8a.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "ofac:20261120:d0a9bbb435cf894a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "OFAC: Iran Designations; Issuance of Cuba Frequently Asked Questions",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:59:59+00:00",
+   "start_time": "2026-11-20T23:59:59+00:00",
+   "locations": [
+    "United States (federal action)"
+   ],
+   "organizations": [
+    "Treasury",
+    "OFAC"
+   ],
+   "impact_as_reported": "Recent action published by the Office of Foreign Assets Control on 2026-11-20.",
+   "cause": "Confirmed (Treasury): official sanctions action",
+   "source": "Treasury OFAC",
+   "source_domain": "treasury.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://ofac.treasury.gov/recent-actions/20261120"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "cisa:925f615d574112f7",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "CISA: CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T12:00:00+00:00",
+   "start_time": null,
+   "locations": [
+    "United States (nationwide)"
+   ],
+   "organizations": [
+    "CISA",
+    "SAP",
+    "Cisco",
+    "VMWare"
+   ],
+   "impact_as_reported": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability CVE-2026-123890 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-129448 Apache Roller Deserialization of Untrusted Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+   "cause": "Confirmed (CISA): see advisory",
+   "source": "CISA Advisories",
+   "source_domain": "cisa.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:c741a49728999086",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Freeze Warning (Severe): Lower Washington County; Zion National Park",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T17:58:00+00:00",
+   "start_time": "2026-11-21T04:00:00+00:00",
+   "locations": [
+    "Utah"
+   ],
+   "organizations": [
+    "NWS Salt Lake City UT"
+   ],
+   "impact_as_reported": "Freeze Warning issued November 20 at 10:58AM MST until November 21 at 9:00AM MST by NWS Salt Lake City UT * WHAT...Sub-freezing temperatures as low as 25 expected. * WHERE...Lower Washington County and Zion National Park. * WHEN...From 9 PM this evening to 9 AM MST Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. Take steps now to protect tender plants from the cold. Drain in-ground sprinkler systems and cover above ground pipes.",
+   "cause": "Confirmed (NWS): Freeze Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a43290a39629874926f553cf04793f3b4f6dfcef.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:1967cb4864ae0bee",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Freeze Watch (Severe): Upper San Pedro River Valley including Sierra Vista/Benson; Eastern Cochise County Below 5000 Feet including Douglas/Wi…",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T18:33:00+00:00",
+   "start_time": "2026-11-22T08:00:00+00:00",
+   "locations": [
+    "Arizona"
+   ],
+   "organizations": [
+    "NWS Tucson AZ"
+   ],
+   "impact_as_reported": "Freeze Watch issued November 20 at 11:33AM MST until November 22 at 8:00AM MST by NWS Tucson AZ * WHAT...Sub-freezing temperatures as low as 30 degrees possible. * WHERE...Sulphur Springs Valley area below 5000 feet, southern Greenlee County, and Upper San Pedro River Valley. * WHEN...From late Saturday night through Sunday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. Take steps now to protect tender plants from the cold.",
+   "cause": "Confirmed (NWS): Freeze Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58e8a47d29e9536bc02fcf4458bacf9030b83b91.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:94af0ca580f5d462",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Watch (Severe): Bering Strait Coast; Southern Seward Peninsula Coast; Interior Seward Peninsula",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:55:00+00:00",
+   "start_time": "2026-11-22T21:00:00+00:00",
+   "locations": [
+    "Alaska"
+   ],
+   "organizations": [
+    "NWS Fairbanks AK"
+   ],
+   "impact_as_reported": "High Wind Watch issued November 20 at 12:55PM AKST until November 23 at 12:00PM AKST by NWS Fairbanks AK * WHAT...Southeast winds 20 to 30 mph with gusts up to 60 mph possible. * WHERE...Bering Strait Coast, Interior Seward Peninsula, and Southern Seward Peninsula Coast. * WHEN...From Sunday afternoon through Monday morning. * IMPACTS...High winds may move damage property and cause power outages. Monitor the latest forecasts and warnings for updates.",
+   "cause": "Confirmed (NWS): High Wind Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.002.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:539bafde97aee748",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Watch (Severe): St Lawrence Island",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T21:55:00+00:00",
+   "start_time": "2026-11-23T03:00:00+00:00",
+   "locations": [
+    "Alaska"
+   ],
+   "organizations": [
+    "NWS Fairbanks AK"
+   ],
+   "impact_as_reported": "High Wind Watch issued November 20 at 12:55PM AKST until November 23 at 9:00AM AKST by NWS Fairbanks AK * WHAT...Southeast winds 25 to 45 mph with gusts up to 60 mph possible. * WHERE...St Lawrence Island. * WHEN...From Sunday evening through Monday morning. * IMPACTS...High winds may move loose debris, damage property and cause power outages. Travel could be difficult. Monitor the latest forecasts and warnings for updates.",
+   "cause": "Confirmed (NWS): High Wind Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:16c0c250ff142f5f",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Special Marine Warning (Severe): Coastal waters from Suwannee River to Keaton Beach out 20 NM",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T22:03:00+00:00",
+   "start_time": "2026-11-20T22:03:00+00:00",
+   "locations": [
+    "GM"
+   ],
+   "organizations": [
+    "NWS Tallahassee FL"
+   ],
+   "impact_as_reported": "Special Marine Warning issued November 20 at 5:03PM EST until November 20 at 7:00PM EST by NWS Tallahassee FL SMWTAE The National Weather Service in Tallahassee has issued a * Special Marine Warning for... Coastal waters from Suwannee River to Keaton Beach out 20 NM... * Until 700 PM EST. * At 501 PM EST, a strong thunderstorm was located 16 nm northwest of Suwannee River. The strong thunderstorm was nearly stationary. The Horseshoe Beach weatherstem recently gusted to 32 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Expect wind gusts in excess of 34 knots…",
+   "cause": "Confirmed (NWS): Special Marine Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd1f59bbb82dbe9989cbd4c038714c4c0d4fd888.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:e44a43b3d6ae9377",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Special Marine Warning (Severe): Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM",
+   "detected": "2026-11-20T23:17:55.256318+00:00",
+   "published": "2026-11-20T23:10:00+00:00",
+   "start_time": "2026-11-20T23:10:00+00:00",
+   "locations": [
+    "AM"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Special Marine Warning issued November 20 at 6:10PM EST until November 20 at 6:45PM EST by NWS Jacksonville FL SMWJAX The National Weather Service in Jacksonville has issued a * Special Marine Warning for... Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM... * Until 645 PM EST. * At 610 PM EST, a severe thunderstorm capable of producing waterspouts was located 56 NM east of Palm Coast, moving northwest at 20 knots. HAZARD...Waterspouts and wind gusts to 45 knots. SOURCE...Radar indicated. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small cr…",
+   "cause": "Confirmed (NWS): Special Marine Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9b4990549fb1607fb68273d64026d8f7333bba7.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
   {
    "id": "usgs:ci41364111",
    "severity": "Critical",
@@ -7792,2044 +9522,6 @@
    "corroborated_by": [],
    "links": [
     "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad5d91a22506093bf8bf1b03398d08d7f0752be6.001.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "news:8f371f2b38e8eebc",
-   "severity": "Critical",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Mossad chief urged renewed US-Israeli strikes on Iran during Washington visit — sources",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T15:53:02+00:00",
-   "start_time": null,
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Mossad chief urged renewed US-Israeli strikes on Iran during Washington visit — sources The Times of Israel",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "timesofisrael.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiywFBVV95cUxONGM0MUF0bi11dWlPNGhmV1ZGVUowSFZTWVc4REg0ZF9mUEtfUVhHeEFxbUlRMzBUcDJXNzA5c1c1RGZISktLazFKUUVIaldWNS1QYUR4akM4WTc5ZjVsamxfbDFWcElOSUNmRlpnMl9UYjlBa2ZrYlUtQl9ZeHB6dlE2N1Rhc0hXeFdnZ3BpRlB4MHRrendPLXI0d21nQ0tJUjBUcnF0TzA1TmVmdUxrN2VRblIwRWRJQVlOTDA2LTdsbVlDdGszRndpQQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "immediate"
-  },
-  {
-   "id": "news:3618fa81b57d12c3",
-   "severity": "High",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: WATCH: Mullin defends Trump administration's messaging on spate of outages, flight to football game during ground stop",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T14:56:22+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "WATCH: Mullin defends Trump administration's messaging on spate of outages, flight to football game during ground stop PBS",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "pbs.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTjNZZXVHNkFET2k1OUN6Q19iTFFzdkJrdVVPSlU0WG1PLWZxSllGWUpIRHNvTnVZTnlZcEZYUVloN28xRmdXMUg0Q3ByVlV4TVpOQWt6ckVud3R5Z2xDR0ZCNVJPc0VwRElGcVFwcjcwYXpfNm05TmRaczJlUzYya0xWeUJGa0x6Ulc2VkRWU2VYajFRcjJvY2hfMXhqd0NvUFFMcDc1S20xZllaODNSb0huMi1hTUludDNMdk14OTQ0YlBJMzVQMDUzVkvSAdIBQVVfeXFMTjNQR29NRWFiRUNrRkthaHN3OUtEeWpiUTZldWVtMUdWUmNtZjZOMUl0aGtkSVBXSlhMcFpBU01EZkd3aFp2dzBiNFpTbDhIeUdseU8xRUpjTDgxcmlmN0ROWmFBaVJfWlJ1SHp4YXBBTVMycDdSSFlZQno2YzFtNGhrbE5TMW1MWnlDNnd5VThfTkk3SXJ0bkxOdFJvQmdGSENoZGJXNjd5WDJvVVJxeHBqRnJiVkN1TVV2V1Q0SEY1MzVmY09Xb2ZWYXNxdnZERTNB?oc=5"
-   ],
-   "notes": [],
-   "disposition": "immediate"
-  },
-  {
-   "id": "news:ee11014a42c21048",
-   "severity": "High",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran expands counterstrikes following U.S. attack on missile site",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:52:16+00:00",
-   "start_time": null,
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran expands counterstrikes following U.S. attack on missile site Washington Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "washingtontimes.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMGZXNE84VjRVR1RsdHFfaFVJUlB5c0xUbGpvOVVTRmRlUjcxbFNSaVBoc0dKczFUbWpxcHprQkZZZ2sxMWtoXzhFUGFJYzFWc1dQMy1yekx5S3pEVFNWRFdtdlZIenNpUnlaVE1pQWtQbXh2VVotRWtscHVTYlc5WFAwRlFBYklWWFBjLWZKUWpMc0lCVXo5VV9TRjRXZkdVczhWNDZOeEt6MnNvTWhr?oc=5"
-   ],
-   "notes": [
-    "Severity capped at High because the only source is unknown."
-   ],
-   "disposition": "immediate"
-  },
-  {
-   "id": "kev:CVE-2024-10441",
-   "severity": "High",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "CISA KEV: CVE-2024-10441 added — Synology DiskStation Manager (DSM): Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T23:59:59+00:00",
-   "start_time": "2026-11-18T23:59:59+00:00",
-   "locations": [
-    "United States (nationwide)"
-   ],
-   "organizations": [
-    "Synology",
-    "CISA"
-   ],
-   "impact_as_reported": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-11-21",
-   "cause": "Confirmed (CISA): exploited vulnerability CVE-2024-10441",
-   "source": "CISA KEV",
-   "source_domain": "cisa.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-10441",
-    "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-   ],
-   "notes": [],
-   "disposition": "immediate"
-  },
-  {
-   "id": "kev:CVE-2026-40217",
-   "severity": "High",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "CISA KEV: CVE-2026-40217 added — BerriAI LiteLLM: BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T23:59:59+00:00",
-   "start_time": "2026-11-18T23:59:59+00:00",
-   "locations": [
-    "United States (nationwide)"
-   ],
-   "organizations": [
-    "BerriAI",
-    "CISA"
-   ],
-   "impact_as_reported": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-12-02",
-   "cause": "Confirmed (CISA): exploited vulnerability CVE-2026-40217",
-   "source": "CISA KEV",
-   "source_domain": "cisa.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-40217",
-    "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-   ],
-   "notes": [],
-   "disposition": "immediate"
-  },
-  {
-   "id": "kev:CVE-2026-90817",
-   "severity": "High",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "CISA KEV: CVE-2026-90817 added — Vanderbilt University Research Electronic Data Capture (REDCap): Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T23:59:59+00:00",
-   "start_time": "2026-11-18T23:59:59+00:00",
-   "locations": [
-    "United States (nationwide)"
-   ],
-   "organizations": [
-    "Vanderbilt University",
-    "CISA"
-   ],
-   "impact_as_reported": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-11-21",
-   "cause": "Confirmed (CISA): exploited vulnerability CVE-2026-90817",
-   "source": "CISA KEV",
-   "source_domain": "cisa.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90817",
-    "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
-   ],
-   "notes": [],
-   "disposition": "immediate"
-  },
-  {
-   "id": "kev:CVE-2026-90436",
-   "severity": "High",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "CISA KEV: CVE-2026-90436 added — Apache Axis: Apache Axis Unsafe Reflection Vulnerability",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T23:59:59+00:00",
-   "start_time": "2026-11-18T23:59:59+00:00",
-   "locations": [
-    "United States (nationwide)"
-   ],
-   "organizations": [
-    "Apache",
-    "CISA"
-   ],
-   "impact_as_reported": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Due date: 2026-11-21",
-   "cause": "Confirmed (CISA): exploited vulnerability CVE-2026-90436",
-   "source": "CISA KEV",
-   "source_domain": "cisa.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90436",
-    "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
-   ],
-   "notes": [],
-   "disposition": "immediate"
-  },
-  {
-   "id": "news:28d5eb9a27324719",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: 'It's his decision': Netanyahu says choice on how to proceed with Iran is Trump's - ABC News",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T11:18:33+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "'It's his decision': Netanyahu says choice on how to proceed with Iran is Trump's ABC News - Breaking News, Latest News and Videos",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "abcnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd3N3QWRxSWRObVZaQ1JBQWxYOUxwQU9DNl9IdWJ5Yk5jelc4aEpPMnZkblhGRXRLckpxWmNISmg4WUVBZ2o1RWxsQmdsSE1LMmF6V0ZOQW1wNjQtejVHYlJRZVNwalVOSndIZkZFLWNCNi00Tm1qM3BMMGlxdzlFUTRqOG1XWl9OZE5nSmZkN1PSAZYBQVVfeXFMTUt0b2FHckFRN2sxb2VLZUU4UnhCSjNiVnpyczRmdW42RkVPRzZxMzluTFM2clNQb0c4WWppNEFtb0xNQ2Z3TkN4Nm93ZWFOWnJKQ0xBbHd0QWlHYXpDSkczekhhUWR0dTA4SGRQXzh6ajlrbmtnMHNEdlkyX2NPUFdJc3RZR0ZtdEQ3VERlMHdsRGVHRHpB?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:6a4c231725cb714c",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump says 'we're blowing up the whole country' if no Iran deal is reached in 48 hours - ABC News",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T11:29:08+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump says 'we're blowing up the whole country' if no Iran deal is reached in 48 hours ABC News - Breaking News, Latest News and Videos",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "abcnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODVSNEEtLVQzUnBYcWNoTDJDdF9ZZUpudmRCLVJleVlyV1dLM1A2aGthbnk2YUZMNHE0SGFWMWI4VkhsMFVNTE1Fd3N6d2hIS1JRVXNhSG9wd3FrSTFSMENZb3FkbV81dHJtWGZhR1lHTmUyY19BNEc5d2N2aVZROW9SWFNmc1ByWWE5V291TEZxcFlBUFhsd0ZwT29sSy00bXd30gGoAUFVX3lxTE10YTRndzZ5OWwwZGxTQnNNM1U4Wnc4QVFYTHdxZWVWNnYxMi12d1BIRzBxS042OXJhZGRCN09leEhwUEpMV1hNeHg2OTVpYTJWbDJQeHY5OUxtZEZNX3U0ajkwdkVtTVU0ODFlV1M1SG9pN3J2S1RCbzU3cmdxaUhlRXoxYkE5MzNhNGZnaHdacThWQWxONGFYRy1Obm1jYjkyNHZWM0c1LQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:c717ffc0fee5b2b6",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Algeria and the U.S.-Israeli War Against Iran",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T11:46:52+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Algeria and the U.S.-Israeli War Against Iran Arab Reform Initiative",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "arab-reform.net",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcUdodk9jU3VFV2hSWkg3ZXU0TUR6Z2JVUEV2X2ZzTHhYd3JOQnNXLUQ4c1pxNGF0Q3MzdlhUaF9Xa3VVZXJ1Tjh5OVVOMGNtSjllaXpqUE1DOGVFLXJiYTNVczltdU1pMnh4dDdCbk1LMjVmaEdEeVdMRkVuV0pURGllQ1pBdGNMM1Z3ajRR?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:1363058beea7c471",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump Says US Held ‘All-Day Negotiation’ With Iran on Tuesday",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T12:35:15+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump Says US Held ‘All-Day Negotiation’ With Iran on Tuesday EnergyNow.com",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "energynow.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYXZQMF9TcE93aUN3cThCemwxS25BZGRPWmFDaDZGYjlzb3pteVp0ZHhuakRmSXNxbm55YXBmTlBWVzFTYzNleGgzcEFldndiWEd3MDV2aEswcnRfYWtFUENKRmpqQ2dId2lncWFoMkNoMkFfcEdZZmxCMmxmWkl3V2ozVGRTTzF0bHRWNFcxdkY0djJY?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:8e7ca211ec9e2495",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran and U.S. trade strikes; oil tanker inferno ignites in Strait of Hormuz",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T12:46:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran and U.S. trade strikes; oil tanker inferno ignites in Strait of Hormuz CBS News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "cbsnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQclIteVBkN1cxYk41OHJCdEpVWWtKbzBIVjdoVUlkOHFpdUdhVmhDNlFfOGtwaGs4VGowY2pxWFVLSi01VlJEWHpLWjBUcXVfRzRnT3V2Q0Z3S0dLTXN1dWRzVDJGWkZ2NTlZU0hMTkZFN1BBYlIxTkRtdUQ1RlRpMGwxYklkTXVUREctOV9ZckZCSTVJVFFKX01uY1plTE1yaG1DRFRn?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:f673470ab321b4ea",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: CENTCOM's Cooper, IDF's Eyal Zamir, Mossad's Gofman meet amid Iran tensions",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T12:56:19+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "CENTCOM"
-   ],
-   "impact_as_reported": "CENTCOM's Cooper, IDF's Eyal Zamir, Mossad's Gofman meet amid Iran tensions The Jerusalem Post",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "jpost.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yTnFCakd1bUVLUUFTNzJDZzMtQkt1d3RoWGNmWHZxVXJKOGVkVXkycU9pdmg0TGdHbFg1WnF3ajV1YVJmaFVmUDBLVXZGaDRteV83VXlIdkEwZnJma0dtRk03QkpVcEEyMWxKbmlR?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:6180532696ee87e7",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S.-Iran war hits highest tension in months",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T13:07:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S.-Iran war hits highest tension in months CBS News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "cbsnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYlBDMkpkMlo0VE9MSHpvSHFXZjRXTFhtYlpEc3RPT1ByRkdoMkViNUdiZmpqWkJzLV8wYklZbklCcHJ3WnQwLXpXRUtZeGRCN3QwcWN2SmtzNDFpSkNxeXNpSmctbUtOQWxpUzJQeVYzbFlMSzFxZVF1X29ld05vMg?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:2c1ddb51a4dc89a3",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T13:19:32+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced. The post Last of Five Defendants Sentenced in US Scattered Spider Hacking Case appeared first on SecurityWeek .",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "SecurityWeek",
-   "source_domain": "securityweek.com",
-   "corroborated_by": [],
-   "links": [
-    "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:0140dea93b0edba5",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S., Israeli military chiefs meet as Israel pushes for new Iran strikes",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T13:27:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S., Israeli military chiefs meet as Israel pushes for new Iran strikes Haaretz",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "haaretz.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMimgJBVV95cUxObTh6YmpJcmQwNnJXR2p6bzZFRDJGZl9iX2hJZWR6Sjc4X05Uc0dYR3J6VG9BRE9SVUpfQU1RMXZnUzR3SUN3dDdDb2huY29fZFc4X1VabGpYaFA0ZkZCWnpJYjR0ZldTdE5KdEhjUUloTHdPUS03VF9Xc3A2WXhGSER3bWdFREVzVGp5YUhsZExvdUdTMlM5bVZyMm9acG44akZwY25RUGdUZF8ybHljYnBlOUNoRTBlMDZfXzJVM2JLTnpGdWhNVW9FWHdwWnlNN0FoaUJGVlc3czhtVTVDVzJIYTlmcGdmUThrUTNFZWRBN1FfcTgzRHREcFAtZ3hSVEViYkxGTFhNRS1vTXRsckRwWVhWVDUyVGc?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:eb1e46af5b374c57",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S.-Iran Conflict Flares Again as Gulf Nations Brace for Attacks",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T14:30:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S.-Iran Conflict Flares Again as Gulf Nations Brace for Attacks Crude Oil Prices Today | OilPrice.com",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "oilprice.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb25iMF9BUkNRRl9xNXRHOVVUdzJuckU2ckI2Y2pEcjIza0ttXzl2MTFEb3RiM1d5SGhyeDlNSVhNSXFIa0dWTUctVHpJRVZJTU41LVBQYm5pc0dwa05iNUJPS25HeHNMcjNBS25sMjBxZVJyaG1ILWxRd1hBSkNza1NuZGlkd1ZrcVE1T2YwZ2ltWnZlQUFvT1Z3T19keGk5aW8zVUlFVEQ4X3U0RHRuUE9ya9IBuAFBVV95cUxPRDRNTmR6cEIzeXN2TlQ3Mmh5bG1XYmh6MWRJakxXeDF6NnpJajZReUhvSE1EelR4SEFXaC15VHpsTmt1b1dzc1NGTXMwZUY2ZTBvUUtxbkhOYVR0aU94RFRxd25NSFBmTFhXMldNYl9ZdzdwMnBHbE1tdlhoeTZvaG9ZWXAzdGdXS0VBSUJud3BtdVN6OFlWakc0Uy1wWGFNMnhYOEt3RE1hRXhnM1F2MlJSMlpKSVJK?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:5d41c8d31ca067cd",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Opinion: The Unfinished Business of Iran",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T14:35:33+00:00",
-   "start_time": null,
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Opinion: The Unfinished Business of Iran Washington Jewish Week",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "washingtonjewishweek.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZLXlneDNNQXdOQWkzc0ZTUnQyczhrWEpXdzhzOGN0THBxdXdITlI3dVh6TlFXRHJsVWRGVmFMMjJBQzFxMFUwWU1ya0lvODFaMDhvLXlYamxmS1BDRmsxZHpkWXlqMVZQVTlPdmVkSFhCYXc?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:babe97ca796662a8",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran Fires Missiles and Drones at Gulf Arab States as Peace Talks Falter",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T15:37:11+00:00",
-   "start_time": null,
-   "locations": [
-    "New York"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran Fires Missiles and Drones at Gulf Arab States as Peace Talks Falter The New York Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "nytimes.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2VLOF9QWEItcEJqTnpwSVhhVkhpSktfR0lBLTM1M2JUYzMyUjZQS2U4Umc3VEpvLWdoNUdqaXBvbjNRaVdneFBSMjU2anJtdE5kclE3dDA3SUR0Z2FXLVk5eTJyM2FPS0VHR2xYT3JiYkxXSDU5VklWMDNVNlN3ZE5JQ2ZESjBBOU14djBDOW5GNEpuLWtva0dmcTc3dw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:417fe60a7c0e4942",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iranian Dissident Sues Tehran, Claiming Government Has Tried to Kill Her",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T15:37:23+00:00",
-   "start_time": null,
-   "locations": [
-    "New York"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iranian Dissident Sues Tehran, Claiming Government Has Tried to Kill Her The New York Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "nytimes.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaWI5YUN0RWM5OTItSFoydW5IbDJWbFVORTgzMXM2Q19CaUZCUkgtdHl2Z3lreVRZZEd2WHRNZnJtLUhTM2VGZThvNmxQY0cwLU5XbEh2SVZWUFFoSGZHek5KOGVPZjY4V3lFRV9GR2ZGeUl4bEdFeGV6VUdESTBuNEViemNUb1lxZkpxaFppWFIxOUNhSlZ3R1F3THJSdVgz?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:e8f89eff25584127",
-   "severity": "Moderate",
-   "verification": "Corroborated",
-   "unverified": false,
-   "title": "Trump and Tehran gamble on time as Iran war stalemate deepens",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T16:18:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Detroit"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump and Tehran gamble on time as Iran war stalemate deepens The Detroit News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "detroitnews.com",
-   "corroborated_by": [
-    "reuters.com"
-   ],
-   "links": [
-    "https://news.google.com/rss/articles/CBMixAFBVV95cUxORE9ybU50RGNSemJLbk01elFhdjkyb3Y4XzNMaE9DNXduRVc4S3lrbEdyM1FPb21Vb0RQUGp1RVBFR3BQbGpFSUhnR3FXeG9oeVB3d2MwczRYbEM4ZTBNUC1kdEZhQy1OdGNDN3VBTmFDSmRyYjNERnJoa1MxbG0wZmVOMXlDRlE0bUZ3ZUNTNUJLY1lmMmZBdnBRSlRvQmZpYnJaY1B2UnFaQ0Z0aDlyampQYkVjVjd0MF9vcVByMzFlZWZs?oc=5",
-    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:b7e1060f3c81da2a",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran targeted US infrastructure with cyberattacks since start of war, Homeland Security chief says",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T16:30:13+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran targeted US infrastructure with cyberattacks since start of war, Homeland Security chief says The Jerusalem Post",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "jpost.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjb2xaQk1hekdtWmw3bVJuZHBkcWJxWXMwUnJkNEtmdEZmWk9KU0IteXlRM0o5RlZMRkhRSml5TWt5S2NwdEljQXpmU0tWYkZfNlY1NnRGaVhtLTh3aUFqenV2RFY2blA4WUE?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:55f8625988749711",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Yosemite NP outside of the valley; San Joaquin River Canyon; Upper San Joaquin River; Kaiser to Rodgers Ridge; Kings Ca…",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:01:00+00:00",
-   "start_time": "2026-11-18T17:01:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Hanford CA",
-    "Kaiser"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 9:01AM PST until November 20 at 4:00AM PST by NWS Hanford CA * WHAT...Heavy snow. Total snow accumulations between 1 to 3 feet expected above this elevation; accumulations around 4 feet above 8,000 feet. Winds could gust as high as 45 mph. * WHERE...Sierra Nevada above 5,000 feet. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes. Gusty winds could bring down tree branches. If you must travel, keep an extra flashlight, food…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b143a4ce2a3b143e03f39e992d139d0cb1e6b02.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:e36e84d0bebc3d81",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump Grows Frustrated With Vance Over Iran War Critique",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:15:08+00:00",
-   "start_time": null,
-   "locations": [
-    "New York"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump Grows Frustrated With Vance Over Iran War Critique The New York Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "nytimes.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV3B0SDctTm9DMGNCbXNLM2VOd2prWE1aZTZfT242MVNtUGRVeWRUemVHRWZMSVhGM0J0S2xxMC1XRWRvMVB6XzN3VGJfTDdDSGtGMTlSMFpVTlM2ZGotaW1JZjBaWWNQZmZseEFFUFBxa3hnRDQyYnB1bzVUWXdPcDJnZU5jLTUzVUZJYWRsX1d4Zw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:be5bc8343688eb23",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Fallon; Carter",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:19:00+00:00",
-   "start_time": "2026-11-18T17:19:00+00:00",
-   "locations": [
-    "Montana"
-   ],
-   "organizations": [
-    "NWS Billings MT"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 10:19AM MST until November 18 at 9:00PM MST by NWS Billings MT * WHAT...West to northwest winds 30 to 40 mph with gusts up to 60 mph. * WHERE...Carter and Fallon. * WHEN...Until 9 PM MST this evening. * IMPACTS...Winds may damage trees and power lines. Travel will be difficult, especially for high profile vehicles on north to south oriented roadways. People are urged to secure loose objects that could be blown around or damaged by the wind. Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution and consider…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab25fda89ebd4b3c76cda30f9ed45874247f11bc.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:d827b31bc458869c",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran Warns of Unlimited Response After U.S. Strikes Qeshm Island, Kuwait Reports Drone Attacks",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:20:09+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran Warns of Unlimited Response After U.S. Strikes Qeshm Island, Kuwait Reports Drone Attacks NewsCord",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "newscord.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWjlMUWZKb3YxM2JfWjNtNXZlYk9WUzVicDVpdFFCelJnY0RUTVkyaWllcFVOeWZZcEgxMnhNOS1EV1BYOS1qbTVzZEFFWWR2NnphcDZhenAwZFZIckltczJaQmQ0NEtvRVphQjM5SjVCTGNaX1VXd2s1N2J4VGJQVHNwMnZzdmNiSGF1Nll0NHVUajN1WmpLV1AyajFiTW1kcURCcm5iOHJMRThzYkpOLUlZTnNHOWNEMUYySVM2Q3NscU04S0dhcUFHU1BXVWdvU1ZDRHFlWk9KLVFza3FIdDF2NHNVcUljcXc?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:d9d7c901f54c6d40",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran Hardens Negotiating Stance After U.S. Midterm Elections, Officials Say: 5 outlets compared",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:31:46+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran Hardens Negotiating Stance After U.S. Midterm Elections, Officials Say: 5 outlets compared NewsCord",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "newscord.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVNeDU5QS1uem9TTUJjMXZGSkVDemliU0JnZm1rcjNDRm93MHV6SzJzQW1EWGUyX0xsRWo3OVlpTXV6NDlUR3ZPbEJiWEppR1FoYnE1UlY1TGtCY2dtYXFOQ1BQeFA5UWdMUWtfeWVfMjJhYUpoRHJPZFI0cW1RcW51QkNvZ04yWGJyaWZKZlhRSUtUcTVJX2tuSEVmWWt5Z3RXM2pGckZzWUZiRXd0blBTTG5FYjBLVEJuWGZnQTRpR2VSWE0tSXl5U0ZaS2NibnFVaUxn?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:f205968de1d2f7cf",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Pribilof Islands",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:40:00+00:00",
-   "start_time": "2026-11-18T17:40:00+00:00",
-   "locations": [
-    "Alaska"
-   ],
-   "organizations": [
-    "NWS Anchorage AK",
-    "Southwest"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 8:40AM AKST until November 18 at 3:00PM AKST by NWS Anchorage AK * WHAT...Southwest winds 45 to 55 mph with gusts up to 80 mph. * WHERE...Pribilof Islands. * WHEN...Until 3 PM AKST this afternoon. * IMPACTS...High winds may move loose debris, damage property, and cause power outages. Travel will be difficult. * ADDITIONAL DETAILS...Winds are currently peaking this morning and will stay elevated through the rest of the morning and into the early afternoon. Strong winds will diminish through the rest of this afternoon into the evening hours. As a result o…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eef19087e6277b5a5482728b73c0e8140522779.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:02920f13caddc1dd",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Watch (Severe): Inland Palm Beach County; Metro Palm Beach County; Inland Broward County; Metro Broward County; Inland Miami-Dade Count…",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:50:00+00:00",
-   "start_time": "2026-11-18T17:50:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Miami FL"
-   ],
-   "impact_as_reported": "Flood Watch issued November 18 at 12:50PM EST until November 19 at 7:00PM EST by NWS Miami FL * WHAT...Flash flooding caused by excessive rainfall continues to be possible. * WHERE...A portion of southeast Florida, including the following areas, Coastal Broward County, Coastal Miami Dade County, Coastal Palm Beach County, Far South Miami-Dade County, Inland Broward County, Inland Miami-Dade County, Inland Palm Beach County, Metro Broward County, Metro Palm Beach County and Metropolitan Miami Dade. * WHEN...Through Thursday evening. * IMPACTS...Excessive runoff may result in flooding of rivers…",
-   "cause": "Confirmed (NWS): Flood Watch",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.996f2b2710c35828265887809d90336a5516f695.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:25f009a65be1a50b",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: CENTCOM chief visits Israel as IDF prepares for renewed war with Iran, awaits Trump's decision",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:56:21+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "CENTCOM"
-   ],
-   "impact_as_reported": "CENTCOM chief visits Israel as IDF prepares for renewed war with Iran, awaits Trump's decision Ynetnews",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "ynetnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80SlU1QlRTVWwyRlRjMHhEcXVXdUhRODYybUYwaWkwQTJfYlFqRm8xd3JLV1VKNUpFN1VkbDNEWHgtQUMyMXdaZHFrTVU1OXdSc29Kc2VR?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:6eac8832f21956a7",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump Quietly Loosens Iran Blockade as U.S.-Iran Standoff Persists, Foreign Policy Warns: how 14 outlets framed it",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T17:58:26+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump Quietly Loosens Iran Blockade as U.S.-Iran Standoff Persists, Foreign Policy Warns: how 14 outlets framed it NewsCord",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "newscord.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZzlpLTBuMkotaWJjVUdXYjBqbTB0RkZZRllmVkxSQ25XbEl6MHUzTGdCZ0pFNk1nUmlBR1lZUjZRWkFGdE90cUQ0NjJsSTFPeUl3UWxab3NQQ1V2WjFxLXhwdmN6ekRJVVBVR1o2TVhYem1jQWFVYWxOMERsZUY1bGZ1b211clphYWFNZWVocGlLMzNCSG0wblM2UmFCNVlVZXotY1B0dThjQVdqRWxBdXF1eXEtalNlSUlHUlZMR1ZDZUpDOTJmVUxkU09hbXNfbEJsOE1lSnJqMGVLZ253VDhsQTRNaGd0?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:4723a609d62ac7f4",
-   "severity": "Moderate",
-   "verification": "Corroborated",
-   "unverified": false,
-   "title": "US Homeland Security chief says Iran not imminent dirty bomb threat after report of alleged plot",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:19:47+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "US Homeland Security chief says Iran not imminent dirty bomb threat after report of alleged plot Anadolu Ajansı",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "aa.com.tr",
-   "corroborated_by": [
-    "timesofisrael.com"
-   ],
-   "links": [
-    "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdGRxODVCcDFEdy1wOHdkM1dCU0NhNTlkUGFjMjdWNDBmbEdmR2tPMkxiVDRxemFlNm5rd3U5ZFAyb3N1RDdNdG16X2VaYldJVWZ1R2ZORkdLU0hzZVJ4UVNWX0YzT0RiTkJtNXVSVm1LLTNqNkUwbUxOc18yeDQxZHdBVndVOElHeExfUy1KZmJlV1JUVXU4Y2RhcUpnZUNCVTlVSC04b2tmR1hhU0p1U0U5NXBLazI5YXp3Qk1hOWlxTG1pSFlXd0puRlNPekE?oc=5",
-    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3cwNW9ab0FmUEpaenBheFN2ZVFJMG8wVDNqWEFGZ0dYYkRvTTh4eUNORnkxS0p0NFE0TTJQUG1jRktJU0VpM29ramtuY3owbmxOQTFfNDRUUTVEM3piMDNyRUdiQUhPUE1CT203Rmx2b28yQ3dsd0hqZlA1R01RZW5TSUs1cGgwOFhuc1JLd0s3Uk1TVm1aTGFZa3FobTh6QmpmN0NvS1NBMHVOWTlFeHdRcWxXeFcwWUtLUzVHM3J6TzJneHNJT1QyMkJlRlp4UkE?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:d5068bbcab3b8e00",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Bowman",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:20:00+00:00",
-   "start_time": "2026-11-18T18:20:00+00:00",
-   "locations": [
-    "North Dakota"
-   ],
-   "organizations": [
-    "NWS Bismarck ND"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 12:20PM CST until November 19 at 12:00AM CST by NWS Bismarck ND * WHAT...West winds around 40 mph with gusts to 60 mph expected. * WHERE...Bowman County. * WHEN...Until 11 PM MST this evening. * IMPACTS...The high winds may damage roofs, small outbuildings and signs. Tree branches may be broken and lead to power outages. Travel will be difficult, especially for high profile vehicles. Secure objects that could be blown around. Use caution when traveling.",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28b3cffe181a15e0078e09a0fd11fd0b768a3788.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:a4c0f51157e0b581",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S. service members being pushed to limit for Iran blockade in Strait of Hormuz",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:29:52+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. service members being pushed to limit for Iran blockade in Strait of Hormuz MS NOW",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "ms.now",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiygFBVV95cUxOckJPa0plRVM1cmxNX0FBNXg1RUhiTWNOalpQa0xqUTIySkZPdmRWRGlRYmNwU21mVnFVS3JJYXJDZ3F2MXJMdUljcVFXU2VNZ2hfOWtVc2hlTVFJRmZFUTlDSG83c1M5YWFsU1VleWhYdWhWcWJKNUZ0N0hFQ25scDdHZEJFcHVScmxpTG9PTlJDMHFBX0h5SlNCR3hDbExLWTA2cVdhRzhKX3JCODVoSkczZWNBQWx6R2djQWtNMFNIVHdzMmJMYVZ3?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "state:c394161e90aa4033",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "State Dept: U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:35:45+00:00",
-   "start_time": null,
-   "locations": [
-    "United States (federal statement)"
-   ],
-   "organizations": [
-    "State Department",
-    "google"
-   ],
-   "impact_as_reported": "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network U.S. Department of State (.gov) (via news.google.com index of state.gov)",
-   "cause": "Confirmed (State Department): official statement",
-   "source": "State Department",
-   "source_domain": "state.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSkRaV2FFOEc5SXNjOG1XT0hRVHEyOVpReTZSOFQ4SnpGV3lEaThob2JIM2loV2FmVVd4cGF5OFNmVkpQVUhQdjNjRlR2R3AtN1FFXzV4VzlvSm5GZFhuZHY2TWNicjIwQXlEWHR3a3pfMVVhSHE2WEFnV3NVandsYjEycnFSbXM2eDV2S0M3UklldkdOc01WVjg5MU9feUlrbUtXWHY3Y0FuanBDVVBXM0dJdk1EekpmWlBSZzdLOXlqbXlUNWU5d3hQb3JLcXhpOGd1czhXYw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:863f4260779ffa39",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S. expands Iran oil blockade to target offshore cargo transfers",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:38:01+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. expands Iran oil blockade to target offshore cargo transfers Oil & Gas 360",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "oilandgas360.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa1k0U1JNMllsb2g2LTIxWlpVWEUyT3hNSWJkd2pjdEJRZ3RtY3R2UU1WYko0dlBFOXVaeXNZdnBzalpIM0RRODdYbnFzeC1GTUdOX2xYVFNZMTRhd1llVXQ3TklVZHMyWldzaGZQR1o3bXpjMzlZcTZQdGNENXVBMFVucWJwdUo1dTA4MWpLWmtTMTRJY3E5cU9B?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:d7744396e64ed279",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S. Targets Ship-to-Ship Transfers in Expanded Iran Maritime Blockade",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:38:45+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. Targets Ship-to-Ship Transfers in Expanded Iran Maritime Blockade gCaptain",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "gcaptain.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUXlVaHpKdmJjTDgwQ3o3R3NfLXR2ejBzdWprYlhFdTBtaERLZEw4TlZmbDB6NjhDdER5QUNrazlGc3dLaXk0MTl0RjRqSlA2Y3BTVTBRUkM5SjVaTDd2WEt0ci02NEoyUDA5T1hnV3dITklpMzlqY1JXaWhheDRuOThmekJIRGNIMGFsbTA0MVlPaUpxM3c?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:8df2706679b5ee8f",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump-Vance tensions grow over Iran war as Marco Rubio emerges as 2028 favorite",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:46:49+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump-Vance tensions grow over Iran war as Marco Rubio emerges as 2028 favorite The Jerusalem Post",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "jpost.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90R2lMaWlCR2NDVTBBS01zNUJHb1dTQl81U2NyMDdsZlBxWnJuTVBYX0FIMXlqTDZzOXhMNkY3ZXlGRWwzT2JsbHVpSUVEN3lVbjRUWW11XzZjd1VmYkl4M0R6d0s?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:f37d6ba5dd78e9c5",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:49:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "DOT",
-    "FAA"
-   ],
-   "impact_as_reported": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown AP News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "AP News",
-   "source_domain": "apnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZW1PRm53Ti1nVTlRejJTV3loQl9QbkxGWVdoVTFucEVid1BXZjJYbFpVc2RPVjhLRndBc1pyeVpmNk52Wl9lTnBCZUFpUFVGdy1PdkJteVA0Y05rbXNQX3VRVjVnSTMyenBOaTF5TlE5THBBYURRNkZhRk9taGJLem9LaVFBZFA2a1JYcQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:05c490da438c35dd",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Jeffries, Who’s Pledged to End Trump’s War on Iran, Says “No” on Defunding It",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T18:53:34+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Jeffries, Who’s Pledged to End Trump’s War on Iran, Says “No” on Defunding It Truthout",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "truthout.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQjRHTU5TTWRveWx0M2tqSG9UcC1nd1hxWGVpellEZjRfSGdSdVBBQUNhemFUOE5Cd2pzYW5ObVMtUXppbnc2LUNfUkRRMVF1eWhldFAxX0RGYUV1enU4Y0pmMUlWSW1HcktZcm9seG5VSnBCRnd0SmhJV3c1YVVEZmwyd0VjNXBlQ0lVQmRZaGpsVEVjTlFHY1dqYTl6ajhGNnljUQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:1336631baf90a7a0",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Lawmakers call on White House to develop defensive AI cyber systems",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:00:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "The Record",
-   "source_domain": "therecord.media",
-   "corroborated_by": [],
-   "links": [
-    "https://therecord.media/ai-cyber-white-house"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:1680bf0fbfc21e3d",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: US sanctions Hezbollah-linked charity in push against Iran’s proxies, Treasury says",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:04:53+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Hezbollah",
-    "Treasury"
-   ],
-   "impact_as_reported": "US sanctions Hezbollah-linked charity in push against Iran’s proxies, Treasury says KFGO",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "kfgo.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0xKZVozRHZCSjRCNHFTWGJfa3lvZVEtMUhYckVCcllsaV9pTElLYlY0eG5YcVVQUUVDZlo5U2p0SkkxdWxTTGp6b1ZSWG5mYTV0d3QtaXlkUERick9EaXU0VzVkeEU5VTJ1Q3NEaUN6TDBublZSLUNWcW5ucFBObmFLaG0xanBKRk5qXzl5bGh2OFYtemYyOV9YM2g3dVVheTBDYXN2QnJIek5lUFh3?oc=5",
-    "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2Qwbzk1U3pqMkN6UWlKcTdVTERzdFFxNXlsb1kyS29Hc0Z0ZUFtWHEzd3dVRkc0VEc3WVFtQ21GcWR6U1VaQkdCa2lzbVg2V004SFRHZi1SRG5hVW96WXdxUncwcTVXYXJxV3JsSEt0dGpveXBOVmZ5Q1FYcS1iN1NrM3FTOWs5OW5Pa0tWaGM1LUx4TXFpdEVWc29HdDVKZUJlYUhaaXI3ZW0zdTk2MmxGaVJnVDd5YUcwZ2JjdEhpOG5a?oc=5",
-    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXdlc0o0VXhJVDJreTZlY2s3bXo0VE1TbXYxUG00dC1saFVoV3Y1Q3pxWjZReFVYTUdteEY5UzcxN1J5TE00YXJHb2U1TGdxWkhEMVpxOUpYcERaZnVrakd3bi1MblpjcHVZQjZMTi1ZczgyTzBoM21VWk9KaUtqYnJRanNFdUhxQXF1blNtQ05HZWRwc1NFbUhpYzZLZUZJaUZHcGNEZVZlYzg3WFBSV0dwbmFWRnlmczFJYjBVZko?oc=5"
-   ],
-   "notes": [
-    "3 reports on this story in this run."
-   ],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:f7b4cc27eed55a51",
-   "severity": "Moderate",
-   "verification": "Corroborated",
-   "unverified": false,
-   "title": "Man gets more than 27 years in U.S. prison for assassination plot that he said was steered from Iran",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:12:25+00:00",
-   "start_time": null,
-   "locations": [
-    "Los Angeles"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Man gets more than 27 years in U.S. prison for assassination plot that he said was steered from Iran Los Angeles Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "latimes.com",
-   "corroborated_by": [
-    "nbcnews.com"
-   ],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSHBuQkJ0RXFYeWFxSW1ZNXBHSE04SElzLWZidzQ0UVVDOEtqWWFxWnJJaFNzQl9WMkVUY3d3THdvVE50TzN2V3AxZlo2dUhUZGxNa1NGMzdwNWZVNG1WNi1mMmNrRWlBendXRmxiT2lrZWZNVVZUYjd1bFhJQ1NpUURQUXc3OWl4Mm8wVzZnQnJjMnhCeTcwd2hhVVVlc3F3aGZ5b2F0WlByLVpWM1RiNEk3eFAzTXh0VDJ2eHZXOWlfSk5lSmVVTjQ0WXl0aUY3WVFtWTJ5US1LZ29UbGNoc3EtcnROYkdv?oc=5",
-    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZldMTExXVXJWR1Z1aEQzZjlWVWNCN0VWLWZqb1Z1Qld2TzBVNVd3M0ZteUg2MjdxT1ZNUmFUMzRvTEJtRlNRSmc5Vy0ySTZadDF0M1RNMUlEQTBYMjgwM2F3bVE1Wl9hUF8yMXB2S2VZZmxtMk1keVRIWFRKbUdQSThYeVMwekJoNWdxaE12VVhmRFhQTGVzTjF2Z0piUXpfZDJEYlZFR2FnTHhkRmp2aVFHc3NnZGJTUTE1YUxYdkYzSnJsN3RBZV9rcw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:547695cac63fd931",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Western Shasta County Mountains Above 3000 ft; Eastern Shasta County Mountains and Southern Cascades Above 3000 ft; Teh…",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:13:00+00:00",
-   "start_time": "2026-11-18T19:13:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Sacramento CA"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 11:13AM PST until November 19 at 4:00AM PST by NWS Sacramento CA * WHAT...Snow expected above 4000 feet. Additional snow accumulations 4 to 8 inches. Up to 10 inches possible along the highest peaks. * WHERE...Coast Range above 4000 ft and Shasta County mountains above 4000 feet. * WHEN...Until 4 AM PST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions could impact the evening commute. Gusty winds could bring down tree branches and significant reductions in visibilities. * ADDITIONAL DETAILS...Snow levels around 4000-4500…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5439c5cb08acec0c647fff5f317cbdbb9a45a0a3.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:a40a9a37fe39aa62",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Lassen Volcanic National Park; Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft; Sierra Nevada of Yuba-Sierr…",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:13:00+00:00",
-   "start_time": "2026-11-18T19:13:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Sacramento CA"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 11:13AM PST until November 20 at 4:00AM PST by NWS Sacramento CA * WHAT...Heavy snow expected above 4000 feet. Total snow accumulations of 2 to 4 feet above 5000 feet, with up to 5 feet at the highest peaks. Total snow accumulations 6 to 15 inches between 4000 and 5000 feet. A dusting to minor accumulations are possible as low as 3000 feet. Winds gusting as high as 60 mph. * WHERE...Northern Sierra above 4000 feet, including Highway 50, Interstate 80, State Route 4, State Route 108, Southern Cascades above 4000 feet. * WHEN...Until 4 AM PST Friday. *…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5439c5cb08acec0c647fff5f317cbdbb9a45a0a3.002.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:35e1a08d516a7c40",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Red Flag Warning (Severe): Northeast Weld County; Logan County",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:25:00+00:00",
-   "start_time": "2026-11-18T19:25:00+00:00",
-   "locations": [
-    "Colorado"
-   ],
-   "organizations": [
-    "NWS Denver CO"
-   ],
-   "impact_as_reported": "Red Flag Warning issued November 18 at 12:25PM MST until November 18 at 4:00PM MST by NWS Denver CO * AFFECTED AREA...Fire Weather Zones 242 and 248. * TIMING...Until 4 PM MST this afternoon. * WINDS...West 20 to 35 mph with gusts up to 60 mph. * RELATIVE HUMIDITY...Between 10 to 18 percent. * IMPACTS...Conditions will be favorable for rapid fire spread. Avoid outdoor burning and any activity that may produce a spark and start a wildfire. Be sure you are signed up for your local emergency alert system. You can find this information at dhsem.colorado.gov/emergencyalert. Follow all fire restric…",
-   "cause": "Confirmed (NWS): Red Flag Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.206ec1af29c3c4f3eab33a5e5522bf02225a3ae2.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:34b208796a690b2e",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Red Flag Warning (Severe): Larimer County Below 6000 Feet/Northwest Weld County; Boulder And Jefferson Counties Below 6000 Feet/West Broomfield Co…",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:25:00+00:00",
-   "start_time": "2026-11-18T19:25:00+00:00",
-   "locations": [
-    "Colorado"
-   ],
-   "organizations": [
-    "NWS Denver CO"
-   ],
-   "impact_as_reported": "Red Flag Warning issued November 18 at 12:25PM MST until November 18 at 4:00PM MST by NWS Denver CO * AFFECTED AREA...Fire Weather Zones 238 and 239. * TIMING...Until 4 PM MST this afternoon. * WINDS...West 20 to 30 mph with gusts up to 45 mph. * RELATIVE HUMIDITY...Between 8 to 15 percent. * IMPACTS...Conditions will be favorable for rapid fire spread. Avoid outdoor burning and any activity that may produce a spark and start a wildfire. Be sure you are signed up for your local emergency alert system. You can find this information at dhsem.colorado.gov/emergencyalert. Follow all fire restrict…",
-   "cause": "Confirmed (NWS): Red Flag Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.206ec1af29c3c4f3eab33a5e5522bf02225a3ae2.003.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:55f44d2bbaa49ea3",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Red Flag Warning (Severe): Jefferson and West Douglas Counties Above 6000 Feet/Gilpin/Clear Creek/Northeast Park Counties Below 9000 Feet; Elbert/…",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:25:00+00:00",
-   "start_time": "2026-11-18T19:25:00+00:00",
-   "locations": [
-    "Colorado"
-   ],
-   "organizations": [
-    "NWS Denver CO"
-   ],
-   "impact_as_reported": "Red Flag Warning issued November 18 at 12:25PM MST until November 18 at 4:00PM MST by NWS Denver CO * AFFECTED AREA...Fire Weather Zones 216 and 241. * TIMING...Until 4 PM MST this afternoon. * WINDS...West 20 to 30 mph with gusts up to 50 mph. * RELATIVE HUMIDITY...Between 9 to 15 percent. * IMPACTS...Conditions will be favorable for rapid fire spread. Avoid outdoor burning and any activity that may produce a spark and start a wildfire. Be sure you are signed up for your local emergency alert system. You can find this information at dhsem.colorado.gov/emergencyalert. Follow all fire restrict…",
-   "cause": "Confirmed (NWS): Red Flag Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.206ec1af29c3c4f3eab33a5e5522bf02225a3ae2.002.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:ab1e418eefed8805",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: After Iranian attacks, US reissues security warnings to Americans in Saudi Arabia and Bahrain",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:33:02+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "After Iranian attacks, US reissues security warnings to Americans in Saudi Arabia and Bahrain The Times of Israel",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "timesofisrael.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPakt0c3I3alIwMjY1X0ptX2JnRmxVczlsZGZHbHplRWUyS2JmaVhfUjMwaW5jZTFPWkU3M3hPcnUtOWlWcVpSaEF6NEp3OExsVGlvSUZ3S0szb0F6TEl3WTFmY0N1bWI5SUsyRVg2N292eWFreXFOX0hLSndhRERiN2VGMURaLWd4TEI4N1V0ZkJRYzBmbThOZi1hdlZwcXJObWNDWFF5NmptRUJRSExxM0hEX3Q0NWNuY1JrbzVfNWVwZk16Zld4VE9OY18zMHJYTTZmRA?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:d5b0a0c3d17059ff",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump weighs Iran strike options, including attacks on regime leadership",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:46:26+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump weighs Iran strike options, including attacks on regime leadership Israel Hayom",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "israelhayom.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZjBQLXlyaVAzNzlQcm5CTXRiTTBIektualB0YlVCLW5SMTMxVFhVRUtFLWNzQnM5cmJtb0dpUjhUUUN4aThkUUQzRFVzVkgxNmxUV3BaQVdVeDRmT2Voc2tva1VLQjB1NjczVUppcExLVl9Ga1FrekJLTkpQTThCUlVVUGJyMm83Qll2ZjIyOVNyejh4dlhGTUtZRzZ4QmtnY3BvQWY3OEtYbHBqVzhXWQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:2e6c2b3af1d42e1e",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: CENTCOM chief visits Israel as Netanyahu pushes new Iran strikes: What to know",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:48:53+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "CENTCOM"
-   ],
-   "impact_as_reported": "CENTCOM chief visits Israel as Netanyahu pushes new Iran strikes: What to know Al-Monitor",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "al-monitor.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdHNMdkF2Y2VnZk1UdGFJemN5YnJpbXM0RXJOUElxcmh3MHl1UERxVG9HRE1hV3MzSnlEOEYtVXNDQ1ptdkF5RnV4TGZvTFFxTnhYOUZubjhWb2h0d1ZYM1liWXp2eUhUVUZtbkdub0VhbG5sMEMtWE5ZT2VublVvRnZNM2QxWFdtN29sOHZUcjZZZWdGaVhhZHJ3SkkzZnZlaVlodFk1SXlRUEZabHNHREdMa1pnajg?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:8978c6276597b7b7",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Ruby Mountains and East Humboldt Range",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:52:00+00:00",
-   "start_time": "2026-11-19T08:00:00+00:00",
-   "locations": [
-    "Nevada"
-   ],
-   "organizations": [
-    "NWS Elko NV"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 11:52AM PST until November 20 at 4:00PM PST by NWS Elko NV * WHAT...Heavy snow expected. Total snow accumulations between 8 and 18 inches. Winds gusting as high as 40 mph. * WHERE...Ruby Mountains and East Humboldt Range in Elko County. * WHEN...From midnight tonight to 4 PM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact the Thursday morning and evening commutes. Visibilities may drop below 1/4 mile due to falling and blowing snow. If you must travel, keep an extra flashlight, food, and wate…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de131009f122f224a621ff41d1a6f7b9b6bf78f3.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:26d7604c1f2a6d2a",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Monroe, FL",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:57:00+00:00",
-   "start_time": "2026-11-18T19:57:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Key West FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 18 at 2:57PM EST until November 18 at 4:45PM EST by NWS Key West FL * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Upper Keys in Monroe in Florida... * WHEN...Until 445 PM EST. * IMPACTS...Flooding of low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 257 PM EST, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 5 and 7 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are possible in the warned…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0622e6b6ae171fe9118850461ac411025bdaf7b8.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:65316d4a378d5d80",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Western Fall River; Northern Oglala Lakota; Eastern Fall River; Southern Oglala Lakota",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:59:00+00:00",
-   "start_time": "2026-11-18T19:59:00+00:00",
-   "locations": [
-    "South Dakota"
-   ],
-   "organizations": [
-    "NWS Rapid City SD"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 12:59PM MST until November 18 at 5:00PM MST by NWS Rapid City SD * WHAT...West winds 25 to 35 mph with gusts up to 60 mph. * WHERE...Eastern Fall River, Northern Oglala Lakota, Southern Oglala Lakota, and Western Fall River. * WHEN...Until 5 PM MST this afternoon. * IMPACTS...The high winds may damage roofs, small outbuildings, and signs. Power outages are possible. Travel could be difficult, especially for high profile vehicles. Strong winds can cause blowing dust, reduced visibility, and flying debris. People are urged to secure loose objects that cou…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.332d687fceaa8c67b225ba5a2ac23d687bd478ea.002.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:8ae05478989e843d",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Harding; Butte; Northern Meade Co Plains; Southern Perkins",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T19:59:00+00:00",
-   "start_time": "2026-11-18T19:59:00+00:00",
-   "locations": [
-    "South Dakota"
-   ],
-   "organizations": [
-    "NWS Rapid City SD"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 12:59PM MST until November 18 at 9:00PM MST by NWS Rapid City SD * WHAT...West winds 35 to 45 mph with gusts up to 60 mph. * WHERE...Butte, Harding, Northern Meade Co Plains, and Southern Perkins. * WHEN...Until 9 PM MST this evening. * IMPACTS...The high winds may damage roofs, small outbuildings, and signs. Power outages are possible. Travel could be difficult, especially for high profile vehicles. Strong winds can cause blowing dust, reduced visibility, and flying debris. People are urged to secure loose objects that could be blown around or damaged…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.332d687fceaa8c67b225ba5a2ac23d687bd478ea.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:d69da191aa440c2d",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Lake, FL; Volusia, FL",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:13:00+00:00",
-   "start_time": "2026-11-18T20:13:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 18 at 3:13PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Lake and Volusia Counties. .On the St Johns River at Astor, the river is forecast to continue rising, reaching Moderate flood stage tonight due to strong onshore flow causing a surge up the river as well as additional heavy rainfall expected in the Astor area. For the St. Johns River...including Astor...Minor flooding is occurring and moderate flooding is forecast. * WHAT...Minor flooding is occurring and moderate flooding…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31dfc4ebe0b6a67ae9713b26d3d90c247d379af1.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:1bf8ba1049778f2a",
-   "severity": "Moderate",
-   "verification": "Corroborated",
-   "unverified": false,
-   "title": "Trump says Iran could pay major price if it carries out dirty-bomb plan",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:21:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump says Iran could pay major price if it carries out dirty-bomb plan WRTV",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "wrtv.com",
-   "corroborated_by": [
-    "cnn.com"
-   ],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHFCQThuNHZ0dkExd1Y2MUdmT01rUnZyTHZQZVc4bzVlb0JGWnktVXUtdzkxX1dIdDhFRkdYTlJKYWpDbmlyOFlqWnRlVDJzWWt5MWhGRFNPcXJoY1E1S1NqUzZIeVA4VjVDVXhHTllRaDV3LVNSQWZUaktCQVhpenNWblJJOGVJOUJLa0RfbkQyU2pfSlVtejFIX0FjUDRMMF8xeVpRTXVKVGM?oc=5",
-    "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ORHVZSjFGdGFnWE1WcW1mbVF3S0Q1cElVQTJmMWNzX2ViSXZpUVZRbjVrek83NnZ3RlFWMEdIWXVXRTFuLUtWZGFyVnBldk94UXg0RkpoTEd4TTVKODZvaFZHc214VDVETkduQ045YlFMZTdkYmdYRFFjbV93dw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:9b7f64ac9d272d9f",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Brevard, FL",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:25:00+00:00",
-   "start_time": "2026-11-18T20:25:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 18 at 3:25PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Cocoa 9w affecting Brevard County. .Recent extreme rainfall over the headwaters of the St. Johns River has caused the river near Cocoa to rise to Major Flood Stage. Additional heavy rainfall over the next 48 hours will continue to produce river rises, approaching record flood level late this week or this weekend. For the St. Johns River...including Cocoa 9w...Major flooding is forecast. * WHAT...Major flooding is occurring and major flood…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c92784e863204a3e53d939146852862495b999b.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:cfcf43476ccb390b",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Seminole, FL",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:26:00+00:00",
-   "start_time": "2026-11-18T20:26:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 18 at 3:26PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Above Lake Harney affecting Seminole County. .Heavy rainfall over recent weeks has caused river levels on the St. Johns near Geneva Above Lake Harney to reach Moderate Flood Stage. Additional heavy rainfall should cause the river to reach major flood stage Friday. For the St. Johns River...including Above Lake Harney...Major flooding is forecast. * WHAT...Moderate flooding is occurring and major flooding is forecast. * WHERE...St Johns Ri…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bada2993678767c1b563fd8256963c13988480c5.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:e1c69a7e0e10be0c",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Seminole, FL",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:28:00+00:00",
-   "start_time": "2026-11-18T20:28:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 18 at 3:28PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Sanford affecting Seminole County. .Additional heavy rainfall over the next few days has brought the St Johns River at Sanford into Minor flood stage today with a slow climb continuing into next week. For the St. Johns River...including Sanford...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...St Johns River near Sanford. * WHEN...Until further notice. * IMPACTS...At 6.2 feet, Wat…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5d25eb743e99b90e175fa3b90d8c61bf28f9161.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:be77d3520fca223d",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Lake, FL; Volusia, FL",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:29:00+00:00",
-   "start_time": "2026-11-20T00:00:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 18 at 3:29PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Deland affecting Lake and Volusia Counties. .Additional heavy rainfall over the next few days is forecast to bring the Saint Johns River at DeLand into Minor flood stage tonight with a gradual climb continuing into next week. For the St. Johns River...including Deland...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...St Johns River near Deland. * WHEN...From Thursday evening until further notice. * IMPACTS...At…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee590224a59e2aa48a18e7142ecaa1a078c89e4d.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:738809944fdc1cdc",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Greater Lake Tahoe Area; Greater Lake Tahoe Area",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:38:00+00:00",
-   "start_time": "2026-11-18T20:38:00+00:00",
-   "locations": [
-    "California",
-    "Nevada"
-   ],
-   "organizations": [
-    "NWS Reno NV"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 12:38PM PST until November 20 at 4:00AM PST by NWS Reno NV * CHANGES...No changes. * WHAT...Heavy snow. Snow accumulations between 2 to 4 feet above 7000 feet and 1 to 2 feet around lake level. Wind gusts of 30 to 40 mph for Truckee and Lake Tahoe communities, with ridgetop gusts as high as 100 mph. Wave heights of 2 to 5 feet on Lake Tahoe. * WHERE...Greater Lake Tahoe Area. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact commutes Wednesday and Thursday. Strong winds coul…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.002.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:2ab0894718ec6c2a",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Mono",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:38:00+00:00",
-   "start_time": "2026-11-18T20:38:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Reno NV"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 12:38PM PST until November 20 at 4:00AM PST by NWS Reno NV * CHANGES...No changes. * WHAT...Heavy snow. Snow accumulations between 2 to 4 feet west of US-395, 10 to 20 inches along US-395, and 2 to 10 inches east of US-395. Wind gusts of 30 to 40 mph, up to 55 mph in wind prone areas along US-395. Ridgetop wind gusts as high as 100 mph. * WHERE...Greater Lake Tahoe Area. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact commutes Wednesday and Thursday. Strong winds could cau…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.003.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:6515135362aa2a5c",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Lassen-Eastern Plumas-Eastern Sierra Counties",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:38:00+00:00",
-   "start_time": "2026-11-18T20:38:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Reno NV"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 12:38PM PST until November 20 at 4:00AM PST by NWS Reno NV * CHANGES...No changes. * WHAT...Heavy snow above 5500 feet. Snow accumulations between 6 and 12 inches with locally up to 2 feet west of US-395. Wind gusts of 25 to 35 mph, with ridgetop wind gusts as high as 70 mph. * WHERE...Greater Lake Tahoe Area. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. The hazardous conditions will impact the Wednesday and Thursday commutes. Slow down and use caution while traveling. The latest road conditions for the st…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:3a65790343447b3a",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): North Snowy Range Foothills",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:00+00:00",
-   "start_time": "2026-11-18T20:49:00+00:00",
-   "locations": [
-    "Wyoming"
-   ],
-   "organizations": [
-    "NWS Cheyenne WY"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 1:49PM MST until November 18 at 5:00PM MST by NWS Cheyenne WY * WHAT...West winds 25 to 35 mph with gusts up to 60 mph. * WHERE...North Snowy Range Foothills including Arlington and Elk Mountain along Interstate 80. * WHEN...Until 5 PM MST this afternoon. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at least 40 MPH or gusts of 58 MPH or str…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.005.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:ddd6b1a45aaf6b7b",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Shirley Basin; Laramie Valley; South Laramie Range",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:00+00:00",
-   "start_time": "2026-11-18T20:49:00+00:00",
-   "locations": [
-    "Wyoming"
-   ],
-   "organizations": [
-    "NWS Cheyenne WY"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 1:49PM MST until November 18 at 5:00PM MST by NWS Cheyenne WY * WHAT...West winds 25 to 35 mph with gusts up to 65 mph. * WHERE...South Laramie Range including the Interstate 80 Summit between Cheyenne and Laramie, Shirley Basin, and Laramie Valley. * WHEN...Until 5 PM MST this afternoon. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at leas…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.003.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:c4ed18a110cd27bd",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Central Laramie County",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:00+00:00",
-   "start_time": "2026-11-18T20:49:00+00:00",
-   "locations": [
-    "Wyoming"
-   ],
-   "organizations": [
-    "NWS Cheyenne WY"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 1:49PM MST until November 18 at 5:00PM MST by NWS Cheyenne WY * WHAT...West winds 25 to 35 mph with gusts up to 65 mph. * WHERE...Central Laramie County. * WHEN...Until 5 PM MST this afternoon. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at least 40 MPH or gusts of 58 MPH or stronger can lead to property damage.",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.006.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:7fa0708eefc1054b",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Central Laramie Range and Southwest Platte County; East Platte County; South Laramie Range Foothills",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:00+00:00",
-   "start_time": "2026-11-18T20:49:00+00:00",
-   "locations": [
-    "Wyoming"
-   ],
-   "organizations": [
-    "NWS Cheyenne WY",
-    "Southwest"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 1:49PM MST until November 18 at 5:00PM MST by NWS Cheyenne WY * WHAT...West winds 30 to 40 mph with gusts up to 65 mph. * WHERE...Bordeaux area along Interstate 25 between Chugwater and Wheatland, East Platte County, and South Laramie Range Foothills. * WHEN...Until 5 PM MST this afternoon. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at le…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.004.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:7f29a7cca22c5cc7",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS High Wind Warning (Severe): Dawes; Box Butte; Scotts Bluff; Banner; Morrill; Kimball; Cheyenne; North Sioux; South Sioux",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:00+00:00",
-   "start_time": "2026-11-18T20:49:00+00:00",
-   "locations": [
-    "Nebraska"
-   ],
-   "organizations": [
-    "NWS Cheyenne WY"
-   ],
-   "impact_as_reported": "High Wind Warning issued November 18 at 1:49PM MST until November 18 at 5:00PM MST by NWS Cheyenne WY * WHAT...West winds 25 to 35 mph with gusts up to 60 mph. * WHERE...Banner County, Box Butte County, Cheyenne County, Dawes County, Kimball County, Morrill County, Northern Sioux County, Scotts Bluff County, and Southern Sioux County. * WHEN...Until 5 PM MST this afternoon. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. * ADDITIONAL DETAILS...Areas of blowing dust will be possible whi…",
-   "cause": "Confirmed (NWS): High Wind Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.002.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:cbda40c578cc2c8b",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: CENTCOM chief meets Israeli army, Mossad chiefs amid reports of preparations for possible Iran attack",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "CENTCOM"
-   ],
-   "impact_as_reported": "CENTCOM chief meets Israeli army, Mossad chiefs amid reports of preparations for possible Iran attack A News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "anews.com.tr",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWUV0eVNhRjA4eGhrbjNrZVFYMV9WeTA5TFVEa3NWRE8yWjF4dlNBWXRZeWtGMFl0NS1xUzl2MTZTY3BocEZNV3BaRk50WFU3ak82SWY0YXpTTjZfank4SjR2bzdTYTZuTXJ1OEN4enpXYm8xYzM3N0E3MXFLYTFvVE8xVDZwR1hlS0pqMnY4UXlDMnotVV93Uy1DYXdIRkJnTENreUZZM0tRTENkblgwM1hwX2U4Z1BOMzgyQllveHp4QXJHRGtaek1uRUhQSmNQRnB3aW5HQno1Mk5YdFHSAeMBQVVfeXFMTjVrMVFYa3QzU2lxM1dwM2I3clFHQ0owTl9UY1RLSE9ibktqSUxPSjR0QUxwRlh0TWJVb0J4RGNBYS1XUERaVjZsSXd1OWRXS3lxbkRyWlhHbWZlNnRMS1d5VG5xTmVXcjQzeXg2UEotZ01kTW5Da3VaYVNGMVRWNWttaW5kNjhQSGhIWGZrb0RXV2J6TUtPQ2pEaE9wQm1UdzlBQlVqRTk5YnEzWl9PY2h5ZU1NNTNaY01OSnNtQkQzVGVVN2VxdEl3TWFFNTRqSDRZeDBDOExLTjhoQUliZmd1aDQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:792b1031e93a2bc0",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Freedom Desk: Actor Arian Moayed on ‘Succession,’ Iran and the power of art",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:49:26+00:00",
-   "start_time": null,
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Freedom Desk: Actor Arian Moayed on ‘Succession,’ Iran and the power of art The Washington Post",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "washingtonpost.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEhqNUtoSjF4N2pVNlFZaHVqMUpzdWdtdUZzYTlGNEQ5ajBlT1VXaWpfZlNMMnU2V1N4Z3RXanRDVnA0UnZfcVJSWUVrUENTbUZBMUtOR1ZRSkxuaDdCVlh1NThqOFJBZi1PTjNiUU1KRlpwdHEtdFVwQ3RaZ1BkM3BGLXBHdU1XelJETXlnUV95V2RxMU9hSW1UclV0YkUtVEVDUXQwLWxhbzBCMGxNTm1ET1RVMGRmQ05j?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:8f73efdd19a759ed",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: US Navy warns receiving ship-to-ship transfers of Iran cargoes could violate blockade",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T20:54:29+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "US Navy warns receiving ship-to-ship transfers of Iran cargoes could violate blockade TradeWinds News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "tradewindsnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbmFSR2JqVjZDUHBkMXdVWmpwNTl2d3BKNVNxRmk1aFZ6d25jcEljT1ZBSUhobjNvSG9vSWt4TjkzOHVPUU5PODNzVnVEbWFsRWI4UUU4OGJDYlNEc1dPeXEyczRMR3U2QUVoajZNc0xXV3pnd0p3ZHlfM24xcjNhNEZWb0NrSnU2QzlwX3N4ZHBvNjNtcXRteGU2bUUzWVBJTTF3MG9pYzRyTUJQZnQ1REV5NGhXbWN3N0JyUFFrU3RyanZpTHRJc1Y3Njd6Wm9JVUE?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:b01defdea2575ced",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T21:01:59+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network U.S. Virtual Embassy Iran (.gov)",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "ir.usembassy.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS253NTBHWk90QldjR3QzcXdkbXBNaXljeHB5bU9FVHZfNTcxalZha2lWVmIwSGttMmhfSXljdEt3a2V4dEVfVFlFTGdLTXlqZHZoZmZYNzlSVnF3cHdPa3pPTnVzWWJ2aEktWU5kUFFaY1JaTG41WVlMZFBEUG4zNU5nNU9PNVMzZzJvYzBQUzFSeFNmbjNMVmJRRFpxamVaZjdaZw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:76ffcdf816fbc46e",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Winter Storm Warning (Severe): Eastern Sierra Slopes of Inyo County",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T21:03:00+00:00",
-   "start_time": "2026-11-18T21:03:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Las Vegas NV"
-   ],
-   "impact_as_reported": "Winter Storm Warning issued November 18 at 1:03PM PST until November 20 at 4:00AM PST by NWS Las Vegas NV * WHAT...Heavy snow expected in the Eastern Sierra. For elevations between 5,000 and 8,000 feet, storm total snow accumulations of 10 to 18 inches expected. For elevations between 8,000 and 9,500 feet, storm total snow accumulations of 18 to 36 inches expected. Locally higher totals expected above 9,500 feet. Winds could gust as high as 55 mph. * WHERE...Eastern Sierra Slopes. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. Widespread blowing snow…",
-   "cause": "Confirmed (NWS): Winter Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.203c1e98668f838a733739c91bc426160f8f0df7.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:d9233f9419d3bfb0",
-   "severity": "Moderate",
-   "verification": "Corroborated",
-   "unverified": false,
-   "title": "US Navy used expired munitions during Iran war, Cao says",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T21:05:34+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "US Navy used expired munitions during Iran war, Cao says Navy Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "navytimes.com",
-   "corroborated_by": [
-    "wsj.com"
-   ],
-   "links": [
-    "https://news.google.com/rss/articles/CBMinwFBVV95cUxONzlzN3hQWVo3OUpOWVhyNGgxeDV5ZzRVUzh0ajFaVmVrRVlqZWxHQTI4aVhia01RdFJQZ0ZZVGoxR0dCXzR6eWh2UHdZNnlaNFdPYnVTUTNBWjFDaEdkQTg1clU0Mm5xWEUxRVVXWjl6bmlVOGRqTEdRaHZLY21tSE5fM2EzMTQ5WDlDaWZCTmhkRndaN2xIR2hSTXI2NDg?oc=5",
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzNJRUdUQ2t0OHdzRkdUV18ya1phVW1KMFZ1VWMtTUlGbks1T2FFcVpZY1dSeFduWEMxWUZDN09VUFFKVEVKbHdiMDdEbFBhRTRhYjZFR09EQ1JUcElXaWN5anJ2TlYzcTU0STA1emFPSmtZRnlCMTJOOXlCRUE2d0E0b2VPUXRJYVhZT0JtTnBHdkJ3cEpwR1VMMHk5Y1FGNmYw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:81255f197fc5863e",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: American intel chief says Iranian threats to citizens have ‘substantially increased’",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T21:18:04+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "American intel chief says Iranian threats to citizens have ‘substantially increased’ The Times of Israel",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "timesofisrael.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLWtYZFFYLUExMTl4Z3BFQUJIRC1zUEZBc1BtOU9HRmNPY3F6UThHZEM0OU1tZFd4aFZiM01JcjQydWNBRFhvVmZ4d1JuNm9Sc3VSMWZZb0VFZzFhaUpjZlcwbXFCMmpnTDNRS19mM1BWczFLSmVxYlNxTDNtUmM2NjZMVGtJUHRBTUg1NC1rbzB1c0xOODdGRXpzTHVVaU1qaWxVOHJoUzBNbVliSmNUdV9VWdIBuAFBVV95cUxOZno3c1V3QTVFYjM4TXpheFdYMDBRSVFyeWIwMks5QUtXRkNoX21yd0ZOcDBfeXFrbTloWklCaWdaamdCTFphb1ltNzFHVFRHVDNJUmEyTGtNWEFPd0hrVWtwaVJkZWpYZFgtb1J5RVBBT3pWdzlhVllTd1dWa3FnOGlReHRUa0EzcC05VEJOdXlyVTVwVzBWWFQxTmRqbDJWd3NxV2RnVVFzU0xQMktGY2w4NnpRQ1dS?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "cisa:122413bd849f4f44",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "CISA: CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "detected": "2026-11-18T21:21:37.136207+00:00",
-   "published": "2026-11-18T12:00:00+00:00",
-   "start_time": null,
-   "locations": [
-    "United States (nationwide)"
-   ],
-   "organizations": [
-    "CISA"
-   ],
-   "impact_as_reported": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-   "cause": "Confirmed (CISA): see advisory",
-   "source": "CISA Advisories",
-   "source_domain": "cisa.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
    ],
    "notes": [],
    "disposition": "logged"
