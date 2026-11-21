@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-21T12:37:08.605569+00:00",
+ "last_run_at": "2026-11-21T19:48:00.332197+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -272,6 +272,45 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:02b86b4802b1395f": {
+   "d": "yahoo.com",
+   "k": [
+    "2029",
+    "chief",
+    "ex-pentagon",
+    "iran",
+    "sees",
+    "stretching"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Ex-Pentagon Chief Sees Iran War Stretching to 2029",
+   "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSWFKcWZOS2Z2amUtdG5xTWNQNXZyT0hvblNfOW9ySXRWc2ptdGdFc05RbEhyeVppampvUlh0OEZ6bVBFU3JQUkhuQU8ycUZvSUFGb19uRFNWWXhNUzVySXVMRHc1VXRKNnBYWTdDRndWNDYxNXE2bFpfeFlMeU5LbmJrXzFWTW9CdnB5aUxSR1M?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:02be5717d2d8f76d": {
+   "d": "washingtontimes.com",
+   "k": [
+    "athlete",
+    "endurance",
+    "highlight",
+    "hormuz",
+    "impact",
+    "iran",
+    "strait",
+    "swims",
+    "wildlife"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVGlPNHA2SnRzU2ZLLWJEM3lJUW5VMGZMQ2ZnN0xvcjRNYmlSZ0RSckdnYnd5RUxieWIzczAySU83OUpPRzdxSHJXMmJIV1lpUFdKOExtY21QUWFCbmJhSUpBc0NWTTU3dUFrZ2txWTNVU2NTazZDYk5ia1F5TV9GNVI4SmE0M3U4YVRER1FJMUY2TGJKSkY0TFNmYmFpZ3dNcmU3cnF5Tl85UTFlVElYcUVuTmhsb2dWV3c?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:039eeeaa9a016319": {
    "d": "cnbc.com",
    "k": [
@@ -312,6 +351,27 @@
    "t": "2026-11-20T01:20:25.406279+00:00",
    "title": "Pakistani Man Sentenced to Over 27 Years for Iran-Backed Plot To Assassinate President Trump",
    "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOanlaOWsxeXVuNzFfMmdIMmtJVERrTmNvbUs0dm8tTHA1WE52VFNSbXhoUjc0R0dnTldEdEEtRko0Y1RUMGFINlo1QjZHaFlwaUtOMm9nQlNwOFdsM3J3R3VnUUFyTVpjOG9RLUhUampGQzRtU1NZRHkwVWxIQXZuSFJua0FLRjhTMDBPazY0ZXR6YzlXcV9qdUVXRHhJZ0JBbGdVUU9valVsWHR4YmRKZXRDamhFd0tDRnk3cU90N1lJdlhpMTFB?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:0472ee387319a946": {
+   "d": "iranintl.com",
+   "k": [
+    "blockade",
+    "break",
+    "deal",
+    "iran",
+    "live",
+    "permanent",
+    "seeks",
+    "trump",
+    "vows"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Live - Trump seeks permanent deal as Iran vows to break US blockade",
+   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QSGNMZThLWmFoay1wNWFqWEZVdjRnOVAtQ2RmSFJVallkTWFxWE5oVWlXUF93MHByYlYyWWFMZEpTdEJkT2hpWm9GblNFdGpnU1lpaGF5Rl9RcFlMX1E?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -1289,6 +1349,27 @@
    "v": "Unverified - Credible Source",
    "x": "immediate"
   },
+  "news:27c5cb637707a5e0": {
+   "d": "nypost.com",
+   "k": [
+    "hawks",
+    "hormuz",
+    "iran",
+    "press",
+    "resume",
+    "strait",
+    "strikes",
+    "tankers",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Two tankers hit in Strait of Hormuz as hawks press Trump to resume Iran strikes",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ0VzSEdkMFJlclR3UnhCVFVBa0dKWVF4SEd2Zzk3M0t1NW5GZWI4U2Q4T28xS1dtNXdVTl90VzJfQ0RCVE9rdENDWk93MHpTTGtzaU9lQ29BS2ZaVklnZzhMY2tYeTBhV3hnWlhNYmdWRE1yd0N5X1hELTNubmtiU2k4bXI5T3BHTGlONjRyajFsckY0MVZUSmFicWhQazBuM1dkRlU2OEI0MXpUWUZvM2tkVWpWUUxzR2U3TUJR?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:2846478d821ce7a1": {
    "d": "wsls.com",
    "k": [
@@ -1433,6 +1514,28 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:2b6812a292061f3a": {
+   "d": "latintimes.com",
+   "k": [
+    "backlash",
+    "block",
+    "conflict",
+    "despite",
+    "iran",
+    "midterm",
+    "powers",
+    "republicans",
+    "resolution",
+    "senate"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Senate Republicans block Iran war powers resolution despite midterm backlash over the conflict",
+   "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcnVMeFoyeUNGS0JaNnI2UVFaZXdfeW9JS1ZjQmgzdktlVjdwUzI3V0NqeEc5XzBuNmhQNVdLMjdNbDNZa1Q5UUpDT214Z196eXdNRTBvbDNnUWM4eS1Cek1BTGhnMWJKVVNGTXZYajdUUkd5OVF5aFR5UFFTVFlHUg?oc=5",
+   "v": "Corroborated",
+   "x": "digest"
+  },
   "news:2c1ddb51a4dc89a3": {
    "d": "securityweek.com",
    "k": [
@@ -1516,6 +1619,27 @@
    "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVjJucG92RXI1OGF3LUs3TWhtamlPSDBsQUNDdDFtOUdINkJnVi02TkVORGh5d1RyNXVNSUVlMy1hY01UWE5ydk5RdVN3ZWZybHhxRm9nZnZoTUJqYXVrVDBiVGpndEdjbWhyQVdMY1VBeHROQ3VCQ2hSYzFSbENlX1FEQm4tXzdMT2pHRThMb3lwcHhsc0F5anQ5eGNFZFBmYzMxNDBSRlRKUjRvamhMUnhSODdFcjY0UHRlVGx3RkV5Ymc?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
+  },
+  "news:2ce246d9749dbca6": {
+   "d": "aljazeera.com",
+   "k": [
+    "deal",
+    "getting",
+    "iran",
+    "nuclear",
+    "permanent",
+    "stop",
+    "trump",
+    "wants",
+    "weapons"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+   "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTnhUUThYUUwyVEJWbDJ6UFZlMVJPUmpLTmNvMmNHRWV5TUZNZ2Nyai1Ycy1xWWVzbmlQUjhlVHZSRl9nRGZNZzhmWjNUN09IVUFyX2cwcWNTVHFzX1lscnNYak1BUVpKTE4teEdYWldJR1otRUUtQnVXUmlQMkpkMExJMEYyRnVvLXV6WnhpUkhTUUJSeFdYY3M1VkvSAaIBQVVfeXFMT2VqUEdaM1RGcnRaQnBFNGJ1aDVIdzB6ZEFFNnM4OUQ3YlYtTFEtWkV4Y1ptWkxNTUlEMjg5RFdtODduQWtjSkJqcWd2cE13OGZISVdQOGRxMXR0WFE2TlJiV2tCbkpGeEpjMTVEQkRyc3g2cEx3UkhSaUtXa2YxSUNCMl9rZXhzbGp3cHBKb3R1MVlaYjRUOV9TZVN2MWdGU2FB?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
   },
   "news:2d0ecc85f8ad7603": {
    "d": "nbcnews.com",
@@ -1831,6 +1955,24 @@
    "v": "Unverified - Credible Source",
    "x": "immediate"
   },
+  "news:35f15dc1cc200862": {
+   "d": "reuters.com",
+   "k": [
+    "agriculture",
+    "breached",
+    "department",
+    "hackers",
+    "news",
+    "reports"
+   ],
+   "s": "Reuters",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Hackers breached US Department of Agriculture, NBC News reports",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXZEVUk4YzBsSEdWSzNZc0RDelRmeWRPc0ZWY1NGd2FOM19DVTZyU3Q4UGIzM3FoenNsX3N1N2h2TEx1MHNZUDBhdF9WSDdiMUJVZzg2UThoRVkycnJQRkZJZU96NHdDQmkyX3QySXFia3RiMFBkTUgxWWVwVVU3eWFWZzhtZWU0ODlVM0JZVkNDZEVCc3FDU1BEMDh5WWlVaGxlSUpSd0ItUVRjOFVsOWdYMHhHNHc1X3IwY29uNFBaT0k?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
   "news:3618fa81b57d12c3": {
    "d": "pbs.org",
    "k": [
@@ -1979,6 +2121,27 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:3d8bf4b43dd969ab": {
+   "d": "jpost.com",
+   "k": [
+    "current",
+    "deal",
+    "difficult",
+    "iran",
+    "leadership",
+    "reasonable",
+    "trump",
+    "very",
+    "with'"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Trump on Iran deal: 'Current leadership may be more reasonable, but very difficult to deal with'",
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xblpWZjhuVGs3VW9ZWThGaVBvTmdBVldIem1LRWxfVVdIanQydkNxMF9ESjdoejJSanp3RVdNVS1oSE9SU21EclVYdGpsTVBMR2J6ZEh6RHZqSEpIeWVz?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:3e266798cbc15984": {
    "d": "france24.com",
    "k": [
@@ -2099,6 +2262,26 @@
    "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcUhzT1QtZUVQVTVHaGFKbVBKb0lxZVhYN2g2Q19qR2lzMVlEVnVZYVRYV1RWMUxVNGpqM1cwZGpfTGhrb1JXeW9xWFlCdzRoMmwtbVF6TUZERWVRcC1lUnI3V3ppQko3akt1VmVUai1VdEEzWG5FT3l2VDl0YUxlQ0FaWUNpUWZPbHpPNUE2bklUMjNGMUo0Y2FUZFhReWNLMkNNQlMzdzl3aUdWMzFQR0lKZ2VOTF9JU2dKSWtUMDJablkwdTFFRUJCT3HSAdIBQVVfeXFMTlhNN19IS01zdGtRU3BWaEZjVF94SDFtWU55Z0ZhdDVCQnBjWnE4dS14Uy0yVHVORUwtd2VqS0NjbDZmQ0lWUUFzeHd2Z1phZ3VSZmlseC1uVGN0Y28zNHFISEZRTHE0V2RGUzRCdmtyM1VKdmtvMHZjV3lJMk55Z254WUFPaVpCRVRPeTZ5T185MVJMRjdKNmQ4MmV4SVpCVFBpczJPMzlCVkl5NWFiYWEwU0tpSlEtYlJiUElwNDB3NTk4aXVrTDVyU29ZZmR1eWd3?oc=5",
    "v": "Corroborated",
    "x": "digest"
+  },
+  "news:3fcc63d0ecaa064a": {
+   "d": "english.aawsat.com",
+   "k": [
+    "account",
+    "centcom",
+    "damaged",
+    "denies",
+    "f-16",
+    "gulf",
+    "iranian",
+    "missile"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "CENTCOM Denies Iranian Account that Missile Damaged F-16 over Gulf",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQjhvMUxsS2JQVWdmM3RJWkl5MGRnM3FSVXFUakJjdHczbXVyZ2NCbnNFdzVsUXdyQ1FvQXd2MlQ4UWh0UDItU05XN292OEZNZWNKa3Y1Sm5aRDI1c2p6XzN1aHFud1E1dDFUTkJ6UmdodHZqQmlsOW5LQzdCdjFyN3lHYVk2SHR3N3loVVZJYW5EZU9aOUZ6Y1FEUU4yOEJPNXR4Sg?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
   },
   "news:414de2d80e7c06d9": {
    "d": "reuters.com",
@@ -2493,6 +2676,27 @@
    "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90OHJKYVZqaXdaWlpjOGo5N0h5cHhuWnUwV2ZzLVVJQW5RLXpqbVg0M2tsdmR2UVZSbWVmenRTUG03Q1E4LWxvVFNvZkZMdWpnb011UXlDN3N0bzlLVHd2bWE2Nlk1ZXI2UHE2cmVGcnB0cllrckQwSjNQdXZKQdIBgwFBVV95cUxQVlViQW5BbkJpdFk2Sy1xSTFJMHJuMlVzYkhQUW0wV3ZjSzM3WUhYd2ZRMkhsYkhSRnpQU0p0U0d1bmUyNUVlb2p2WUxka2x5XzBUakJjaW5wem1PRWlUNmhpSG41OHNjMk1lTVlLVVhuVlRUOUZyM2pXT3k3bnlBU0R5QQ?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "folded"
+  },
+  "news:49d1056bad038f7a": {
+   "d": "gulfbusiness.com",
+   "k": [
+    "american",
+    "centcom",
+    "claim",
+    "denies",
+    "down",
+    "f-16",
+    "fighter",
+    "iran",
+    "shooting"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "US CENTCOM denies Iran’s claim of shooting down American F-16 fighter jet",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS085VkVEUVRoaFJTMnN1RmpHT25IOFoza0pESXNZN1U4RGpRbzRRX2UwNnh2N3d1RHFuVmxnNFFpbjBna0MtTTdlQ1FtUHRyb1lPdmFWYm9ndmRWbGUxeDU2V0VyeHdSaF9rMnlxbkM4T0FJWEVJajBIUkVDYl9rMnczRHZOZXpnWlhSVWJ0TTZoVWloSWxKbTl2ZlVXdW9QWXNyWlhwOUx3Wnd5U25GVw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
   },
   "news:4bacd94ba60ee63e": {
    "d": "abcnews.com",
@@ -2892,6 +3096,26 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:58ad8bf6d35365dd": {
+   "d": "thehill.com",
+   "k": [
+    "america",
+    "attacking",
+    "finish",
+    "first",
+    "iran",
+    "mike",
+    "pence",
+    "vance"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Why is Mike ‘Finish the Job in Iran’ Pence attacking ‘America First’ JP Vance?",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGYjNJci1KUmlHbWtrVDQ3UVdCY0lpZnYyOVQ5Mm9tdzdDb0laYThLQUhVai1VQUhaWGxzc1d6dFV3NXJGc0lWWE9MZE8xOXhreUFDaEpkU3UzRjJsdV90U2tQV1N6YWQ3SV9yRFNwM3ZjZEgwd2lSWVpFbTd2MUnSAYQBQVVfeXFMT2s4aFZRMldDV0QzR2c2b0hnMzRvVzZuaGlRTWQ1dnpiQXprdlBZN3FtXzFhRW8wTk9qakNCVVRfS2txdHdPSHB4UE9Yb1pidWEtNVNMcWhtN281Wkw1OHpyNThfcHBwZGozR0E0Y1c4Z2RRaUI2blpaWU5fTlc4UWlGRVoz?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:5a92b5820984a42c": {
    "d": "cbsnews.com",
    "k": [
@@ -3139,6 +3363,29 @@
    "v": "Unverified - Credible Source",
    "x": "immediate"
   },
+  "news:648de78181c9dabc": {
+   "d": "newscord.org",
+   "k": [
+    "centcom",
+    "claims",
+    "compared",
+    "denies",
+    "emergency",
+    "f-16",
+    "forcing",
+    "gulf",
+    "iran",
+    "landing",
+    "outlets"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran Claims It Hit US F-16 Over Gulf, Forcing Emergency Landing; CENTCOM Denies: 9 outlets compared",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMEFVQlF0VnM3LUNOQW85MjFXZ3c2enZEZjl0UUdYdzdiNVp4b1kzQ29wVEM2Uk5mcWFZWUlhYnpfdVNNd0hVT2czTks5OW9YekZnODZVbXRLSW9lWnFJelBfbG5LNUNHNjdPaE03djdYcjc2X3k1NHU2ejhFZGYwTzBXcU5hWFRya2ZURkRrUGdQamtmZTB5UEw2Q3BwQ0pMQVhWQTRhNmRjcU54QlhmZC02RnJUVGQ0bE5DcExndW1Mcy1Pdl92bTU1bw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:661c9e1ae752b849": {
    "d": "legion.org",
    "k": [
@@ -3179,6 +3426,27 @@
    "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQlYtdEQxQjEyMWxRb1NiUjJ0WEE1R0VxZWFJQzlmbUlmN29CeDlKQ1hmcXZiMmtsajEzc1gwVFk3U252RkJ5OXFLa0FsdDN1MkZhRUZVMGFuZ3drcjVUOGlJcG9Bekk4MU5WejdPQmFMZDlLZTN3cHNPZWpERktXRHl6bVRFVXliQVJXdGFCSmdndWtJYnA4aUxFQjJjZmNsLS1kNEQwQjhnS1Y1S3hZd0JDbWxWNTB4bVNTNUJR?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
+  },
+  "news:66aaa6b811ccff02": {
+   "d": "usnews.com",
+   "k": [
+    "iran",
+    "launchers",
+    "mideast",
+    "missile",
+    "news",
+    "other",
+    "shows",
+    "strikes",
+    "tankers"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran Strikes 3 Tankers as It Shows off Missile Launchers, and Other Mideast News",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbjIyNmV2Zmh6N1ZOUG8wSWJvNUpPOG82VzlUVW9CdkwzSWhPUDZKQUdhZFo2N1I0anpNQTJwcHlOM2FWM0ZMYXNQS21DaEVnNUZyMlF2R0w0OWRhZk95czI1VllhODF5T3dpVWlUUGUtY2dTUWRDX1cyRmFlWm1sNEVnUl9DcFVhN0VNNXRhZjRONzlLWXpTUHNzOEZqNlM0d2ZPSHh5OXd3T1pwLVdCd19Va3hnOFFoRXhHcHU0dFFTeW9Tak44MURtVjZMQQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
   },
   "news:6762574bbedfabda": {
    "d": "reuters.com",
@@ -3363,6 +3631,26 @@
    "t": "2026-11-19T19:13:13.509149+00:00",
    "title": "Gillibrand Pushes Dec. 11 Funding Vote To Stop Trump’s Iran War: 10 outlets compared",
    "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNblN6VUJZTUJnUExmQWJ3SzJvby1jOGx6dHdUTTdjNU5DNTRoM2lMcV82QkREZU1MSkZfa1JVUDBxQ0pVYjFNNXBNQWZCdVJCV0xZRWQzRmdmZ19RdzJYOERMaGM5Q2RUX2xOamZFVHk0RnFMdXZEdHY2dUJPYS1FNzhlYld6MXBLRm9ZVzdkVksyakZIVEw5UWc0bnFHS2RKa1d3MFYyb0pPQUZ6WG5GdFdQUW9KUEdGcm9RWGJDczdlcmJQNDVTd1kxMWdETkx4?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:6bedacf9ae3bf524": {
+   "d": "hayspost.com",
+   "k": [
+    "cost",
+    "details",
+    "estimate",
+    "important",
+    "iran",
+    "latest",
+    "missing",
+    "pentagon's"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Pentagon's latest Iran war cost estimate missing important details",
+   "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FTF9DU2pzNkNwbEp4WXU2SlBBcTVYdVV5bXBrc0pxS0ExS280QmV0N25KaTN2Z2FNOVdnc0tRM3BSMnd0ODEzVldUbTRhREI2QWlIZkhxaFVIaE1fd0l0UW9mTUxLTG1TcC1yNU5zbFk?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -3568,6 +3856,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:74cd518d0baac235": {
+   "d": "jpost.com",
+   "k": [
+    "centcom",
+    "claim",
+    "damage",
+    "denies",
+    "f-16",
+    "fighter",
+    "iran's",
+    "jets",
+    "safe'"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "'All jets safe': CENTCOM denies Iran's claim that it damage F-16 fighter jet",
+   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uVFlCZGMwaS1KWDVNSnpUYldMQ1pEdmVoQlBwLUdSbzVTU1ZnYmVsa29ickdMQzh5ZG83N3FiaHRDSndSRDJWT3pEM3pNQTVQQWFCT1NIczRQQzZGOE5lRDUtSHRJOUtlNmc?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:74e9268d2221ed5f": {
    "d": "nextcenturyfoundation.org",
    "k": [
@@ -3639,6 +3948,25 @@
    "title": "Exclusive: Sen. Ernst rebukes lack of \"transparency\" from Pentagon on Iran",
    "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Wa0RFQlVaUjYyRUlrcmxUb25qM3c2dnRDb3JLSlVwaFdnNTVmS1MzaldHZVlRX1ZTcHlmSFRpUDZiMDhnWUVmSHBnb3JncmVHRmphRWJQZV83Y2FDNm52STJHMldVX3g1cGlENQ?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:75a180b3bd375f04": {
+   "d": "aa.com.tr",
+   "k": [
+    "centcom",
+    "claim",
+    "damage",
+    "denies",
+    "f-16",
+    "fighter",
+    "iranian"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "CENTCOM denies Iranian claim of damage to US F-16 fighter jet",
+   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeERTWUxxQ2NpR0E1T1F5VkRDVnRwenZPcENuS3NaeXR4MmxTRGJpcjhBZWxlLW9KNFdBZXN3YUFsU2M0Vm1GTlNPcnY4dFFzMTdZRnR4UGtxUU9aUG9BcDFjNHhhNl9EUW9zUmZEdGhXTENEdENXTVZVS2xkLU9lTlBLMzZmRk9Ra0kxdHI3OC11UjdtTnZFY3RKaWxud1Zm?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:775c3ca1d3246916": {
@@ -3992,6 +4320,24 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:80e9a68690a30e4b": {
+   "d": "jordannews.jo",
+   "k": [
+    "iran",
+    "israeli",
+    "mounts",
+    "pressure",
+    "resume",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "US and Israeli Pressure Mounts on Trump to Resume Iran War...",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUjZCRmdjbU11Yk1QcTVRcGVKQnk5Z05LbTVpcUhJRkppOW10RHdtMDl0Y2VwQjZSeHc4VlBkWmFsUzN6bHdxSUo0OE00dEJQREVHb3QzajVncHJSUUV1QnI0VFVwTnlrUTFmdklqbFMwdXNQWGplNTE2WjBNeF9xSVhka1owYVM1Wl9FVmpvaFVMcGVIZllIYjlNVF9JaG9IdnQwQW8yT3JKZw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:80fda4d5a8ad455f": {
    "d": "openthemagazine.com",
    "k": [
@@ -4093,6 +4439,25 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:830447a0157edd25": {
+   "d": "theamericanconservative.com",
+   "k": [
+    "american",
+    "attack",
+    "hawks",
+    "iran",
+    "israeli",
+    "major",
+    "push"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran War Day 277: American and Israeli Hawks Push for Major Attack",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd0JPSEZnZ2Y3cGh6eTZ1U1k3d3A2RFEtS2stWG1OZTRTM2EwRmVsN3UwVFJ1Mjc5SEtpVExmZDZRdURXdkdDNkw0aTN1M05UbzZlQ0VPYWpXMG9rY0pYd1NfWDNrdkkwbDJjendUazhpNk92MUNaUUdzWDNTTzVTTDBDdkpEXzlqNjR0aXZpSE42QnVlZFFNNmgycE9TNjVGSGdLanR3SEpvQQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:834ef81f643a7aba": {
    "d": "nbcnews.com",
    "k": [
@@ -4149,6 +4514,27 @@
    "t": "2026-11-19T02:43:21.902076+00:00",
    "title": "Iran Launches New Attacks on Kuwait and Bahrain After U.S. Strike on Qeshm Island: who 13 outlets blamed",
    "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaFlrc2N4UXd2ZmFoUXZUb2FnN0JFb1pmZkJFd2p6ZXc5bS1kTnRrRVVXZC00WkJ0YnZFM3hUcVBMNkFxMVpEZG9MY0dYWEtqaTZhckdHMFR5VExSNzA2MVlLYkJMV212NE1Lb0hIQ2EwVGVEOWxKV0ltOXRmbl90VFIwbjh6Vk9JWjV5SVlraGlqRjRia3FoU2J3cmRNTzFlWk9VMEhlSDVHSk5HNzVTejJHZXFsdHlxYzBDNGxIb29VWC1wVXJSTlViWExhV19TZnYwbnFtX0dRRzNoUm00OEtSblYxVWp5?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
+  "news:844c6b5e5a59b4c8": {
+   "d": "english.alarabiya.net",
+   "k": [
+    "accuses",
+    "deal",
+    "iran",
+    "must",
+    "nuclear",
+    "prevent",
+    "trump",
+    "violating",
+    "weapons"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Trump accuses Iran of violating MoU, says any deal must prevent nuclear weapons",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWTJ3Ul95OWJlLWVadzZiMW1GZXJkQlNjZkx0SHBRSHhzQUY5bHFNSF9UMjRvS1EwUEZUaGVNOGVfNTJ4WF9lQ0hqQ0ZEMXBGazA3OThJQUtxUjlGSHV5cy10YUN5XzJsRUZmTS1iQUlJMzB5emhKUnM4b3FPOTlSY0pDSXUwNUVEZWhZRDJYc2MyXzA5R1VyUWdTV29QYU1hUzFBbE5CeXhZWkN6clZINWo4Q2lNdEhXVm1RSmVyQzFnS05BY19ZTjZGUmxXSFpRdHfSAdcBQVVfeXFMTmc5bzlmUlJVMV9ibm0yUkhfMWFmdXdPdFdWNS1zMGtjSEx2TkhtWXhvZFlwVjd0M1BmSGRUVVZSVGMydHhVMHNvTnJEa0dhSmYtZldyNmRPZjJIV2YyamZiTzY3SzFsNmFlZUl5eW9WLUFLbVFxSzhSWVlmaW9nSzczNS1jWjFjVVRBdFBrNXp4RXNidkV0dWdrNU5rbExOaGlzN1lWdS00NHg1TzVNQWlETEh4a3QwaVM2V3dkbFloekFqczgtNTRTUGhKUm0zb2pNcHFNems?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "immediate"
   },
@@ -4894,6 +5280,28 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:9e2aba9c51cbdebe": {
+   "d": "theguardian.com",
+   "k": [
+    "claim",
+    "close",
+    "endorsing",
+    "iran",
+    "nuclear",
+    "short",
+    "stops",
+    "trump",
+    "vance",
+    "weapon"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
+   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUGEzcUdkaW9kYmFheHhDbzBMTG9PTnhmeGZwTzBURFA5amgtbEZRX1Z2WTVRZzRKV3Z5a09ObWVpMXFpMG83bWxvYngzZi1jOTJMWnJPVkN0V1FiTUxPTkdQYWVraW5hWVN0QXZ0SWtmSExMSmQ2cWtibmdrRFdKRTg4VFhDdw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
   "news:9e34fe0baf9322de": {
    "d": "cbn.com",
    "k": [
@@ -5183,6 +5591,28 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:a3378a7135ca3ed3": {
+   "d": "airdatanews.com",
+   "k": [
+    "attack",
+    "claims",
+    "damaged",
+    "denies",
+    "f-16",
+    "gulf",
+    "iran",
+    "missile",
+    "persian",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran claims missile damaged U.S. F-16 over Persian Gulf, but Washington denies attack",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQW9Rd1h0a3JGQThFZjh0R2RKSmxhUFRmVFkxNzNlZ1A2OHdUcEZaWlZwT0MxNl9HNFZVamVaSmw4S0Rxczh2SnJIbG1jaTBoV0o0NWJNNl9BSDhYNzRRMkQzWVRHQjhoWHZlMVZMNENWTGt0Y09ZUTFsZG95ZnVoenRkdEV1TjN2V1RGUzdSbEE5dlZyWXVSTk15THFVMDYweEU0SThKSU05OUx1SGhTcTBB?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
   "news:a4c0f51157e0b581": {
    "d": "ms.now",
    "k": [
@@ -5270,6 +5700,28 @@
    "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdks1U2laNVhiRmlqQ2xZTjN6R1NCY0RidmNhVUhtcGEyMWdLUTVuRTF6b0NVWTcwSUUtME52WC0zQ0g1VnVQSzBMLV9RN2F3bkZ4R1F0dTVxZWpqWmlyWmRyUWpScjJIZTNjamgzNTNybVVOQzNLNXlHdXpJdTlKY0ZLOUNLVkFaeTVyS0JrRzBib0NCa3JmWU1kT2gzUjBBcmpJUUtPVFRyS2IxU3ktb1gtY09LenJpVFVHTnFn0gHDAUFVX3lxTFBGVmM4RVBOSVo5MVFjT2Z3QWs3Y29TSzBmZnRSV2J5NXEzNnJxN2hrZTlkclN5dFd1V2kzV0dfZDUycjg0WlFnWnFpcUcwNlliQjVacU11WlRmSzZTdDNEQnkzdV9LdDlCZmdNYnRZeVZ1RkNldTg5VU5aQ1J0VGZHcTVicjFrNXMtUngtUS0yenVocWRRTl9sZlBsM2hHZ0FBMnZ5alBjTjJUcnlpVE1HWUJZMG5rVUpWMGJUcWRUVWIwWQ?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
+  },
+  "news:a769a0e4821d8e79": {
+   "d": "aa.com.tr",
+   "k": [
+    "ambitions",
+    "deal",
+    "future",
+    "iran",
+    "make",
+    "nuclear",
+    "permanent",
+    "prevent",
+    "trump",
+    "vows"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Trump vows to make ‘permanent’ deal with Iran, prevent future nuclear ambitions",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR1hpR2Fwb0RHalNvQmdRMThOeEw0Zk9oaEUtS19qUlJzMlUxMWNlbnJYVkJIUmV3REdqc2JLQVRjdzUzaGZWQmdUbUdLSkdLT2dqYlFDbC1PbmxZODMyMi1nS0h6WDFqNkEtMDU5WDd2Sl9BWmVTWEV3eHMzVHJnbl9hN2lBYWNvcmZ2UVo4T1Z4ZlRmbGtkcEU1djF1SnVuZ2tPak5JYURDZ0pXQUc2XzJrdEVqa0tTVG5ZWmNB?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
   },
   "news:a8283b9aa6d72bc7": {
    "d": "reuters.com",
@@ -5398,6 +5850,24 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:a9643f0e94b77f8b": {
+   "d": "english.alarabiya.net",
+   "k": [
+    "attack",
+    "centcom",
+    "claims",
+    "denies",
+    "f-16",
+    "iranian"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "CENTCOM denies Iranian claims of attack on F-16",
+   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMDVQVjFhRHF6aTVJbzlTOHN1cTZNRk4tbFFQSnpnYU5YTGFIejFtMVNRenFoQ1E4LUdVVDR5SXRJb0NlUk4tc24xaUNSQVZOVC03cGk5eGVTUlNaMXdtYTFac0FYTzJJNXBnejNZeXdGQlR4OVBqUW1sc0I4TzhTam5qOXlkTkN1RmZuV0FkeVpqd0dvUVI2UDFpaG01UndST0lKN2V3WdIBrAFBVV95cUxNRUdMZU5OcHFxelVNbFNoZUJneU9iLU82Q3Y2R1FEOHA5UnQyckNLRXNhYzlaYllqb1duSU1yc0VNZWpHa293SnU1NTZ3XzdaYl9YeFRPbUROUmgtcktuaklCcnplVFNHNnRFek9ZbG1IWFltcWNoNXVscGR3N3JqVmdscnBndGdNb0E1OVlVaGd3NTBpMTkwMTQ1R1NQMTg1ZFliN0E3dUo2N0R6?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:a9ac71c559583d1e": {
    "d": "foxnews.com",
    "k": [
@@ -5440,6 +5910,29 @@
    "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNEI2SUhucFZweWtGLThHYUVqWWYtRFA1Y01GaWxfLVFWWVo4NFBWQS1WTXRqblh1S3NxeDZXMkFXb1dHbkFwbDBTRjJ6Mk5ZR2VRdzlNenRmM3lCRWUtSDI4c2NrUjZDTWZZQnNfblk2MU55VllabkhROHlZSkh1Mm9ROWZodXpDYVNwYUs1eWV2WDJBSEpsejdyR2ExUdIBngFBVV95cUxNbHBZVWVab1R6TDZZdGh4TjAxVm1ZdFZQajc1TGRIRjhVTzdGek9udmFEWnhISW1hOHVNcUZac3J2TVBCZ2tJVE1pSmkwRzg2VzRaTkg4WlNzbWFuTUt3WWM0a3VZMEZGS0VpVUNOaTNJODBHNWRYemFvQ2NTRy1wTEFfWE1XYWJXLUNDYmlGT19fbzdjTE9oeUpwVVdVdw?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
+  },
+  "news:aa90e4c0bb06a8d2": {
+   "d": "cbsnews.com",
+   "k": [
+    "drone",
+    "families",
+    "frustrated",
+    "gold",
+    "investigation",
+    "iran",
+    "killed",
+    "pentagon",
+    "soldiers",
+    "star",
+    "strike"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Gold Star families frustrated with Pentagon investigation into Iran drone strike that killed 6 soldiers",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFlHd1lLa29JeElZX3p5aXdWU1JQZU1mMmVvQndCb2lGbHNsaGJmV1ZyUjZBdEd3aG9XRUF1a1dyWkJxOGRvZnZJQ044Wm5jSmxBalBQbmJManAzdHZYaFBCczJncUdTdjh3V3FtUnF1UUpTbXdHZFVVc09XMWRKRlZqcjd0RUNsRV85eXRUMA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
   },
   "news:ab1e418eefed8805": {
    "d": "timesofisrael.com",
@@ -5785,6 +6278,27 @@
    "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRzcwdXJMUXU2Y25tVGw4NDFaUVNDY1hjbnRMTlhXYll1bjcwUk9IS2F0ZzVHaHVESTc1S1FMd2E4dl9FTHRiTGt3R3ROa1ZxbF9qYUwtN3NCLW5vdFhXYVlnVm40T215elEyMEdzMWd3VU1xaXRYRmwxRFlCR1hsbkRiTng?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
+  },
+  "news:b6acb8a7054bc5d5": {
+   "d": "washingtontimes.com",
+   "k": [
+    "iran",
+    "launchers",
+    "mideast",
+    "missile",
+    "news",
+    "other",
+    "shows",
+    "strikes",
+    "tankers"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news",
+   "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzZ0bU1EZV92bnN0eFcyQ2tyQ1hqenNtWE5pbU83UkNCNXNoN2gzVG9tQVp4NGQtdjNDYm4xU3JLSkVzckp1VEhVTlViaXlsSkxhMWFheEVqRmVhVXV1WkFkeWlBSU5ZV042cUVBMERES0h4ZVNZdXBVUS1fYTM4RDJHN1ZDaHExV3lBOURsdlcxUE5TQy03U3V0V3U?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
   },
   "news:b6f408d26c2cac0a": {
    "d": "middleeasteye.net",
@@ -6646,6 +7160,26 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:d0fdd5f02ea8465a": {
+   "d": "investing.com",
+   "k": [
+    "deal",
+    "iran",
+    "nuclear",
+    "oman",
+    "permanent",
+    "seeks",
+    "tankers",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Trump seeks “permanent” Iran nuclear deal; two tankers hit off Oman",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMnZFODNvOUNzbTN2cllHd0tMQ05KS2tJRkpkZWcyb3dIQy1wWUNSd1U2ZjVMZUNDSURFNUdUNjFiRS1fVDBrMk9MTlZ2aC0tbU1Taks4LXBmNkx4MTdGLThPWHJrb1J2X3RoVDZTNWdfYXI0MUJmQjRQUHlRdW9nYmp4QTVPTzI1VGVITVVTU2dTWjFDdlo1dEdRZUNYREVSZlZEb3ZOZFF2Vk53MU9TUkk1bDdyS1plMkhSU2Z6d1RFeUhPRkM0ZUhYWQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
   "news:d2a0e23e495a6efd": {
    "d": "theguardian.com",
    "k": [
@@ -6819,6 +7353,25 @@
    "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZEVBMjJGS240cG02bHJBdDZ6ZmN2Q1JlYmFzaDQ0bExzZkMyTGNwcmtVSVJPSGtaNFR6b2xNeExOQ2U1SHhTcXVjdUtPTTN3bnhxWXBKMHpfRnJBQjdTMHpmYmhobjg3TEpjZHJLWUx6cDFSc2YtVUU3N0V2cUROazM0eFYzUWVsa0VwOURTc3JNWF9zbkJIenFHZ0QwVGxlMXVWcFNtQ0ppTUtaLUE?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "folded"
+  },
+  "news:d7491c0b0e5113a2": {
+   "d": "caspiannews.com",
+   "k": [
+    "attack",
+    "chemical",
+    "claims",
+    "irgc",
+    "planned",
+    "rejects",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "IRGC Rejects US Claims of Planned Chemical Attack in Washington",
+   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWnRsY2dCQnJ6M2NnWm92aXRvQnptUEx6VFlRcG9FZHNYbm42NFh2U001TC1MaWNGamJ4SzdOcm05OFVLOERKd041Uzh1bFRERlJSYTFoNEU2OFQ0OWJWN2d6d2ZzTWNYd3VKbmRMUHpXWG9oZHY4TjR2eGtYZU5nVzcyZXVWem9NWnk5ajdpbGVfLWs5N1BwT3BoNnI0Z2J6UTRFRHVWRHQ2NFpFbVNXLUt4aTk?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
   },
   "news:d7744396e64ed279": {
    "d": "gcaptain.com",
@@ -7235,6 +7788,28 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:e3bcfb5c4ec4815b": {
+   "d": "english.news.cn",
+   "k": [
+    "army",
+    "claim",
+    "damages",
+    "defense",
+    "denies",
+    "f-16",
+    "fighter",
+    "gulf",
+    "iran's",
+    "missile"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran's army says air defense missile damages U.S. F-16 fighter jet over Gulf as U.S. denies claim",
+   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KRV80Z1BoRTR3ZHhtSnN1YzlQaGd6elhqNjd3R2U0S2lIbHpERWRlMGNnbTJYa2s4OTc2UFZSWldTUkhROG1vMHp2OU9nTDg4ME9VYjByZ0NaNTBXUDZRYk9WY0kzRno1aFdzR3pkMlFIeW1EQ2VjNHBSa3M?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
   "news:e64540873bba014c": {
    "d": "openthemagazine.com",
    "k": [
@@ -7601,6 +8176,26 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:efef5bd50b96f7db": {
+   "d": "bleepingcomputer.com",
+   "k": [
+    "again",
+    "database",
+    "hacked",
+    "nationwide",
+    "police",
+    "reportedly",
+    "targeting",
+    "time"
+   ],
+   "s": "BleepingComputer",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "u": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
   "news:eff77ca7446bf685": {
    "d": "washingtonexaminer.com",
    "k": [
@@ -7780,6 +8375,26 @@
    "t": "2026-11-19T19:13:13.509149+00:00",
    "title": "Report: Netanyahu Urging Trump to Strike Iran as US, IDF Military Leaders Discuss Strategy",
    "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOEhDd1ZMT2lLanAya3AtWTFLOHkxYkowc2lJWUFTSVQySklzaW5NVmRqMWI4NG1iZG1pUHBuTHR3aldadFdlTkJEVW91a01pYjFhbTBqNXZCOWxjMmxMTWc5UHd4cF9fN25pVVc3LXd3VXlhOWFkYWc3RTBtQWFFSEdrX1ZGUzZXN2tjb2FSQ1RiM1otMjh3d1I3bnRDVjBGYS1yZUJFLWYzSFA5TlE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "folded"
+  },
+  "news:f4f2b051e2d2c0e7": {
+   "d": "houseofsaud.com",
+   "k": [
+    "army",
+    "centcom",
+    "damaged",
+    "denies",
+    "f-16",
+    "gulf",
+    "iran",
+    "missile"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "title": "Iran’s Army Says Missile Damaged US F-16 Over Gulf, CENTCOM Denies",
+   "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MSlhZRVVEYzNCb2VONnBZcjFtcjJWMEJLOV9MNm5oTTlfTzVDOWI2U25vb3ZvTkJpY05SdW1oZVVxWmhnaWlPRXhOTVhoeWhoanpwdU1RbmxJT0dYVS1xV1V2cnQ3LUpo?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "folded"
   },
@@ -8396,6 +9011,20 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:12f09213f49a33b3": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:14894290f532bb5b": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:14d8dc89c5cd0d54": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -8416,6 +9045,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:16ad44ff22352a80": {
+   "s": "NWS Alerts",
+   "sev": "High",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
   },
   "nws:16c0c250ff142f5f": {
    "s": "NWS Alerts",
@@ -8634,6 +9270,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:29df83cc7629d690": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:2a499d72bc155acd": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -8850,6 +9493,13 @@
    "t": "2026-11-19T02:43:21.902076+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:3fa5326b9b29e45e": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:3ff08488805b20b8": {
    "s": "NWS Alerts",
@@ -9495,6 +10145,13 @@
    "v": "Confirmed",
    "x": "immediate"
   },
+  "nws:79787cf20d5c2602": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:798c8150b6e5f12c": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -9838,10 +10495,24 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:9c9aa8f9ea0c8ce8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:a074a70e576889fd": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-19T02:43:21.902076+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:a16e53337a7e4f42": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -9914,6 +10585,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:aa19ddc671d47dc7": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:ac4c9955729faefa": {
    "s": "NWS Alerts",
@@ -10073,6 +10751,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-18T12:59:17.374820+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:bb88d1e7b6ab6d8d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -10255,6 +10940,20 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-18T12:59:17.374820+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:d13ccbbf1523cfd4": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:d153b2c64f3ea053": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-21T19:48:00.332197+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -10698,6 +11397,13 @@
    "t": "2026-11-19T02:43:21.902076+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:f8bb00e5be4ac14c": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:fa7ba2d9b86d859d": {
    "s": "NWS Alerts",
