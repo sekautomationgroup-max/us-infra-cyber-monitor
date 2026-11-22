@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-21T23:58:46.145443+00:00",
+ "last_run_at": "2026-11-22T06:33:11.648043+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -374,6 +374,25 @@
    "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QSGNMZThLWmFoay1wNWFqWEZVdjRnOVAtQ2RmSFJVallkTWFxWE5oVWlXUF93MHByYlYyWWFMZEpTdEJkT2hpWm9GblNFdGpnU1lpaGF5Rl9RcFlMX1E?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
+  },
+  "news:047ec32615decac1": {
+   "d": "tickernews.co",
+   "k": [
+    "deal",
+    "iran",
+    "launchers",
+    "missile",
+    "pushes",
+    "trump",
+    "unveils"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Iran unveils new missile launchers as Trump pushes for deal",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU2RBQVdSakp3NVlYMnZjMFl3b0Fwd3BldGhFM0NGRUhPQ09DYk01ZEtJQTRTSmJfYmlFSENIdl92YTUzYXhjM1hITVBZVHlkNFJEdmZWemxFUmw2Si1aTTJ2V1RvNTB3WUF1cnBQTlNWWjllOTF3U3lIcFpVZTBsbkswd0FQMWNtbFE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
   },
   "news:0538e9852028a052": {
    "d": "time.com",
@@ -2551,6 +2570,26 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:45e8d2f82c3e3e03": {
+   "d": "securityweek.com",
+   "k": [
+    "cyber",
+    "davies",
+    "director",
+    "kirsten",
+    "national",
+    "president",
+    "taps",
+    "trump"
+   ],
+   "s": "SecurityWeek",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+   "u": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:460d9adc3f9aa674": {
    "d": "newscord.org",
    "k": [
@@ -2773,6 +2812,28 @@
    "t": "2026-11-21T19:48:00.332197+00:00",
    "title": "US CENTCOM denies Iran’s claim of shooting down American F-16 fighter jet",
    "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS085VkVEUVRoaFJTMnN1RmpHT25IOFoza0pESXNZN1U4RGpRbzRRX2UwNnh2N3d1RHFuVmxnNFFpbjBna0MtTTdlQ1FtUHRyb1lPdmFWYm9ndmRWbGUxeDU2V0VyeHdSaF9rMnlxbkM4T0FJWEVJajBIUkVDYl9rMnczRHZOZXpnWlhSVWJ0TTZoVWloSWxKbTl2ZlVXdW9QWXNyWlhwOUx3Wnd5U25GVw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:4a167f21f2642b7f": {
+   "d": "english.news.cn",
+   "k": [
+    "bahrain",
+    "bases",
+    "drones",
+    "iran's",
+    "irgc",
+    "missiles",
+    "news",
+    "positions",
+    "targeted",
+    "xinhua"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Xinhua News | Iran's IRGC says targeted U.S. positions at 2 bases in Bahrain with missiles, drones",
+   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04aDBKWDJ2NUdDTjQ0Vy1qV1RTb29ENXcyMm9vSVZIa0ZIWExYaE5Od0tZdlp5WU9SWWdrWXlFVXdFVTNXQ1FfaFd5TldKMW1FdEVrdDlhSEtiaDVheE5Rd2JqM291LWQ5NlNBeDJQOVlJZ0UzZ0lULUpMLTM?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -5279,6 +5340,46 @@
    "v": "Unverified - Unknown Source",
    "x": "immediate"
   },
+  "news:95b4092e78815463": {
+   "d": "en.mehrnews.com",
+   "k": [
+    "attacks",
+    "bahrain",
+    "bases",
+    "iran",
+    "patriot",
+    "radars"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Iran attacks U.S. Patriot radars at Bahrain bases",
+   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQnA2SndXaVdjaHJVUldVZ25wbktXOWdEZVpiby1kWVJVRzhoQWRpd1FKYzdaNUFJQWpEYlhGQUtFd3ZWcjk3eWpBS2hNSFBVMW90QXNFSVU5TG9fZVJTQlVyZFJhbjBrZjdha0hwZkFwaFJoQjRBcHU4RWttTWRfUUl2TkMyc0pNM0ZCag?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:966b283871568537": {
+   "d": "bastillepost.com",
+   "k": [
+    "centcom",
+    "claim",
+    "damaged",
+    "defense",
+    "denies",
+    "f-16",
+    "forces",
+    "gulf",
+    "iran",
+    "persian"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Iran says air defense forces damaged US F-16 over Persian Gulf, CENTCOM denies claim",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNamh1RUZ1a0NNckRzSXFIUnpodjF4YWlEU0g3bkdpc2Z2REZzS2JfTC1lQmk0elV0RGZTSDJOendwdk9CaG15SmJ1YzVzYnhzdzJLYlVrZUh6d3JtTWN0X2J1WXlmZm9HbHBMZHVmRkF0UkdGM3FDY1h5OHhaLVpTLURsWHVTbEczWkZtRUo5cGVUcEJBdU1SdmpZUnVGNy1GWTNZdlFKSUlFZzFvVWlfcjR1cEx5LXdWOHFzSHpLT3h0YjBxSXJMVXUwRHhCZU5m?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:974a4c942c3e4bd3": {
    "d": "pbs.org",
    "k": [
@@ -5647,6 +5748,26 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "title": "Iran 'playing mind games with the United States', expert says",
    "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVc0T0l2MTh0R0p3R3BrZG0tcVR0R1p1dXp3MDRYUnpDWjl0UVBiVzdkT3FVWnBOTEUweFBNa1dzd0xnWUJEWWhEZmVhUWxwOFRGQVF2Y1RCY2c5S3d6aXVzRm1VRjNvN0dfV3V6SjZZSDZaVkJVQXE4eldldFp1XzN0V0xDY2JsbGdleTBLOA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:a25926432eb79ffd": {
+   "d": "reuters.com",
+   "k": [
+    "airport",
+    "arrests",
+    "denounce",
+    "governor",
+    "seattle",
+    "travelers",
+    "union",
+    "washington"
+   ],
+   "s": "Reuters",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Washington governor, union denounce ICE arrests of travelers at Seattle airport",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSi1Oa2dUSVViZERBQzducWxTUFB5cjd4Sm1HRU0zQ0ZiQUhGWngxTlRmZzJybFo5cjRuMVdEOU80S2xuVGx4ZVdsaFFCTXZ3TkVYM19hcVBIbVViSm4wU2JHWExxYWFVVlFzSkZkUXVLZjdOTml0Qk1lYWdELXFyUGlTeTI3T2lETXVvYzdJVHduT3pnVGZ0MjhUTTBOMlcwYUJxTENWRVJ3aVRTSnJ3Y1FucjdrUTNrMERzekRHZFBkX0U?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
@@ -8824,6 +8945,29 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:f9cb7cc1eb0dd61c": {
+   "d": "openthemagazine.com",
+   "k": [
+    "deal",
+    "demands",
+    "hormuz",
+    "iran",
+    "nuclear",
+    "permanent",
+    "reopening",
+    "sets",
+    "strait",
+    "terms",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Iran Sets Terms for Reopening Strait of Hormuz as Trump Demands ‘Permanent’ Nuclear Deal",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQkl5YWQ0Y3dFQmhaSXFCWHZDYmppa1ByelJJZDVZY0xKdlA5SzhUVHpIZXA5c3lSV1RZeDNrMmVrbThQNXYzdFdFU2lUUmVNbXhhUVJLU2tlYkFDaDhabnpNNTdFLVRnVnpVR3FldnNfa0IyXzREYmxIWDNBZlRSOEhVTkk1Wm1DQlMtSVpNYUFDUDBtNFVVYkJCcWhLZVk1MHNINkNqdVA2amhnUmx1ZEdNU0tWeDd5UFQ2dw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
   "news:f9d87d873f3330b2": {
    "d": "economist.com",
    "k": [
@@ -8871,6 +9015,26 @@
    "t": "2026-11-21T04:05:43.567040+00:00",
    "title": "US Senate GOP tanks new resolution blocking Trump’s war in Iran",
    "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaHN5S2lwRl9SdEQ1Q2kwZGRqX3FCX3FzeGtoX2xyNWNNNmZha1FDZ3EyUW1kVlFKdjVEellKeHZ4dUpYamZXa0NpbThETnFUZV9qeERINHh0MDA1Y09KNHBuaHVQbFJHVFNHWkw3UmtJaWIwQm5FdUVFR2dZNGVfa0dKWTBkZ1NQeVlwMms3OFJpS0Q4dmxuXy1Kck1OcTFGLU1BNXhGRnI?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:fbf8ea0182e6be94": {
+   "d": "unn.ua",
+   "k": [
+    "american",
+    "claimed",
+    "denies",
+    "everything",
+    "f-16",
+    "gulf",
+    "iran",
+    "persian"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "title": "Iran claimed to have hit an American F-16 over the Persian Gulf, but the US denies everything",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFprV3NpbExTb3lsQUhydFFCazN3ZGJWSkt6THh3SzlQLURaMF96UnRtZ3NSS1l5ZHJRcEFHRDEyWUxJaVFMd2paT2w2TDJscnJBSnoxR3hoSnVEWmJjZ1VyQ0VNck5zeEJUM21mNW9fZEdJazl0a21fTjZtTUY5Yi1iMUtFY0hub1FPWGc2ODM3empBblJ1d2ZUMkt5aUx0c25ZWnAtYk45UGZBZ3l6M2I2cklBQdIBtAFBVV95cUxPYUpEVEF3UTdqbkJJTmoyWV9qRWUxSWkwVkVBM3A1OWlNdE9FNFVwSWRjWGFFZlVwWGduLTlnTnU1YnZ1UGlhV3RPN3lOYlh5VEt3dW1SUUxtSFRTQW5YZHRMdDFVV0JlN25lQjVuUHhoMmRzQU1WNjZaS3FUT0VsQlV0aTJJbzM0ZnRqRVdnY1RLc0o4VWszbE93WHlaVXhmTWpBd0tvNDRFTF80YVhLcXpMWV8?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -9134,6 +9298,20 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:06eb5a2aa46d6661": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:08168dbb20daebff": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:08f025e2e33a6643": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -9357,6 +9535,13 @@
    "t": "2026-11-18T12:59:17.374820+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:1d04daddc78742fd": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:1d3663b47e561b32": {
    "s": "NWS Alerts",
@@ -10065,6 +10250,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:55ed28cc0756a558": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:55f44d2bbaa49ea3": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -10167,6 +10359,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-20T23:17:55.256318+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:62e7cbe26cbf0065": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -10499,6 +10698,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:7be2d2f02a0e5a31": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:7bed8b76e28db988": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -10554,6 +10760,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:8042fd4cac40ea8c": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:8085f4bc0302dad4": {
    "s": "NWS Alerts",
@@ -10702,6 +10915,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:8f3bef842f6c409e": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:9150680454044301": {
    "s": "NWS Alerts",
    "sev": "High",
@@ -10786,6 +11006,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:9b4c62030290cff8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:9b7f64ac9d272d9f": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -10804,6 +11031,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-21T19:48:00.332197+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:a06d95daacd1a008": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -10890,6 +11124,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:a98e5bca62755771": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:aa19ddc671d47dc7": {
    "s": "NWS Alerts",
@@ -11219,6 +11460,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:cc6cc36433dab396": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-22T06:33:11.648043+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:cc6f3e392f4d5492": {
    "s": "NWS Alerts",
