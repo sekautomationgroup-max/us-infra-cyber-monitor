@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-22T20:56:57.132226+00:00",
+ "last_run_at": "2026-11-23T01:32:36.235756+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -952,6 +952,26 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:13b774d8b284e061": {
+   "d": "iranintl.com",
+   "k": [
+    "blockade",
+    "iran",
+    "runners",
+    "strikes",
+    "sunk",
+    "threatens",
+    "trump",
+    "year"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump threatens Iran strikes in new year, says blockade runners will be sunk",
+   "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzRXdabm5KR1czc1RxLU9xQUFoNUdmNHNrYTFPdFBrOENlZ1c1UURxWHZpd0lJUXFEcjhqWW5JcmF3VWIzbzlpNW9aSlZOVWt2ZWc?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:1445c30c1a9290e4": {
    "d": "signalscv.com",
    "k": [
@@ -1452,6 +1472,28 @@
    "t": "2026-11-19T10:48:09.779255+00:00",
    "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
    "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeHFkYjNzMG5ZOTdCcWxiTmVWZXhueXJpRmcyOTl2MDN1c2o1Q1dRdV9icVVqQ1lqc0FnSlpwWU1YM1loblZfUnkwSno5N3dqbGR3a2ZCZklvMGtRQ0VaQTVCWXRrMHpmRmhXT1ZydS0wLUhISnl4TXVtV3dZaW1xMFp5QkVsWmNtR2E3ZndYVnc3a1EtNVJZU3VjV0pFWllEcVBadGYzNjZxYWdsWUtVeExBTGQ2OE5ENEdHMFBGMUplTmtUbzF5b0VYdUVDX2ZvaUREcVA1Zm42UHBjZ0sydNIB5gFBVV95cUxQazczVmJaMG10RE91clVEei02NkxIMnlBT0pFU2g0LWJhbEIzSF9YczRWUjljSlNOdlFKeDY2b240eHZTQ3MtUGlya1dXeXBDbUtDQTYtVU9vZkVpM3hzMlB6UzVjMUlsWFBmZWNGc1M5TXZZaXZfc2VIX2M0cFNSU3FVSHIxcFhUU2JJVjEzWXprXzN0NnVxUXdnZjJuZjNCRTNHQ2dlWDdUYzNxWlM2aGdHX1JOY2U1SGlaSkpjRmdYRDFwNDFXYzE3N094dGpHQUgwR2Z2Z3JpcWNhNmtyVFE4SkNuQQ?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
+  "news:24ae86363f302481": {
+   "d": "foxnews.com",
+   "k": [
+    "blockade",
+    "breach",
+    "dares",
+    "iran",
+    "port",
+    "readies",
+    "reportedly",
+    "tankers",
+    "tehran",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump dares Iran to breach US port blockade as Tehran reportedly readies 14 oil tankers",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd1BjTGRmMGRRNmNZZnFiZEc1eV9WNU1oTzR1TXh6NDZ5aTFZMkhWN1ZVb1lwOFFybjE5V3dIbDAxbjRCQ2wzV3NBU1BGTE42U0xXMkFRMGItdjk4RHdLVUhUcl95MkdtVllUU2xCN3lZYk1oQk03MUxYcmxnZVNteWgwLWJ6NUItSGFvY1A3TzZHYTZqelRfcWh5eUQzUVllYUkteEhOREhiaHFETWVfVNIBtgFBVV95cUxOemFJRWtRTGk0YVVad3pyc0tYRExXN2QtdlZQdUN6dTJXM2J2UTZwNWZYRUczemtyaHpTRkQxb092YThXR3ZrOUprUHRzbE41VGtyQWl3SU1TT3JTcHctSlVvVk43WkZsM3JxRHZVWG5qZWNpN2hkMjFHVndLbnQySTFwWHVsSE5YbTBvdTlLRkNtSGo2Mm95ajl2a1c1Wm9BMjg1T0Nobms5cG1ydWM3TUxHRXYzZw?oc=5",
    "v": "Unverified - Credible Source",
    "x": "immediate"
   },
@@ -2424,6 +2466,25 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:3b742dc5ba2b2400": {
+   "d": "english.alarabiya.net",
+   "k": [
+    "dancers",
+    "iran",
+    "professional",
+    "strikes",
+    "trump",
+    "warns",
+    "year"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "‘Professional tap dancers’: Trump warns of new strikes against Iran after new year",
+   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeWg1NU5iSUg3RUtaUFNjZU5vQ0R5MmZQRk1mZDAtTEZSRkZtbW16eWkwbFVkRmV3Wm1DRzdVckdWa0xBUTdlb1NkdnhwaHhiX0RvQlFoZnh0NHFsYi1vUF9FbXVYNmxub1RsbFpjRFBJNWQyOXRXYnNUVkRVQXpZeUV6QW1VcHlHNjZsaWlFUVdXQkx1Ulo5VllfZVNMTldtbE5SYmRqT1R5eEk3WU1rUkN6Ni1NeHBqeUpvNUt2YVFoNUp1cE1wdFU1cTZMdVZXVUVya0RB0gHbAUFVX3lxTE40ZGRMWDFiMVQ2UnAwamV4QTA3OHRFVGNWMUhMV3RScmlSUG1DM0FobFV3ZEpKOWZxTzV2UFVrd3RxMWpSR3lWZWZhQ3dTXy1uX0pPM0NQZF9EeHE0ODBabWJYQk1MOTBaX1pXVXM2M1NXcXpPQ2dGbmpMY1BROS1YaExEVE0yZHhrb3p2Z19zTjNyWjRJNzhIN2pMNjZPanJFMXlmUlJmOXpKbmI5QUp1b3NmeU1fYlVOd01YSUEyT1d0Y01BUXBhUGxWMlRDYlU0eFBSUGRoNXdhOA?oc=5",
+   "v": "Corroborated",
+   "x": "digest"
+  },
   "news:3b9fb65aa958f813": {
    "d": "memri.org",
    "k": [
@@ -2809,6 +2870,25 @@
    "t": "2026-11-21T04:05:43.567040+00:00",
    "title": "US Treasury sanctions Iranian 'trustees' collecting oil revenues",
    "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV3NtX0JqMFVBeHBVcTdlV1ZTaXRRMUhnLV9YWmR3VEZqUHVwbFlnOTlFTlZtTTExbUhTNzBsWXR6YTNYQmdMdVg4VGJuTTRYR19wSHhSZUJaTlRxWWpFT0o3SGgzb2JrOXY4b2xMd3cxQ2VlbGZPUzFGU2hJNFJLLTV6YlZLdmlGbUNaY19jMDdMLXVLTGRiT2ZfR2dMY0JuNzc0UzE0akxlelRNNl9sYzhLMkFwczA?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:45bb0287d5c0b8e0": {
+   "d": "foxnews.com",
+   "k": [
+    "decision",
+    "iran",
+    "next",
+    "signals",
+    "trump",
+    "until",
+    "year"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump signals no decision on Iran until next year",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ldm9zdXh2TG1Ma3p6OFZ1bUlxdVI0cGJIQ19XVEFUcmhTei1aQ3Bkam9ybllrU0VPb0w2emdYSC1wa1pkMWNsdWxpVm04cmh3UlNFTTBn?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
@@ -4217,6 +4297,26 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:714a9f9027b3d73f": {
+   "d": "en.bloomingbit.io",
+   "k": [
+    "early-2027",
+    "fail",
+    "iran",
+    "military",
+    "strike",
+    "talks",
+    "trump",
+    "warns"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "High",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail",
+   "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
   "news:71606ad52af540e6": {
    "d": "longwarjournal.org",
    "k": [
@@ -4449,6 +4549,30 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:76e964a9ec2abe61": {
+   "d": "jpost.com",
+   "k": [
+    "claims",
+    "commander",
+    "court",
+    "declares",
+    "during",
+    "hearing",
+    "hezbollah",
+    "innocence",
+    "iran",
+    "kataib",
+    "loyalty",
+    "york"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Kataib Hezbollah commander claims innocence, declares loyalty to Iran during New York court hearing",
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83ay1IZG9CNW1nRENyMHE4TDZZa3Q3cjdVby1iYno1d3llTlJkcEMzRU04RWhNU0VnbUtfOWFBSVNrY1NFTnpHZmpRRzRrMWpZY3VKTGh2Rmo2N2x6a3pF?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:775c3ca1d3246916": {
    "d": "latimes.com",
    "k": [
@@ -4526,6 +4650,44 @@
    "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lZGtHdVl5eU42MzZfajBrdnRvVmx3R1ppcTBHS3pKaWt3MlhUdzNTU0hydUswSE1zMzNNZmV4V0pPcGt2Rk83ZjlPTVluZ01pUWhUbzRtcWQ5X3I5ck5qSVEyVW02cUFqTWc?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "folded"
+  },
+  "news:7aa7314a7c8749c0": {
+   "d": "palestinechronicle.com",
+   "k": [
+    "court",
+    "crimes",
+    "iran",
+    "strikes",
+    "takes",
+    "threatens",
+    "trump",
+    "us-israeli"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Iran Takes US-Israeli War Crimes to Court as Trump Threatens New Strikes",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSDVDalZFRWlCZE41dlJHX0R2OUxFYmpsSVozSmxfbElyYW9uampfeC0wMV9YQkdUbkp4dE53MTVZaTg3Q0R1MzI4dXNqUE9jQ04yNmRON0l6aHJTY2lRTlpXT215Q0FJV0FoTXluZVhxbEU1TDduWkd1R1p0bVk3dy1FWWdhSkItdFZpSmRYbHpsOENXajFOcmJiaWN4S0diY0FDdGpKZkZiMlZN?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:7abb0086404925cf": {
+   "d": "energynow.com",
+   "k": [
+    "attack",
+    "elections",
+    "iran",
+    "midterm",
+    "november",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump Says US Will Not Attack Iran Before Midterm Elections in November",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWi1Kb1dQRjFRWVF4b1RSMnc4R1p2T3NTY0tJTHRqbkxZaWVGNXA5ZWNqZFRFNkpLM2picTJUNWVOQjRNcFZUZHRlQWdCQk52OGhXaFpKWl9PRnFrNF8wWk9oVi1TalJWdFhfV1lMZWRvY3UwZTNsSks5Z2JycExHMUd1anZaYWx2aUctSmVBRmdQUllxVkdQWjZKQk1UbEVDZTk4Ug?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
   },
   "news:7ac79de37794f913": {
    "d": "localnewslive.com",
@@ -5878,6 +6040,25 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:98aca19807aeaa66": {
+   "d": "foxnews.com",
+   "k": [
+    "drone",
+    "iran",
+    "midterms",
+    "missile",
+    "surge",
+    "trump",
+    "unleashed"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump says Iran unleashed missile, drone surge after midterms",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmNGZHR2QzdtY0JPMXh2Q2t2RzF5aFZkRTB2MEQySnE0WXNDTDZ3QlphR0M3dThYSHIyU2ltUkVhNTZsbFVGTGhjLXRNZEk0M01pUnR1OWVNUWRlUEpQeUNLQnJmaGZ2aUNEcDVpMEVsd19McFhmeVhuTkx5dEYxR2xxYWhMcHV0anFQNGthaDVieEhw0gGaAUFVX3lxTE84Qm9RcWFQZl9HN2hlWU8zRUU3dDZtREFoaWdJRDNwLXhDWmo2cVVmekdnYlZsMHczUFlIVDU4RXV2RWtfNzUxNTM1WUJQNEFPTkRNWnZmV1l6ZTIxVnpiWU52YUd0dHpQY1U2c2xGdFg0OWlpM09SWVBGTzRqY3ltUVF3SDdkd1V2Z1EzYi1xZ0JCUEtWTkRIQkE?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "immediate"
+  },
   "news:98b2529ddf9f4bf7": {
    "d": "timesofisrael.com",
    "k": [
@@ -5938,6 +6119,65 @@
    "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
    "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWExRdGJVYklFVlRzdFJXOWVHb3NjWFQwYTJTeU1CN1h1YkJ1ckswc29IQ28ydHBtWkhFOV83WEJ6V09RZWk3TkRIbnNYdmVnR3l4OXA4WDFLQnI5bUVzNU5RYnlIZnNQNU4yOXNDT3BVSzgxNlplYWhBaGp2YWVLZ0x6MXJOWm1OZVdVTlN30gGTAUFVX3lxTE04Qy1NVGc0RndjU2tZbS1ubW5uWDBSSUZ5NTQzTFZ5MGtCSk52SFg4YWdVTjVOWmN4S1FzMXFQZFJNekptTi1PVmhVY1dHaDVwZHkzTUxvZnhyaHlQVXNzWno0aVFFdjJMcjdIcGV2dnlvMFlhcHp4WVVZYnJMcWFfdzhNVmdfbjY0SU1sS0MtdXUyTQ?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:9b427c798b683eca": {
+   "d": "x.com",
+   "k": [
+    "analyst",
+    "back",
+    "backing",
+    "bombing",
+    "campaign",
+    "decided",
+    "done",
+    "down",
+    "former",
+    "iran",
+    "iran's",
+    "it's",
+    "johnson",
+    "joined",
+    "larry",
+    "latest",
+    "preparing",
+    "restart",
+    "talk",
+    "tehran",
+    "thinks",
+    "threats",
+    "trump",
+    "wants",
+    "whether"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "🇺🇸🇮🇷 Trump wants Iran to BACK DOWN. But what if Tehran has decided IT'S DONE backing down? Former CIA analyst Larry Johnson joined me to ta…",
+   "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjVnNQM0xraXVjbmp4cXNUVDNLSzF4OV9WcllUU3BHVk1VaVljb0gzMEJjYVNGbl83QUtKbXc2dnpvb0tQcFl5OFJxRUYwOWRxQVgwaTRmbmtlc2xMR3VzYVlnN2Y3NVVleENIdQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:9d1e6490dda3a0bf": {
+   "d": "abcnews.com",
+   "k": [
+    "accused",
+    "california",
+    "computer",
+    "equipment",
+    "iran",
+    "mansion",
+    "money",
+    "news",
+    "selling",
+    "using"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "California CEO accused of selling computer equipment to Iran, using money for mansion - ABC News",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbkhpN3lJZmpSX0Z5SWhsMzBPdVJqdHdUWUpXeEpJVDZuVHJSeGFObG1OR3ZzV01yMC1VdmpNZk5nbDA2WE15VWV1bHd1Nzc5cVRmeFZtM0NxMmVsbGZLdXdSLUtuLVR2QWxYT1ZiZmdMeEw3U2dkRmtsajk1YXNYeXJSa3VVWGhoYnJEYWtKbUJfNXRvS1JybUVyZ1d1aWk0VEdhMHZoS25wbHA0VmR0MGQxRdIBuAFBVV95cUxQT3FsT0FnT1ZGS2RoRTJIZkFhcTFuREdmVUFlTF9ldU50bk1TV0JUQjdLVktocmRmVk5zTDBoNXVmLTI0eE1UOEJIRjFGYWdCUWp0WUJYT2Vna0lpbmpIZkFrNVhkcnhzNjZqeHNzSGx6RjJPUnRZSXNhM1JqQjJ5aE5ybEwxNG1GLTVQOWpoYXhia2lncjE0RXZiVUZ5Q0hDaDkzWlkxR1ExUkdncnU3Y1R5T0xHZHBt?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:9df9ecaaa8eff25d": {
@@ -6001,6 +6241,27 @@
    "title": "CENTCOM: US Strikes Iran Missile Targets as Trump Pledges to Raise Iran Issue with Chinese, Russian Leaders",
    "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0xwM0NlSG5tMFJjT1Z1RktBekxpRjJ5SlNwVjEwZTVBQlJJMjRQbURsTUpyWXhaUG1oem1sdUtaLUJGZHQ3U3ZTR29McnJIRlNtalYxS1ZzcGVoWlBxMXR0dlZNNHlncHV1QmdSV1ZqU1hDd1QteTdEUmozZElMX2pHQjhRRm5vekpHRlp0SWl0QVBHRjdlSTFzM3lkUlpJYy13QmgwX1JVVjdRSWs4ZV90ODM?oc=5",
    "v": "Unverified - Unknown Source",
+   "x": "immediate"
+  },
+  "news:9ec4cfcc1f7f26b2": {
+   "d": "news24.com.au",
+   "k": [
+    "city",
+    "double",
+    "iran",
+    "launcher",
+    "missile",
+    "shows",
+    "taunts",
+    "trump",
+    "underground"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Critical",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Iran taunts Trump, shows off underground ‘missile city’ with new double launcher",
+   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQVzRYVUphWS00c29LRDgyWFBWbWhmamhiOTExRjNWSjZZOGlRd0V3WUNjRV84MG80eTNVR3pRcUlnSk5rTHFRSGZ1SHZ4MGZmcnlKM3JVdnRuR3ZZb1pBRy1WSE5TYXB2SjdEV1ZIMnhwSlc5aFZOeDVxZjVnSDlESlV6b2dJeWlxY2NGOWJ1N2hNeTBvTzlQTkdValJOYU9MYlZvcTE4X3FkSVFRRnJPY2ZJZEl1NGVQZnNCRHRVcXhwRzc1bGhkMm16QnFqOXNONW5uMC1fZ2I3X2hDUHVITFVrYVBWTUlMQVd1RW1jSW5tUXd0SDZ3OXl2TVllTXBIRUpZTlRR0gGLAkFVX3lxTFByNi1vM1U5Y1RSM2FGeDgtNE54VmowMDVRdEw5QXBkM0lKYU5hTHlQMmJaaW5JczNNemdqMm0wbEFXSC1icGM3dzYzcncyeDNibTNVQjhGSjRBNXh0ZkJtUUswLXlCS2hDUE00WnkyZFktZzV5bG1pa0lWMlNlYy1iLUZNMzhYZHU5dE9jazBmNHgxYWlHTzcyRDMyRWxySk9rQXZWWmx1MGF4QTIxVUp0eEJ3TXNyaW9JMFlwYktUcDNDNm1yb1JMVTFOeDRzN0ZaeGhVYU1Gc1hFUGJWUFJNb25UNmtMc3B4dUVDYXJyQ0I3TzFlNUpsaWxWTVAyb0dxeEZ5b2Racmdhaw?oc=5",
+   "v": "Corroborated",
    "x": "immediate"
   },
   "news:9f0ab950980dd740": {
@@ -7477,6 +7738,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:c35aa5b4512073b5": {
+   "d": "apnews.com",
+   "k": [
+    "airport",
+    "baptism",
+    "daughter",
+    "detained",
+    "family",
+    "father",
+    "lawyer",
+    "seattle",
+    "travelling"
+   ],
+   "s": "AP News",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were travelling to family baptism",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdEtrdGZScmR2TTNyNG1MR0xlT3FhUW00LV95MFR6TjJwRXdUOHlVV25jVTVuZktGX1UxTlpweUVEZDJreXJGVmZRZFdBZ05OekFyNEZHdUsxOXFuRXRoUjNuOXRWN201RHVEZ2tvS0VveF9yVUJWZGhsWWgtcWtxTFhiOEtpVGdkY1V1cTI2RnNTTmpRc1BaTm9ld05ZWU0?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:c36817af9a4b18e2": {
    "d": "therecord.media",
    "k": [
@@ -7534,6 +7816,26 @@
    "t": "2026-11-21T23:58:46.145443+00:00",
    "title": "‘No deal needed’ to ‘permanent deal’: Trump's Iran zigzag",
    "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WSElXcV9vMURmaldVQWNrRWRHSGlRVTBHVDRJcllSSWRQVnBCMndLeE8yRktyWV82aGsxVzc5SHdKM2Q1Q1BINl80OFp3YTg1VWdqSzBR?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:c443bc82c0554ab8": {
+   "d": "mezha.net",
+   "k": [
+    "armenia",
+    "backed",
+    "despite",
+    "iran's",
+    "launch",
+    "project",
+    "tripp",
+    "warning"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Armenia set to launch U.S.-backed TRIPP project despite Iran's warning",
+   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ibnNzWUdPR2FUT3pvcXhOUlNjMkhsbmozaFBZcUVuTjFUcjA5bmVNVE81TFFGVTF4aGFUYi1DTlBmX1ZLWnBhQWJWY1NjUE1IR0RxNFRTSzd2Nkc3SWdnczN1Y1ZsV1ExdWJJaHhYWGVTZzV5TTVKcVJSelNIZw?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -7819,6 +8121,24 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:c9e00fe3e2893633": {
+   "d": "arkansasonline.com",
+   "k": [
+    "damaged",
+    "iran",
+    "strait",
+    "tankers",
+    "tech",
+    "unveils"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "3 tankers damaged in strait as Iran unveils new tech",
+   "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUmE4VWoxbTdMLVVkczl1VG5lZTk5c1lkd2ZaNWhuLTFJZGJaYmFTOWUxbXcxaENmQXZrRUJjZnI3WHVqa1kwRTFHMkhUbm4zc2JRaG40aGhfUnIwdHM5SUV3ZEFmeHFfeDNYWnlXcDF3Q0VaUFlZclQ2VEZCektqZVJFMy1ZTWVVWkJMS2s1T21Ta1NiQS1GUzE2YU4?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:ca298a537007a45b": {
    "d": "trtworld.com",
    "k": [
@@ -7839,6 +8159,27 @@
    "title": "Vance says decision to attack Iran was Trump's call, adds his role is to support president",
    "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Xd2dZd2Rnek9SQTcyTVh3Z1BDaG9yeVowejNSdUM3MUVfS3pzSG1NRDdhS0F4Z0VabmhNMldvazhtdndsS0QxUnYzVlRqVmJjN1VGOWV2Y0k?oc=5",
    "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:ca549e953868f723": {
+   "d": "washingtonpost.com",
+   "k": [
+    "citizens",
+    "energy",
+    "iranian",
+    "lights",
+    "office",
+    "president",
+    "save",
+    "turns",
+    "urge"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Iranian president turns out office lights to urge citizens to save energy",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnhjMGhWTE9jLTJuMUZkRHVRS0t5cjVhZHlsNklGWlM3bG1ydUFpM0QtMGQzdHFGUVZMYXR1VkxOWm5DMThqSWY1WlBsZWw1Y2RRX3RKYUM4RHhIU3R6Q2x3dTB3ald3SloydzVtME0wamRkSjBjNE15QkhhUmg3TjRNdi1LMGxzM1F2RG1pRjZVYWI5WTFQUFBiMlBEZHI1ekxvcVd3bDh0bjQzUDBCZWI3cnFndkk?oc=5",
+   "v": "Unverified - Credible Source",
    "x": "digest"
   },
   "news:cabfb432a96c1667": {
@@ -8035,6 +8376,30 @@
    "t": "2026-11-20T01:20:25.406279+00:00",
    "title": "Pentagon's Latest $48.3 Billion Iran War Cost Estimate Doesn't Include This $162 Billion Figure",
    "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03TVl0R1RoTm5vZWFDeXNjT2Q1LTFLNDM1R3pJRkVMMHRZQ2d1N2ZmazY3eHJ0OS15eFBtZlJJR2VIVDdsNFJiRFRpOUlVOFRLdHl2V1hIb1BjaEE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:cde8082a529e31cf": {
+   "d": "timesofindia.indiatimes.com",
+   "k": [
+    "abort",
+    "america's",
+    "centcom",
+    "claims",
+    "denies",
+    "edge",
+    "f-16",
+    "fading",
+    "forced",
+    "iran",
+    "mission",
+    "stealth"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Iran Claims US F-16 Forced To Abort Mission, CENTCOM Denies; Is America's Stealth Edge Fading?",
+   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZGR6UmJFcTU2ZjZValZFRGFOVEFqclFVTHQtaXRxcGRJOEIwalhhZktmR2dlcXBOYmd2WmpkazZVVFlKN2Y4T0VvbzNWTURueGhEd1ZOTkVaY2tzWkt1RXlrcUp4S3U4b045a3VIekN1WmtfcG1oODRITXBFRzRsbVFTWmtJMk1fZ3FhR2Fha1E5c0QyYTZQd2RsUExZaGt5bjhIZFdiblp6RFJTLTV2ZG9MVjZhTHBjcnVidEpVVWs1S29KUmJlekVRRXUzX3cyOFlucnBrYlNzcV84cVZNSjZWa2RDSm13enFzdVFQeThPZ2I4bjMxcllGNExYZlFt0gGGAkFVX3lxTE1KeHI4aG13RzBRUllVZFk5LWVqOFkyRk02N05kWlhuVGFSeFVBRTNMWXVJOTUtYnJIYjFQRWpFZnlqTzlJTmlEejlWZXFmMDhiQ2xfVzlMcnQ4MzE2c2ZsRWJuc2c3Q0tfNmNXcm1XVjd3d05xamw5U1BYVnhEWEI1VWd3eWRFWWVpQ0doT3hrTEFIUHZRcDJ3ZXMyOTlmWmxQRHBqZDZEMXRqcVRsSkdQckZHei1OcExRX3Y4bUlvX3l4bGpMVGRSU1N6Qm50U2ZrVmJzenJtb2EtaEVUb3U1TC1oTzI5QTJ5eDVqb3Y4cWZNeVloVXRxZkR0VWFTaVBFRm9OZXc?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -8450,6 +8815,27 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:dcca34c809fb9a67": {
+   "d": "aa.com.tr",
+   "k": [
+    "blames",
+    "democrats",
+    "elections",
+    "ignoring",
+    "iran",
+    "midterm",
+    "trump",
+    "voters",
+    "warnings"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Trump blames US voters for ignoring his warnings about Democrats and Iran after midterm elections",
+   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQc2lBMmotUHRjeWdKSnhScld2eTNOWjB6RUlkQWRIa05MY0V4S0F0eUVLUUEyR0xodTQzOHVlSmk2NWtEX0hNWlNXS3UtcUVfenpVSWJON2FlNWg2WExvX0tRTHhGclJiZVBsaTVxbTBJWVZwR2YtRFdHOE9FWFR5TjFoNndZU2IweUFHTGRjQ0ZfRUVreHFxV2VaeW43a1VlZWxoUWJjaG4ta0cyeWdRajViVktUVDgySklxOEhJRHpoVEVTZkhBQmt6RDh1Z1MtYWtaUHpR?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:dcd56d8b2b180e2c": {
    "d": "news4jax.com",
    "k": [
@@ -8471,6 +8857,28 @@
    "title": "Trump insists Iran won't make an 'acceptable' deal as concerns grow about next steps",
    "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdnFrZDZsdnBhTGpFdS1UOVVCZGF1bk9iQVFqczFDT1V3WkwxT1R0MnI5ODRtaHRPZ1hfOUYxZU5lUUY2Q0k1M3YxYmJKS1d0TklwcTFKOHMteHlwVzc2RFJEWDZaVmtNblFYQy03clhIRWMxQVhyRTRhbTlqNmVfQkQ5OGxPelVGSWlRaFZRMXlFN3hCWWZaQjRRa1V0dVdJVi1GNEZNb2FacHdvNUlkaEd2RG5RN3RCWkx3dmRHUlZpaldCSnhPWEo4NXY?oc=5",
    "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:dcd59c6f1c515082": {
+   "d": "foxnews.com",
+   "k": [
+    "border",
+    "break",
+    "corridor'",
+    "iran's",
+    "launch",
+    "legs'",
+    "prepares",
+    "tehran",
+    "threatens",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Tehran threatens to 'break legs' as 'Trump corridor' prepares to launch on Iran's border",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMzJEdmVaWERGRkpBVTRSSUlMN2EtdUVIdHZTdGZsRHp2bERPRGQyMUJPYlc4TEVBd1l6QXNOMHVDTnVrU3djbHVHYUxDTGY2S1BwSVdXMkFUM2ltV1NFNU9VZDlHSktQRmM5Z3V5cEJsUDR3WThRUjdKd1g1a3ZkR0pqSDEzTVJUZzFZd2xLMVN5TFdYYmpOVjlYWVBPcENteEdN0gGoAUFVX3lxTE1Cdi1ZaFdLVWItZzhQRzFjUmpUNHpOZEJRWmFzbkItTVBnV3FvaDdtTGRGblBpMGNyd3VQT2VudnRFVzhCTTJKZkwxbU9Qc3hZbXowOFVnX3RiT2R1R2NvZUh1SFQwRGYwM3p5N3lGWk5mM3BlRTktS1NaSDg3a0tVakVndEdaNDVCOXB5R1J0R1RRWFNkbjlsQ05ZaUpDZ2oyOFE1M2IzNQ?oc=5",
+   "v": "Unverified - Credible Source",
    "x": "digest"
   },
   "news:de7bf53669ce790f": {
@@ -8746,6 +9154,31 @@
    "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KRV80Z1BoRTR3ZHhtSnN1YzlQaGd6elhqNjd3R2U0S2lIbHpERWRlMGNnbTJYa2s4OTc2UFZSWldTUkhROG1vMHp2OU9nTDg4ME9VYjByZ0NaNTBXUDZRYk9WY0kzRno1aFdzR3pkMlFIeW1EQ2VjNHBSa3M?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "immediate"
+  },
+  "news:e425e906814545c1": {
+   "d": "foxnews.com",
+   "k": [
+    "blockade",
+    "convoy",
+    "expert",
+    "firm",
+    "force",
+    "holds",
+    "iran",
+    "maritime",
+    "navy",
+    "needed",
+    "ready",
+    "stop",
+    "tanker"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "US Navy ready to stop Iran tanker convoy ‘with force if needed’ as blockade holds firm, says maritime expert",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zMk94VVVmU3k2Z3ZqMTNYdkVtTkQ5VzJGamJwbEV1d1RZWWRxYVVXUWlvN0RkckhZalRaM01WREFYOXpLd2ZmaVY5c2pyclFlbThhdmxB?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
   },
   "news:e64540873bba014c": {
    "d": "openthemagazine.com",
@@ -9283,6 +9716,28 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "title": "U.S. Navy Used Expired Tomahawks in Iran",
    "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzNJRUdUQ2t0OHdzRkdUV18ya1phVW1KMFZ1VWMtTUlGbks1T2FFcVpZY1dSeFduWEMxWUZDN09VUFFKVEVKbHdiMDdEbFBhRTRhYjZFR09EQ1JUcElXaWN5anJ2TlYzcTU0STA1emFPSmtZRnlCMTJOOXlCRUE2d0E0b2VPUXRJYVhZT0JtTnBHdkJ3cEpwR1VMMHk5Y1FGNmYw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:f20015192e5b5c80": {
+   "d": "reuters.com",
+   "k": [
+    "airport",
+    "atlanta",
+    "automated",
+    "brief",
+    "delays",
+    "delta",
+    "faced",
+    "flights",
+    "issue",
+    "system"
+   ],
+   "s": "Reuters",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "title": "Delta flights faced brief delays at Atlanta airport over automated system issue",
+   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUi1YSXI0MDNzWFFveF90TU5ObVc1eVBONWJnaGdLaGMyV0lrYjJwbkFUM0lUVXJkUGpPRXNkbEw3c29yTDdNaGJWeEV3ZUw0UzhKbjdzYXBkQ2ZwY3JaRkxjM1hIazJXdmlnN3dCNkNMOW5lcEVIcE1BN3NMSWNCem5JSHpRSzRkOUdKUzFjbnJWZUhnWG5CWkR6dDB1LWFsdFp0TS0xU2h0QWZZdVprUVRnVXk4MkpRY1lDX2U5S1g3OWIzd3dqa080eU5xOFk0ekE4UlBsakxQUQ?oc=5",
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
@@ -10014,6 +10469,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:056a9a7e4c8d22e2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:05abdb9d1a765fd2": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -10217,6 +10679,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:1311d80789f04322": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:14894290f532bb5b": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -10349,6 +10818,13 @@
    "t": "2026-11-19T19:13:13.509149+00:00",
    "v": "Confirmed",
    "x": "immediate"
+  },
+  "nws:20c1da0334fed8a4": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:20f54df22e66b163": {
    "s": "NWS Alerts",
@@ -10881,6 +11357,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:4c6f815924c368ed": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:4c8e149abe018097": {
    "s": "NWS Alerts",
@@ -11533,6 +12016,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:7a354e17b3627e68": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:7a391bacb09c096d": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -11869,6 +12359,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:98e8d1b34381b17e": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:992542f59b4f30ef": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -12030,6 +12527,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:aa7f31f288c07674": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:ab8e4653ee14e1ad": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -12069,6 +12573,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-21T12:37:08.605569+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:ae50f79751c9caa5": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -12324,6 +12835,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:c1c1cbd344e90fb4": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:c2de4bf1b4cb8be7": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -12351,6 +12869,13 @@
    "t": "2026-11-18T21:21:37.136207+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:c6e7eaf6d66be499": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:c741a49728999086": {
    "s": "NWS Alerts",
@@ -12386,6 +12911,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:cb27257ebe3db530": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:cc6cc36433dab396": {
    "s": "NWS Alerts",
@@ -12625,6 +13157,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:dcc34914ccec90be": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:dcf323030d63fb9e": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -12678,6 +13217,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-18T12:59:17.374820+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:e17cd74590d333e7": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-23T01:32:36.235756+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -12923,6 +13469,13 @@
    "s": "NWS Alerts",
    "sev": "Low",
    "t": "2026-11-18T02:36:27.235099+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:f4a8ec3cbe0a1802": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-23T01:32:36.235756+00:00",
    "v": "Confirmed",
    "x": "logged"
   },
