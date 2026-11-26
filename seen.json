@@ -1,6 +1,6 @@
 {
  "last_digest_at": null,
- "last_run_at": "2026-11-25T19:38:14.857472+00:00",
+ "last_run_at": "2026-11-26T02:29:21.819260+00:00",
  "pending_digest": [],
  "seen": {
   "cisa:04fced3604e31ac8": {
@@ -129,6 +129,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "cisa:b368c84bce94ed6c": {
+   "s": "CISA Advisories",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "cisa:d08071d08cf172f7": {
    "s": "CISA Advisories",
    "sev": "Moderate",
@@ -164,10 +171,31 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "kev:CVE-2023-25914": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2023-25915": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
   "kev:CVE-2024-10441": {
    "s": "CISA KEV",
    "sev": "High",
    "t": "2026-11-18T21:21:37.136207+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2025-41450": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "immediate"
   },
@@ -224,6 +252,48 @@
    "s": "CISA KEV",
    "sev": "High",
    "t": "2026-11-25T01:01:54.459586+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2026-133275": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2026-133303": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2026-133311": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2026-133323": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2026-133324": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "immediate"
+  },
+  "kev:CVE-2026-133469": {
+   "s": "CISA KEV",
+   "sev": "High",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "immediate"
   },
@@ -742,6 +812,25 @@
    "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcXdKdUh3N1Uwc3JCYVZ0UWsxN2VGVVNqUTRsdUdhbzFPaUpXVFpBbmFpRWhtdEtLd1hmMU9zbFpKejhPWm5lV2J5OFpCQXI4R1l2TUs5dUVDeE1EaldxNDJwTGtzQnZkUVU5R1lOWS1KRWV3NVJEMzZLOUUyZGtvb3UxdU9ldw?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "immediate"
+  },
+  "news:099d94afe47ef309": {
+   "d": "islamtimes.com",
+   "k": [
+    "continue",
+    "funds",
+    "iran",
+    "january",
+    "sufficient",
+    "trump",
+    "until"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Trump: US Has Sufficient Funds to Continue War Against Iran Until January",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeDJwdnU4UkFVUHhpRTFzdUJzdTNvMEh1SEF1c09YU0NKUU81aktlVXozR3JraWdfOUNLNlhuMkwxcVV1VUpjQ0REMlJ0NEFwWlVzRnlOYk5XWjVkWWQ3b2U2bkZYM1B5bXpQWE1vSXBKTk1xVGNSbTFDQ1VQQmVvRzdBc2o5UUEybm13anROeGkzSDFGSHNWYkNkTGVVenFxYlQyZUdpeHRhTDR3dkdaX25OYlNjdw?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
   },
   "news:09f4fc6ab29bb527": {
    "d": "alhurra.com",
@@ -3018,6 +3107,24 @@
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
+  "news:39286f3717c657dc": {
+   "d": "eurasiareview.com",
+   "k": [
+    "course",
+    "iran",
+    "oped",
+    "peace",
+    "strategy",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Trump’s ‘No War, No Peace’ Strategy On Iran Has Run Its Course – OpEd",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMl9VRU05dlkzbU04RTlvejE4LXVyRVVSdUxKT2h0S3FzNjRCenBCcE5PdEtkWEtDU29HT0JoX0hjMHNPVFF3WElISkN1OTRDdEpTU25ERzZYdzNMUVBZWmFrU3BVZFR6d2U3cVZGLVAzamc4dFBtYU9UZkp2SGcxRGNwYVpKQjBfWGUtc000VHBmVkFOSUdUTklKZ0NEdG9ndVY3cGZB?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:393523245c463e3f": {
    "d": "newarab.com",
    "k": [
@@ -3613,6 +3720,23 @@
    "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
    "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSG12Wlc5NkNZNU5KOUI2V1BzSFE5VWhfNmt1Z2hhemRjekxGMkM2QUJWT0hGSk04NmwtOVRRaHBGSlVpY1VZRW5OM1oxTkVZUks4RmhFRG9OYXJQdzJyNGJISU9ROTZXZms2TFM1Zy1OcU9zWVBKYmt1MVpFX1dkcnp3LXM2M09VWlUweVYzTnQ1cmtDMnY3QlFaTQ?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:44034411a10bbb09": {
+   "d": "tovima.com",
+   "k": [
+    "america",
+    "iran-contra",
+    "reagan",
+    "scandal",
+    "shook"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Iran-Contra At 40: The Scandal That Shook Reagan’s America",
+   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTc2eVVMQW8zNmlTMEM0ajdIT1RqUldEalhIaExCMWUyU01LWk1UR3RpRDhUV1k2MEZrdXQxLTNsWDg0Q0M1OGw4cVA4S3l5bkg4bnlTRnhPT29aTDIwRXhkcWctMGpXdjJxalhjcmdTT054QXNGbGNVVGgwQlVTcHE4NkhJMXIyYkFLSTFOUEhQeUhDNjI0MA?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:444538a35effe590": {
@@ -4223,6 +4347,27 @@
    "v": "Unverified - Unknown Source",
    "x": "folded"
   },
+  "news:4f0efd18c70a3812": {
+   "d": "iranintl.com",
+   "k": [
+    "chance",
+    "chinese",
+    "envoy",
+    "give",
+    "iran",
+    "peace",
+    "tehran",
+    "urges",
+    "washington"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Chinese envoy to Iran urges Washington and Tehran to give peace a chance",
+   "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZS09YMjJtSnJHM0JUT21YampqOXM3SG11RmxSUjZZaUQ1S2tVV09pTGFWSmV3bV9pcjExZ0dVa0lNclVPR2FZQUpwM1p2ZFZtUVE?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:4f4db3035d62c850": {
    "d": "spectrumlocalnews.com",
    "k": [
@@ -4671,6 +4816,28 @@
    "t": "2026-11-25T09:47:15.511303+00:00",
    "title": "Can Iran Withstand Trump’s Naval Blockade as Inflation and Food Prices Soar?",
    "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM3FKZWNkSjRCMHpnTTAwbENmcXBWS2IzMjVWZGtyZmJhWUEtaENDd1VESGNmTFp4SGFURHRLWEhXakc4ZDNTODZwa1cyZUhXV09QNVl2bU1kYmhFaENFdERtY21iYV82eVpJc3VtUkI5aThmd1JFMUdncjJHUTdZc3pSTVpGa1pxYWthUjZYMVE5TEhjOVc4UkZlQ2JFUWVjTy1idEhQcU1NXzZtSWV4UF9YSQ?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
+  "news:5847119904bab3bf": {
+   "d": "foxbaltimore.com",
+   "k": [
+    "chemical",
+    "development",
+    "funded",
+    "iran",
+    "israel",
+    "january",
+    "through",
+    "trump",
+    "warns",
+    "weapons"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Trump says Iran war funded through January as Israel warns of chemical weapons development",
+   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY3RXTUlIa3FJbk40YlUtRU1MMnNIcERnT2V4amd1SXZCdDlwa25KU19QaVVyanJZMzVUWXZiSE5oV2VKMUkyajFnUTFGakthN25LQXJsM0R0bHpGSlBvTlZfeWVzck9vWTZnUnRCZnNpQmxoWXotMjNVcXNMNGptV0ZSeGZicnFfLVZ1d1FFQ2M1TEJ4WWRuLVNWTmhTbGxaakJaTHFEWmtvZ0J4aklVVlJPN2tLZElINGkxakRNWHg4azI1ZXhPMzEwa3Bwd3ROdzhZcXVkOWloQ3N0QTFjOQ?oc=5",
    "v": "Unverified - Unknown Source",
    "x": "digest"
   },
@@ -7373,6 +7540,22 @@
    "v": "Unverified - Credible Source",
    "x": "digest"
   },
+  "news:8a94e702165fa74d": {
+   "d": "atlanticcouncil.org",
+   "k": [
+    "iran",
+    "next",
+    "should",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "What Trump should do next about Iran",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVW9kOUVYOU9ZUkVFaEM1OTV2WGVfeVhYNTFFOVg4QkJycEZrV0w3VmVHSUNPSW14alU0V3dKVTBUSGdCUEthdmo2MnR4b3ItdW1adUYteTRQQXl5bmZSdFJlUUlrNkxuNHhsdGtaT1hJSHNZTU1VRU9EclZjV2h2bE9GS1NlQXM?oc=5",
+   "v": "Unverified - Unknown Source",
+   "x": "digest"
+  },
   "news:8af014b557fb416d": {
    "d": "cbsnews.com",
    "k": [
@@ -8754,6 +8937,25 @@
    "title": "What's a dirty bomb? What Iran's reported threat on Washington, D.C. could mean for Maryland",
    "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUlVFREhYZXUyM1Z1ZU84TTVESG1WSDVHWW04MWxXTTVQc2oyT1NhNEJaUTVxVlBLdkptMG56a214NlkyTEhhQXp4TzVlVS1nWXhBWk1iQlZKR09JdUVScXJwUVpIUUo4bzRuaVMzM2g4Y0xIN3VVbWFhaDZaaFl0YXpHUjBNQndkMWFFSFBScTdqM1R6WDVHbnVR?oc=5",
    "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
+  "news:a5bd549254f3b753": {
+   "d": "responsiblestatecraft.org",
+   "k": [
+    "congress",
+    "democratic",
+    "funding",
+    "iran",
+    "polls",
+    "voters",
+    "want"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Democratic voters want Congress to cut funding for Iran war: polls",
+   "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2TTZoeXVteHZ6MkxaRnhUcUxJOGVyMUpJbDFiNzdUWUpXazFETG9NNENPRU0xR0NFQ1FLZGliUWRFUDA1RExMZmt5M2FxZW5XbTNvMng0ZVBjWlpmUTg5eGQzUjYzclRB?oc=5",
+   "v": "Unverified - Unknown Source",
    "x": "digest"
   },
   "news:a6119e6e926a1f97": {
@@ -12888,6 +13090,25 @@
    "v": "Corroborated",
    "x": "digest"
   },
+  "news:f84a0e27f102066a": {
+   "d": "newsweek.com",
+   "k": [
+    "clash",
+    "donald",
+    "hosts",
+    "iran",
+    "live",
+    "news",
+    "trump"
+   ],
+   "s": "Iran–U.S. news",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "title": "Fox News Hosts Clash Live on TV Over Donald Trump’s Iran War",
+   "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BZlpDbHdUUDUzdHdpc1Q0QUtmUnVtOHcxSG85clNYdEcwZjhiZ2UzTm44TVdtSnVhTG5wV0NXQXZKck5kZVIyTlJLRnBNX3pqa291aVRkYjh1aFhtMDFmYzBTQS1hUVM4dmJ2ckpfMVVEOU43YTc3Vw?oc=5",
+   "v": "Unverified - Credible Source",
+   "x": "digest"
+  },
   "news:f85f5c5ed1ccba7a": {
    "d": "washingtonpost.com",
    "k": [
@@ -13447,6 +13668,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:05adc71566f885d5": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:05c0dcbda264cac9": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -13664,6 +13892,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:0c610b5c7d6db6cc": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:0c7fe96d5fac9652": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -13698,6 +13933,13 @@
    "t": "2026-11-19T02:43:21.902076+00:00",
    "v": "Confirmed",
    "x": "immediate"
+  },
+  "nws:0d8e48eff793643b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:0da1382633cb032d": {
    "s": "NWS Alerts",
@@ -13782,6 +14024,13 @@
    "t": "2026-11-20T17:25:13.636318+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:11bcb5451092e9f8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:11cec4efa8d1a47a": {
    "s": "NWS Alerts",
@@ -13895,6 +14144,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:15c4404c717389b9": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:15e2783f11961b5b": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -13943,6 +14199,13 @@
    "t": "2026-11-25T19:38:14.857472+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:185844a9cfa0496b": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:18f85ab48d9b7430": {
    "s": "NWS Alerts",
@@ -14189,6 +14452,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:2250272e25b54d54": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:22646fee27bfcf6c": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -14209,6 +14479,13 @@
    "t": "2026-11-25T19:38:14.857472+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:22d54eea26987b2e": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:231fe0e111693144": {
    "s": "NWS Alerts",
@@ -14343,6 +14620,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:2913ae83ae8f4d67": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:2957f2db35bce7ad": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -14433,6 +14717,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:2eaa7a5f546ec1d1": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:2f0909e8dbc73eef": {
    "s": "NWS Alerts",
@@ -14644,6 +14935,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:37af5da64d540fb9": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:37f1449df229564e": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -14662,6 +14960,13 @@
    "s": "NWS Alerts",
    "sev": "Low",
    "t": "2026-11-23T21:44:16.362340+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:38794bd049eba09f": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "logged"
   },
@@ -14749,6 +15054,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:3b0401777904de53": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:3b23cf52794de4ed": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -14762,6 +15074,13 @@
    "t": "2026-11-18T12:59:17.374820+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:3c95b9f90cb9b1f0": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:3cac5ea05b7d2b81": {
    "s": "NWS Alerts",
@@ -14868,6 +15187,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:4272a0470f24b45d": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:433c6d53cb681f83": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -14930,6 +15256,20 @@
    "t": "2026-11-25T09:47:15.511303+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:46aa4dca704bbfdd": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:46e67a6d373ab074": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:47023ac928d84845": {
    "s": "NWS Alerts",
@@ -15127,6 +15467,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:4e0dc0f3fa619436": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:4e743b95ced32f43": {
    "s": "NWS Alerts",
    "sev": "Critical",
@@ -15147,6 +15494,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:4f2a6fa7624d1839": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:4f9503aa6956ff20": {
    "s": "NWS Alerts",
@@ -15208,6 +15562,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-19T19:13:13.509149+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:51ff126f10c1abd6": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -15281,6 +15642,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:55294a6f745a7086": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:556bd611d54a76be": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -15292,6 +15660,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-24T16:27:56.150194+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:557ed80d6016552b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -15407,6 +15782,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:5904509c5e626e9f": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:590609d9088763b0": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -15483,6 +15865,13 @@
    "t": "2026-11-24T16:27:56.150194+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:5bf1ecdc5d938aed": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:5c6478194545c2d4": {
    "s": "NWS Alerts",
@@ -15645,6 +16034,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:6321ba788ab8b0b4": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:639210a5292a8662": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -15778,6 +16174,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:69aec2f63056f078": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:69d37635581b7008": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -15796,6 +16199,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-25T09:47:15.511303+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:6a2d487daa18c256": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -15827,6 +16237,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:6caf0b6b3b359a57": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:6cb5dbad1eaf7a9b": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -15855,12 +16272,26 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:6d4acaf92f437e5d": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:6d7e5fc54b03861d": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-23T21:44:16.362340+00:00",
    "v": "Confirmed",
    "x": "digest"
+  },
+  "nws:6d9583d376bbb31f": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:6def85a9e3d75cf5": {
    "s": "NWS Alerts",
@@ -15910,6 +16341,13 @@
    "t": "2026-11-23T21:44:16.362340+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:6fa0a78f3933a0a8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:6fe2e6c89bc03ab1": {
    "s": "NWS Alerts",
@@ -16002,6 +16440,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:74193704a434ac26": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:751386f3b9828f6d": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16043,6 +16488,20 @@
    "t": "2026-11-25T09:47:15.511303+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:760ac5ddf3943b51": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:763793428c0c2561": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:764ed925bfab61b9": {
    "s": "NWS Alerts",
@@ -16205,6 +16664,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:7a7fc7e0e54da26d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:7a874d4d36c36df5": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16230,6 +16696,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-25T09:47:15.511303+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:7b60134a6ec61a49": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -16415,6 +16888,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:82e8b0c0a8f4bddc": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:8346d01a09beb32c": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16435,6 +16915,13 @@
    "t": "2026-11-18T02:36:27.235099+00:00",
    "v": "Confirmed",
    "x": "immediate"
+  },
+  "nws:83f329df395f5fbe": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:84078c5e796e9123": {
    "s": "NWS Alerts",
@@ -16485,6 +16972,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:86c6be18719a2ed4": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:86e20beaebf8cf1e": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16510,6 +17004,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-24T16:27:56.150194+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:875c8ba9ce6dece2": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -16723,6 +17224,27 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:8ffaffbeab0df813": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:900233ac1ccf8373": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:9071a5598c854ede": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:908770b8f2a9a907": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16814,6 +17336,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:9539aa991728f89e": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:955e52dd902bc4be": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16839,6 +17368,13 @@
    "s": "NWS Alerts",
    "sev": "Low",
    "t": "2026-11-25T01:01:54.459586+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:9618818da20ab079": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "logged"
   },
@@ -16869,6 +17405,13 @@
    "t": "2026-11-21T23:58:46.145443+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:98a7a7af652e381b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:98e8d1b34381b17e": {
    "s": "NWS Alerts",
@@ -16961,6 +17504,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:9e1c560607e1ff82": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:9e68e96f933ba93f": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -16972,6 +17522,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-25T01:01:54.459586+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:9f7df26462892e0f": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -16993,6 +17550,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-19T02:43:21.902076+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:a0961c6a810ae492": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -17170,6 +17734,13 @@
    "t": "2026-11-25T01:01:54.459586+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:a6e79e23a047d82c": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:a71dcddc1771d782": {
    "s": "NWS Alerts",
@@ -17367,6 +17938,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:af86511a9414c1cd": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:af899c85a142c0fa": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -17437,6 +18015,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:b20219d0d72ff999": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:b2364c9b0fc496cf": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -17471,6 +18056,13 @@
    "t": "2026-11-25T01:01:54.459586+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:b3e7211ce2def333": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:b42e29d427b764d5": {
    "s": "NWS Alerts",
@@ -17595,6 +18187,20 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-25T19:38:14.857472+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:b8cfdf0c5cfe8ec8": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:b8dc700748658c00": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -17728,6 +18334,13 @@
    "s": "NWS Alerts",
    "sev": "Low",
    "t": "2026-11-18T12:59:17.374820+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:be17e91ea5ba60f5": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "logged"
   },
@@ -17906,6 +18519,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:c64808ba7681c816": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:c648fcecb3a00ee5": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -18004,6 +18624,13 @@
    "v": "Confirmed",
    "x": "bootstrap"
   },
+  "nws:c9e2032be3a9b1b6": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:c9f0fd7d5866ff8a": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -18038,6 +18665,13 @@
    "t": "2026-11-25T01:01:54.459586+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:ca98700c2c5eed81": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:caa9f44d66947683": {
    "s": "NWS Alerts",
@@ -18116,6 +18750,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:ce47e6b6f71764ca": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:ce9e57f39b15f719": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -18134,6 +18775,13 @@
    "s": "NWS Alerts",
    "sev": "Low",
    "t": "2026-11-24T05:36:49.632340+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:cfa312ad7d3ce9f7": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "logged"
   },
@@ -18340,6 +18988,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:d6f3a262c8008380": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
   "nws:d7515f73aade0199": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -18365,6 +19020,20 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-25T19:38:14.857472+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:d7ab4698a7d21e91": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
+  },
+  "nws:d7d0a898ac3b48dc": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -18402,6 +19071,13 @@
    "t": "2026-11-25T19:38:14.857472+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:d8e48cd3cf026cf6": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:d98a94681bf9bb1d": {
    "s": "NWS Alerts",
@@ -18487,6 +19163,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:dc3c69ba35e6b314": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:dc3d6a83fef1928d": {
    "s": "NWS Alerts",
    "sev": "Moderate",
@@ -18556,6 +19239,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:de8ec24023d9db78": {
+   "s": "NWS Alerts",
+   "sev": "Low",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "logged"
   },
   "nws:decbdde65509df08": {
    "s": "NWS Alerts",
@@ -18662,6 +19352,13 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:e345c63ee31abf0b": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:e34db568478cad08": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -18682,6 +19379,13 @@
    "t": "2026-11-25T01:01:54.459586+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:e40e1a62ac8daf18": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:e4265a04c615902b": {
    "s": "NWS Alerts",
@@ -18731,6 +19435,13 @@
    "t": "2026-11-17T21:57:49.188778+00:00",
    "v": "Confirmed",
    "x": "bootstrap"
+  },
+  "nws:e5e6e477b3f4d672": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:e624701e84a779ce": {
    "s": "NWS Alerts",
@@ -18795,10 +19506,31 @@
    "v": "Confirmed",
    "x": "digest"
   },
+  "nws:e9453087a2a5dde7": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:e96b7d00f0f1332f": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:e99dafa3fcdf31f1": {
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-25T19:38:14.857472+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:ea3673aa0ba6871a": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
@@ -18963,6 +19695,13 @@
    "v": "Confirmed",
    "x": "logged"
   },
+  "nws:eef31c7fd5d23262": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
   "nws:ef07d3e4289d459b": {
    "s": "NWS Alerts",
    "sev": "Low",
@@ -18983,6 +19722,13 @@
    "t": "2026-11-24T16:27:56.150194+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:ef501518530b860d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:efe8829ce505fbd9": {
    "s": "NWS Alerts",
@@ -19046,6 +19792,13 @@
    "t": "2026-11-23T21:44:16.362340+00:00",
    "v": "Confirmed",
    "x": "logged"
+  },
+  "nws:f2a34cd0fba8549d": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
+   "v": "Confirmed",
+   "x": "digest"
   },
   "nws:f2f2caa127be5376": {
    "s": "NWS Alerts",
@@ -19240,6 +19993,13 @@
    "s": "NWS Alerts",
    "sev": "Moderate",
    "t": "2026-11-20T17:25:13.636318+00:00",
+   "v": "Confirmed",
+   "x": "digest"
+  },
+  "nws:fbc0a34255340ca5": {
+   "s": "NWS Alerts",
+   "sev": "Moderate",
+   "t": "2026-11-26T02:29:21.819260+00:00",
    "v": "Confirmed",
    "x": "digest"
   },
