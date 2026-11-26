@@ -1,15 +1,2768 @@
 {
- "generated": "2026-11-26T02:29:21.819260+00:00",
+ "generated": "2026-11-26T11:26:56.328680+00:00",
  "retention_hours": 48,
  "note": "Alerts from the last 48 hours, newest first. 'detected' is when the monitor first saw the item.",
  "source_failures": {},
  "counts": {
   "Critical": 0,
-  "High": 24,
-  "Moderate": 334,
-  "Low": 174
+  "High": 26,
+  "Moderate": 386,
+  "Low": 187
  },
  "alerts": [
+  {
+   "id": "nws:e9e14ed79914609d",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flash Flood Warning (Severe): Chatham, NC; Durham, NC; Harnett, NC; Johnston, NC; Orange, NC; Wake, NC",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:09:00+00:00",
+   "start_time": "2026-11-26T11:09:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Raleigh NC"
+   ],
+   "impact_as_reported": "Flash Flood Warning issued November 26 at 6:09AM EST until November 26 at 8:00AM EST by NWS Raleigh NC At 609 AM EST, Doppler radar indicated that additional light to moderate rain will move across the warned area over the next hour or two and may delay the decrease in stream levels. Flash flooding may be ongoing within the warned area. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience…",
+   "cause": "Confirmed (NWS): Flash Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72a9bf1d3123cb65e3013196dd36771cb3c787b1.001.1"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "nws:c75fc3d4ccedfade",
+   "severity": "High",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flash Flood Warning (Severe): Edgecombe, NC; Franklin, NC; Halifax, NC; Johnston, NC; Nash, NC; Wayne, NC; Wilson, NC",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:16:00+00:00",
+   "start_time": "2026-11-26T11:16:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Raleigh NC"
+   ],
+   "impact_as_reported": "Flash Flood Warning issued November 26 at 6:16AM EST until November 26 at 10:45AM EST by NWS Raleigh NC FFWRAH The National Weather Service in Raleigh has extended the * Flash Flood Warning for... Edgecombe County in central North Carolina... Southeastern Franklin County in central North Carolina... Southern Halifax County in central North Carolina... Eastern Johnston County in central North Carolina... Nash County in central North Carolina... Wayne County in central North Carolina... Wilson County in central North Carolina... * Until 1045 AM EST. * At 616 AM EST, Doppler radar continued to i…",
+   "cause": "Confirmed (NWS): Flash Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89f4d9b254d136fd17aafadeca90f6ed9ad9dd66.001.1"
+   ],
+   "notes": [],
+   "disposition": "immediate"
+  },
+  {
+   "id": "news:d4c0925d5d871fc1",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump says Iran war funded through January as Israel warns of chemical weapons development",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-25T20:25:33+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump says Iran war funded through January as Israel warns of chemical weapons development KEYE",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "cbsaustin.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOFZIQk94d3BqMTh3Z1EwZk45TWRUb0xEWm1MXzZhMTIyWmUzSnNuZmduRkozRG9RS2xqOXFiMjBSdk0tTHVZUEFNVXZ4dFlkengyWmN4WW9hMHctOEtuYmp1bEJyc205SmxhOXRSM2NjLTQxVzV0THdOOUpWVi16Ml9CR3dzdDVCTVFmTnJvU2ZOd1ZCNnpleUhaV0dXT3gtYk9aMm5uOWRDdVZ4bjUyeFZrRG1SVkxVUmFlRE9fQ3pKY2RHUXJsVFBNd3NvQjh3bk1BT1NfUnRFWjVR?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWHlWampIRURJTHVuY29zalpvc1d4bndOeG8zek02MElEZXJidzRuT0JJLTRVc1dJamZwQmh0Z3FMWkcyVE9UVHMyUU1wSE1tWmRtTXhVUHFsZFdYUzdieXN2UHQ5Z05NREtpd3hmbElLY1lSYmNnamlSQmtGSTExSUJ5NmtwOHNuOGc0VEtMaHU0ZWpxWXhYeFRfb2pyS3lKZ0tsRDUzX2s0Y1Rxd0NYVFJ1YjJHTzhMTndvaWVhcGdvbFRUX1Q4WW1DekZldkRabWxrSURR?oc=5",
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcjdQOGx0VWRIUGNWckJKT05aWVJDblVFNWpaM3d1bVZkTkwxVDdJSU9ZM1kyUG9sbHZWdmtYV2MzLTdIUHZYYlhSam5NUS12OGR6YTMtaDJkX1JOSUtwMjZCUEtaclJWVG5Yd1RpSWQ2N2JCQ0RYZXRiMTFZVlczTjVnNFVyOVV5aDFoTWtqcWJ1a0R6SmhuaUdJZWdJMW1aSDYwM2JrMmM3aUdudXBCSnlSWUhBRzJ0Wk8xUFdPVXBpa0Rrek0zR1hzblNIYlBFM25hTWg0RTM?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaktET1phbFJDdS05YkVmZ3BYYkZxdW9iZTMyNHBtSEE2YjB1UXZ6WlFmaW1rVlc2TWV0bmhNZnlSR0p2MFpoN2RSY1ZxRDEyY3VndFlQdnd4cVQ0eVBKZVgzaXpFZ1dxUXlPRmcxdVVoSlJFc2pLM0xRUHc3dWZjYnphX2RtNXFIWVBEbHdvZy11QTVpbkpTS0EzajBMSjFmdm1Cdi1ueFE5U2laLXVKZDlyMldZR2FhWmlHLVlZc0M2YkdyUFo3cnJhMlRTdjhyazhWS3hn?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT2RfcXhEXzVvc1BFNGp6Y2FRVzBGT2RuWU9hTmI3WkNqUVVDVlYxaXl2TlZicnNueC0zMGUyLXh6S2hLOUZfbnN3c3A4eDBtbkJNQnNSaUNFdVhQa19qYmR0Z3UxY1U4N1Y3bl83TmFuWGNVN1NSMVJkU2RCc0ptUG5jQ2RUNXNfY0NWQ3NGdndoUDhqTjVOSml3YU9oUF9wazFyYUhxSDBWQnFNSG1mUW1McXdhM01FX19ZZnpYaVVHaEtZcFhycllWZV8tZ013TFZQVlJn?oc=5",
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeGtZSV9Cd2xzRFo2RC1yemZjbTRKZ2NqRjZyZW1LZ1RSVG1JQW9lZkpxSXBRZ21VMTJVNWt6NWVjSGNNNnZ3WVUzYU81X2loU0hrLVpFOElCVG4tb2RqcU4zX3FtdEhYcDI2eFhQeWhtRDhOV2JvNWtNY3JMMDN6ZUxOWnJzNnJWOGFOWUVQZFotM0JnVmJSNjFabFRZN3NOb1U1TGVINE1UU2dGM3ZYOFZ3cHRtN3FuMWpldm8wQWJCZmcwbjU4VGtLVHY3TVJKa1k2akpqLUZYc3Q2NXpJMw?oc=5",
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZnNkMVdZdmxuam5PS1NOQnVLZXg2d1o4VTJMTmY4UnhwVlNJOE4taXVTZVU5UzJGSWxHMXA5bnVCNFJyTE40dGVzYmNWM2pQcTU4M2lEcmRLeHFhLXY2Uzd4TUVvaXJDOUNCSDFUYXNob3gtdEJoYVpuTjZRMG5oVDJaUTRuZ3FudXBSUUpveWtNSS1xQWs1eHJIOWV6aVVUcENnaXBzYURUWW9vLW5zVV9ZTVhlcU5sbEc3eUptWWJqZVBhanpSQmJXcDhWTTYzeEowc2J4WE45QQ?oc=5"
+   ],
+   "notes": [
+    "11 reports on this story in this run."
+   ],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:493ae69805ed7d79",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: A ‘Silent War’ Grips Iran as Its Economy Strains Under U.S. Blockade",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T03:00:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "A ‘Silent War’ Grips Iran as Its Economy Strains Under U.S. Blockade WSJ",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "wsj.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQUZoNE5qVlVJSWdVTHRMY1R0bFBac204aUVreDhOR3NtUE4yWjBESlJMUHZoLVo0NjdrTW1kUXF5RUxDQWJfRnhrdkJpSTF5VUduMWVDaU9aVjg3N3dCTW96TDUtQV9SRE9TSEN1Um9LTm0teG9MV2hrQkhEM0RDYnhCVVgzNHhpcEJ1cnc5azMzTm10am04MTZoS2wtc19RSTNSRW5sMlBGdWhaYWNlVmhn?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:c826748de459677e",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Trump, NATO chief discuss Ukraine, Iran, defense spending",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T03:59:14+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Trump, NATO chief discuss Ukraine, Iran, defense spending Anadolu Ajansı",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "aa.com.tr",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQajRTdjhZYllMSzVXOVRHa1FTVWFBZVVPenBSQUJ6WXFHZmoxRnVHcGhGVDFSZWF1QWRRY01lSVVxTG5oeGxDeF9DT3dlQUNYUWU5WkRDWUhZZUhOM1ZGZlcyMTdISVE2Z3BzcDB5ZVMxcmloTFNHd1Z3cmxjSkltNGlaY3F5TjV3WTJIaWlLbExoRHc?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:d802457d59a0be3c",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Maries; Phelps; Dent",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T04:34:00+00:00",
+   "start_time": "2026-11-26T04:34:00+00:00",
+   "locations": [
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS Springfield MO"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 25 at 10:34PM CST until November 26 at 3:00PM CST by NWS Springfield MO * WHAT...Heavy snow. Additional snow accumulations between 4 and 8 inches . Winds gusting as high as 35 mph. * WHERE...Maries, Phelps, and Dent Counties. * WHEN...Until 3 PM CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Thursday morning commute. If you must travel, keep an extra flashlight, food, and water in your vehicle in case of an emergency.",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14a72e1be054e679e3b4d6de0efa1e56ed4dab5f.001.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:0318a2cc6a46636d",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: What U.S. Elections Mean for the War on Iran: 5 Key Questions with Sina Toossi",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T04:44:16+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "What U.S. Elections Mean for the War on Iran: 5 Key Questions with Sina Toossi Democracy for the Arab World Now",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "dawnmena.org",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTEp2cWRaTVFfUzVUMHRubF9FeW5OT0F1a1RLN1lvUVdESDV5SVVMRGF1dmhKNzREd2h0QkZSWXZaM2pITm41Q3VaQnhXb1VaMXBTS3ZMZ09CS2FkaGUxeEw4QUFFZ1p2SWlJek0xN2FWR0E4LUhFdG10czhjZUhMQzVKRkFqcUw5NVJGQTBzTC01MU1lSHFTZHRHckpHcG8?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:fdfca6a7d18b5a07",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Washington; Tyrrell; Mainland Dare; Beaufort; Mainland Hyde; Jones; Pamlico; Northern Craven; Southern Craven; West Car…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T04:48:00+00:00",
+   "start_time": "2026-11-26T04:48:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Flood Watch issued November 25 at 11:48PM EST until November 26 at 1:00PM EST by NWS Newport/Morehead City NC * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...A portion of eastern North Carolina, including the following areas, Beaufort, Coastal Onslow, East Carteret, Hatteras Island, Inland Onslow, Jones, Mainland Dare, Mainland Hyde, Northern Craven, Northern Outer Banks, Ocracoke Island, Pamlico, Southern Craven, Tyrrell, Washington and West Carteret. * WHEN...Through early Thursday afternoon. * IMPACTS...Excessive runoff may result in flooding of rivers, c…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f7b724dd7e5de8ea6c92ebeede9cf70e62502bf.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:fe1940af0941575e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Martin; Pitt; Greene; Duplin; Lenoir",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T04:48:00+00:00",
+   "start_time": "2026-11-26T04:48:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Flood Watch issued November 25 at 11:48PM EST until November 26 at 10:00AM EST by NWS Newport/Morehead City NC * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...A portion of eastern North Carolina, including the following counties, Duplin, Greene, Lenoir, Martin and Pitt. * WHEN...Until 10 AM EST Thursday. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Flooding may occur in poor drainage and urban areas. Storm drains and ditches may become clogged with debris. * ADDITIONAL DETAILS.…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f7b724dd7e5de8ea6c92ebeede9cf70e62502bf.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:822c78f6e4119320",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Eastern Clay; Trout River; South Central Duval; Western St. Johns",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:24:00+00:00",
+   "start_time": "2026-11-26T05:24:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 12:24AM EST until November 26 at 7:00PM EST by NWS Jacksonville FL * WHAT...Significant coastal flooding. * WHERE...Eastern Clay, Trout River, South Central Duval and Western St. Johns Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Some shoreline erosion will occur. Take the necessary actions to protect flood-prone property. If travel is required, do not drive around barricades or through water of unknown dep…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db574f009fbd4685e0bc9286a8fc5d17a3f47993.005.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:478cf1c54a7d04aa",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Inland Flagler; Eastern Putnam",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:24:00+00:00",
+   "start_time": "2026-11-26T05:24:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 12:24AM EST until November 27 at 7:00AM EST by NWS Jacksonville FL * WHAT...Significant coastal flooding. * WHERE...Inland Flagler and Eastern Putnam Counties. * WHEN...Until 7 AM EST Friday. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Some shoreline erosion will occur. Take the necessary actions to protect flood-prone property. If travel is required, do not drive around barricades or through water of unknown depth.",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db574f009fbd4685e0bc9286a8fc5d17a3f47993.006.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:776ec82326214663",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Coastal Duval",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:24:00+00:00",
+   "start_time": "2026-11-26T05:24:00+00:00",
+   "locations": [
+    "Florida"
+   ],
+   "organizations": [
+    "NWS Jacksonville FL"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 12:24AM EST until November 26 at 7:00PM EST by NWS Jacksonville FL * WHAT...For the Coastal Flood Warning, significant coastal flooding mainly from west of Mayport along the St Johns River. For the High Rip Current Risk, dangerous rip currents. * WHERE...Coastal Duval County. * WHEN...For the Coastal Flood Warning, until 7 PM EST this evening. For the High Rip Current Risk, through this evening. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Some shoreline…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db574f009fbd4685e0bc9286a8fc5d17a3f47993.001.3"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:a67fd486586752bd",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Block Island",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:31:00+00:00",
+   "start_time": "2026-11-26T15:00:00+00:00",
+   "locations": [
+    "Rhode Island"
+   ],
+   "organizations": [
+    "NWS Boston/Norton MA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 12:31AM EST until November 27 at 1:00AM EST by NWS Boston/Norton MA * WHAT...East winds 30 to 40 mph with gusts up to 60 mph expected. * WHERE...Block Island RI. * WHEN...From 10 AM this morning to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind.",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e98e0154be1f4a324e11ca8fbb3b5e68c2f50a0.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:426453a46925f735",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Wyoming; Lackawanna; Luzerne",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:36:00+00:00",
+   "start_time": "2026-11-26T12:00:00+00:00",
+   "locations": [
+    "Pennsylvania"
+   ],
+   "organizations": [
+    "NWS Binghamton NY"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 12:36AM EST until November 27 at 1:00AM EST by NWS Binghamton NY * WHAT...East winds 20 to 30 mph with gusts up to 60 mph expected. * WHERE...Lackawanna, Luzerne, and Wyoming Counties. * WHEN...From 7 AM this morning to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind.",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aed8fd7a1852bc544f6b1520cd95e38e6cc7e529.001.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:1363f90efcf632c8",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Western Okanogan County",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:42:00+00:00",
+   "start_time": "2026-11-26T05:42:00+00:00",
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "NWS Spokane WA"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 25 at 9:42PM PST until November 27 at 4:00AM PST by NWS Spokane WA * WHAT...Heavy snow expected above 5000 feet in elevation. Total snow accumulations between 7 and 14 inches. Winds gusting as high as 40 mph. * WHERE...Washington Pass. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult across Washington Pass. Snowfall rates late Wednesday night into early Thursday morning could approach one inch per hour at times. * ADDITIONAL DETAILS...Temperatures in the upper Methow Valley near Mazama will be near to just above freezing. Heavier…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b28b971fc9b6e2226c5eb269f1cd2c83413f790.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:d9f5b0807f4bbf0a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Southeast Nicholas; Southeast Webster; Northwest Pocahontas; Southeast Randolph",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:03:00+00:00",
+   "start_time": "2026-11-26T06:03:00+00:00",
+   "locations": [
+    "West Virginia"
+   ],
+   "organizations": [
+    "NWS Charleston WV"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 1:03AM EST until November 26 at 7:00PM EST by NWS Charleston WV * WHAT...East winds 20 to 30 mph, with gusts up to 70 mph. * WHERE...Northwest Pocahontas, Southeast Randolph, Southeast Webster, and Southeast Nicholas Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd4a387f34d81c8ca373d311cedc25bf028bc91c.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:c367c6af65133542",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Mason, WA",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:13:00+00:00",
+   "start_time": "2026-11-26T06:13:00+00:00",
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "NWS Seattle WA"
+   ],
+   "impact_as_reported": "Flood Warning issued November 25 at 10:13PM PST until November 27 at 9:27AM PST by NWS Seattle WA ...The Flood Warning continues for the following rivers in Washington... Skokomish River At Potlatch affecting Mason County. .Heavy rain over the Olympics overnight plus an additional 2-4 inches of rain, with snow levels well above mountain tops, will drive the Skokomish River above flood stage this evening to above Moderate flood. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. This approaches the flood of record. * WHERE...Skokomish River at Potlatch. * WHEN...Until F…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38e8972f02c7300062be7a66fa011919fc8128f2.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:cbf40ca914a398b1",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Judith Gap; Northern Sweet Grass; Melville Foothills; Southern Wheatland",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:21:00+00:00",
+   "start_time": "2026-11-27T00:00:00+00:00",
+   "locations": [
+    "Montana"
+   ],
+   "organizations": [
+    "NWS Billings MT"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 25 at 11:21PM MST until November 27 at 8:00PM MST by NWS Billings MT * WHAT...West winds 30 to 40 mph with gusts up to 65 mph expected. * WHERE...Judith Gap, Southern Wheatland, Melville Foothills, and Northern Sweet Grass. * WHEN...From 5 PM Thursday to 8 PM MST Friday. * IMPACTS...Strong crosswinds will make travel difficult along Highway 191 from Big Timber through Judith Gap. Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution and consider postponing travel until winds subside, or take an alternate route.",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9806b02176a649ebe9f2b60ca1b5509e0fc14a77.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:adaa6686a2e4c9bf",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Person; Granville; Vance; Warren; Halifax; Forsyth; Guilford; Alamance; Orange; Durham; Franklin; Nash; Edgecombe; Rand…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:22:00+00:00",
+   "start_time": "2026-11-26T06:22:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Raleigh NC"
+   ],
+   "impact_as_reported": "Flood Watch issued November 26 at 1:22AM EST until November 26 at 10:00AM EST by NWS Raleigh NC * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...A large portion of central North Carolina, including the following counties, Alamance, Chatham, Cumberland, Durham, Edgecombe, Forsyth, Franklin, Granville, Guilford, Halifax, Harnett, Hoke, Johnston, Lee, Moore, Nash, Orange, Person, Randolph, Sampson, Vance, Wake, Warren, Wayne and Wilson. * WHEN...Until 10 AM EST this morning. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and othe…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.234d3f1f57cf18e2e4ae0ae8ab48e99b3f2041fd.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:0d56d99b26f3c5a0",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): South Laramie Range; South Laramie Range Foothills",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:26:00+00:00",
+   "start_time": "2026-11-27T06:00:00+00:00",
+   "locations": [
+    "Wyoming"
+   ],
+   "organizations": [
+    "NWS Cheyenne WY"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 25 at 11:26PM MST until November 28 at 8:00PM MST by NWS Cheyenne WY * WHAT...West winds 35 to 45 mph with gusts up to 70 mph possible. * WHERE...South Laramie Range and Foothills including the Interstate 80 Summit between Cheyenne and Laramie. * WHEN...From 11 PM Thursday to 8 PM MST Saturday. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at leas…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e0b0309f84d4ab750b082e7fe333e9dc538922e9.003.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ef30a439a041117c",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): North Snowy Range Foothills",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:26:00+00:00",
+   "start_time": "2026-11-27T03:00:00+00:00",
+   "locations": [
+    "Wyoming"
+   ],
+   "organizations": [
+    "NWS Cheyenne WY"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 25 at 11:26PM MST until November 28 at 8:00PM MST by NWS Cheyenne WY * WHAT...West winds 35 to 45 mph with gusts up to 70 mph possible. * WHERE...North Snowy Range Foothills including Arlington and Elk Mountain along Interstate 80. * WHEN...From 8 PM Thursday to 8 PM MST Saturday. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at least 40 MPH or gu…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e0b0309f84d4ab750b082e7fe333e9dc538922e9.002.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:8695d6b90ab497dc",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Central Laramie Range and Southwest Platte County",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:26:00+00:00",
+   "start_time": "2026-11-27T03:00:00+00:00",
+   "locations": [
+    "Wyoming"
+   ],
+   "organizations": [
+    "NWS Cheyenne WY",
+    "Southwest"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 25 at 11:26PM MST until November 27 at 11:00AM MST by NWS Cheyenne WY * WHAT...West winds 35 to 45 mph with gusts up to 70 mph possible. * WHERE...Bordeaux area along Interstate 25 between Chugwater and Wheatland. * WHEN...From 8 PM Thursday to 11 AM MST Friday. * IMPACTS...Mainly to transportation. Strong cross winds will be hazardous to light weight or high profile vehicles, including campers and tractor trailers. A High Wind Warning means a hazardous high wind event is expected or occurring. Sustained wind speeds of at least 40 MPH or gusts of 58 MPH or st…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e0b0309f84d4ab750b082e7fe333e9dc538922e9.001.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:97e8b14c8db26a8f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Delaware Beaches; Atlantic Coastal Cape May; Coastal Atlantic",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:40:00+00:00",
+   "start_time": "2026-11-26T06:40:00+00:00",
+   "locations": [
+    "Delaware",
+    "New Jersey"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 1:40AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. Localized wind gusts may exceed 70 mph. * WHERE...In Delaware, Delaware Beaches County. In New Jersey, Atlantic Coastal Cape May and Coastal Atlantic Counties. * WHEN...Until 10 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blow…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0dddf53353960abbf22a6a80db6b8de54e65f77.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:f983aebb38387b8e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Morris",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:40:00+00:00",
+   "start_time": "2026-11-26T09:00:00+00:00",
+   "locations": [
+    "New Jersey"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 1:40AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ * WHAT...Northeast winds 25 to 35 mph with gusts up to 60 mph expected. * WHERE...Morris County. * WHEN...Until 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind.",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0dddf53353960abbf22a6a80db6b8de54e65f77.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ca0cbd038ddcea2b",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Kent; Queen Anne's; Talbot; Caroline",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:40:00+00:00",
+   "start_time": "2026-11-26T06:40:00+00:00",
+   "locations": [
+    "Maryland"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 1:40AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 30 to 40 mph with gusts up to 70 mph expected. * WHERE...Caroline, Kent MD, Queen Annes, and Talbot Counties. * WHEN...Until 10 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, an…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0dddf53353960abbf22a6a80db6b8de54e65f77.004.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:3b105026dfe9e2a8",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Kent; Inland Sussex; Cumberland; Atlantic; Cape May",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:40:00+00:00",
+   "start_time": "2026-11-26T06:40:00+00:00",
+   "locations": [
+    "Delaware",
+    "New Jersey"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 1:40AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. * WHERE...In Delaware, Kent and Inland Sussex Counties. In New Jersey, Atlantic, Cape May, and Cumberland Counties. * WHEN...Until 10 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in t…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0dddf53353960abbf22a6a80db6b8de54e65f77.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:73b6c3c437077dd2",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Eastern Beaufort Sea Coast",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:54:00+00:00",
+   "start_time": "2026-11-26T06:54:00+00:00",
+   "locations": [
+    "Alaska"
+   ],
+   "organizations": [
+    "NWS Fairbanks AK"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 25 at 9:54PM AKST until November 27 at 3:00PM AKST by NWS Fairbanks AK * WHAT...Periods of blizzard conditions. Winds gusting as high as 45 mph. * WHERE...Point Thompson. * WHEN...Until 3 PM AKST Friday. * IMPACTS...Areas of blowing snow could significantly reduce visibility. * ADDITIONAL DETAILS...Very little additional falling snow is expected. Strong winds will blow snow already on the ground to create areas of low visibility near the surface. No significant visibility reductions are expected at Barter Island/Kaktovik due to open water limiting the avai…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.432c597076dae8142c0f2ff63950523ea82f7383.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:63bb64f2e7ce4767",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Stokes; Rockingham; Caswell; Floyd; Roanoke; Botetourt; Rockbridge; Patrick; Franklin; Bedford; Amherst; Henry; Pittsyl…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:14:00+00:00",
+   "start_time": "2026-11-26T07:14:00+00:00",
+   "locations": [
+    "North Carolina",
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Blacksburg VA"
+   ],
+   "impact_as_reported": "Flood Watch issued November 26 at 2:14AM EST until November 26 at 4:00PM EST by NWS Blacksburg VA * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of north central North Carolina, including the following counties, Caswell, Rockingham and Stokes and Virginia, including the following counties, Amherst, Appomattox, Bedford, Botetourt, Buckingham, Campbell, Charlotte, Floyd, Franklin, Halifax, Henry, Patrick, Pittsylvania, Roanoke and Rockbridge. * WHEN...Through this afternoon. * IMPACTS...Excessive runoff may result in poor drainage flooding, especiall…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bdd72bb42247977408dd0b795890229a85848657.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:0f3e6306afff6f7c",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Cascades of Whatcom and Skagit Counties",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:17:00+00:00",
+   "start_time": "2026-11-26T07:17:00+00:00",
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "NWS Seattle WA"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 25 at 11:17PM PST until November 27 at 4:00AM PST by NWS Seattle WA * WHAT...Heavy snow. Additional snow accumulations 6 to 12 inches. Winds gusting as high as 40 mph. * WHERE...Cascades of Whatcom and Skagit Counties. * WHEN...Until 4 AM PST Friday. * IMPACTS...Travel could be very difficult to impossible. Roads, and especially bridges and overpasses, will likely become slick and hazardous. If you must travel, keep an extra flashlight, food, and water in your vehicle in case of an emergency. The latest road conditions for the state you are calling from ca…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57ff218c78d9d06a8a891698a9961a7e7bf57753.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:c881bfbc973192ff",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Botetourt; Rockbridge; Bedford; Amherst",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:25:00+00:00",
+   "start_time": "2026-11-26T07:25:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Blacksburg VA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 2:25AM EST until November 26 at 7:00PM EST by NWS Blacksburg VA * WHAT...Northeast winds 20 to 30 mph with gusts up to 60 mph, the higher likelihood of these strongest gusts are expected to be along mountain ridgetops. * WHERE...Amherst, Bedford, Botetourt, and Rockbridge Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds could blow down trees and power lines. Widespread power outages are possible. Travel could be difficult. * ADDITIONAL DETAILS...Winds should begin to diminish during the afternoon. People are urged to secure loo…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c13c4c38f7c5c31e009ee5eac03da7be33b23a94.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:d4a9deaee2ed37b4",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Western Greenbrier",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:25:00+00:00",
+   "start_time": "2026-11-26T07:25:00+00:00",
+   "locations": [
+    "West Virginia"
+   ],
+   "organizations": [
+    "NWS Blacksburg VA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 2:25AM EST until November 26 at 7:00PM EST by NWS Blacksburg VA * WHAT...East winds 20 to 30 mph with gusts up to 60 mph. * WHERE...Western Greenbrier County. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds could blow down trees and power lines. Widespread power outages are possible. Travel could be difficult. People are urged to secure loose objects that could be blown around or damaged by the wind. Power outages are possible. If traveling, watch-out for blocked roads from trees and debris.",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c13c4c38f7c5c31e009ee5eac03da7be33b23a94.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:423a018c1e0a295e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Westmoreland Ridges; Fayette Ridges; Higher Elevations of Indiana; Preston; Eastern Preston; Western Tucker; Eastern Tu…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:26:00+00:00",
+   "start_time": "2026-11-26T07:26:00+00:00",
+   "locations": [
+    "Pennsylvania",
+    "West Virginia"
+   ],
+   "organizations": [
+    "NWS Pittsburgh PA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 2:26AM EST until November 26 at 7:00PM EST by NWS Pittsburgh PA * WHAT...East winds 20 to 30 mph with gusts up to 60 mph expected in the Pennsylvania ridges and gusts as high as 70 mph expected in the West Virginia ridges. * WHERE...In Pennsylvania, Higher Elevations of Fayette, Higher Elevations of Westmoreland, and Higher Elevations of Indiana Counties. In West Virginia, Eastern Preston, Eastern Tucker, Preston, and Western Tucker Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widesprea…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68b1581b0286baf532290094c1de617b7cffd09f.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:81a9f02d8d0af372",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Perry; Bollinger; Cape Girardeau; Wayne; Carter; Butler; Stoddard",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:40:00+00:00",
+   "start_time": "2026-11-26T07:40:00+00:00",
+   "locations": [
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS Paducah KY"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 26 at 1:40AM CST until November 26 at 3:00PM CST by NWS Paducah KY Our first winter storm of the season continues into Thanksgiving morning. A sharp gradient between very little snow and impactful snow amounts exists with additional snowfall occurring early this morning. * WHAT...Heavy snow. Additional snow accumulations between 1 and 3 inches. * WHERE...Bollinger, Butler, Carter, Cape Girardeau, Perry, Stoddard, and Wayne Counties in southeast Missouri. * WHEN...Until 3 PM CST this afternoon. * IMPACTS...Plan on slippery road conditions. The hazardous con…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ffb4f26e6c149f76500fafdd1b649a1a8f1e4152.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ddf7b8a035c1da42",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): San Francisco",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:54:00+00:00",
+   "start_time": "2026-11-26T07:54:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS San Francisco CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 25 at 11:54PM PST until November 26 at 4:00PM PST by NWS San Francisco CA * WHAT...For the Coastal Flood Warning, significant coastal flooding with up to 2.5 feet of inundation above ground level is possible in low-lying areas near shorelines and tidal waterways. For the Beach Hazards Statement, An increased risk for sneaker waves and strong rip currents with breaking waves of 13 to 19 ft expected. * WHERE...San Francisco County. * WHEN...For the Coastal Flood Warning, until 4 PM PST Thursday. For the Beach Hazards Statement, through Friday evening. * IMP…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5673f938e83f2d9b35ef02225957f60afaac099.001.3"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:b7c95cb4de5474fe",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): North Bay Interior Valleys; San Francisco Bay Shoreline",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:54:00+00:00",
+   "start_time": "2026-11-26T07:54:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS San Francisco CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 25 at 11:54PM PST until November 26 at 4:00PM PST by NWS San Francisco CA * WHAT...Significant coastal flooding with up to 2.5 feet of inundation above ground level is possible in low-lying areas near shorelines and tidal waterways. * WHERE...Bayshore locations along the San Francisco Bay and San Pablo Bay. * WHEN...Through 4 PM PST Thursday. * IMPACTS...High tides will result in flooding of low-lying infrastructure, numerous road closures, and coastal erosion. Rising tides will bring water and waves farther up the beach than normal, restricting escape fr…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5673f938e83f2d9b35ef02225957f60afaac099.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:e839a49c66f8e3e4",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Kent; Cumberland",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:57:00+00:00",
+   "start_time": "2026-11-26T07:57:00+00:00",
+   "locations": [
+    "Delaware",
+    "New Jersey"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 2:57AM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ * WHAT...Two to three feet of inundation above ground level in low-lying areas near shorelines and tidal waterways. * WHERE...In Delaware, Kent. In New Jersey, Cumberland. * WHEN...Until 3 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. At this level, flooding may become severe enough to cause structural…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fbd7072619a3b3593b2468927a2e5b241dc6128.005.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:f95245607ca4e362",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Atlantic; Cape May; Atlantic Coastal Cape May; Coastal Atlantic; Southeastern Burlington",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:57:00+00:00",
+   "start_time": "2026-11-26T07:57:00+00:00",
+   "locations": [
+    "New Jersey"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 2:57AM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ * WHAT...Up to 3 feet of inundation above ground level in low- lying areas near shorelines and tidal waterways. * WHERE...Atlantic, Cape May, Atlantic Coastal Cape May, Coastal Atlantic and Southeastern Burlington. * WHEN...Until 3 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. At this level, flooding m…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fbd7072619a3b3593b2468927a2e5b241dc6128.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:14723c25c85ab51b",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Inland Sussex; Delaware Beaches",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:57:00+00:00",
+   "start_time": "2026-11-26T07:57:00+00:00",
+   "locations": [
+    "Delaware"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 2:57AM EST until November 27 at 3:00PM EST by NWS Mount Holly NJ * WHAT...Up to 3 feet of inundation above ground level in low- lying areas near shorelines and tidal waterways. * WHERE...Inland Sussex and Delaware Beaches. * WHEN...Until 3 PM EST Friday. * IMPACTS...At this level, flooding may become severe enough to cause structural damage along with widespread roadway flooding in coastal and bayside communities, and near inland tidal waterways. Some locations may become isolated by the flood waters. * ADDITIONAL DETAILS...The most severe and impac…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fbd7072619a3b3593b2468927a2e5b241dc6128.004.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:18a9c66c138f8c74",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Westmoreland; Richmond; Northumberland; Lancaster; Gloucester; Middlesex; Mathews; James City; Eastern King and Queen;…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:00:00+00:00",
+   "start_time": "2026-11-26T08:00:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 3:00AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...East winds 30 to 40 mph with gusts up to 60 mph expected. * WHERE...Gloucester, Lancaster, Mathews, Middlesex, Northumberland, and York Counties and the Cities of Hampton, Newport News, and Poquoson. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...The strongest winds are expected between now and 12 PM E…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66c0a7dc7dc2fc70bd27f9d62717d5d720b322a8.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:e7c6c1ec30f4299f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Dorchester; Wicomico; Somerset; Inland Worcester; Maryland Beaches; Accomack; Northampton",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:00:00+00:00",
+   "start_time": "2026-11-26T08:00:00+00:00",
+   "locations": [
+    "Maryland",
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 3:00AM EST until November 26 at 7:00PM EST by NWS Wakefield VA * WHAT...East winds 35 to 45 mph with gusts up to 65 to 70 mph expected. Locations along the immediate Atlantic coast have the potential for peak gusts of 70 to 75 mph. * WHERE...In Maryland, Dorchester, Inland Worcester, coastal Worcester, Somerset, and Wicomico Counties. In Virginia, Northampton and Accomack Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especi…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66c0a7dc7dc2fc70bd27f9d62717d5d720b322a8.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:a3d9c7bb85379d16",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Pasquotank; Camden; Western Currituck; Eastern Currituck; Surry; Chesapeake; Virginia Beach; Isle of Wight; Suffolk; No…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:00:00+00:00",
+   "start_time": "2026-11-26T08:00:00+00:00",
+   "locations": [
+    "North Carolina",
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 3:00AM EST until November 26 at 1:00PM EST by NWS Wakefield VA * WHAT...East winds 25 to 40 mph with gusts up to 60 mph expected. * WHERE...In North Carolina, Eastern Currituck and Western Currituck Counties. In Virginia, Norfolk, Portsmouth, and Virginia Beach. * WHEN...Until 1 PM EST this afternoon. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...The strongest winds are expected between now and 9 AM EST. People…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66c0a7dc7dc2fc70bd27f9d62717d5d720b322a8.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ce5db31647458ac2",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Accomack",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 27 at 5:00AM EST by NWS Wakefield VA * WHAT...For the High Surf Advisory, large breaking waves of 10 to 18 feet expected in the surf zone. For the Coastal Flood Warning, 2 to 4 feet or more of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Accomack. * WHEN...For the Coastal Flood Warning, until 5 AM EST Friday. For the High Surf Advisory, until 1 PM EST Friday. * IMPACTS...Major flooding is expected resulting in extreme inundation. Water will be 2 to 4 feet or more a…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:7525056383db4245",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Maryland Beaches",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T10:00:00+00:00",
+   "locations": [
+    "Maryland"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 27 at 12:00AM EST by NWS Wakefield VA * WHAT...For the High Surf Advisory, large breaking waves of 10 to 18 feet expected in the surf zone. For the Coastal Flood Warning, 2 to 4 feet or more of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Maryland Beaches. * WHEN...For the High Surf Advisory, until 1 PM EST Friday. For the Coastal Flood Warning, until midnight EST tonight. * IMPACTS...Major flooding is expected resulting in extreme inundation. Water will be 2 to 4…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:238e2fe8df0fc63f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Richmond; Lancaster; New Kent; Gloucester; Middlesex; Mathews; Eastern King William; Eastern King and Queen; Western Es…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 26 at 5:00PM EST by NWS Wakefield VA * WHAT...2 to 3 feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Portions of east central, eastern and southeast Virginia. * WHEN...Until 5 PM EST this afternoon. * IMPACTS...Major flooding may cause extensive inundation and flooding of numerous roads and buildings resulting in a significant threat to property and life. Water will be 2 to 3 feet or more above ground level in some areas. Flooding may extend inland from the wa…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.010.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:9761f2ceb3cb7483",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Eastern Currituck",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 26 at 11:00AM EST by NWS Wakefield VA * WHAT...For the High Surf Advisory, large breaking waves of 10 to 16 feet expected in the surf zone. For the Coastal Flood Warning, up to 2 feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Eastern Currituck County. * WHEN...For the Coastal Flood Warning, until 11 AM EST this morning. For the High Surf Advisory, until 7 AM EST Friday. * IMPACTS...Moderate to locally major flooding of vulnerable areas will result in an eleva…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.007.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:4074153438b10d0a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Prince George; Charles City; Surry; James City; Newport News; Isle of Wight",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 26 at 9:00PM EST by NWS Wakefield VA * WHAT...2 to 3 feet of inundation above ground level expected in low- lying areas near shorelines and tidal waterways. * WHERE...Prince George, Hopewell, Petersburg, and Charles City. * WHEN...Until 9 PM EST this evening. * IMPACTS...Widespread flooding of vulnerable areas will result in an elevated threat of property damage to homes and businesses near the waterfront and shoreline. Water will be 2 feet above ground level in some areas resulting in a sufficient depth to close numerous r…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.004.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:a35c5d6f4d79d28e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Westmoreland; Northumberland",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 26 at 7:00PM EST by NWS Wakefield VA * WHAT...2 to 3 feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Westmoreland and Northumberland. * WHEN...Until 7 PM EST this evening. * IMPACTS...Major flooding may cause extensive inundation and flooding of numerous roads and buildings resulting in a significant threat to property and life. Water will be 2 to 3 feet or more above ground level in some areas. Flooding may extend inland from the waterfront and shoreline floo…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.011.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:3bce5c7d9c0aec3f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Chesapeake; Hampton/Poquoson; Suffolk; Norfolk; Portsmouth",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 26 at 3:00PM EST by NWS Wakefield VA * WHAT...2 to 3 feet of inundation above ground level expected in low- lying areas near shorelines and tidal waterways. * WHERE...Chesapeake, Suffolk, Hampton, Poquoson, Norfolk, and Portsmouth. * WHEN...Until 3 PM EST this afternoon. * IMPACTS...Major flooding may cause extensive inundation and flooding of numerous roads and buildings resulting in a significant threat to property and life. Water will be 2 to 3 feet or more above ground level in some areas. Flooding may extend inland fro…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.009.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:987a5367818195ef",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Virginia Beach",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 26 at 3:00PM EST by NWS Wakefield VA * WHAT...For the High Surf Advisory, large breaking waves of 10 to 16 feet expected in the surf zone. For the Coastal Flood Warning, 2 to 3 feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Virginia Beach. * WHEN...For the Coastal Flood Warning, until 3 PM EST this afternoon. For the High Surf Advisory, until 7 AM EST Friday. * IMPACTS...Major flooding may cause extensive inundation and flooding of numerous roads and building…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.008.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:0adedadca6549aaf",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Northampton",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:05:00+00:00",
+   "start_time": "2026-11-26T08:05:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:05AM EST until November 27 at 5:00AM EST by NWS Wakefield VA * WHAT...For the High Surf Advisory, large breaking waves of 10 to 18 feet expected in the surf zone. For the Coastal Flood Warning, 2 to 4 feet or more of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Northampton. * WHEN...For the Coastal Flood Warning, until 5 AM EST Friday. For the High Surf Advisory, until 1 PM EST Friday. * IMPACTS...Major flooding is expected resulting in extreme inundation. Water will be 2 to 4 feet or mor…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:30d941f2915a9f4f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Lakeshore Flood Warning (Severe): Lucas; Ottawa; Sandusky; Erie",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:14:00+00:00",
+   "start_time": "2026-11-26T15:00:00+00:00",
+   "locations": [
+    "Ohio"
+   ],
+   "organizations": [
+    "NWS Cleveland OH"
+   ],
+   "impact_as_reported": "Lakeshore Flood Warning issued November 26 at 3:14AM EST until November 27 at 4:00AM EST by NWS Cleveland OH * WHAT...Significant lakeshore flooding expected. * WHERE...Lucas, Ottawa, Sandusky and Erie Counties. * WHEN...From 10 AM this morning to 4 AM EST Friday. * IMPACTS...Numerous roads closed and low lying property including parking lots, lawns, and homes and businesses will be inundated near the lake. Some shoreline erosion will occur. * ADDITIONAL DETAILS...A prolonged period of northeast gales to 45 knots will result in rising water levels across the western basin of Lake Erie. The wa…",
+   "cause": "Confirmed (NWS): Lakeshore Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7baf322aa79d386d69f4d53f18e442d73eab751d.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:f20a78aa48211628",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Syria seizes Revolutionary Guards weapons bound for Lebanon, CENTCOM says",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:38:45+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "CENTCOM"
+   ],
+   "impact_as_reported": "Syria seizes Revolutionary Guards weapons bound for Lebanon, CENTCOM says Iran International",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "iranintl.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96dUNHdDliUTdlS1Q3c3RvR3pXTDlxMk1HMGgwVlllcjh0NHAyM1hPdzZ5TlZ6RmgxMzB6TF9PZ21MODlKdkh1ZkhFZlB0YUdFMXc?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:b59967d2752966bc",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Jones, NC",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:08:00+00:00",
+   "start_time": "2026-11-26T09:08:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Flood Warning issued November 26 at 4:08AM EST by NWS Newport/Morehead City NC ...The Flood Warning continues for the following rivers in North Carolina... Trent River At Pollocksville affecting Jones County. * WHAT...Minor flooding is occurring. * WHERE...Trent River at Pollocksville. * WHEN...Until further notice. * IMPACTS...At 5.5 feet, Water inundates low portions of Oak Grove Road near the bridge, and the roadway is likely impassable. Portions of Simmons Bluff Lane are also covered by water, and may be impassable. Extensive flooding of the Pollocksville boat launch area is expected as w…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2bad9ad5d6a49438e91f3981d9b7431a2ae325c2.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:d46c90c20a2edb82",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Western Garrett; Western Highland; Western Grant; Western Pendleton",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:29:00+00:00",
+   "start_time": "2026-11-26T09:29:00+00:00",
+   "locations": [
+    "Maryland",
+    "Virginia",
+    "West Virginia"
+   ],
+   "organizations": [
+    "NWS Baltimore MD/Washington DC"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 4:29AM EST until November 26 at 7:00PM EST by NWS Baltimore MD/Washington DC * WHAT...East winds 25 to 35 mph with gusts around 65 mph expected. A few locations above 3500 feet may have wind gusts around 70 to 75 mph. * WHERE...In Maryland, Western Garrett County. In Virginia, Western Highland County. In West Virginia, Western Grant and Western Pendleton Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are possible. Travel will be difficult, especially for high prof…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643dfb66b98776d9cc519686c424070f1aa3a7a4.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:299720e904927312",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Cecil; Southern Baltimore; Anne Arundel; Calvert; Southeast Harford",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:29:00+00:00",
+   "start_time": "2026-11-26T09:29:00+00:00",
+   "locations": [
+    "Maryland"
+   ],
+   "organizations": [
+    "NWS Baltimore MD/Washington DC"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 4:29AM EST until November 26 at 7:00PM EST by NWS Baltimore MD/Washington DC * WHAT...East to northeast winds 25 to 35 mph with gusts around 60 mph expected. * WHERE...Anne Arundel, Cecil, Southeast Harford, Southern Baltimore, and Calvert Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are possible. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...Anyone travelling on Thanksgiving Day should pay close attention to the latest c…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643dfb66b98776d9cc519686c424070f1aa3a7a4.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:31543a45a6e78e58",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): St. Marys",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:29:00+00:00",
+   "start_time": "2026-11-26T09:29:00+00:00",
+   "locations": [
+    "Maryland"
+   ],
+   "organizations": [
+    "NWS Baltimore MD/Washington DC"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 4:29AM EST until November 26 at 4:00PM EST by NWS Baltimore MD/Washington DC * WHAT...East to northeast winds 25 to 35 mph with gusts around 60 mph expected. * WHERE...St. Marys County. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are possible. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...Anyone travelling on Thanksgiving Day should pay close attention to the latest conditions. Downed trees combined with heavy rain may make trav…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643dfb66b98776d9cc519686c424070f1aa3a7a4.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:9a6b98bacb70d90e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Northern Virginia Blue Ridge; Central Virginia Blue Ridge",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:29:00+00:00",
+   "start_time": "2026-11-26T09:29:00+00:00",
+   "locations": [
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Baltimore MD/Washington DC"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 4:29AM EST until November 26 at 4:00PM EST by NWS Baltimore MD/Washington DC * WHAT...East to northeast winds 25 to 35 mph with gusts around 65 mph expected for most areas. A few locations above 3500 feet may have wind gusts around 70 to 75 mph. * WHERE...Central Virginia Blue Ridge and Northern Virginia Blue Ridge Counties. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are possible. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...A…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643dfb66b98776d9cc519686c424070f1aa3a7a4.004.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:0d31c65cad678a39",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Orange County Coastal",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:32:00+00:00",
+   "start_time": "2026-11-26T09:32:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS San Diego CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 1:32AM PST until November 27 at 1:00PM PST by NWS San Diego CA * WHAT...Significant coastal flooding expected. * WHERE...Orange County Coastal Areas. * WHEN...Through 1 PM PST Friday. Most susceptible time of flooding will during the morning high tide, with peak tides trending from 9 AM today to 10 AM on Friday. * IMPACTS...Numerous roads may be closed. Low lying property including homes, businesses, and some critical infrastructure will be inundated. Some shoreline erosion will occur. * ADDITIONAL DETAILS...King tides this morning will peak around…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a7403d2b0884cc34d388edc5f21165418406cd9.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:6ee980ee8884952c",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): San Diego County Coastal Areas",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:32:00+00:00",
+   "start_time": "2026-11-26T09:32:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS San Diego CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 1:32AM PST until November 27 at 1:00PM PST by NWS San Diego CA * WHAT...For the Coastal Flood Warning, significant coastal flooding expected. For the High Surf Advisory, large breaking waves of 6-8 feet, sets up to 10-12 feet along west-facing beaches. * WHERE...San Diego County Coastal Areas. * WHEN...For the Coastal Flood Warning, through 1 PM PST Friday. For the High Surf Advisory, through 4 AM PST Friday. Most susceptible time of flooding will be around the time of the morning high tide, around 9 AM today and 10 AM on Friday. * IMPACTS...Numerou…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a7403d2b0884cc34d388edc5f21165418406cd9.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:9b77ad67276b3e99",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Cambria; Somerset",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:42:00+00:00",
+   "start_time": "2026-11-26T09:42:00+00:00",
+   "locations": [
+    "Pennsylvania"
+   ],
+   "organizations": [
+    "NWS State College PA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 4:42AM EST until November 26 at 7:00PM EST by NWS State College PA * WHAT...East winds 20 to 30 mph with gusts up to 60 mph. * WHERE...Cambria and Somerset Counties. * WHEN...Until 7 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...Winds will continue to increase this morning with the strongest wind gusts expected this afternoon. Do not touch downed lines and report any power outages to your e…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11fdd4087fda74c125bc4808a683e2180286a497.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:2f8cda6dde710da7",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): Dauphin; Schuylkill; Lebanon; Lancaster",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:42:00+00:00",
+   "start_time": "2026-11-26T09:42:00+00:00",
+   "locations": [
+    "Pennsylvania"
+   ],
+   "organizations": [
+    "NWS State College PA"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 4:42AM EST until November 26 at 10:00PM EST by NWS State College PA * WHAT...East winds 25 to 35 mph with gusts up to 60 mph. * WHERE...Dauphin, Lancaster, Lebanon, and Schuylkill Counties. * WHEN...Until 10 PM EST this evening. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...Winds will continue to increase this morning with the strongest wind gusts expected this afternoon into early this evening. Do not touch do…",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11fdd4087fda74c125bc4808a683e2180286a497.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:847d031d2ab92c9a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Warning (Severe): Pitt, NC",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:51:00+00:00",
+   "start_time": "2026-11-26T09:51:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Flood Warning issued November 26 at 4:51AM EST by NWS Newport/Morehead City NC ...The National Weather Service in Newport/Morehead City has issued a Flood Warning for the following rivers in North Carolina... Green Mill Run At Green Mill Run in Greenville affecting Pitt County. * WHAT...Minor flooding is occurring. * WHERE...Green Mill Run at Green Mill Run in Greenville. * WHEN...From early this morning until further notice. * IMPACTS...At 7.5 feet, Water likely covers portions of Charles Boulevard adjacent to the stream. The driveway for Bower Apartments becomes inundated with several feet…",
+   "cause": "Confirmed (NWS): Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ce809d2883d11d0a821d2cd3d9dd5342270fd8b.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:a6cf22936f249628",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: How Trump’s Iran War Was Betrayed by AI",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:00:00+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "How Trump’s Iran War Was Betrayed by AI Newsweek",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "newsweek.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpc0tiLWpqZGZ1Rl80Q0NnLWdNS2VqYjZlU05WNmlWOEVsZlljbktOQmptWXdOQzFPNXlqa3JmMy1wRjZOTWNTZFdMYmdDRmJGN2xlZXdYWHl2LVF2TmUzdE1xcDJPbVpSXzh2X2RrYmhXWjdoRUZaOW80bmU?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:d4f960448111d7c9",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Asked about Iran-contra, Reagan joked about pardoning a turkey. A tradition followed.",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:03:02+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Asked about Iran-contra, Reagan joked about pardoning a turkey. A tradition followed. The Washington Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonpost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFlpTlR1RDB1VGpDTi1HdUw1cURWbXg1SU1ROWNUMy1jc1c2SHhXVGhtd2RwSXpCU05WY1A0RWhmOWJlVkVCd0xEX1BQOU04WVBNRnZ3WUJxUEZzN3BRSjB2MTNhTVJ3bGZhcFBRY3ZYQk9nWWIzUFRQakVlVnNYSU5sUnd0ZmFDay1Sa3VYSXBxQy02NXdDMl9JOFZUR1BQa3RrX3BsSVNLdVRmclBUTFE1b1VGbmhtR0QzQW8tX21kNHJTQmNZ?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:997627685ba2228e",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): South Central Oregon Coast; Curry County Coast",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:05:00+00:00",
+   "start_time": "2026-11-26T10:05:00+00:00",
+   "locations": [
+    "Oregon"
+   ],
+   "organizations": [
+    "NWS Medford OR"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 2:05AM PST until November 26 at 7:00PM PST by NWS Medford OR * WHAT...Higher than normal astronomical tides, the King Tides, combined with storm surge from large surf and breaking wave heights of 20 to 25 ft, will bring 2.5 to 3.0 ft of inundation above ground level in low-lying areas and shorelines on Thursday. * WHERE...Beaches and low lying areas along the shore lines of Douglas, Coos and Curry Counties. This includes the communities of North Bend, Charleston, Port Orford, Gold Beach, and Coos Bay. Coastal flooding is expected to impact portions…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76e894cac0ec20da2bfcee4effbdd27b99985577.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:07ec6db5297b916e",
+   "severity": "Moderate",
+   "verification": "Unverified - Unknown Source",
+   "unverified": true,
+   "title": "UNVERIFIED: US: Lawmakers Shut out of Gulf Bases As Pentagon Conceals Iran War Losses",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:12:39+00:00",
+   "start_time": null,
+   "locations": [
+    "Not specified in source"
+   ],
+   "organizations": [
+    "Pentagon"
+   ],
+   "impact_as_reported": "US: Lawmakers Shut out of Gulf Bases As Pentagon Conceals Iran War Losses اسلام تايمز",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "islamtimes.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZVBPUXdTNkZzY3RiajA1VVpDWmtFeUlBV3BBYjk2MGhJSkp0elFyRE1fcHV5eWgtMTlrTnFQTkVnWVlzVFNkR3pFZGtkYnlLRGZQQlA3enEwX1hFdGpSeFBTbFhMeHR6ek5lZm02SXUxWmhVNmdqZ1RaV1BibkF0OTVBQlZKMkdVN3piVkJucmx3dE9zV3JYLXZGaGxpZENOTWVZQ3d0TjE1ZTFsMTVvTjZ0d0JKZw?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "news:18f6c4d7ad150264",
+   "severity": "Moderate",
+   "verification": "Unverified - Credible Source",
+   "unverified": true,
+   "title": "UNVERIFIED: Iranians’ frustrations grow as Tehran, under U.S. pressure, imposes austerity",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:14:48+00:00",
+   "start_time": null,
+   "locations": [
+    "Washington"
+   ],
+   "organizations": [
+    "Not specified in source"
+   ],
+   "impact_as_reported": "Iranians’ frustrations grow as Tehran, under U.S. pressure, imposes austerity The Washington Post",
+   "cause": "Unknown (not confirmed by an official source)",
+   "source": "Iran–U.S. news",
+   "source_domain": "washingtonpost.com",
+   "corroborated_by": [],
+   "links": [
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSXVKN203dmhrRzdjSEV3RC1tMTJnQV9XU1pUdnpwdXVucnlpQzl6RTBjVGhHQWZDRjAxV0Rxd0IwOXNSckNTeDc5TEtjZTRQdFFWdlMwbkdkZTBkNWRtWmVfQzFZT0F6c0Y2TTJjOXJRU3YzRUplVG1FNVVsRzE2M0Q5TkJLSEF4anRtci1LU3BQLVNKQlo2aDBObUZBNG85c0V5dmJDaG9ZcUNSX2R0eHlYeXg3RE1BTHc?oc=5"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:3bd8821dbf3891dd",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): East Carteret",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:31:00+00:00",
+   "start_time": "2026-11-26T10:31:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 5:31AM EST until November 26 at 4:00PM EST by NWS Newport/Morehead City NC * WHAT...For the High Surf Advisory, large breaking waves of 6 to 10 feet expected in the surf zone. For the Coastal Flood Warning, 2 to 4 feet of inundation above ground level expected in low- lying areas near shorelines and tidal waterways. * WHERE...East Carteret County. * WHEN...For the High Surf Advisory, until 10 AM EST Friday. For the Coastal Flood Warning, from 7 PM this evening to 4 PM EST Thursday. * IMPACTS...Up to 2 to 4 feet of inundation above ground level is po…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7438ebd38b4ae4921ff9cd58101192ca87d1c4d4.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:edbde4ee1b9bf53c",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Ocracoke Island; Hatteras Island",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:31:00+00:00",
+   "start_time": "2026-11-26T10:31:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 5:31AM EST until November 27 at 3:00PM EST by NWS Newport/Morehead City NC * WHAT...For the Coastal Flood Warning, 2 to 4 feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. For the High Surf Advisory, large breaking waves of 6 to 11 feet expected in the surf zone. * WHERE...Ocracoke Island and Hatteras Island. * WHEN...For the Coastal Flood Warning, until 3 PM EST Friday. For the High Surf Advisory, until 10 AM EST Friday. * IMPACTS...2 to 4 feet of inundation above ground level is possible in some…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7438ebd38b4ae4921ff9cd58101192ca87d1c4d4.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:77c0e4409452fcbb",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Northern Outer Banks",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:31:00+00:00",
+   "start_time": "2026-11-26T10:31:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 5:31AM EST until November 27 at 3:00PM EST by NWS Newport/Morehead City NC * WHAT...For the High Surf Advisory, large breaking waves of 8 to 12 feet expected in the surf zone. For the Coastal Flood Warning, 2 to 4 feet of inundation above ground level expected in low- lying areas near shorelines and tidal waterways. * WHERE...Northern Outer Banks. * WHEN...For the High Surf Advisory, until 10 AM EST Friday. For the Coastal Flood Warning, from 7 PM this evening to 3 PM EST Friday. * IMPACTS...Up to 2 to 4 feet of inundation above ground level is poss…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7438ebd38b4ae4921ff9cd58101192ca87d1c4d4.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:22435f9c56613f85",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Beaufort; Pamlico; Southern Craven",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:31:00+00:00",
+   "start_time": "2026-11-26T10:31:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 5:31AM EST until November 26 at 4:00PM EST by NWS Newport/Morehead City NC * WHAT...Up to 2 to 4 feet of inundation above ground level possible in low-lying areas near shorelines and tidal waterways. * WHERE...Areas along the Pamlico Sound, Trent, Bay and lower Neuse Rivers, and adjacent tidal creeks, and areas along the Pamlico and Pungo Rivers and adjacent tidal creeks. * WHEN...From 7 PM this evening to 4 PM EST Thursday. * IMPACTS...Up to 2 to 4 feet of inundation above ground level is possible in some areas near shorelines and tidal waterways r…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7438ebd38b4ae4921ff9cd58101192ca87d1c4d4.004.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:592dd01cc295a8f9",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Randolph; St. Clair; Monroe; Lincoln; Gasconade; St. Charles; St. Louis; St. Louis City; Jefferson",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:32:00+00:00",
+   "start_time": "2026-11-26T10:32:00+00:00",
+   "locations": [
+    "Illinois",
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS St Louis MO",
+    "southwest"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 26 at 4:32AM CST until November 26 at 12:00PM CST by NWS St Louis MO * WHAT...Heavy wet snow. Additional snow accumulations up to two inches. * WHERE...Portions of southwest Illinois and east central Missouri. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute. The rapid accumulation of snow will make travel extremely difficult, if not impossible. If travel is necessary, be sure to exercise extreme caution. If you must travel, keep an extra flashlight, food and wate…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.003.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:b51a98e695b3b007",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Crawford; St. Francois; Ste. Genevieve; Reynolds",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:32:00+00:00",
+   "start_time": "2026-11-26T10:32:00+00:00",
+   "locations": [
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS St Louis MO"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 26 at 4:32AM CST until November 26 at 6:00PM CST by NWS St Louis MO * WHAT...Heavy wet snow. Additional snow accumulations between 2 and 4 inches. * WHERE...Crawford MO, Reynolds MO, Saint Francois MO, and Sainte Genevieve MO Counties. * WHEN...Until 6 PM CST this evening. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous. The strong winds and weight of snow on tree limbs may down power lines and could cause sporadic power outages. Persons should delay all travel if possible. If travel is absolutely necessary,…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.006.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:a78265131c150d85",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Washington; Iron; Madison",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:32:00+00:00",
+   "start_time": "2026-11-26T10:32:00+00:00",
+   "locations": [
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS St Louis MO"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 26 at 4:32AM CST until November 26 at 6:00PM CST by NWS St Louis MO * WHAT...Heavy wet snow. Additional snow accumulations between 2 and 4 inches. * WHERE...Washington MO, Iron MO, and Madison MO Counties. * WHEN...Until 6 PM CST this evening. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous. The strong winds and weight of snow on tree limbs may down power lines and could cause sporadic power outages. Persons should delay all travel if possible. If travel is absolutely necessary, drive with extreme caution an…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.007.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:c33debd2efc19234",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Pike; Warren; Franklin",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:32:00+00:00",
+   "start_time": "2026-11-26T10:32:00+00:00",
+   "locations": [
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS St Louis MO"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 26 at 4:32AM CST until November 26 at 12:00PM CST by NWS St Louis MO * WHAT...Heavy wet snow. Additional snow accumulations up to two inches. * WHERE...Franklin MO, Warren MO, and Pike MO Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute. The rapid accumulation of snow will make travel extremely difficult, if not impossible. If travel is necessary, be sure to exercise extreme caution. If you must travel, keep an extra flashlight, food and water in your ve…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.004.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:a06bbc9817d8c56f",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Warning (Severe): Audrain; Osage; Callaway; Montgomery",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:32:00+00:00",
+   "start_time": "2026-11-26T10:32:00+00:00",
+   "locations": [
+    "Missouri"
+   ],
+   "organizations": [
+    "NWS St Louis MO"
+   ],
+   "impact_as_reported": "Winter Storm Warning issued November 26 at 4:32AM CST until November 26 at 12:00PM CST by NWS St Louis MO * WHAT...Heavy wet snow. Additional snow accumulations up to two inches. * WHERE...Audrain MO, Callaway MO, Osage MO, and Montgomery MO Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute. The rapid accumulation of snow will make travel extremely difficult, if not impossible. If travel is necessary, be sure to exercise extreme caution. If you must travel, keep an extra flashlight, food and…",
+   "cause": "Confirmed (NWS): Winter Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.005.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ccc19119cab0a24d",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Dorchester; Wicomico; Somerset; Inland Worcester; Maryland Beaches; Westmoreland; Richmond; Northumberland; Lancaster;…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:34:00+00:00",
+   "start_time": "2026-11-26T10:34:00+00:00",
+   "locations": [
+    "Maryland",
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Flood Watch issued November 26 at 5:34AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of southeast Maryland, including the following areas, Dorchester, Inland Worcester, Maryland Beaches, Somerset and Wicomico and Virginia, including the following areas, Accomack, Eastern Essex, Eastern King William, Eastern King and Queen, Gloucester, Lancaster, Mathews, Middlesex, Northampton, Northumberland, Richmond, Western Essex, Western King William, Western King and Queen and Westmoreland. * WHEN...U…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee802e24a0192538baed2025102d207023630629.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:50bad436db28975a",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Flood Watch (Severe): Northampton; Hertford; Gates; Pasquotank; Camden; Western Currituck; Bertie; Chowan; Perquimans; Eastern Currituck; Flu…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:34:00+00:00",
+   "start_time": "2026-11-26T10:34:00+00:00",
+   "locations": [
+    "North Carolina",
+    "Virginia"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Flood Watch issued November 26 at 5:34AM EST until November 26 at 1:00PM EST by NWS Wakefield VA * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of northeast North Carolina, including the following areas, Bertie, Camden, Chowan, Eastern Currituck, Gates, Hertford, Northampton, Pasquotank, Perquimans and Western Currituck and Virginia, including the following areas, Amelia, Brunswick, Caroline, Charles City, Chesapeake, Cumberland, Dinwiddie, Eastern Chesterfield (Including Col. Heights), Eastern Hanover, Eastern Henrico, Eastern Louisa, Fluvanna, Go…",
+   "cause": "Confirmed (NWS): Flood Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee802e24a0192538baed2025102d207023630629.001.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:31cda00b768b91c1",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS High Wind Warning (Severe): East Carteret; Northern Outer Banks; Ocracoke Island; Hatteras Island",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:56:00+00:00",
+   "start_time": "2026-11-26T10:56:00+00:00",
+   "locations": [
+    "North Carolina"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "High Wind Warning issued November 26 at 5:56AM EST until November 26 at 10:00AM EST by NWS Newport/Morehead City NC * WHAT...Southeast winds 25 to 35 mph with gusts up to 50 mph. * WHERE...East Carteret County, and Hatteras Island, Northern Outer Banks, and Ocracoke Island. * WHEN...Until 10 AM EST this morning. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles. People are urged to secure loose objects that could be blown around or damaged by the wind.",
+   "cause": "Confirmed (NWS): High Wind Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66b215fe3291b82124dcba0b74c1b5a1a9f254a6.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ffc175591856d5b6",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): Ventura County Beaches",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:03:00+00:00",
+   "start_time": "2026-11-26T11:03:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS Los Angeles/Oxnard CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:03AM PST until November 26 at 12:00PM PST by NWS Los Angeles/Oxnard CA * WHAT...For the Coastal Flood Warning, significant coastal flooding. For the High Surf Warning, dangerously large breaking waves of 8 to 15 feet with dangerous rip currents. For the High Surf Advisory, large breaking waves of 7 to 11 feet with dangerous rip currents. * WHERE...Ventura County Beaches. * WHEN...For the Coastal Flood Warning, until noon PST today. For the High Surf Advisory, from noon today to 9 PM PST Saturday. * IMPACTS...Damaging flooding of sea water is likel…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0048f71bb4b034429323d20a27d0f1d65bf288f.002.1"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:3345fc252dd0896d",
+   "severity": "Moderate",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Coastal Flood Warning (Severe): San Luis Obispo County Beaches; Santa Barbara County Central Coast Beaches",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:03:00+00:00",
+   "start_time": "2026-11-26T11:03:00+00:00",
+   "locations": [
+    "California"
+   ],
+   "organizations": [
+    "NWS Los Angeles/Oxnard CA"
+   ],
+   "impact_as_reported": "Coastal Flood Warning issued November 26 at 3:03AM PST until November 26 at 12:00PM PST by NWS Los Angeles/Oxnard CA * WHAT...For the Coastal Flood Warning, significant coastal flooding. For the High Surf Advisory, large breaking waves of 6 to 11 with dangerous rip currents. * WHERE...San Luis Obispo County Beaches and Santa Barbara County Central Coast Beaches. * WHEN...For the Coastal Flood Warning, until noon PST today. For the High Surf Advisory, until noon PST Saturday. * IMPACTS...Damaging flooding of sea water is likely over some vulnerable low-lying coastal areas, especially around th…",
+   "cause": "Confirmed (NWS): Coastal Flood Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0048f71bb4b034429323d20a27d0f1d65bf288f.001.2"
+   ],
+   "notes": [],
+   "disposition": "digest"
+  },
+  {
+   "id": "nws:ea73527b0e843f73",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Freeze Watch (Severe): Perry; Greene; Stone; George",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T02:44:00+00:00",
+   "start_time": "2026-11-27T09:00:00+00:00",
+   "locations": [
+    "Mississippi"
+   ],
+   "organizations": [
+    "NWS Mobile AL"
+   ],
+   "impact_as_reported": "Freeze Watch issued November 25 at 8:44PM CST until November 27 at 7:00AM CST by NWS Mobile AL * WHAT...Freezing temperatures around 32 degrees possible. * WHERE...George, Greene, Perry, and Stone Counties. * WHEN...From late Thursday night through Friday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. Take steps now to protect tender plants from the cold.",
+   "cause": "Confirmed (NWS): Freeze Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b730d9b599688b739ad39c8a7625e328964f9799.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:43c7488b77b76ea3",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Freeze Warning (Severe): Lee",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T04:15:00+00:00",
+   "start_time": "2026-11-26T09:00:00+00:00",
+   "locations": [
+    "Texas"
+   ],
+   "organizations": [
+    "NWS Austin/San Antonio TX"
+   ],
+   "impact_as_reported": "Freeze Warning issued November 25 at 10:15PM CST until November 26 at 9:00AM CST by NWS Austin/San Antonio TX * WHAT...Sub-freezing temperatures as low as 32 expected. * WHERE...Lee County. * WHEN...From 3 AM to 9 AM CST Thursday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. Take steps now to protect tender plants from the cold. To prevent water pipes from freezing; wrap or drain or allow them to drip slowly.",
+   "cause": "Confirmed (NWS): Freeze Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6c8783875c037d40339bdd760ce0b05f0302728.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:56ee5405b6355378",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Currituck Sound",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 1:00PM EST by NWS Wakefield VA * WHAT...East winds 25 to 35 kt with gusts up to 50 kt and waves around 2 ft expected. * WHERE...Currituck Sound. * WHEN...Until 1 PM EST this afternoon. * IMPACTS...Storm force winds and hazardous waves will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.007.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:48cfe8e482e1a4a9",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Chesapeake Bay from New Point Comfort to Little Creek VA; Chesapeake Bay from Little Creek VA to Cape Henry VA includin…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...East winds 35 to 45 kt with gusts up to 55 kt and waves 7 to 10 ft expected. * WHERE...Chesapeake Bay from New Point Comfort to Little Creek VA and Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Storm force winds and hazardous waves will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.003.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:0ccdc19e4daf4bb5",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Chesapeake Bay from Smith Point to Windmill Point VA; Chesapeake Bay from Windmill Point to New Point Comfort VA",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...East winds 35 to 45 kt with gusts up to 55 kt and waves 5 to 8 ft expected. * WHERE...Chesapeake Bay from Smith Point to Windmill Point VA and Chesapeake Bay from Windmill Point to New Point Comfort VA. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Storm force winds and hazardous waves will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.004.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:26e1ff64a37e3b1d",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Rappahannock River from Urbanna to Windmill Point; York River; James River from Jamestown to the James River Bridge",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...East winds 25 to 35 kt with gusts up to 55 kt and waves 2 to 5 ft expected. * WHERE...Rappahannock River from Urbanna to Windmill Point, York River and James River from Jamestown to the James River Bridge. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Storm force winds and hazardous waves will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.006.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:2c11826946087718",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM; Coastal Waters from Cape Charles Light to Virg…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...East winds 35 to 45 kt with gusts up to 55 kt, shifting to the south Thursday afternoon. Seas 15 to 21 ft expected. * WHERE...Portions of Atlantic coastal waters. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.002.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:c8265a5a2bf4578e",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): James River from JRB to HRBT, Including the Elizabeth River",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 4:00PM EST by NWS Wakefield VA * WHAT...East winds 30 to 40 kt with gusts up to 55 kt and waves 3 to 6 ft expected. * WHERE...James River from JRB to HRBT, Including the Elizabeth River. * WHEN...Until 4 PM EST this afternoon. * IMPACTS...Storm force winds and hazardous waves will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.005.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:58aa5dc53ed538a7",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM; Coastal waters from Chincoteague to Parramore Islan…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T05:51:00+00:00",
+   "start_time": "2026-11-26T05:51:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Wakefield VA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:51AM EST until November 26 at 7:00PM EST by NWS Wakefield VA * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 18 to 23 ft expected. * WHERE...Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM and Coastal waters from Chincoteague to Parramore Island VA out 20 NM. * WHEN...Until 7 PM EST this evening. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:2b53ff1975151abe",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 18 to 23 ft. * WHERE...Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM. * WHEN...Until 10 PM EST this evening. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. * ADDITIONAL DETAILS...Gale force wind gusts are likely to continue through Friday. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.002.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:5fdce55f935b8258",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Delaware Bay waters north of East Point NJ to Slaughter Beach DE; Delaware Bay waters south of East Point NJ to Slaught…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and extremely rough waters. * WHERE...Delaware Bay waters north of East Point NJ to Slaughter Beach DE and Delaware Bay waters south of East Point NJ to Slaughter Beach DE. * WHEN...Until 10 PM EST this evening. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.003.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:bb37243f44f14e93",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM; Waters from Great Egg Inlet NJ to Cape May NJ f…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 18 to 23 ft. * WHERE...Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM and Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM. * WHEN...Until 10 PM EST this evening. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. * ADDITIONAL DETAILS...Gale force wind gusts are likely to continue through Friday. Mariners should remain in port, alter course,…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.005.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:997691124b8ce72f",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM; Coastal waters from Cape Henlopen to Fenwick Island DE o…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 14 to 19 ft. * WHERE...Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM and Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM. * WHEN...Until 10 PM EST this evening. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. * ADDITIONAL DETAILS...Gale force wind gusts may continue through Friday. Mariners should remain in port, alter course, and/or secure th…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:076b5a0a677b6a76",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM; Coastal waters from Manasquan Inlet to Little Egg Inlet…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 15 to 20 ft. * WHERE...Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM and Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM. * WHEN...Until 1 AM EST Friday. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. * ADDITIONAL DETAILS...Gale force wind gusts may continue through Friday. Mariners should remain in port, alter course, and/or secure the v…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.006.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:6ade5f7f24a2529b",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM; Coastal waters from Great Egg Inlet to Cape May N…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 15 to 20 ft. * WHERE...Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM and Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM. * WHEN...Until 10 PM EST this evening. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. * ADDITIONAL DETAILS...Gale force wind gusts may continue through Friday. Mariners should remain in port, alter course, and/or secure…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.004.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:0fadb01597e4417e",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM; Waters from Manasquan Inlet NJ to Little Egg Inlet NJ…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T06:23:00+00:00",
+   "start_time": "2026-11-26T06:23:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Mount Holly NJ"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 1:23AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ * WHAT...East winds 40 to 50 kt with gusts up to 60 kt and seas 17 to 22 ft. * WHERE...Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM and Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM. * WHEN...Until 1 AM EST Friday. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. * ADDITIONAL DETAILS...Gale force wind gusts are likely to continue through Friday. Mariners should remain in port, alter course, and/o…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b51ead3a032ce700b6b7a821ca1fee95682bc9.007.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:502ad14bc548e65a",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Watch (Severe): Yellowstone National Park; Absaroka Mountains; Teton and Gros Ventre Mountains; Wind River Mountains West; Wind River M…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:59:00+00:00",
+   "start_time": "2026-11-27T12:00:00+00:00",
+   "locations": [
+    "Wyoming"
+   ],
+   "organizations": [
+    "NWS Riverton WY"
+   ],
+   "impact_as_reported": "Winter Storm Watch issued November 26 at 12:59AM MST until November 28 at 11:00AM MST by NWS Riverton WY * WHAT...Heavy snow possible. Total snow accumulations between 8 and 14 inches possible. Winds could gust as high as 50 mph. * WHERE...Portions of central, northwest, and west central Wyoming. * WHEN...From late tonight through Saturday morning. * IMPACTS...Travel could be very difficult, especially across Teton Pass and Togwotee Pass. Monitor the latest forecasts for updates on this situation.",
+   "cause": "Confirmed (NWS): Winter Storm Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b95279b6cc613295db5af8e5ed73bf963fadf6c3.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:93f24d1e8685597d",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Winter Storm Watch (Severe): Bighorn Mountains West; Bighorn Mountains Southeast",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T07:59:00+00:00",
+   "start_time": "2026-11-28T00:00:00+00:00",
+   "locations": [
+    "Wyoming"
+   ],
+   "organizations": [
+    "NWS Riverton WY"
+   ],
+   "impact_as_reported": "Winter Storm Watch issued November 26 at 12:59AM MST until November 28 at 5:00PM MST by NWS Riverton WY * WHAT...Heavy snow possible. Total snow accumulations between 4 and 8 inches possible. Winds could gust as high as 40 mph. * WHERE...Bighorn Mountains Southeast and Bighorn Mountains West. * WHEN...From Friday afternoon through Saturday afternoon. * IMPACTS...Travel could be very difficult. The hazardous conditions could impact the Friday evening commute. Monitor the latest forecasts for updates on this situation.",
+   "cause": "Confirmed (NWS): Winter Storm Watch",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b95279b6cc613295db5af8e5ed73bf963fadf6c3.002.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:d35c647a5c1c5a54",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm; Coastal waters from Cape Falcon to Cape Foulweather…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T08:25:00+00:00",
+   "start_time": "2026-11-26T08:25:00+00:00",
+   "locations": [
+    "PZ"
+   ],
+   "organizations": [
+    "NWS Portland OR",
+    "southwest"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 12:25AM PST until November 26 at 10:00AM PST by NWS Portland OR * WHAT...For the Storm Warning, seas 16 to 21 ft at 14 seconds and southwest winds 30 to 40 kt with gusts up to 55 kt. For the Hazardous Seas Warning, very steep and hazardous seas 12 to 17 ft at 13 seconds and southwest winds 15 to 25 kt with gusts up to 30 kt expected. For the Small Craft Advisory, seas 10 to 14 ft at 14 seconds and northwest winds 10 to 15 kt expected. * WHERE...Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 NM and Coastal waters from Cape Falcon to Cape Fou…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9dd9bd64427d566777e9f06ef1db616b5f7940a.004.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:32d7feece23eaaa7",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Chesapeake Bay north of Pooles Island MD; Chesapeake Bay from Pooles Island to Sandy Point MD; Chesapeake Bay from Sand…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T09:25:00+00:00",
+   "start_time": "2026-11-26T09:25:00+00:00",
+   "locations": [
+    "AN"
+   ],
+   "organizations": [
+    "NWS Baltimore MD/Washington DC"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 4:25AM EST until November 26 at 6:00PM EST by NWS Baltimore MD/Washington DC * WHAT...For the Storm Warning, east winds 30 to 40 kt with gusts up to 55 kt and waves 3 to 6 ft. For the Gale Warning, south winds 20 to 30 kt with gusts up to 40 kt and waves 2 to 4 ft expected. * WHERE...Chesapeake Bay and adjoining estuaries north of Smith Point VA, and Tidal Potomac from Cobb Island MD to Smith Point VA. * WHEN...For the Storm Warning, until 6 PM EST this evening. For the Gale Warning, from 6 PM this evening to 1 PM EST Friday. * IMPACTS...Very strong winds w…",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cc222e3c977e8cdf1825260bc4e250fabf69c53.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:254b808484a925d9",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): East Entrance U.S. Waters Strait Of Juan De Fuca",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T10:41:00+00:00",
+   "start_time": "2026-11-26T10:41:00+00:00",
+   "locations": [
+    "PZ"
+   ],
+   "organizations": [
+    "NWS Seattle WA"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 2:41AM PST until November 26 at 12:00PM PST by NWS Seattle WA * WHAT...Southeast winds 30 to 40 kt with gusts up to 50 kt possible. * WHERE...East Entrance U. S. Waters Strait Of Juan De Fuca. * WHEN...Until noon PST today. * IMPACTS...Very strong winds will cause hazardous seas which could capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e14e289db0927882c25dc441187fc6304916d8c.003.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:c032539a4a9e1a86",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM; Waters from Oregon Inlet to Cape Hatteras NC fro…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:08:00+00:00",
+   "start_time": "2026-11-26T11:08:00+00:00",
+   "locations": [
+    "AM"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 6:08AM EST until November 26 at 10:00AM EST by NWS Newport/Morehead City NC * WHAT...Southeast winds 30 to 40 kt with gusts up to 50 kt and seas 19 to 22 ft. * WHERE...The offshore waters from Duck to Ocracoke Inlet. * WHEN...Until 10 AM EST this morning. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8026cf952c6895dcba39e247e7155c6c1b929095.005.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:28e8aa46e6226510",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Storm Warning (Severe): S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM; S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM; S…",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:08:00+00:00",
+   "start_time": "2026-11-26T11:08:00+00:00",
+   "locations": [
+    "AM"
+   ],
+   "organizations": [
+    "NWS Newport/Morehead City NC"
+   ],
+   "impact_as_reported": "Storm Warning issued November 26 at 6:08AM EST until November 26 at 10:00AM EST by NWS Newport/Morehead City NC * WHAT...Southeast winds 25 to 35 kt with gusts up to 45 kt and seas 15 to 20 ft. * WHERE...The coastal waters from Duck to Ocracoke Inlet. * WHEN...Until 10 AM EST this morning. * IMPACTS...Storm force winds and hazardous seas will capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
+   "cause": "Confirmed (NWS): Storm Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8026cf952c6895dcba39e247e7155c6c1b929095.006.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
+  {
+   "id": "nws:bd66282405df3ea4",
+   "severity": "Low",
+   "verification": "Confirmed",
+   "unverified": false,
+   "title": "NWS Freeze Warning (Severe): Freestone; Anderson; Bell; McLennan; Falls; Limestone; Leon; Milam; Robertson",
+   "detected": "2026-11-26T11:26:56.328680+00:00",
+   "published": "2026-11-26T11:19:00+00:00",
+   "start_time": "2026-11-26T11:19:00+00:00",
+   "locations": [
+    "Texas"
+   ],
+   "organizations": [
+    "NWS Fort Worth TX"
+   ],
+   "impact_as_reported": "Freeze Warning issued November 26 at 5:19AM CST until November 26 at 9:00AM CST by NWS Fort Worth TX * WHAT...Sub-freezing temperatures as low as 31. * WHERE...Bell, Falls, Freestone, Limestone, McLennan, Anderson, Leon, Milam, and Robertson Counties. * WHEN...Until 9 AM CST this morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. A Freeze Warning means that the season's first episode of sub-freezing temperatures are likely to occur. These conditions will kill sensitive plants, and residents are advise…",
+   "cause": "Confirmed (NWS): Freeze Warning",
+   "source": "NWS Alerts",
+   "source_domain": "weather.gov",
+   "corroborated_by": [],
+   "links": [
+    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03d1932e99897a6928a41b34e27697a153dfedc7.001.1"
+   ],
+   "notes": [],
+   "disposition": "logged"
+  },
   {
    "id": "kev:CVE-2026-133469",
    "severity": "High",
@@ -13006,1002 +15759,6 @@
    "corroborated_by": [],
    "links": [
     "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac5024f48692db7bd6367b2c0a1ca90beed40734.001.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "state:9183e5dfb9a0d472",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "State Dept: Severing the Financial Lifelines of Iran’s Shadow Banking Network",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T19:00:16+00:00",
-   "start_time": null,
-   "locations": [
-    "United States (federal statement)"
-   ],
-   "organizations": [
-    "State Department",
-    "google"
-   ],
-   "impact_as_reported": "Severing the Financial Lifelines of Iran’s Shadow Banking Network U.S. Department of State (.gov) (via news.google.com index of state.gov)",
-   "cause": "Confirmed (State Department): official statement",
-   "source": "State Department",
-   "source_domain": "state.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUHN0TER0NzBYU2hSaVJOY1hHUWlPWDNaX3ZsRmNaZVZ0eUt4R0VXbWlsQk5rOTZ4aWVKcUFiVEdSQTE3eU54elBWeGdRelRnM2d3ZEM2TklRQm96VTRDdHBwdWJydVdvMVd3TjZ2aFVhZ0Jxa3RHb29rZEx0UW5qeVd3SmVheWpkSVotclJSUER5cG5BZEJibGR1b0N3WW55Wnd2ZFQtTlpCczR5dVlCc2FVNjZZbk15UnhNT2dCTmp6R2F6dVE?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:3fb967f11e32e9e3",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Gary Peters reflects on US Senate career, criticizes Pete Hegseth on Iran",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T21:18:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Michigan"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Gary Peters reflects on US Senate career, criticizes Pete Hegseth on Iran Michigan Public",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "michiganpublic.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXlFVEI5dV9aT0lwd0xGT3htbnotWG1pVTlHXzdOSHhaeWVkQ1hoQ1pOZlZVUzkzMV9OUVNGMTVfeV95T2dHQUlVUV81Zm5NY2p6S2Q0M1d4aUxQaTdFZ2xIZEJ4Q1ppcDZxWVdqYUV3QnAzZ0UxaUN4V3YtQWFNYnAxeUo4Y3JGM2hyTGxmazVLSk1NVWpzbURJa3daU1NYN1hGZVNKbVZoaVprRmxPU3Zla08?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:dc288ebe9736ba6e",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Coastal Flood Warning (Severe): Eastern Strait of Juan de Fuca; Western Strait of Juan de Fuca",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T21:42:00+00:00",
-   "start_time": "2026-11-24T16:00:00+00:00",
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "NWS Seattle WA"
-   ],
-   "impact_as_reported": "Coastal Flood Warning issued November 23 at 1:42PM PST until November 24 at 3:00PM PST by NWS Seattle WA * WHAT...For the Coastal Flood Warning, significant coastal flooding expected. Inundation of 2.5 to 3.5 feet above ground level is possible Tuesday along shorelines and low- lying coastal areas. For the High Surf Advisory, large breaking waves along the coast. For the first Coastal Flood Watch, significant coastal flooding possible Wednesday with inundation up to 2.5 to 3.5 feet. For the second Coastal Flood Watch, significant coastal flooding possible Thursday with inundation up to 2.5 to…",
-   "cause": "Confirmed (NWS): Coastal Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657c617cc13a94cc315cdbfdd86c82d464bb8596.003.2"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:c315864e9575821f",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Coastal Flood Warning (Severe): Northern Washington Coast",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T21:42:00+00:00",
-   "start_time": "2026-11-24T16:00:00+00:00",
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "NWS Seattle WA"
-   ],
-   "impact_as_reported": "Coastal Flood Warning issued November 23 at 1:42PM PST until November 24 at 3:00PM PST by NWS Seattle WA * WHAT...For the Coastal Flood Warning, significant coastal flooding expected. Inundation of 2.5 to 3.5 feet above ground level is possible Tuesday along shorelines and low- lying coastal areas. For the High Surf Advisory, large breaking waves along the coast. For the first Coastal Flood Watch, significant coastal flooding possible Wednesday with inundation up to 2.5 to 3.5 feet. For the second Coastal Flood Watch, significant coastal flooding possible Thursday with inundation up to 2.5 to…",
-   "cause": "Confirmed (NWS): Coastal Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657c617cc13a94cc315cdbfdd86c82d464bb8596.002.2"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:a61d2831c63d0cdf",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Coastal Flood Warning (Severe): San Juan County",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T21:42:00+00:00",
-   "start_time": "2026-11-24T10:00:00+00:00",
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "NWS Seattle WA"
-   ],
-   "impact_as_reported": "Coastal Flood Warning issued November 23 at 1:42PM PST until November 24 at 4:00PM PST by NWS Seattle WA * WHAT...For the Coastal Flood Warning, significant coastal flooding expected. Inundation of 2 to 2.5 feet above ground level is possible Tuesday along shorelines and low- lying coastal areas. For the first Coastal Flood Watch, significant coastal flooding possible Wednesday with inundation up to 2.5 to 3 feet. For the second Coastal Flood Watch, significant coastal flooding possible Thursday with inundation up to 3 to 3.5 feet. * WHERE...San Juan County zone. * WHEN...For the Coastal Floo…",
-   "cause": "Confirmed (NWS): Coastal Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657c617cc13a94cc315cdbfdd86c82d464bb8596.004.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:ef244d54b4f28bfb",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Coastal Flood Warning (Severe): Grays Harbor County Coast",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T21:42:00+00:00",
-   "start_time": "2026-11-24T16:00:00+00:00",
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "NWS Seattle WA"
-   ],
-   "impact_as_reported": "Coastal Flood Warning issued November 23 at 1:42PM PST until November 24 at 3:00PM PST by NWS Seattle WA * WHAT...For the Coastal Flood Warning, significant coastal flooding expected. Inundation of 3 to 4 feet above ground level is possible Tuesday along shorelines and low- lying coastal areas. For the High Surf Advisory, large breaking waves along the coast. For the first Coastal Flood Watch, significant coastal flooding possible Wednesday with inundation up to 3 to 4 feet. For the second Coastal Flood Watch, significant coastal flooding possible Thursday with inundation up to 2.5 to 3.5 fee…",
-   "cause": "Confirmed (NWS): Coastal Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657c617cc13a94cc315cdbfdd86c82d464bb8596.001.2"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:cb7e6c08f9e31de0",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S. sanctions hit Iran’s corrupt oil insiders and shadow banks: ‘The ship is sinking’",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T21:44:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. sanctions hit Iran’s corrupt oil insiders and shadow banks: ‘The ship is sinking’ Florida’s Voice",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "flvoicenews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaktLUW9VZ2p6N2ZsOUtmV2lDU0FCWWZtbXJsRkluanFOZUc2TklWSTFQdzBfLXRzSnpwMGFaQ2JKNEhmY3luOVQ4WkkyY05sTGl3TFcydjRFUVBmMGF1Z1pUYTBXRWNaWWd4SW02b19hTlNZQ3g4eFk0VEhMeVhFVnZub3FFNHcwTmpRalZLWV9WbzhjRVB0WE1VTkZFNEV2RW9PUmFENlUydw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:386549c9cb981b99",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S. Sanctions 30 Targets In Iran’s Shadow Banking Network",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T22:01:17+00:00",
-   "start_time": null,
-   "locations": [
-    "Dallas"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. Sanctions 30 Targets In Iran’s Shadow Banking Network Dallas Express",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "dallasexpress.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnZEYjg1eFlJS0RtX3dsU3hyRV9VVU45eXdlcGdYRklCd28xT3diM1d4WUV4R3Z5VXJhbEFybkVjemlFNXNuamNGVU84eXd3NFM1MTBOQ3hQZEo0Nmk1QzVwd3pqNEY4NkRZc0RGSjUxREp4SGlybVJDRzIzNm1MeElnM0tsWlpoYkJ1VWhvb21hcmFNcDdZ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:20ecb143cecf882e",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran says it will use all means to end U.S. naval blockade",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T22:13:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran says it will use all means to end U.S. naval blockade CBS News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "cbsnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR3huaHVDc1djd0ZFMy0tNmkwejBYNkFQT0ppWVlpNTNVNmxmSmFmczdqZi0teWtuWXZRSnE4cndDMnBWSTZYN3Jwa1U2NEpRRzNsbXh5Wlk5VWx3a2F2SXdwQUpsV0RPVXE0bThvcWpCM0hjZ3M1aVBZTEhQVE9wUzg5cDRVS0Zy?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:5073e82a2358a3e4",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: America’s war with Iran has gone underground",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T23:17:58+00:00",
-   "start_time": null,
-   "locations": [
-    "Washington"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "America’s war with Iran has gone underground Washington Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "washingtontimes.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcC1vZTN6dlBlOGZ0ejhVSjlsRjF3V3hsdXZFb2M0cm9jazh2eGM1eF9LN0k3dUNJOFBaa3lFVHpyR3A4OWpDdlFJN05NejBDOFFidU1hNGZIeFZPcl8wZkM1cy1JZVlrc3BkRDNKVVdiNmdRR1FOeXhFNF9naFVmU1ZPcTE0OU9UUE5mTQ?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:50250d010ae9e82f",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump downplays Iran's latest attacks as it vows to use all means to end U.S. blockade",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T23:18:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump downplays Iran's latest attacks as it vows to use all means to end U.S. blockade CBS News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "cbsnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY2QVI0MHU4a25sSEcwVkI2SVZEVnpUWTI4Rk9fcXpHM1ZZVHJoTjVaaFZHTlpwUm5nOGZhMkp1blJRNU5OV18zNnpQc3JaT1U5YmZWbFdfSHk5VlRES3FpSm9md0dxa2c3VF8xQ3NUTnFXTGZ1VTRQbGpaZmhtRmk2RW8wUFlCeXpTNWNmVnVsNGVYeS0wVHB4a2ZQQWdpa29IbkRB?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:c9c023fc360ea4a9",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: U.S. Sanctions Dozens Tied to Iran’s Shadow Banking Networks Under Operation Economic Outcast",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T23:26:57+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "U.S. Sanctions Dozens Tied to Iran’s Shadow Banking Networks Under Operation Economic Outcast NewsCord",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "newscord.org",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZmc4a1BYT0NhbGZpa2VBUHRheEhSVTNrb0VFX1N1UWFtaElNS2pEYVhoLWN2TEl6bmtxc2xDUGZ4cE9VWDNnS0ZRVWVCWTNtaVE3MTh5THRaeFdMVGNoVF9FaFRsSWJfbXUxNW44MFRqSHpqelZSSE15X1pKUTdRVmxVS0dTVGRwdERGbjJOMVlSODF4TFVnR0dacU55U3BGeVB2dWtQUU5JcVgtS29TbFpYS0F2OWZQR1IxeE02R1JvUEtzQk45bUNsT2w1eGZRTWs4NTNwX3hSRlBZV2o4STF0M2VTVGhPWHc?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:4b312a05e6057093",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Exclusive | U.S. Eyes Iran as Possible Culprit in Dozens of New Cyberattacks Against Ships",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T00:00:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Exclusive | U.S. Eyes Iran as Possible Culprit in Dozens of New Cyberattacks Against Ships WSJ",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "wsj.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaDNLV040WjYxakp4SFpkLW1ZSWo1M3dJOE8xV3pZTmRDZ0EwclVFclVWQlZpazJiRTJwNWtCdmZGeTZkcmJqQUlWbVo5ME92cFZXSUFFOUkyUmp3SldOYmR5S2xXZUVHR1lSZXgzSEFWdHhkTm5HeEM4NVEyc0djNFNrTW9GTFh5WW1j?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:65583672da550b6b",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran War Funding in Dispute as Congress Races to Avoid Shutdown",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T00:09:05+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran War Funding in Dispute as Congress Races to Avoid Shutdown The Fiscal Times",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "thefiscaltimes.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb0cyUGo2OURzam1YLTIybzQ2Y0FSSnluWlBxdFZrdk54bGdoTTUzLVhXNm1YWlA4N01KSzA3TFFpNnhSb2JQS0dka3F1U181MWl6QUM4VVY3alpFbndsREw4TUJlSlRmUkk5Y2pWOHFCdlI4eVV2VW5NTG1SenlUV1JkU1FmZkQwWWJsYllQWnhhN1JtRGFoM0VEWXVKOGhZeEFmaFF6VVc?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:4ec1abedec49e372",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran Suspected in Wave of Cyberattacks on Oil Tankers, U.S. Officials Tell WSJ",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T00:44:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Iran Suspected in Wave of Cyberattacks on Oil Tankers, U.S. Officials Tell WSJ Haaretz",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "haaretz.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSWZUNkkxTUIxWldZQURTb2ZtMmNxcWFqRUVsQWYtNHQycGNxc2tuUFFNaGc3bDhaRXJjQlJXRWZxd09Jd3JiZ1VuRURRaHhTTUE5eDNJRjNyeVJ1cVNLa0VRQ0lJZzREWkdoa2V3Y2p1Z2hRQUI5dWtZMG1hRzlKQkZhdVNFZ2VWWlJpaVVUSmUySGp2VkxUSTRLbjg4ZXd2VTNRSTVLd1JKenNyZkpIcVhIM1VjSE1zMmZZc05Hb29yWU94YzM4X2VtMkNTOEE5eUJUQ0tSZ0g5bVlfcDFJTElFNHNBMmtITkg5T0llRFZaWEJ6akVPNmltbWNTRDFHdzNVb2lKcTVFNHB5N2c?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:baba264ac349a298",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Vance and Rubio meet with Qatari PM as uncertainty mounts over Trump’s intentions with Iran",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T01:27:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Vance and Rubio meet with Qatari PM as uncertainty mounts over Trump’s intentions with Iran AP News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "AP News",
-   "source_domain": "apnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQVExRXR2RWtYa0VYeVJad1JyanJJWTNvUXVFcGY2TnhtMS1ZS1dkLW9vV0FneklNMDV2d2dIWEpfeUpoMFB6TkZuQnJPbm1GWTRwLXh4TUF1QTctV2JjaUpkQnFhWENLMGlwaU1aVFhQcXh4NC1rUHFNVmVvZTVfN0FkVVZPVU8tREsyRDF1SQ?oc=5",
-    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY3hYWVgwZHZzVDhObWJObWxyLVNpYkZaSFdJcTBjWUoyRkNnMXhTQXdMUXBwc0M1cy1VOHBKc0d1UVpjaXlXbF91MmVBNFZoUTRid3Q0UzM1M2tmREdoNHFfZWxKQjVJd1NHMWZsNTlCOXlKejdJY3pfUjBXVkZtQkxCR2wzekZSbVNuWGVkLUw5aDhEeDlFdDlBZXJvWEZTZmlnZFFXYTBVa0xnQm9BSEtoc0k3RkpWdlJWdGZHeWthenZHaGc?oc=5"
-   ],
-   "notes": [
-    "2 reports on this story in this run."
-   ],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:b501aed0f0d6550b",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Lake, FL; Volusia, FL",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T01:43:00+00:00",
-   "start_time": "2026-11-24T01:43:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 23 at 8:43PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Volusia and Lake Counties. .Heavy rainfall working its way through the basin has caused levels on the St Johns River at Astor to rise through Major Flood Stage. The river is forecast to slowly rise mid to late week. For the St. Johns River...including Astor...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...St Johns River near Astor. * WHEN...Until further notice. *…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ed6264d535d6a40e449f2f7c348a09afbc780f9.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:af899c85a142c0fa",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Brevard, FL",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T01:46:00+00:00",
-   "start_time": "2026-11-24T01:46:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 23 at 8:46PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Cocoa 9w affecting Brevard County. .Extreme rainfall across the upper St. Johns River has caused levels near Cocoa to remain within Major Flood Stage, well above its previous record flood stage. The river level trends will remain generally steady near 18.5 ft or 18.6 ft through late week. For the St. Johns River...including Cocoa...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. This approa…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9561e02cc26fbf5719949e2f64012a9833c89368.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:4146a60fc276dfe1",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Seminole, FL",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T01:49:00+00:00",
-   "start_time": "2026-11-24T01:49:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 23 at 8:49PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Above Lake Harney affecting Seminole County. .Heavy rainfall has caused river levels on the St. Johns Above Lake Harney near Geneva to remain within Major Flood Stage. River levels are forecast to hold near a crest through tomorrow before beginning a very slow decline within Major flood stage later in the week. For the St. Johns River...including Above Lake Harney...Major flooding is forecast. * WHAT...Major flooding is occurring and majo…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ea7bc736918d8c2a07c293ca36f046ace37f5f2.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:5dc402f15e4c34a4",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Seminole, FL",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T01:52:00+00:00",
-   "start_time": "2026-11-24T01:52:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 23 at 8:52PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Sanford affecting Seminole County. .Heavy rainfall has caused river levels on the St. Johns at Sanford to continue rising through Moderate Flood Stage. The river is forecast to climb into Major Flood stage around mid-week, remaining steady around 8.2 feet through late week. For the St. Johns River...including Sanford...Major flooding is forecast. * WHAT...Moderate flooding is occurring and major flooding is forecast. * WHERE...St Johns Ri…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29365daa0462fd3fb00f3ded9d41fa2bcf4552d9.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:b79853429c868a4d",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Flood Warning (Severe): Lake, FL; Volusia, FL",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T01:55:00+00:00",
-   "start_time": "2026-11-24T01:55:00+00:00",
-   "locations": [
-    "Florida"
-   ],
-   "organizations": [
-    "NWS Melbourne FL"
-   ],
-   "impact_as_reported": "Flood Warning issued November 23 at 8:55PM EST by NWS Melbourne FL ...The Flood Warning continues for the following rivers in Florida... St Johns River Near Deland affecting Volusia and Lake Counties. .Heavy rainfall has caused river levels on the St. Johns at Deland to rise through Major Flood Stage. The river is forecast to continue a gradual rise through the week, and may approach its record flood. For the St. Johns River...including Deland...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...St Johns River near Deland. * WHEN...Until…",
-   "cause": "Confirmed (NWS): Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2714c81b1ed16457d49e78e5979c7c67717cc830.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:d4312ca567574995",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Coast Guard boards 2 foreign ships bound for US amid reports of Iranian hacking probe",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T03:07:21+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Coast Guard"
-   ],
-   "impact_as_reported": "Coast Guard boards 2 foreign ships bound for US amid reports of Iranian hacking probe Fox News",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "foxnews.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWU1HLUxhbkVLdkFsekg5WGpsRlZHVjB0SmVrOHgwdVFMNDFtNGU1QTZ6WWR2OWQwVy0tTEJfSmRxcXhWR0NYLV9aUkRxTVpac0FLcWQ0bzYzQ1NzTlp4cFNVRTdtY0JMZ3JRbUdEbWFyZUNtSjdGcndmNDYzUWdSRmZXekJaUnBpVnlyOW5WSzk3aHJqVzl5bF9uU2NhVXhJdnFVY2FOcVQ2UmZ10gGyAUFVX3lxTE5jaXBDMUN0NlRmQTVlMHNLNkVRMFExZUF5UndaWEZ6X2h6TzA4YVFtUTdRSEhuVUJnd3BkV3VOYzl0S0JMYzZobU9iSTBhdnFRSndiSGdCZk5wbFh1T3FkdGhabFJpZXg1N2VGZC1zTXdPUG1vOWRLUnNMYTg3S1BMZnFzYVhhTC1nVzlmczMtUE5WYVZHQ0M2VlprMFdMMEg4TEJjaXdGME16VHFKeVRhdFE?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:72ba8dbc8ee89c4d",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Trump Leans Toward New Year Iran Strikes, Dares Tehran to Test U.S. Naval Blockade",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T03:55:44+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Trump Leans Toward New Year Iran Strikes, Dares Tehran to Test U.S. Naval Blockade The SOFX Report",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "sofx.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR0tmZk8zbjBPeHY2UFFLREhFU1hZeFR1NUFWbUZEN3lDMFhteGJHRjlSX1hXUWdzX3pZYXlmamVkdTlOSlR3VFc0QjVwUW5lQU9Qc1Zjelp0M3JWUGFfRHE1Zl9JNWRfTkFLOUh4XzlWWFpZZ1dsWXVCMS11aEhiS0JZMXZuUmRrR3Y1SVphMjdLRVgydk1jR19tZU96eEd1RkxQRA?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:5a8b1889fc354ade",
-   "severity": "Moderate",
-   "verification": "Unverified - Unknown Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Why Iran Hawks Are Now Hyping ‘Radical Shiite’ Threats",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:05:00+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Not specified in source"
-   ],
-   "impact_as_reported": "Why Iran Hawks Are Now Hyping ‘Radical Shiite’ Threats The American Conservative",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "theamericanconservative.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS2JvUU05WmZIQWt4aVRsaFkzcGY4ZlBvQXVEMy1MWkVnVGFuOE0zTXFxbGd1OElyeGlGd1N4NmpWLTBmejVjZ3liUFJSTHNzYjdDUGVFcDN5UjdzOWE2bS0zdlZUZFcwXzd2QXJjVktVZ2dMbjBBS053TjZ2S3hSd3p0YTF3N1B6dm8yNm9ncWx6U0NFcEhYZg?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "news:0e8e30c7556b1997",
-   "severity": "Moderate",
-   "verification": "Unverified - Credible Source",
-   "unverified": true,
-   "title": "UNVERIFIED: Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:05:08+00:00",
-   "start_time": null,
-   "locations": [
-    "Not specified in source"
-   ],
-   "organizations": [
-    "Treasury"
-   ],
-   "impact_as_reported": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions CNBC",
-   "cause": "Unknown (not confirmed by an official source)",
-   "source": "Iran–U.S. news",
-   "source_domain": "cnbc.com",
-   "corroborated_by": [],
-   "links": [
-    "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aSnVNOTQ5Ml81YUdQSkxzbkI0bVF5OUV4RndqcjVrWkM1SGw4V0tZOVJEbGRmTGgybGxfTUwzRVNISTRFUmxkX0cydWlPcVRCN2dIWFFfaklmbk40ZnptNVMxUURLdWFoRUtUNkNR0gFzQVVfeXFMTVY0aG5JUVJlODBXb0tvdmJTRjJoV2R2Uk9TMVpKcFdpLVpTUThDU3MzcGw3RnVmanBjQ1VNRFlkRi1JZUMxMDRNcWFXLVJoNlo4dVB6VU91V2tYRnpDU1oyekUxaWQwdlBXbGJoZ1ZlSGNKcw?oc=5"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:f5756ae0448e044f",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Coastal Flood Warning (Severe): Coastal Del Norte; Southwestern Humboldt; Coastal Mendocino",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:16:00+00:00",
-   "start_time": "2026-11-24T17:00:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Eureka CA"
-   ],
-   "impact_as_reported": "Coastal Flood Warning issued November 23 at 9:16PM PST until November 24 at 1:00PM PST by NWS Eureka CA * WHAT...For the Coastal Flood Warning, High astronomical tides and moderate surf will cause moderate flooding in low lying areas along the Redwood and Mendocino Coast. Up to two feet of saltwater inundation above ground level is possible in low lying areas near shorelines and tidal waterways. Between 8.25 and 8.75 MLLW is expected at the Arena Cove tide gauge. At the Crescent City tide gauge 9.5 to 10.0 feet MLLW is predicted. * For the Coastal Flood Watch, High astronomical tides and brea…",
-   "cause": "Confirmed (NWS): Coastal Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ee3e62a752fcd1636bfa5982c4e802cc2a42325.002.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:22203870a76eb2da",
-   "severity": "Moderate",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Coastal Flood Warning (Severe): Northern Coastal Humboldt",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:16:00+00:00",
-   "start_time": "2026-11-24T17:00:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Eureka CA"
-   ],
-   "impact_as_reported": "Coastal Flood Warning issued November 23 at 9:16PM PST until November 24 at 1:00PM PST by NWS Eureka CA * WHAT...For the Coastal Flood Warning, High astronomical tides will cause major flooding in low lying areas mainly around Humboldt Bay. Up to 3 of saltwater inundation above ground level is possible in low lying areas near shorelines and tidal waterways. Between 10.3 and 11.0 feet MLLW at the North Spit tide gauge is predicted. For the Coastal Flood Watch, High astronomical tides and large surf may cause major flooding in low lying areas along the Redwood Coast. Up to 2.5 foot of saltwater…",
-   "cause": "Confirmed (NWS): Coastal Flood Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ee3e62a752fcd1636bfa5982c4e802cc2a42325.001.1"
-   ],
-   "notes": [],
-   "disposition": "digest"
-  },
-  {
-   "id": "nws:6efc343ef384e836",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Storm Warning (Severe): Kiska to Attu Pacific Side",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T23:05:00+00:00",
-   "start_time": "2026-11-25T02:00:00+00:00",
-   "locations": [
-    "PK"
-   ],
-   "organizations": [
-    "NWS Anchorage AK",
-    "Southwest"
-   ],
-   "impact_as_reported": "Storm Warning issued November 23 at 2:05PM AKST until November 25 at 5:00AM AKST by NWS Anchorage AK Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out. Wind forecasts reflect the predominant speed and direction expected. Sea forecasts represent an average of the highest one-third of the combined wind wave and swell height. .TONIGHT...W wind 25 kt. Seas 14 ft. .TUE...W wind 20 kt becoming SW 30 kt in the afternoon. Seas 11 ft. .TUE NIGHT...S wind 40 kt increasing to 55 kt after midnight. Seas 13 ft building to 20 ft a…",
-   "cause": "Confirmed (NWS): Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58702d41f8998b991722cc145b9c6c27669680db.029.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:3692a27841d94acf",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Storm Warning (Severe): Kiska to Attu Bering Side",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-23T23:05:00+00:00",
-   "start_time": "2026-11-25T02:00:00+00:00",
-   "locations": [
-    "PK"
-   ],
-   "organizations": [
-    "NWS Anchorage AK",
-    "Southwest"
-   ],
-   "impact_as_reported": "Storm Warning issued November 23 at 2:05PM AKST until November 25 at 5:00AM AKST by NWS Anchorage AK Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out. Wind forecasts reflect the predominant speed and direction expected. Sea forecasts represent an average of the highest one-third of the combined wind wave and swell height. .TONIGHT...W wind 25 kt. Seas 14 ft. .TUE...W wind 20 kt becoming SW 30 kt in the afternoon. Seas 12 ft. .TUE NIGHT...S wind 40 kt increasing to 55 kt after midnight. Seas 12 ft building to 18 ft a…",
-   "cause": "Confirmed (NWS): Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58702d41f8998b991722cc145b9c6c27669680db.028.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:dbcb4931f59f6b68",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Heavy Freezing Spray Warning (Severe): Western US Arctic Offshore",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T00:45:00+00:00",
-   "start_time": "2026-11-24T01:00:00+00:00",
-   "locations": [
-    "PK"
-   ],
-   "organizations": [
-    "NWS Fairbanks AK"
-   ],
-   "impact_as_reported": "Heavy Freezing Spray Warning issued November 23 at 4:00PM AKST until November 24 at 5:00PM AKST by NWS Fairbanks AK Offshore Waters Forecast for the US Arctic Waters Sea forecasts represent an average of the highest one-third of the combined wind wave and swell height. Individual waves may be twice as high. .TONIGHT...E winds 30 kt. Seas 10 ft. Blowing snow through the night. Heavy freezing spray. .TUE...SE winds 25 kt. Seas 10 ft. Blowing snow. Heavy freezing spray. .TUE NIGHT...E winds 25 kt. Seas 8 ft. Blowing snow. Moderate freezing spray. .WED...E winds 20 kt. Seas 4 ft. Moderate freezin…",
-   "cause": "Confirmed (NWS): Heavy Freezing Spray Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24a0aa816587935ea34cb3ceda61e5d2450ee882.001.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:e34db568478cad08",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Heavy Freezing Spray Warning (Severe): Point Franklin to Cape Halkett from 15 to 75 NM",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T00:48:00+00:00",
-   "start_time": "2026-11-24T00:00:00+00:00",
-   "locations": [
-    "PK"
-   ],
-   "organizations": [
-    "NWS Fairbanks AK"
-   ],
-   "impact_as_reported": "Heavy Freezing Spray Warning issued November 23 at 3:48PM AKST until November 24 at 5:00PM AKST by NWS Fairbanks AK Arctic Alaska Coastal Waters out 100 NM Wind forecasts reflect the predominant speed and direction expected. Sea forecasts represent the average of the highest one- third of the combined wind-wave and swell height. .TONIGHT...E winds 25 kt. Seas 5 ft. Blowing snow. Extreme freezing spray. .TUE...E winds 25 kt. Seas 5 ft. Blowing snow. Extreme freezing spray. .TUE NIGHT...E winds 25 kt. Seas 5 ft. Blowing snow. Extreme freezing spray. .WED...E winds 25 kt. Seas 5 ft. Blowing snow…",
-   "cause": "Confirmed (NWS): Heavy Freezing Spray Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da6aa84001c3aace6eb49030a5bf7a1bb885cd73.008.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:e43a83509b1167dc",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Heavy Freezing Spray Warning (Severe): Flaxman Island to Demarcation Point from 15 to 75 NM",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T00:48:00+00:00",
-   "start_time": "2026-11-24T00:00:00+00:00",
-   "locations": [
-    "PK"
-   ],
-   "organizations": [
-    "NWS Fairbanks AK"
-   ],
-   "impact_as_reported": "Heavy Freezing Spray Warning issued November 23 at 3:48PM AKST until November 24 at 5:00PM AKST by NWS Fairbanks AK Arctic Alaska Coastal Waters out 100 NM Wind forecasts reflect the predominant speed and direction expected. Sea forecasts represent the average of the highest one- third of the combined wind-wave and swell height. .TONIGHT...E winds 35 kt. Seas 6 ft. Blowing snow. Extreme freezing spray. .TUE...E winds 35 kt. Seas 9 ft. Blowing snow. Extreme freezing spray. .TUE NIGHT...E winds 35 kt. Seas 11 ft. Blowing snow. Extreme freezing spray. .WED...E winds 40 kt. Seas 10 ft. Blowing sn…",
-   "cause": "Confirmed (NWS): Heavy Freezing Spray Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da6aa84001c3aace6eb49030a5bf7a1bb885cd73.010.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:4d64f7bbc6366929",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Storm Warning (Severe): Coastal Waters From Cape Flattery To James Island 10 To 60 Nm; Waters From James Island To Point Grenville 10 To 60 Nm;…",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T03:34:00+00:00",
-   "start_time": "2026-11-24T03:34:00+00:00",
-   "locations": [
-    "PZ"
-   ],
-   "organizations": [
-    "NWS Seattle WA"
-   ],
-   "impact_as_reported": "Storm Warning issued November 23 at 7:34PM PST until November 24 at 11:00PM PST by NWS Seattle WA * WHAT...Southeast winds 35 to 45 kt with gusts to 55 kt and seas 19 to 24 ft. * WHERE...Coastal Waters From Cape Flattery To James Island 10 To 60 Nm, Coastal Waters From James Island To Point Grenville 10 To 60 Nm and Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm. * WHEN...Until 11 PM PST Tuesday. * IMPACTS...Very strong winds will cause hazardous seas which could capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure th…",
-   "cause": "Confirmed (NWS): Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1db7e5d8f9fe7d6fd2321d1ced3e7f6aba2666e.004.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:d35497a0f5eb397f",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Freeze Warning (Severe): Antelope Valley",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T04:26:00+00:00",
-   "start_time": "2026-11-24T08:00:00+00:00",
-   "locations": [
-    "California"
-   ],
-   "organizations": [
-    "NWS Los Angeles/Oxnard CA"
-   ],
-   "impact_as_reported": "Freeze Warning issued November 23 at 8:26PM PST until November 24 at 8:00AM PST by NWS Los Angeles/Oxnard CA * WHAT...Sub-freezing temperatures as low as 29 expected. * WHERE...Antelope Valley. * WHEN...From midnight tonight to 8 AM PST Tuesday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. Take steps now to protect tender plants from the cold.",
-   "cause": "Confirmed (NWS): Freeze Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df8fb86b2d7c0e460fcff60c44b598d8e1446f35.001.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:5e56be5f27e542db",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Storm Warning (Severe): Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:09:00+00:00",
-   "start_time": "2026-11-24T05:09:00+00:00",
-   "locations": [
-    "PZ"
-   ],
-   "organizations": [
-    "NWS Eureka CA"
-   ],
-   "impact_as_reported": "Storm Warning issued November 23 at 9:09PM PST until November 24 at 4:00PM PST by NWS Eureka CA * WHAT...South winds 35 to 45 kt with gusts up to 65 kt and seas 18 to 23 feet. * WHERE...Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm. * WHEN...Until 4 PM PST Tuesday. * IMPACTS...Very strong winds will cause hazardous seas which could capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
-   "cause": "Confirmed (NWS): Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed70daafe38157da69bb35e8b07b8c7314167e41.004.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:cf4fde52538e56f6",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Storm Warning (Severe): Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:09:00+00:00",
-   "start_time": "2026-11-24T05:09:00+00:00",
-   "locations": [
-    "PZ"
-   ],
-   "organizations": [
-    "NWS Eureka CA"
-   ],
-   "impact_as_reported": "Storm Warning issued November 23 at 9:09PM PST until November 24 at 4:00PM PST by NWS Eureka CA * WHAT...South winds 30 to 40 kt with gusts up to 55 kt and seas 13 to 18 feet. * WHERE...Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm. * WHEN...Until 4 PM PST Tuesday. * IMPACTS...Very strong winds will cause hazardous seas which could capsize or damage vessels and reduce visibility. Mariners should remain in port, alter course, and/or secure the vessel for severe conditions.",
-   "cause": "Confirmed (NWS): Storm Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed70daafe38157da69bb35e8b07b8c7314167e41.003.1"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:e7573f5547defa72",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Freeze Warning (Severe): Eddy County Plains; Loving; Winkler; Ector; Midland; Glasscock; Ward; Crane; Upton; Reagan; Pecos; Terrell; Van Horn an…",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:21:00+00:00",
-   "start_time": "2026-11-25T03:00:00+00:00",
-   "locations": [
-    "New Mexico",
-    "Texas"
-   ],
-   "organizations": [
-    "NWS Midland/Odessa TX",
-    "southwest"
-   ],
-   "impact_as_reported": "Freeze Warning issued November 23 at 10:21PM MST until November 25 at 8:00AM MST by NWS Midland/Odessa TX * WHAT...Sub-freezing temperatures as low as 27 expected. * WHERE...Portions of southeast New Mexico and southwest and western Texas. * WHEN...From 8 PM MST /9 PM CST/ Tuesday to 8 AM MST /9 AM CST/ Wednesday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. Take steps now to protect tender plants from the cold.",
-   "cause": "Confirmed (NWS): Freeze Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3986c98cc0b17d36348d00d32525230d62a1a7b6.001.2"
-   ],
-   "notes": [],
-   "disposition": "logged"
-  },
-  {
-   "id": "nws:5d3214b7dd0295c7",
-   "severity": "Low",
-   "verification": "Confirmed",
-   "unverified": false,
-   "title": "NWS Freeze Warning (Severe): Grayson; Fannin; Collin",
-   "detected": "2026-11-24T05:36:49.632340+00:00",
-   "published": "2026-11-24T05:28:00+00:00",
-   "start_time": "2026-11-25T05:00:00+00:00",
-   "locations": [
-    "Texas"
-   ],
-   "organizations": [
-    "NWS Fort Worth TX"
-   ],
-   "impact_as_reported": "Freeze Warning issued November 23 at 11:28PM CST until November 25 at 9:00AM CST by NWS Fort Worth TX * WHAT...Sub-freezing temperatures as low as 31 degrees expected. * WHERE...Collin, Fannin, and Grayson Counties. * WHEN...From 11 PM Tuesday to 9 AM CST Wednesday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. A Freeze Warning means that the season's first episode of sub-freezing temperatures are likely to occur. These conditions will kill sensitive plants, and residents are advised to protect tender veg…",
-   "cause": "Confirmed (NWS): Freeze Warning",
-   "source": "NWS Alerts",
-   "source_domain": "weather.gov",
-   "corroborated_by": [],
-   "links": [
-    "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf2474f65b2d3ba17b8e92759bd81b5f81a0dfd.001.1"
    ],
    "notes": [],
    "disposition": "logged"
